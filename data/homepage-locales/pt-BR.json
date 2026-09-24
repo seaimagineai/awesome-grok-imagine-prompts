@@ -1,6 +1,6 @@
 {
-  "section_title": "Comece com três receitas ilustradas do SeaImagine",
-  "intro": "Baixe uma imagem conceitual abaixo ou use uma imagem sua que combine com a proposta. Estas novas propostas do SeaImagine usam as configurações atuais no navegador: 480p ou 720p; 5, 10 ou 15 segundos. As imagens são quadros iniciais gerados por IA, não resultados de vídeo do Grok verificados. Os três prompts são exercícios criativos ainda não testados.",
+  "section_title": "Escolha uma cena, copie um prompt e comece a criar",
+  "intro": "Quer criar uma cena com personagens, um cartão-postal animado ou uma tomada de produto? Cada exemplo abaixo inclui uma imagem inicial para baixar, um prompt completo e uma lista do que verificar. Escolha uma cena e adapte seu tema à sua ideia. Os exercícios usam as opções do SeaImagine no navegador: 5/10/15 segundos e 480p/720p. As imagens são propostas conceituais geradas por IA para usar como quadros iniciais; os prompts ainda não foram testados na geração de vídeos.",
   "image_label": "Quadro inicial: abrir e salvar",
   "settings_label": "Configurações de imagem para vídeo",
   "review_label": "O que verificar",

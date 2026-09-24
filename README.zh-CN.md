@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — 简体中文
+# Grok Imagine 1.5 提示词库 — 简体中文
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 条英语配方：保留源库 35 条，新增 3 条 SeaImagine 练习。提供 15 种语言指南；翻译不重复计为新场景。
+> 38 条可复制的英语提示词，覆盖产品广告、人物短片、奇幻故事等；提供 15 种语言的入门案例与操作指南。
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — 展开的提示词手册，产品鞋、电车与纸鲸连成同一场景](assets/seaimagine-grok-hero.webp)
 
-本库由 SeaImagine 根据 Flaq AI 源库改编，保留来源署名，与 xAI 无隶属关系。概念配图不代表 Grok 实测效果。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+改编自 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine)，由 SeaImagine 维护，采用 [MIT](LICENSE) 许可，与 xAI 无隶属关系。概念配图不代表 Grok 实测效果。
 
-## 从三个 SeaImagine 图文案例开始
+## 选一个场景，复制提示词开始创作
 
-下载下方构思图，或使用内容相符的自备图片。这三条 SeaImagine 新练习按当前网页参数编写：480p 或 720p；5、10 或 15 秒。图片是 AI 生成的起始帧，不是已经核验的 Grok 视频结果。三条提示词均为尚未实测的创作练习。
-
-共 38 条不同的英语提示词：35 条来自原库，另有这 3 条新练习。翻译版本不计为新增场景。
+想拍人物短片、动态明信片或产品镜头？下面每个例子都有可保存的首帧、完整提示词和检查重点。挑一个场景，换成你的主体即可开始。示例按 SeaImagine 网页提供的 5/10/15 秒、480p/720p 选项编写；配图是 AI 生成的概念首帧，提示词尚未用于生成实测。
 
 [港口重逢——只表现一个情绪变化](#seaimagine-harbor-reunion) · [海岸明信片——让设计好的图片动起来](#seaimagine-coastal-postcard) · [海蓝色磨砂玻璃瓶——控制变量比较动态效果](#seaimagine-sea-glass-bottle)
 
@@ -140,6 +138,8 @@
 ## 下方还有更多提示词，以及注明来源的原库合集
 
 下方合集保留了源库提示词及面向 API（应用程序接口）的参数。在 SeaImagine 使用时，请按上方界面调整为 5/10/15 秒和 480p/720p，并重写分时段动作以匹配时长；编辑与延长视频需要另行确认有相应功能和操作流程支持。
+
+共 38 条不同的英语提示词：35 条来自原库，另有这 3 条新练习。翻译版本不计为新增场景。
 
 
 ## 1. 竹影茶席：冷泡茶产品片

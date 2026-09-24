@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 def render_core(data, product_url):
-    out = [f'## {data["section_title"]}', data['intro'], data['recipe_count_note']]
+    out = [f'## {data["section_title"]}', data['intro']]
     out.append(' · '.join(f'[{x["title"]}](#seaimagine-{x["id"]})' for x in data['cases']))
     for i, case in enumerate(data['cases'], 1):
         out += [f'<a id="seaimagine-{case["id"]}"></a>', f'### {i}. {case["title"]}']
@@ -27,7 +27,7 @@ def render_core(data, product_url):
         if i in thumbs:
             out += [f'[![{item["title"]}]({thumbs[i]} )]({item["url"]})'.replace(' )',')')]
         out += [item['text']]
-    out += [f'[{data["source_details_label"]}](docs/COMMUNITY.md)',f'## {data["archive_label"]}', data['archive_note']]
+    out += [f'[{data["source_details_label"]}](docs/COMMUNITY.md)',f'## {data["archive_label"]}', data['archive_note'], data['recipe_count_note']]
     return '\n\n'.join(out)+'\n'
 
 

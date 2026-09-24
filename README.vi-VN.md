@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — Tiếng Việt
+# Thư viện câu lệnh Grok Imagine 1.5 — Tiếng Việt
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 công thức tiếng Anh: 35 bản chuyển thể từ Flaq AI và 3 bài tập mới của SeaImagine. Hướng dẫn bằng 15 ngôn ngữ; bản dịch không được tính là cảnh mới.
+> 38 câu lệnh tiếng Anh có thể sao chép, dành cho quảng cáo sản phẩm, phim ngắn về nhân vật, truyện kỳ ảo và nhiều chủ đề khác. Có ví dụ nhập môn và hướng dẫn sử dụng bằng 15 ngôn ngữ.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Sổ câu lệnh mở ra với giày, tàu điện và cá voi giấy trong cùng một khung cảnh](assets/seaimagine-grok-hero.webp)
 
-SeaImagine biên soạn lại bộ sưu tập của Flaq AI và ghi rõ nguồn. Đây không phải dự án chính thức của xAI. Ảnh ý tưởng không phải kết quả Grok đã được kiểm chứng. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), do SeaImagine duy trì theo giấy phép [MIT](LICENSE) và độc lập với xAI. Ảnh ý tưởng không thể hiện kết quả thử nghiệm thực tế bằng Grok.
 
-## Bắt đầu với ba ví dụ SeaImagine có hình minh họa
+## Chọn một cảnh, sao chép câu lệnh và bắt đầu sáng tạo
 
-Tải ảnh ý tưởng bên dưới hoặc dùng ảnh riêng có nội dung phù hợp. Ba bài tập SeaImagine mới này dùng các thiết lập hiện có trên trình duyệt: 480p hoặc 720p; 5, 10 hoặc 15 giây. Ảnh là khung hình đầu do AI tạo, không phải kết quả video Grok đã được kiểm chứng. Cả ba câu lệnh đều là bài tập sáng tạo chưa được thử nghiệm.
-
-Tổng cộng có 38 ví dụ câu lệnh tiếng Anh khác nhau: 35 ví dụ từ bộ sưu tập gốc và 3 bài tập mới này. Bản dịch không được tính là tình huống mới.
+Bạn muốn làm phim ngắn về nhân vật, bưu thiếp chuyển động hay cảnh quay sản phẩm? Mỗi ví dụ bên dưới đều có khung hình đầu để lưu, câu lệnh đầy đủ và các điểm cần kiểm tra. Chọn một cảnh rồi thay bằng nhân vật hoặc vật thể của bạn để bắt đầu. Các ví dụ được viết theo tùy chọn trên trang web SeaImagine: 5/10/15 giây và 480p/720p. Ảnh là khung hình đầu minh họa ý tưởng do AI tạo; các câu lệnh chưa được thử bằng cách tạo video thực tế.
 
 [Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](#seaimagine-harbor-reunion) · [Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục](#seaimagine-coastal-postcard) · [Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](#seaimagine-sea-glass-bottle)
 
@@ -140,6 +138,8 @@ Dùng cùng một ảnh nguồn và các thiết lập có thể so sánh. Kiể
 ## Xem thêm các ví dụ và bộ sưu tập gốc có ghi nguồn ở bên dưới
 
 Bộ sưu tập bên dưới giữ nguyên các câu lệnh nguồn và thông số dành cho API (giao diện lập trình ứng dụng). Khi dùng SeaImagine, hãy điều chỉnh theo các tùy chọn bên trên: 5/10/15 giây và 480p/720p. Viết lại các hành động có mốc thời gian cho phù hợp; việc chỉnh sửa và kéo dài video cần quy trình riêng có hỗ trợ những chức năng đó.
+
+Tổng cộng có 38 ví dụ câu lệnh tiếng Anh khác nhau: 35 ví dụ từ bộ sưu tập gốc và 3 bài tập mới này. Bản dịch không được tính là tình huống mới.
 
 
 ## Nguyên tắc nhanh

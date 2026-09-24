@@ -1,6 +1,6 @@
 {
-  "section_title": "Drei bebilderte SeaImagine-Anleitungen zum Einstieg",
-  "intro": "Lade unten ein Konzeptbild herunter oder nutze ein passendes eigenes Bild. Diese neuen SeaImagine-Aufgaben verwenden die aktuellen Einstellungen im Browser: 480p oder 720p; 5, 10 oder 15 Sekunden. Die Bilder sind KI-generierte Startbilder, keine überprüften Grok-Videoergebnisse. Alle drei Prompts sind ungetestete kreative Übungen.",
+  "section_title": "Szene wählen, Prompt kopieren, loslegen",
+  "intro": "Möchtest du eine Szene mit Figuren, eine animierte Postkarte oder eine Produktaufnahme erstellen? Jedes Beispiel enthält ein herunterladbares Startbild, einen vollständigen Prompt und eine Prüfliste. Wähle eine Szene und passe ihr Motiv an deine Idee an. Die Übungen verwenden die Optionen von SeaImagine im Browser: 5/10/15 Sekunden und 480p/720p. Die Startbilder sind KI-generierte Konzeptbilder; die Prompts wurden noch nicht durch Videogenerierung getestet.",
   "image_label": "Startbild: öffnen und speichern",
   "settings_label": "Einstellungen für Bild zu Video",
   "review_label": "Darauf solltest du achten",

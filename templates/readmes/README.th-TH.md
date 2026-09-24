@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — ไทย
+# คลังพรอมป์ต์ Grok Imagine 1.5 — ภาษาไทย
 
 {{LANGUAGE_NAV}}
 
-> สูตรภาษาอังกฤษ 38 รายการ: ดัดแปลงจาก Flaq AI 35 รายการ และแบบฝึกหัดใหม่ของ SeaImagine 3 รายการ มีคู่มือ 15 ภาษา โดยไม่นับคำแปลเป็นฉากใหม่
+> พรอมป์ต์ภาษาอังกฤษ 38 แบบที่คัดลอกไปใช้ได้ ครอบคลุมโฆษณาสินค้า หนังสั้นที่เน้นตัวละคร เรื่องแฟนตาซี และอื่น ๆ พร้อมตัวอย่างเริ่มต้นและคู่มือใช้งานใน 15 ภาษา
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — สมุดพรอมป์ต์ที่เปิดออก มีรองเท้า รถราง และวาฬกระดาษอยู่ในฉากเดียวกัน](assets/seaimagine-grok-hero.webp)
 
-SeaImagine ดัดแปลงคอลเลกชันจาก Flaq AI พร้อมระบุที่มา ไม่ใช่โครงการอย่างเป็นทางการของ xAI ภาพแนวคิดไม่ใช่ผลลัพธ์จาก Grok ที่ผ่านการตรวจสอบ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+ดัดแปลงจาก [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) ดูแลโดย SeaImagine ภายใต้สัญญาอนุญาต [MIT](LICENSE) และเป็นโครงการอิสระจาก xAI ภาพแนวคิดไม่ได้แสดงผลการทดสอบจริงด้วย Grok
 
 {{LOCALIZED_CORE}}
 

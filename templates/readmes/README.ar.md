@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — العربية
+# مكتبة نصوص توجيه Grok Imagine 1.5 — العربية
 
 {{LANGUAGE_NAV}}
 
-> 38 وصفة باللغة الإنجليزية: 35 مقتبسة من Flaq AI و3 تمارين جديدة من SeaImagine. أدلة بـ15 لغة، ولا تُحسب الترجمات كمشاهد جديدة.
+> 38 نص توجيه بالإنجليزية جاهزًا للنسخ لإعلانات المنتجات ومشاهد الشخصيات والقصص الخيالية وغيرها؛ مع أمثلة للبدء وأدلة بـ15 لغة.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — دفتر أوصاف مفتوح يضم حذاءً وترامًا وحوتًا ورقيًا في مشهد واحد متصل](assets/seaimagine-grok-hero.webp)
 
-أعدّت SeaImagine هذه المجموعة انطلاقًا من مجموعة Flaq AI مع ذكر المصدر. المشروع غير تابع لـxAI. الصور التصورية ليست نتائج مؤكدة من Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+مقتبسة من [Flaq AI](https://github.com/flaqai/awesome-grok-imagine)، وتتولى SeaImagine صيانتها. الترخيص: [MIT](LICENSE). المشروع مستقل عن xAI. الصور التصورية ليست نتائج موثّقة من Grok.
 
 {{LOCALIZED_CORE}}
 

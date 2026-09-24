@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — Deutsch
+# Grok Imagine 1.5 Prompt-Bibliothek — Deutsch
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 englische Rezepte: 35 von Flaq AI übernommen und 3 neue SeaImagine-Übungen. Anleitungen in 15 Sprachen; Übersetzungen zählen nicht als neue Szenen.
+> 38 direkt kopierbare englische Prompts für Produktwerbung, Szenen mit Figuren, Fantasygeschichten und mehr; Einstiegsbeispiele und Anleitungen in 15 Sprachen.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Offenes Prompt-Notizbuch mit Schuh, Straßenbahn und Papierwal in einer zusammenhängenden Szene](assets/seaimagine-grok-hero.webp)
 
-SeaImagine hat diese Sammlung von Flaq AI mit Quellenangabe angepasst. Sie ist kein offizielles xAI-Projekt. Konzeptbilder sind keine geprüften Grok-Ergebnisse. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Adaptiert aus der Sammlung von [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), gepflegt von SeaImagine. [MIT-Lizenz](LICENSE). Dies ist kein offizielles xAI-Projekt. Konzeptbilder sind keine geprüften Grok-Ergebnisse.
 
-## Drei bebilderte SeaImagine-Anleitungen zum Einstieg
+## Szene wählen, Prompt kopieren, loslegen
 
-Lade unten ein Konzeptbild herunter oder nutze ein passendes eigenes Bild. Diese neuen SeaImagine-Aufgaben verwenden die aktuellen Einstellungen im Browser: 480p oder 720p; 5, 10 oder 15 Sekunden. Die Bilder sind KI-generierte Startbilder, keine überprüften Grok-Videoergebnisse. Alle drei Prompts sind ungetestete kreative Übungen.
-
-Insgesamt 38 verschiedene englische Anleitungen: 35 übernommene und diese 3 neuen Übungen. Übersetzungen zählen nicht als neue Szenarien.
+Möchtest du eine Szene mit Figuren, eine animierte Postkarte oder eine Produktaufnahme erstellen? Jedes Beispiel enthält ein herunterladbares Startbild, einen vollständigen Prompt und eine Prüfliste. Wähle eine Szene und passe ihr Motiv an deine Idee an. Die Übungen verwenden die Optionen von SeaImagine im Browser: 5/10/15 Sekunden und 480p/720p. Die Startbilder sind KI-generierte Konzeptbilder; die Prompts wurden noch nicht durch Videogenerierung getestet.
 
 [Wiedersehen am Hafen: ein einzelner emotionaler Moment](#seaimagine-harbor-reunion) · [Küstenpostkarte: ein vorbereitetes Bild animieren](#seaimagine-coastal-postcard) · [Flasche aus Meerglas: kontrollierte Bewegungen vergleichen](#seaimagine-sea-glass-bottle)
 
@@ -134,6 +132,8 @@ Verwende dasselbe Ausgangsbild und vergleichbare Einstellungen. Prüfe Geometrie
 ## Weitere Anleitungen und die Sammlung mit Quellenangaben folgen unten
 
 Das folgende Archiv bewahrt die Quellrezepte und API-bezogenen Parameter. Passe sie für SeaImagine an die obigen Bedienelemente an: 5/10/15 Sekunden und 480p/720p. Schreibe die zeitlich festgelegten Aktionen passend um; Bearbeitung und Verlängerung erfordern jeweils gesondert unterstützte Abläufe.
+
+Insgesamt 38 verschiedene englische Anleitungen: 35 übernommene und diese 3 neuen Übungen. Übersetzungen zählen nicht als neue Szenarien.
 
 
 ## Kurze Prompt-Regeln

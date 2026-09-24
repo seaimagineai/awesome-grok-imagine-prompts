@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — 日本語
+# Grok Imagine 1.5 プロンプト集 — 日本語
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 英語レシピ38本：Flaq AIから引き継いだ35本と、SeaImagineの練習用3本。15言語のガイドを用意し、翻訳を別の作例として数えていません。
+> コピーして使える英語のプロンプト 38 本を収録。商品広告、人物の短編、ファンタジーなどを扱い、15 言語の入門例と操作ガイドを用意しています。
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — 開いたプロンプト手帳から、靴・路面電車・紙のクジラが一つの世界へ広がる](assets/seaimagine-grok-hero.webp)
 
-SeaImagineがFlaq AIのコレクションを出典付きで再編集したものです。xAIの公式プロジェクトではありません。コンセプト画像はGrokの生成結果ではありません。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) をもとに再編集し、SeaImagine が管理しています。[MIT](LICENSE) ライセンスで公開しており、xAI とは独立したプロジェクトです。コンセプト画像は Grok で実測した出力を示すものではありません。
 
-## SeaImagine の画像付きプロンプト例を3つ試す
+## シーンを選び、プロンプトをコピーして作り始める
 
-下の構想画像をダウンロードするか、内容に合う画像を用意してください。SeaImagine 向けの新しい練習例は、現在のブラウザー版の設定（480p または 720p、5・10・15 秒）に合わせています。画像は AI で生成した開始フレームであり、検証済みの Grok 動画の出力ではありません。3つのプロンプトはいずれも未検証の創作練習です。
-
-英語のプロンプト例は計 38 種類です。元コレクションから引き継いだ 35 種類と、新しい練習例 3 種類で構成されています。翻訳は別のシナリオとして数えません。
+人物の短編、動くポストカード、商品カットを作ってみませんか。以下の各例には、保存できる開始画像、プロンプト全文、確認する点を用意しています。シーンを一つ選び、被写体を自分の作品に合わせて置き換えれば始められます。例は SeaImagine のブラウザー版の選択肢である 5/10/15 秒、480p/720p に合わせています。画像は AI が生成した構想用の開始フレームで、プロンプトによる動画生成はまだ実際に試していません。
 
 [港での再会 — 一つの感情の変化を描く](#seaimagine-harbor-reunion) · [海辺のポストカード — 構成を決めた画像を動かす](#seaimagine-coastal-postcard) · [シーグラスのボトル — 条件をそろえて動きを比較する](#seaimagine-sea-glass-bottle)
 
@@ -140,6 +138,8 @@ SeaImagineがFlaq AIのコレクションを出典付きで再編集したもの
 ## この下に、ほかのプロンプトと出典付きの元コレクションがあります
 
 以下のアーカイブでは、元のプロンプトと API（アプリケーション間の連携機能）向けのパラメーターを保存しています。SeaImagine で使う場合は、上記の画面に合わせて 5/10/15 秒、480p/720p に変更してください。秒数で指定した動作も長さに合わせて書き直します。動画の編集や延長には、それぞれをサポートする別の操作手順が必要です。
+
+英語のプロンプト例は計 38 種類です。元コレクションから引き継いだ 35 種類と、新しい練習例 3 種類で構成されています。翻訳は別のシナリオとして数えません。
 
 
 ## 1. 湯気の喫茶店：ドリップバッグ商品ショット

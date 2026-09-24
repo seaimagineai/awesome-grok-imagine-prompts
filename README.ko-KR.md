@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — 한국어
+# Grok Imagine 1.5 프롬프트 모음 — 한국어
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 영어 레시피 38개: Flaq AI에서 가져온 35개와 SeaImagine 연습 예제 3개입니다. 15개 언어 안내를 제공하며 번역을 별도 사례로 세지 않습니다.
+> 복사해 쓸 수 있는 영어 프롬프트 38개로 제품 광고, 인물 단편, 판타지 이야기 등을 다룹니다. 15개 언어로 입문 예제와 사용 안내를 제공합니다.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — 펼친 프롬프트 노트에서 신발, 전차, 종이 고래가 하나의 장면으로 이어지는 모습](assets/seaimagine-grok-hero.webp)
 
-SeaImagine이 Flaq AI 자료를 출처와 함께 재구성했습니다. xAI 공식 프로젝트가 아니며 콘셉트 이미지는 Grok 생성 결과가 아닙니다. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+[Flaq AI](https://github.com/flaqai/awesome-grok-imagine)를 바탕으로 재구성했으며 SeaImagine이 관리합니다. [MIT](LICENSE) 라이선스를 따르며 xAI와 독립된 프로젝트입니다. 콘셉트 이미지는 Grok으로 실험한 결과를 보여 주는 것이 아닙니다.
 
-## SeaImagine 이미지 예제 세 가지로 시작하기
+## 장면을 고르고 프롬프트를 복사해 만들기 시작하세요
 
-아래 구상 이미지를 내려받거나 내용이 어울리는 이미지를 직접 준비하세요. 이 새로운 SeaImagine 연습 예제는 현재 웹 화면의 설정인 480p 또는 720p, 5·10·15초에 맞춰 작성했습니다. 이미지는 AI로 생성한 시작 프레임이며, 검증을 마친 Grok 영상 결과가 아닙니다. 세 프롬프트 모두 아직 실험하지 않은 창작 연습용입니다.
-
-서로 다른 영어 프롬프트는 총 38개로, 기존 예제 35개와 새 연습 예제 3개입니다. 번역본은 새로운 시나리오로 세지 않습니다.
+인물 단편, 움직이는 엽서, 제품 영상을 만들고 싶으신가요? 아래 예제마다 저장할 수 있는 시작 프레임, 전체 프롬프트, 확인할 점이 있습니다. 장면을 하나 골라 원하는 인물이나 사물로 바꾸면 시작할 수 있습니다. 예제는 SeaImagine 웹에서 제공하는 5/10/15초, 480p/720p 옵션에 맞춰 작성했습니다. 이미지는 AI로 만든 구상용 시작 프레임이며, 프롬프트로 영상을 생성해 검증하지는 않았습니다.
 
 [항구에서의 재회 — 하나의 감정 변화에 집중하기](#seaimagine-harbor-reunion) · [해안 엽서 — 구성을 정한 이미지를 움직이기](#seaimagine-coastal-postcard) · [바다 유리병 — 조건을 통제하며 움직임 비교하기](#seaimagine-sea-glass-bottle)
 
@@ -140,6 +138,8 @@ SeaImagine이 Flaq AI 자료를 출처와 함께 재구성했습니다. xAI 공�
 ## 아래에서 더 많은 프롬프트와 출처가 표시된 원본 모음을 확인하세요
 
 아래 모음은 원본 프롬프트와 API(프로그램 간 연동 기능)용 매개변수를 보존합니다. SeaImagine에서 사용할 때는 위 설정에 맞춰 5/10/15초와 480p/720p로 바꾸세요. 시간대별 동작도 길이에 맞춰 다시 작성해야 합니다. 영상 편집과 길이 연장은 각각 해당 기능을 지원하는 별도의 작업 절차가 필요합니다.
+
+서로 다른 영어 프롬프트는 총 38개로, 기존 예제 35개와 새 연습 예제 3개입니다. 번역본은 새로운 시나리오로 세지 않습니다.
 
 
 ## 빠른 작성 원칙

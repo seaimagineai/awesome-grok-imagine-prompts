@@ -1,6 +1,6 @@
-# SeaImagine · Awesome Grok Imagine 1.5 Prompts
+# Grok Imagine 1.5 Prompt Library
 
-> 38 copy-ready English recipes, illustrated examples, official demos and community case studies. 15 language guides for creators making product videos, short films and social content.
+> 38 copy-ready English prompts for product ads, character scenes, fantasy stories and more. Starter examples and practical guides in 15 languages.
 
 {{LANGUAGE_NAV}}
 
@@ -8,11 +8,11 @@
 [![Prompts](https://img.shields.io/badge/English_recipes-38-7c3aed)](#prompt-library)
 [![Languages](https://img.shields.io/badge/languages-15-0ea5e9)](#multilingual-prompts)
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Open prompt notebook with a product shoe, tram and paper whale in one continuous scene](assets/seaimagine-grok-hero.webp)
 
-This SeaImagine edition adapts the attributed Flaq AI collection. It is independent of xAI. Concept images are not verified Grok outputs. Source: [flaqai/awesome-grok-imagine](https://github.com/flaqai/awesome-grok-imagine). See [attribution](docs/ATTRIBUTION.md).
+Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintained by SeaImagine. Independent of xAI; concept images are not verified Grok outputs. [Attribution](docs/ATTRIBUTION.md) · [MIT](LICENSE).
 
-[**Try the three SeaImagine cases**](#seaimagine-harbor-reunion) · [**Browse all recipes**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#seaimagine-browser-workflow) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
+[**Pick a scene and copy a prompt**](#seaimagine-harbor-reunion) · [**Browse all recipes**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#seaimagine-browser-workflow) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
 
 {{LOCALIZED_CORE}}
 

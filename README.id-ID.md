@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — Bahasa Indonesia
+# Kumpulan prompt Grok Imagine 1.5 — Bahasa Indonesia
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 resep berbahasa Inggris: 35 diadaptasi dari Flaq AI dan 3 latihan baru SeaImagine. Panduan dalam 15 bahasa; terjemahan tidak dihitung sebagai adegan baru.
+> 38 prompt bahasa Inggris siap disalin untuk iklan produk, film pendek tentang tokoh, kisah fantasi, dan lainnya. Tersedia contoh pemula serta panduan penggunaan dalam 15 bahasa.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Buku prompt terbuka dengan sepatu, trem, dan paus kertas dalam satu adegan yang menyatu](assets/seaimagine-grok-hero.webp)
 
-SeaImagine mengadaptasi koleksi Flaq AI dengan mencantumkan sumber. Ini bukan proyek resmi xAI. Gambar konsep bukan hasil Grok yang telah diverifikasi. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan dikelola oleh SeaImagine dengan lisensi [MIT](LICENSE). Proyek ini independen dari xAI. Gambar konsep tidak menunjukkan hasil uji Grok.
 
-## Mulai dengan tiga contoh bergambar SeaImagine
+## Pilih adegan, salin prompt, lalu mulai berkarya
 
-Unduh gambar konsep di bawah atau gunakan gambar sendiri yang sesuai. Tiga latihan baru untuk SeaImagine ini mengikuti pengaturan browser saat ini: 480p atau 720p; 5, 10, atau 15 detik. Gambar tersebut adalah bingkai awal buatan AI, bukan hasil video Grok yang sudah diverifikasi. Ketiga prompt merupakan latihan kreatif yang belum diuji.
-
-Total ada 38 contoh prompt berbahasa Inggris yang berbeda: 35 dari koleksi asli dan 3 latihan baru ini. Terjemahan tidak dihitung sebagai skenario tambahan.
+Ingin membuat film pendek tentang tokoh, kartu pos bergerak, atau adegan produk? Setiap contoh di bawah menyediakan bingkai awal yang bisa disimpan, prompt lengkap, dan hal yang perlu diperiksa. Pilih satu adegan, lalu ganti subjeknya dengan subjek Anda untuk memulai. Contoh mengikuti pilihan di halaman web SeaImagine: 5/10/15 detik dan 480p/720p. Gambar adalah bingkai awal konsep buatan AI; prompt belum diuji melalui pembuatan video.
 
 [Bertemu kembali di pelabuhan — satu perubahan emosi](#seaimagine-harbor-reunion) · [Kartu pos pesisir — menggerakkan gambar yang sudah dirancang](#seaimagine-coastal-postcard) · [Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](#seaimagine-sea-glass-bottle)
 
@@ -141,6 +139,8 @@ Gunakan satu gambar sumber dan pengaturan yang sebanding. Periksa bentuk, geraka
 ## Contoh lainnya dan koleksi asli dengan keterangan sumber tersedia di bawah
 
 Arsip di bawah mempertahankan prompt asli dan parameter untuk API (antarmuka pemrograman aplikasi). Untuk SeaImagine, sesuaikan dengan kontrol di atas: 5/10/15 detik dan 480p/720p. Tulis ulang gerakan yang diberi rentang waktu agar sesuai dengan durasi; penyuntingan dan perpanjangan video memerlukan alur kerja tersendiri yang mendukung fungsi tersebut.
+
+Total ada 38 contoh prompt berbahasa Inggris yang berbeda: 35 dari koleksi asli dan 3 latihan baru ini. Terjemahan tidak dihitung sebagai skenario tambahan.
 
 
 ## Aturan cepat

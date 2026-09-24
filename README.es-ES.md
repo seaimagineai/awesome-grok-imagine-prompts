@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — Español
+# Biblioteca de prompts de Grok Imagine 1.5 — Español
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 recetas en inglés: 35 adaptadas de Flaq AI y 3 ejercicios nuevos de SeaImagine. Guías en 15 idiomas; las traducciones no se cuentan como escenas nuevas.
+> 38 prompts en inglés listos para copiar para anuncios de productos, escenas con personajes, historias fantásticas y mucho más; ejemplos para empezar y guías en 15 idiomas.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Cuaderno de prompts abierto: una zapatilla, un tranvía y una ballena de papel en un mismo escenario](assets/seaimagine-grok-hero.webp)
 
-SeaImagine adapta esta colección de Flaq AI con atribución. No es un proyecto oficial de xAI. Las imágenes conceptuales no son resultados verificados de Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Adaptada de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) y mantenida por SeaImagine. Licencia [MIT](LICENSE). No es un proyecto oficial de xAI. Las imágenes conceptuales no son resultados verificados de Grok.
 
-## Empieza con tres recetas ilustradas de SeaImagine
+## Elige una escena, copia un prompt y empieza a crear
 
-Descarga una de las imágenes conceptuales de abajo o usa una imagen propia que encaje. Estas nuevas propuestas de SeaImagine utilizan los ajustes actuales del navegador: 480p o 720p; 5, 10 o 15 segundos. Las imágenes son fotogramas iniciales generados con IA, no resultados de vídeo de Grok verificados. Los tres prompts son ejercicios creativos sin probar.
-
-38 recetas distintas en inglés en total: 35 heredadas y estos 3 ejercicios nuevos. Las traducciones no añaden escenarios nuevos.
+¿Quieres una escena con personajes, una postal animada o un plano de producto? Cada ejemplo incluye una imagen inicial descargable, un prompt completo y una lista de puntos que revisar. Elige una escena y adapta su protagonista o elemento principal a tu idea. Los ejercicios usan las opciones de SeaImagine en el navegador: 5/10/15 segundos y 480p/720p. Las imágenes son propuestas conceptuales generadas con IA para usarlas como fotogramas iniciales; los prompts aún no se han probado generando vídeos.
 
 [Reencuentro en el puerto: un solo momento emotivo](#seaimagine-harbor-reunion) · [Postal de la costa: anima una imagen planificada](#seaimagine-coastal-postcard) · [Botella de vidrio marino: compara movimientos controlados](#seaimagine-sea-glass-bottle)
 
@@ -134,6 +132,8 @@ Usa una misma imagen de origen y ajustes comparables. Examina la geometría, el 
 ## Más recetas y la colección original con atribución, a continuación
 
 El archivo siguiente conserva las recetas originales y los parámetros orientados a la API. Para SeaImagine, adáptalos a los controles anteriores: 5/10/15 segundos y 480p/720p. Reescribe las acciones cronometradas para que encajen; la edición y la extensión requieren flujos de trabajo compatibles por separado.
+
+38 recetas distintas en inglés en total: 35 heredadas y estos 3 ejercicios nuevos. Las traducciones no añaden escenarios nuevos.
 
 
 ## 1. Cosecha de luz: anuncio de aceite de oliva

@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — 繁體中文
+# Grok Imagine 1.5 提示詞庫 — 繁體中文
 
 {{LANGUAGE_NAV}}
 
-> 38 條英語配方：35 條改編自 Flaq AI，另有 3 條 SeaImagine 練習。提供 15 種語言指南，翻譯不重複計為新場景。
+> 38 段可複製的英文提示詞，涵蓋產品廣告、人物短片、奇幻故事等；提供 15 種語言的入門範例與操作指南。
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — 展開的提示詞手冊，產品鞋、電車與紙鯨連成同一場景](assets/seaimagine-grok-hero.webp)
 
-本庫由 SeaImagine 根據 Flaq AI 原始專案改編，保留來源署名，並非 xAI 官方專案。概念配圖不代表 Grok 實測效果。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+改編自 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine)，由 SeaImagine 維護，採用 [MIT](LICENSE) 授權，與 xAI 無隸屬關係。概念配圖不代表 Grok 實測效果。
 
 {{LOCALIZED_CORE}}
 

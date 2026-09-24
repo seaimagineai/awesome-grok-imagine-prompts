@@ -1,6 +1,6 @@
 {
-  "section_title": "Bắt đầu với ba ví dụ SeaImagine có hình minh họa",
-  "intro": "Tải ảnh ý tưởng bên dưới hoặc dùng ảnh riêng có nội dung phù hợp. Ba bài tập SeaImagine mới này dùng các thiết lập hiện có trên trình duyệt: 480p hoặc 720p; 5, 10 hoặc 15 giây. Ảnh là khung hình đầu do AI tạo, không phải kết quả video Grok đã được kiểm chứng. Cả ba câu lệnh đều là bài tập sáng tạo chưa được thử nghiệm.",
+  "section_title": "Chọn một cảnh, sao chép câu lệnh và bắt đầu sáng tạo",
+  "intro": "Bạn muốn làm phim ngắn về nhân vật, bưu thiếp chuyển động hay cảnh quay sản phẩm? Mỗi ví dụ bên dưới đều có khung hình đầu để lưu, câu lệnh đầy đủ và các điểm cần kiểm tra. Chọn một cảnh rồi thay bằng nhân vật hoặc vật thể của bạn để bắt đầu. Các ví dụ được viết theo tùy chọn trên trang web SeaImagine: 5/10/15 giây và 480p/720p. Ảnh là khung hình đầu minh họa ý tưởng do AI tạo; các câu lệnh chưa được thử bằng cách tạo video thực tế.",
   "image_label": "Khung hình đầu — mở và lưu",
   "settings_label": "Thiết lập tạo video từ ảnh",
   "review_label": "Điểm cần kiểm tra",

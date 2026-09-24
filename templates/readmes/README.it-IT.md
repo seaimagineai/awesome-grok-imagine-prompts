@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — Italiano
+# Raccolta di prompt per Grok Imagine 1.5 — Italiano
 
 {{LANGUAGE_NAV}}
 
-> 38 ricette in inglese: 35 adattate da Flaq AI e 3 nuovi esercizi SeaImagine. Guide in 15 lingue; le traduzioni non contano come nuove scene.
+> 38 prompt in inglese pronti da copiare per pubblicità di prodotti, scene con personaggi, storie fantasy e altro ancora; esempi per iniziare e guide in 15 lingue.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Quaderno di prompt aperto con una scarpa, un tram e una balena di carta in un unico scenario](assets/seaimagine-grok-hero.webp)
 
-SeaImagine adatta questa raccolta di Flaq AI citandone la fonte. Non è un progetto ufficiale xAI. Le immagini concettuali non sono risultati verificati di Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Adattata dalla raccolta di [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) e mantenuta da SeaImagine. Licenza [MIT](LICENSE). Non è un progetto ufficiale xAI. Le immagini concettuali non sono risultati verificati di Grok.
 
 {{LOCALIZED_CORE}}
 

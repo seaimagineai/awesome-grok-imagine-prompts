@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — Русский
+# Библиотека промптов Grok Imagine 1.5 — Русский
 
 {{LANGUAGE_NAV}}
 
-> 38 рецептов на английском: 35 из коллекции Flaq AI и 3 новых упражнения SeaImagine. Руководства на 15 языках; переводы не считаются новыми сценами.
+> 38 готовых к копированию промптов на английском для рекламы продуктов, сцен с персонажами, фэнтезийных историй и многого другого; примеры для начала работы и руководства на 15 языках.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Открытый блокнот с промптами: кроссовок, трамвай и бумажный кит в единой сцене](assets/seaimagine-grok-hero.webp)
 
-SeaImagine адаптирует коллекцию Flaq AI с указанием источника. Это не официальный проект xAI. Концептуальные изображения не являются проверенными результатами Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Адаптировано из коллекции [Flaq AI](https://github.com/flaqai/awesome-grok-imagine); поддерживается SeaImagine. Лицензия [MIT](LICENSE). Это не официальный проект xAI. Концептуальные изображения не являются проверенными результатами Grok.
 
 {{LOCALIZED_CORE}}
 

@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — Français
+# Bibliothèque de prompts Grok Imagine 1.5 — Français
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 recettes en anglais : 35 adaptées de Flaq AI et 3 nouveaux exercices SeaImagine. Guides en 15 langues ; les traductions ne comptent pas comme de nouvelles scènes.
+> 38 prompts en anglais prêts à copier pour des publicités de produits, des scènes avec des personnages, des récits fantastiques et bien plus ; exemples pour débuter et guides en 15 langues.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Carnet de prompts ouvert : une chaussure, un tramway et une baleine en papier dans un même décor](assets/seaimagine-grok-hero.webp)
 
-SeaImagine adapte cette collection de Flaq AI en citant sa source. Ce projet est indépendant de xAI. Les images conceptuelles ne sont pas des résultats vérifiés de Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Adaptée de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) et maintenue par SeaImagine. Licence [MIT](LICENSE). Ce projet est indépendant de xAI. Les images conceptuelles ne sont pas des résultats vérifiés de Grok.
 
-## Commencez par trois recettes illustrées SeaImagine
+## Choisissez une scène, copiez un prompt et lancez-vous
 
-Téléchargez une image conceptuelle ci-dessous ou utilisez une image personnelle adaptée. Ces nouvelles propositions SeaImagine utilisent les réglages actuels du navigateur : 480p ou 720p ; 5, 10 ou 15 secondes. Les images sont des images de départ générées par IA, pas des résultats vidéo Grok vérifiés. Les trois prompts sont des exercices créatifs non testés.
-
-38 recettes distinctes en anglais au total : 35 recettes reprises et ces 3 nouveaux exercices. Les traductions n’ajoutent pas de nouveaux scénarios.
+Vous voulez créer une scène avec des personnages, une carte postale animée ou un plan de produit ? Chaque exemple ci-dessous comprend une image de départ à télécharger, un prompt complet et une liste de points à vérifier. Choisissez une scène et adaptez son sujet à votre idée. Les exercices utilisent les options de SeaImagine dans le navigateur : 5/10/15 secondes et 480p/720p. Les images de départ sont des propositions conceptuelles générées par IA ; les prompts n’ont pas encore été testés en génération vidéo.
 
 [Retrouvailles au port : un seul moment d’émotion](#seaimagine-harbor-reunion) · [Carte postale côtière : animez une image préparée](#seaimagine-coastal-postcard) · [Bouteille en verre marin : comparer des mouvements maîtrisés](#seaimagine-sea-glass-bottle)
 
@@ -134,6 +132,8 @@ Utilisez la même image source et des réglages comparables. Vérifiez la géom�
 ## Autres recettes et collection source avec attribution ci-dessous
 
 Les archives ci-dessous conservent les recettes sources et les paramètres destinés à l’API. Pour SeaImagine, adaptez-les aux contrôles ci-dessus : 5/10/15 secondes et 480p/720p. Réécrivez les actions minutées pour respecter la durée ; le montage et la prolongation nécessitent des fonctions compatibles distinctes.
+
+38 recettes distinctes en anglais au total : 35 recettes reprises et ces 3 nouveaux exercices. Les traductions n’ajoutent pas de nouveaux scénarios.
 
 
 ## Principes rapides

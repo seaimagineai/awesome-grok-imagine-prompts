@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — Tiếng Việt
+# Thư viện câu lệnh Grok Imagine 1.5 — Tiếng Việt
 
 {{LANGUAGE_NAV}}
 
-> 38 công thức tiếng Anh: 35 bản chuyển thể từ Flaq AI và 3 bài tập mới của SeaImagine. Hướng dẫn bằng 15 ngôn ngữ; bản dịch không được tính là cảnh mới.
+> 38 câu lệnh tiếng Anh có thể sao chép, dành cho quảng cáo sản phẩm, phim ngắn về nhân vật, truyện kỳ ảo và nhiều chủ đề khác. Có ví dụ nhập môn và hướng dẫn sử dụng bằng 15 ngôn ngữ.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Sổ câu lệnh mở ra với giày, tàu điện và cá voi giấy trong cùng một khung cảnh](assets/seaimagine-grok-hero.webp)
 
-SeaImagine biên soạn lại bộ sưu tập của Flaq AI và ghi rõ nguồn. Đây không phải dự án chính thức của xAI. Ảnh ý tưởng không phải kết quả Grok đã được kiểm chứng. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), do SeaImagine duy trì theo giấy phép [MIT](LICENSE) và độc lập với xAI. Ảnh ý tưởng không thể hiện kết quả thử nghiệm thực tế bằng Grok.
 
 {{LOCALIZED_CORE}}
 

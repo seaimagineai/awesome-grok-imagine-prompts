@@ -1,12 +1,12 @@
-# SeaImagine · Grok Imagine 1.5 — Bahasa Indonesia
+# Kumpulan prompt Grok Imagine 1.5 — Bahasa Indonesia
 
 {{LANGUAGE_NAV}}
 
-> 38 resep berbahasa Inggris: 35 diadaptasi dari Flaq AI dan 3 latihan baru SeaImagine. Panduan dalam 15 bahasa; terjemahan tidak dihitung sebagai adegan baru.
+> 38 prompt bahasa Inggris siap disalin untuk iklan produk, film pendek tentang tokoh, kisah fantasi, dan lainnya. Tersedia contoh pemula serta panduan penggunaan dalam 15 bahasa.
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Buku prompt terbuka dengan sepatu, trem, dan paus kertas dalam satu adegan yang menyatu](assets/seaimagine-grok-hero.webp)
 
-SeaImagine mengadaptasi koleksi Flaq AI dengan mencantumkan sumber. Ini bukan proyek resmi xAI. Gambar konsep bukan hasil Grok yang telah diverifikasi. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan dikelola oleh SeaImagine dengan lisensi [MIT](LICENSE). Proyek ini independen dari xAI. Gambar konsep tidak menunjukkan hasil uji Grok.
 
 {{LOCALIZED_CORE}}
 

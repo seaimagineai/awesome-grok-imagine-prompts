@@ -8,7 +8,7 @@ These images are original visual concept anchors created for the upstream Flaq A
 
 **File:** `seaimagine-grok-hero.webp` · **Created:** September 24, 2026 · **Tool:** Codex built-in image generation.
 
-Minimal 3:1 cover with one translucent sea-glass film ribbon, pale limestone and generous warm-ivory space. Glass texture and coastal lighting relate to the library's cases; the cover does not repeat their images or the tutorial steps. SeaImagine is a small signature, with the model and library name as the main title. This replaces the previous three-case collage and workflow strip. It is an editorial illustration, not generated-video evidence. See the [exact generation prompt](SEAIMAGINE_COVER_PROMPT.md).
+Original 3:1 cover: a single open prompt notebook becomes one continuous miniature world. An unbranded product shoe, a cinematic tram bridge and a fantasy paper whale share the same paper terrain, perspective and light. A flowing ink line joins the printed prompt concepts to the illuminated track and imagined scene. The initial artwork used no source-image references; a follow-up edit removed page partitions and visual clutter. This is an editorial metaphor for varied creative possibilities, not a real interface, tested video output or extra catalog recipe. See the [exact generation and refinement prompts](SEAIMAGINE_COVER_PROMPT.md).
 
 ## Upstream hero panorama (source brief only)
 

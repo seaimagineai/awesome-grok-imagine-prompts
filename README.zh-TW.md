@@ -1,18 +1,16 @@
-# SeaImagine · Grok Imagine 1.5 — 繁體中文
+# Grok Imagine 1.5 提示詞庫 — 繁體中文
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 條英語配方：35 條改編自 Flaq AI，另有 3 條 SeaImagine 練習。提供 15 種語言指南，翻譯不重複計為新場景。
+> 38 段可複製的英文提示詞，涵蓋產品廣告、人物短片、奇幻故事等；提供 15 種語言的入門範例與操作指南。
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — 展開的提示詞手冊，產品鞋、電車與紙鯨連成同一場景](assets/seaimagine-grok-hero.webp)
 
-本庫由 SeaImagine 根據 Flaq AI 原始專案改編，保留來源署名，並非 xAI 官方專案。概念配圖不代表 Grok 實測效果。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+改編自 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine)，由 SeaImagine 維護，採用 [MIT](LICENSE) 授權，與 xAI 無隸屬關係。概念配圖不代表 Grok 實測效果。
 
-## 從三個 SeaImagine 圖文範例開始
+## 選一個情境，複製提示詞開始創作
 
-下載下方概念圖，或使用內容相符的自備圖片。這三個 SeaImagine 新練習依目前網頁提供的設定編寫：480p 或 720p；5、10 或 15 秒。圖片是 AI 生成的起始影格，不是已驗證的 Grok 影片成果。三段提示詞都是尚未實測的創作練習。
-
-共 38 段不同的英文提示詞：35 段來自原始資料庫，另外加上這 3 個新練習。翻譯版本不算新增情境。
+想拍人物短片、動態明信片或產品鏡頭？以下每個範例都有可儲存的起始影格、完整提示詞與檢查重點。挑一個情境，換成你的主角或物件即可開始。範例依 SeaImagine 網頁提供的 5/10/15 秒、480p/720p 選項編寫；配圖是 AI 生成的概念起始影格，提示詞尚未用於生成實測。
 
 [港口重逢——只呈現一個情緒轉折](#seaimagine-harbor-reunion) · [海岸明信片——讓規劃好的圖片動起來](#seaimagine-coastal-postcard) · [海玻璃瓶——控制變因比較動態效果](#seaimagine-sea-glass-bottle)
 
@@ -140,6 +138,8 @@
 ## 下方還有更多提示詞，以及註明出處的原始資料庫合集
 
 下方合集保留原始資料庫的提示詞及供 API（應用程式介面）使用的參數。在 SeaImagine 使用時，請依上方介面調整為 5/10/15 秒及 480p/720p，並改寫分時段動作以配合長度；編輯與延長影片需要另外確認有相應功能與操作流程支援。
+
+共 38 段不同的英文提示詞：35 段來自原始資料庫，另外加上這 3 個新練習。翻譯版本不算新增情境。
 
 
 ## 快速使用原則

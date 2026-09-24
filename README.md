@@ -1,6 +1,6 @@
-# SeaImagine · Awesome Grok Imagine 1.5 Prompts
+# Grok Imagine 1.5 Prompt Library
 
-> 38 copy-ready English recipes, illustrated examples, official demos and community case studies. 15 language guides for creators making product videos, short films and social content.
+> 38 copy-ready English prompts for product ads, character scenes, fantasy stories and more. Starter examples and practical guides in 15 languages.
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
@@ -8,17 +8,15 @@
 [![Prompts](https://img.shields.io/badge/English_recipes-38-7c3aed)](#prompt-library)
 [![Languages](https://img.shields.io/badge/languages-15-0ea5e9)](#multilingual-prompts)
 
-![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
+![Grok Imagine 1.5 — Open prompt notebook with a product shoe, tram and paper whale in one continuous scene](assets/seaimagine-grok-hero.webp)
 
-This SeaImagine edition adapts the attributed Flaq AI collection. It is independent of xAI. Concept images are not verified Grok outputs. Source: [flaqai/awesome-grok-imagine](https://github.com/flaqai/awesome-grok-imagine). See [attribution](docs/ATTRIBUTION.md).
+Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintained by SeaImagine. Independent of xAI; concept images are not verified Grok outputs. [Attribution](docs/ATTRIBUTION.md) · [MIT](LICENSE).
 
-[**Try the three SeaImagine cases**](#seaimagine-harbor-reunion) · [**Browse all recipes**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#seaimagine-browser-workflow) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
+[**Pick a scene and copy a prompt**](#seaimagine-harbor-reunion) · [**Browse all recipes**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#seaimagine-browser-workflow) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
 
-## Start with three SeaImagine illustrated recipes
+## Choose a scene, copy a prompt, start creating
 
-Download a concept image below, or use your own matching image. These new SeaImagine briefs use the current browser settings: 480p or 720p; 5, 10 or 15 seconds. Images are AI-generated starting frames, not verified Grok video results. All three prompts are untested creative exercises.
-
-38 distinct English recipes in total: 35 inherited recipes and these 3 new exercises. Translations do not add new scenarios.
+Want a character scene, an animated postcard or a product shot? Each example below includes a downloadable starting frame, a complete prompt and a review checklist. Choose a scene and adapt its subject to your idea. The exercises use SeaImagine browser options of 5/10/15 seconds and 480p/720p. Images are AI concept starting frames; the prompts have not been generation-tested.
 
 [Harbor reunion — one emotional beat](#seaimagine-harbor-reunion) · [Coastal postcard — animate a planned image](#seaimagine-coastal-postcard) · [Sea-glass bottle — a controlled motion comparison](#seaimagine-sea-glass-bottle)
 
@@ -146,6 +144,8 @@ Use one source image and comparable settings. Check geometry, motion and audio r
 ## More recipes and the attributed source collection below
 
 The archive below preserves the source recipes and API-oriented parameters. For SeaImagine, adapt them to the controls above: 5/10/15 seconds and 480p/720p. Rewrite timed actions to fit; editing and extension require separately supported workflows.
+
+38 distinct English recipes in total: 35 inherited recipes and these 3 new exercises. Translations do not add new scenarios.
 
 
 ## Find the right prompt
