@@ -4,7 +4,7 @@
 
 > 38 công thức tiếng Anh: 35 bản chuyển thể từ Flaq AI và 3 bài tập mới của SeaImagine. Hướng dẫn bằng 15 ngôn ngữ; bản dịch không được tính là cảnh mới.
 
-![SeaImagine · Grok Imagine 1.5 — Ảnh đầu vào của ba ví dụ: ảnh đầu → mô tả chuyển động → tạo và kiểm tra](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
 
 SeaImagine biên soạn lại bộ sưu tập của Flaq AI và ghi rõ nguồn. Đây không phải dự án chính thức của xAI. Ảnh ý tưởng không phải kết quả Grok đã được kiểm chứng. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 

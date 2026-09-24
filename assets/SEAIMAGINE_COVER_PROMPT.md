@@ -1,28 +1,17 @@
 # SeaImagine cover generation prompt
 
-Created September 24, 2026 with Codex built-in image generation. References: `seaimagine-harbor-reunion.webp`, `seaimagine-coastal-postcard.webp`, and `seaimagine-sea-glass-bottle.webp`. This is an editorial composition, not a generated-video result or a product screenshot. An extra wave symbol in the first draft was removed in the final edit.
+Created September 24, 2026 with Codex built-in image generation. A single sea-glass film ribbon and restrained title replace the previous case collage and workflow strip. The glass, limestone and coastal light echo the library's visual materials without repeating its example images. This is an editorial illustration, not a video output or a product screenshot.
 
 ## Exact generation prompt
 
 ```text
-Use case: ads-marketing / compositing.
-Create a completely redesigned, highly compelling GitHub repository cover for SeaImagine's Grok Imagine 1.5 prompt library. Wide 3:1 landscape banner, polished editorial design, exceptionally legible at 900px wide.
-Reference image 1: actual library harbor-reunion starting frame, keep recognizable same two adults navy and cream clothes and wooden pier. Reference 2: actual library vertical coastal postcard, preserve three-panel cup/window/map layout. Reference 3: actual library pale turquoise frosted cylindrical bottle with plain cap on seaside stone, preserve recognizable product.
-Design: bold sophisticated editorial contact sheet, not a rendered room or desktop. Deep midnight-navy background, warm ivory oversized typography, sea-glass teal accents, real photographic textures from reference images. Strong hierarchy and deliberate negative space. Upper-left about 35%: modest SeaImagine wordmark then big two-line title. Right two-thirds: an art-directed cinematic arrangement of three photographic frames: wide harbor interaction dominant top, bottle close-up prominent lower right, vertical three-panel postcard on left of photos. Thin crisp ivory borders, slight purposeful overlaps, exact photographic content materially recognizable. No random new scenery. The photographs must be vivid and attractive with rich restrained contrast; subjects large enough to see at GitHub width.
-Bottom full-width distinct clean workflow band occupying roughly 18% height: three numbered stations with simple intuitive pictograms and connecting arrows: a single picture icon, text-lines icon, filmstrip/play icon. This is a conceptual reading guide, not a fake UI or purported generated result. Workflow labels exactly as below. Avoid tiny annotations.
-Text exactly:
-"SeaImagine"
-"Grok Imagine 1.5"
-"Prompt Library"
-"01  START FRAME"
-"02  MOTION PROMPT"
-"03  GENERATE & REVIEW"
-Only these words. No metrics, slogans, toolbars, fake buttons, quality claims, generated-video output comparisons, unrelated train, castle, camera or laptop. Do not use a giant ocean landscape as background. This should look like the cover of a beautifully designed practical filmmaking field guide, drawing directly from the supplied library frames. Crisp readable correct typography, generous safe margins, no chopped letters.
-```
-
-
-## Final cleanup prompt
-
-```text
-Make exactly one targeted edit to this banner: remove the two curved turquoise wave strokes above the SeaImagine wordmark, filling only their area with matching plain textured navy background. Keep the SeaImagine text itself exactly unchanged. Preserve all other pixels/composition as closely as possible: all typography, 3 reference-photo arrangements, people faces/clothing, bottle, postcard panels, every lower workflow icon/label/arrow, dimensions and spacing. Do not introduce any new logo, symbol, text, objects, borders or branding. This is brand-logo cleanup only.
+Use case: ads-marketing.
+Design a refined minimalist 3:1 GitHub cover for SeaImagine Grok Imagine 1.5 Prompt Library. A single visual idea, strong restraint, beautiful photographic material and very generous negative space. This must feel like an elegant filmmaking book jacket.
+One subject only: on the right 45%, a single broad translucent sea-glass teal film ribbon makes one graceful curl above warm pale limestone. Its gently curved surface catches coastal sunlight and casts one soft caustic shadow. A few subtle sprocket holes on its edge make it recognizable as film, but no grid of frames, no printed pictures, no montage. The flowing form quietly suggests bringing a still image into motion. Macro product-photography realism, rich frosted glass texture, luminous edges, sophisticated pale aqua / warm ivory / deep ink palette. Background is seamless warm ivory with only a very faint coastal-blue gradient near the right edge, no literal landscape. One restrained focal object, no floating props.
+Left 50% is calm clean typography and open space. Exact text only:
+"SeaImagine" as small ink-colored signature;
+"Grok Imagine 1.5" as the dominant large title;
+"Prompt Library" beneath in smaller elegant type.
+Use excellent crisp contemporary typography, large enough for GitHub, generous margins. No decorative logo.
+Absolutely no collage, photo thumbnails, repeated library example scenes, bottle, cup, people, map, room, desk, buttons, icons, workflow strip, numbered steps, arrows, badges, slogans, or tiny text. Do not overfill canvas. Each element earns its space. Editorial cover concept, not a purported video output.
 ```

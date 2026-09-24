@@ -8,7 +8,7 @@ These images are original visual concept anchors created for the upstream Flaq A
 
 **File:** `seaimagine-grok-hero.webp` · **Created:** September 24, 2026 · **Tool:** Codex built-in image generation.
 
-Redesigned 3:1 cover built from this repository's harbor reunion, three-panel coastal postcard and frosted sea-glass bottle references. A navy-and-ivory editorial layout emphasizes the model and prompt library; the bottom strip explains START FRAME → MOTION PROMPT → GENERATE & REVIEW. An extra wave symbol from the first draft was removed during review. This replaces the earlier coastal-studio illustration. It is an editorial concept, not generated-video evidence. See the [exact prompt and reference inputs](SEAIMAGINE_COVER_PROMPT.md).
+Minimal 3:1 cover with one translucent sea-glass film ribbon, pale limestone and generous warm-ivory space. Glass texture and coastal lighting relate to the library's cases; the cover does not repeat their images or the tutorial steps. SeaImagine is a small signature, with the model and library name as the main title. This replaces the previous three-case collage and workflow strip. It is an editorial illustration, not generated-video evidence. See the [exact generation prompt](SEAIMAGINE_COVER_PROMPT.md).
 
 ## Upstream hero panorama (source brief only)
 

@@ -4,7 +4,7 @@
 
 > 38 ricette in inglese: 35 adattate da Flaq AI e 3 nuovi esercizi SeaImagine. Guide in 15 lingue; le traduzioni non contano come nuove scene.
 
-![SeaImagine · Grok Imagine 1.5 — Tre immagini iniziali: immagine → istruzioni di movimento → generazione e verifica](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 · Prompt Library](assets/seaimagine-grok-hero.webp)
 
 SeaImagine adatta questa raccolta di Flaq AI citandone la fonte. Non è un progetto ufficiale xAI. Le immagini concettuali non sono risultati verificati di Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
