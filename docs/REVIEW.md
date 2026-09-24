@@ -45,3 +45,12 @@ The owner clarified that readers already know the model and prompt workflow. Rem
 The independent review identified that a thirty-link table before the image previews delayed visual browsing and that creative titles without task descriptions weakened discovery. Both findings were accepted: previews now precede the full table and the full descriptive recipe titles remain visible. Preview numbers match the prompt section numbers. Images remain labelled as concept starting frames rather than verified video output.
 
 All 150 displayed prompt blocks (120 localized homepage blocks plus 30 category blocks) were compared with the preceding commit and remain byte-identical. The 150 TXT exports contain prompt text only. Generation and local link/provenance checks pass. This revision surfaces existing recipes; it does not claim new generated or verified video examples.
+
+
+## Original category expansion and large-image restoration — September 24, 2026
+
+Removed the separate preview section from all fifteen homepages. All eight starting images again sit directly beneath their case titles, with complete prompts, TXT links and index return links. The old visual-index bookmark is a compatibility alias only. Nine compact category rows link to full category documents; a generated complete index lists all 62 English prompts.
+
+Added 24 original text-to-video briefs: six each for materials and close sound, spaces and transformations, miniature and surreal scenes, and fashion and performance. Category inspiration is documented using official YouTube reports and native-inspected X examples. Evidence distinguishes historical category demand, individual posts, model attribution and unverified playback; it does not claim a live X ranking. These 24 prompts are English, untested originals. The fifteen homepage category labels and counts are localized; the existing eight illustrated cases remain fully translated.
+
+Cross-review caught a stationary alcove inconsistent with a moving shelf opening and an embossing motion insufficient to create side veins. Both were corrected. Main independent review also corrected a profile-to-front rotation from half-turn to quarter-turn. Existing 150 displayed prompt blocks remain unchanged. New settings, TXT fidelity, unique prompt bodies and all 62 index entries are checked by the validator.

@@ -172,10 +172,23 @@ for item in locales:
     require(text.count('[TXT]') == 8, label + ': missing text exports')
     for case in data['cases']:
         require((ROOT / 'prompts/text' / item['locale'] / (case['id'] + '.txt')).read_text().rstrip('\n') == case['prompt'], label + ': source TXT mismatch')
-    require(text.index('<a id="visual-index">') < text.index('**' + data['browse_label']), label + ': visual browsing comes too late')
+    require('height="180"' not in text and '### ' + data['preview_title'] not in text, label + ': removed visual overview returned')
     explicit_ids = re.findall(r'<a id="([^"]+)"', text)
     require(len(explicit_ids) == len(set(explicit_ids)), label + ': duplicate explicit anchors')
 require(sum(len(re.findall(r'^## \d+\.', p.read_text(), re.M)) for p in (ROOT / 'prompts').glob('0[1-5]-*.md')) == 30, 'Expected 30 inherited category recipes')
+new_files = ['07-satisfying-materials', '08-spaces-and-transformations', '09-miniature-and-surreal', '10-fashion-and-performance']
+new_prompts = []
+for slug in new_files:
+    content = (ROOT / 'prompts' / (slug + '.md')).read_text()
+    bodies = re.findall(r'```text\n(.*?)\n```', content, re.S)
+    require(len(bodies) == 6, slug + ': expected six original recipes')
+    require(len(re.findall(r'\*\*Output:\*\* (?:5|10)s · (?:16:9|9:16) · 720p', content)) == 6, slug + ': unsupported new brief settings')
+    for i, body in enumerate(bodies, 1):
+        require(len(body) <= 2000, slug + ': prompt too long')
+        require((ROOT / 'prompts/text/en-US' / (slug + '-' + str(i) + '.txt')).read_text() == body + '\n', slug + ': TXT mismatch')
+    new_prompts.extend(bodies)
+require(len(set(new_prompts)) == 24, 'Repeated new original prompt')
+require((ROOT / 'docs/PROMPT_INDEX.md').read_text().count('[TXT]') == 62, 'Complete index must link all 62 prompts')
 exercise_text = (ROOT / 'prompts/06-community-exercises.md').read_text()
 require(len(re.findall(r'^## \d+\.', exercise_text, re.M)) == 3, 'Expected three new exercises')
 exercise_prompts = re.findall(r'```text\n(.*?)\n```', exercise_text, re.S)
@@ -192,4 +205,4 @@ result = subprocess.run([sys.executable, str(ROOT / 'scripts/build.py'), '--chec
 require(result.returncode == 0, result.stdout.strip() + '\n' + result.stderr.strip())
 if errors:
     raise SystemExit('\n'.join(errors))
-print('PASS: local Markdown/HTML links, 15 complete localized homepages, 38 English recipes, synchronized prompts, provenance and assets')
+print('PASS: local Markdown/HTML links, 15 complete localized homepages, 62 English recipes, synchronized prompts, provenance and assets')

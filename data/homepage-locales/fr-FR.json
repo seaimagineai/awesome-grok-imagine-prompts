@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Sources et notes de visionnage (en anglais)",
   "archive_label": "Autres recettes et collection source avec attribution ci-dessous",
-  "recipe_count_note": "38 recettes distinctes en anglais au total : 35 recettes reprises et ces 3 nouveaux exercices. Les traductions n’ajoutent pas de nouveaux scénarios.",
+  "recipe_count_note": "62 prompts distincts en anglais : 35 issus du dépôt source et 27 originaux. Les 24 derniers sont de nouvelles créations inspirées de thèmes des réseaux sociaux, sans test de génération. Les traductions ne sont pas des scènes supplémentaires.",
   "viewing_note": "Le 24 septembre 2026, nous avons examiné des images dans les lecteurs X originaux : pour le clip officiel, vers 3,6 s (casque et armée), 19,8 s (gros plan sur un visage) et 34,6 s (ville côtière en flammes) ; pour GENEL, vers 0,05 s (garde-corps en bord de mer), 4,9 s (passage à niveau) et 12 s (main à contre-jour). Étudiez les changements d’échelle des plans du clip officiel et la cohérence de la lumière côtière entre les plans de GENEL. Notre carte postale à cases fixes est un exercice différent. Il s’agit d’images échantillonnées, pas de tests complets du mouvement ou du son.",
   "archive_note": "Les archives ci-dessous conservent les recettes sources et les paramètres destinés à l’API. Pour SeaImagine, adaptez-les aux contrôles ci-dessus : 5/10/15 secondes et 480p/720p. Réécrivez les actions minutées pour respecter la durée ; le montage et la prolongation nécessitent des fonctions compatibles distinctes."
 }

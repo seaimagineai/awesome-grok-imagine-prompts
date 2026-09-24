@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Nguồn và ghi chú xem video (tiếng Anh)",
   "archive_label": "Xem thêm các ví dụ và bộ sưu tập gốc có ghi nguồn ở bên dưới",
-  "recipe_count_note": "Tổng cộng có 38 ví dụ câu lệnh tiếng Anh khác nhau: 35 ví dụ từ bộ sưu tập gốc và 3 bài tập mới này. Bản dịch không được tính là tình huống mới.",
+  "recipe_count_note": "62 lời nhắc tiếng Anh khác nhau: 35 từ kho gốc và 27 bản tự viết. 24 bản mới nhất lấy cảm hứng từ chủ đề trên mạng xã hội, chưa được kiểm chứng bằng việc tạo video. Bản dịch không được tính là cảnh mới.",
   "viewing_note": "Ngày 24 tháng 9 năm 2026, chúng tôi xem một số khung hình bằng trình phát trong bài đăng X gốc: clip chính thức ở khoảng 3,6 giây (mũ giáp và quân đội), 19,8 giây (cận cảnh khuôn mặt) và 34,6 giây (thành phố ven mặt nước đang cháy); clip GENEL ở khoảng 0,05 giây (lan can bên biển), 4,9 giây (đường ngang qua đường sắt) và 12 giây (bàn tay ngược sáng). Hãy học cách clip chính thức thay đổi cỡ cảnh và cách GENEL giữ ánh sáng ven biển nhất quán giữa các cảnh quay riêng biệt. Bưu thiếp với các ô cố định của chúng tôi là một bài tập khác. Đây chỉ là những khung hình được lấy mẫu, không phải kiểm tra đầy đủ chuyển động hoặc âm thanh.",
   "archive_note": "Bộ sưu tập bên dưới giữ nguyên các câu lệnh nguồn và thông số dành cho API (giao diện lập trình ứng dụng). Khi dùng SeaImagine, hãy điều chỉnh theo các tùy chọn bên trên: 5/10/15 giây và 480p/720p. Viết lại các hành động có mốc thời gian cho phù hợp; việc chỉnh sửa và kéo dài video cần quy trình riêng có hỗ trợ những chức năng đó."
 }

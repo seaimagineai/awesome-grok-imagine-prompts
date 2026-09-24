@@ -2,7 +2,7 @@
 
 [← Main collection](../README.md)
 
-All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. The homepage provides direct links to all 38 recipes, an eight-image preview grid, complete local-language prompt blocks and TXT exports. Each preview links to its prompt; each prompt links to its full starting image and back to the index. Browser instructions live in separate localized reference pages.
+All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. The homepage provides nine category links, a complete 62-prompt index, and eight large starting images directly beside their complete local-language prompts and TXT exports. The separate preview grid has been removed. Browser instructions live in separate localized reference pages.
 
 The images are concept starting frames, not verified Grok video results. Translation completeness does not establish generation quality or equivalent results across languages.
 
@@ -10,7 +10,7 @@ The language set matches the fifteen links observed on the [SeaImagine model pag
 
 ## Language directory
 
-Every homepage contains **38 recipe links + 8 illustrated cases with TXT exports + 4 community sources**. The guides preserve the earlier writing advice and additional local exercises.
+Every homepage contains **9 category links + a complete 62-prompt index + 8 illustrated cases with TXT exports + 4 community sources**. The guides preserve the earlier writing advice and additional local exercises.
 
 | Language | Eight-case homepage | Further reading |
 | --- | --- | --- |
@@ -32,11 +32,11 @@ Every homepage contains **38 recipe links + 8 illustrated cases with TXT exports
 
 ## Scope and count
 
-The English collection contains **38 distinct recipes: 35 inherited recipes plus 3 new exercises**. The five inherited featured cases are now fully translated in `data/featured-locales/`, alongside three shared exercises in `data/homepage-locales/`. These 120 displayed language versions represent eight shared scenes, not 120 different scenarios.
+The English collection contains **62 distinct recipes: 35 inherited recipes plus 27 original briefs**. The five inherited featured cases are now fully translated in `data/featured-locales/`, alongside three shared exercises in `data/homepage-locales/`. These 120 displayed language versions represent eight shared scenes, not 120 different scenarios.
 
 The three new exercises use 720p and durations of 10/5/5 seconds. The five inherited cases retain their original source settings; each has a source label; actual browser controls are documented in the linked workflow reference. Choose 5/10/15 seconds and 480p/720p on the inspected SeaImagine interface, and adapt timed actions accordingly.
 
-The 30 further category recipes and advanced English documentation are not all translated. Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
+The 54 category recipes (30 inherited plus 24 new originals) and advanced English documentation remain in English. All fifteen homepage category labels and recipe counts are localized. The 24 newest text-to-video prompts are untested original briefs based on documented social themes; see [research and attribution](SOCIAL_INSPIRATION.md). Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
 
 The four community notes do not imply full video or audio testing; see [viewing evidence](COMMUNITY.md).
 

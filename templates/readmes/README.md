@@ -1,11 +1,11 @@
 # Grok Imagine 1.5 Prompt Library
 
-> 38 prompts, including 8 illustrated cases available in 15 languages. Browse by category and copy complete prompts.
+> 62 prompts, including 8 illustrated cases available in 15 languages. Browse by category and copy complete prompts.
 
 {{LANGUAGE_NAV}}
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/English_recipes-38-7c3aed)](#prompt-library)
+[![Prompts](https://img.shields.io/badge/English_recipes-62-7c3aed)](#prompt-library)
 [![Languages](https://img.shields.io/badge/languages-15-0ea5e9)](#multilingual-prompts)
 
 ![Grok Imagine 1.5 — Open prompt notebook with a product shoe, tram and paper whale in one continuous scene](assets/seaimagine-grok-hero.webp)

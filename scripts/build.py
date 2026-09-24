@@ -11,7 +11,9 @@ ORDER = ['sea-glass-bottle', 'blue-route', 'honey-loaf', 'harbor-reunion',
          'first-sip', 'salt-line', 'coastal-postcard', 'citrus-halo']
 GOALS = ORDER[:7]
 COLLECTIONS = ['01-ads-and-products', '02-cinematic-storytelling', '03-social-ugc',
-               '04-characters-and-references', '05-editing-and-extension']
+               '04-characters-and-references', '05-editing-and-extension',
+               '07-satisfying-materials', '08-spaces-and-transformations',
+               '09-miniature-and-surreal', '10-fashion-and-performance']
 
 
 def catalog():
@@ -44,22 +46,12 @@ def render_core(data, featured, product_url, guide, locale):
     out.append(' · '.join([f'[{featured["quick_links"][0]}](#featured-prompts)',
         f'[{featured["quick_links"][2]}](#learn-from-official-and-community-examples)',
         f'[{featured["reference_label"]}](#writing-guide)']))
-    out += ['<a id="visual-index"></a>', f'### {featured["preview_title"]}', featured['gallery_intro'], featured['source_note']]
-    preview = ['| | |', '| --- | --- |']
-    for a, b in zip(ORDER[::2], ORDER[1::2]):
-        cells = []
-        for ident in (a, b):
-            c = cases[ident]
-            cells.append(f'<a href="#case-{ident}"><img src="{c["image"]}" height="180" alt="{html.escape(c["title"], quote=True)}"></a><br>[{ORDER.index(ident)+1}. {c["title"]}](#case-{ident})<br>{c["settings"]}')
-        preview.append('| ' + ' | '.join(cells) + ' |')
-    out.append('\n'.join(preview))
-    out.append(f'**{featured["browse_label"]} · 30**')
-    rows = [f'| {featured["category_label"]} | {featured["browse_cases_label"]} |', '| --- | --- |']
+    out.append(f'**[{featured["browse_label"]}](docs/PROMPT_INDEX.md) · 54**')
+    rows = [f'| {featured["category_label"]} | {featured["count_label"]} |', '| --- | --- |']
     for label, (slug, entries) in zip(featured['collections'], catalog()):
-        links = ' · '.join(f'[{title}](prompts/{slug}.md#{anchor})' for title, anchor, _ in entries)
-        rows.append(f'| [{label} · {len(entries)}](prompts/{slug}.md) | {links} |')
+        rows.append(f'| [{label}](prompts/{slug}.md) | {len(entries)} |')
     out.append('\n'.join(rows))
-    out += ['<a id="featured-prompts"></a>', f'## {featured["gallery_title"]}']
+    out += ['<a id="visual-index"></a>', '<a id="featured-prompts"></a>', f'## {featured["gallery_title"]}', featured['gallery_intro'], featured['source_note']]
     for i, ident in enumerate(ORDER, 1):
         case = cases[ident]
         out += [f'<a id="case-{ident}"></a>']
@@ -68,11 +60,15 @@ def render_core(data, featured, product_url, guide, locale):
         else:
             out += [f'<a id="seaimagine-{ident}"></a>']
         out += [f'### {i}. {case["title"]}']
+        if ident in ('first-sip', 'coastal-postcard'):
+            out.append(f'<a href="{case["image"]}"><img src="{case["image"]}" width="480" alt="{html.escape(case["title"], quote=True)}"></a>')
+        else:
+            out.append(f'![{case["title"]}]({case["image"]})')
         out += [f'**{data["settings_label"]}:** {case["settings"]} · [{data["image_label"]}]({case["image"]}) · [TXT](prompts/text/{locale}/{ident}.txt)']
         if ident in source_ids:
             out.append(f'[{featured["source_label"]}](docs/ATTRIBUTION.md)')
         out.append('```text\n' + case['prompt'] + '\n```')
-        out.append(f'[{featured["back_label"]}](#find-the-right-prompt) · [{featured["preview_title"]}](#visual-index)')
+        out.append(f'[{featured["back_label"]}](#find-the-right-prompt)')
     out += ['<a id="learn-from-official-and-community-examples"></a>',
             f'## {data["community_title"]}', data['community_intro']]
     thumbs = {0:'https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg',
@@ -110,6 +106,17 @@ def main():
         else:
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(text)
+    index = ['# Complete prompt index', '[← Main collection](../README.md)',
+             '62 distinct English prompts: 8 illustrated cases and 54 category recipes. The 24 additions are original, untested briefs inspired by social themes; [sources and scope](SOCIAL_INSPIRATION.md).',
+             '## Illustrated cases']
+    en = json.loads((ROOT / 'data/homepage-locales/en-US.json').read_text())
+    feat = json.loads((ROOT / 'data/featured-locales/en-US.json').read_text())
+    by_id = {c['id']: c for c in en['cases'] + feat['cases']}
+    index += [f'- [{by_id[key]["title"]}](../README.md#case-{key}) · [TXT](../prompts/text/en-US/{key}.txt)' for key in ORDER]
+    for label, (slug, entries) in zip(feat['collections'], catalog()):
+        index += [f'## {label}']
+        index += [f'- [{title}](../prompts/{slug}.md#{anchor}) · [TXT](../prompts/text/en-US/{slug}-{title.split(".")[0]}.txt)' for title, anchor, _ in entries]
+    output(ROOT / 'docs/PROMPT_INDEX.md', '\n\n'.join(index) + '\n')
     for slug, entries in catalog():
         for title, anchor, prompt in entries:
             output(ROOT / 'prompts/text/en-US' / (slug + '-' + title.split('.')[0] + '.txt'), prompt + '\n')

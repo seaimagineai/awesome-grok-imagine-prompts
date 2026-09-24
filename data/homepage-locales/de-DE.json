@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Quellen und Hinweise zur Sichtung (Englisch)",
   "archive_label": "Weitere Anleitungen und die Sammlung mit Quellenangaben folgen unten",
-  "recipe_count_note": "Insgesamt 38 verschiedene englische Anleitungen: 35 übernommene und diese 3 neuen Übungen. Übersetzungen zählen nicht als neue Szenarien.",
+  "recipe_count_note": "62 unterschiedliche englische Prompts: 35 aus dem Quellprojekt und 27 eigene. Die neuesten 24 wurden nach Themen aus sozialen Medien neu verfasst und nicht durch Generierung getestet. Übersetzungen zählen nicht als neue Szenarien.",
   "viewing_note": "Am 24. September 2026 haben wir einzelne Bilder in den ursprünglichen X-Playern geprüft: beim offiziellen Clip etwa bei 3,6 s (Helm und Armee), 19,8 s (Gesicht in Nahaufnahme) und 34,6 s (brennende Stadt am Wasser); bei GENEL etwa bei 0,05 s (Geländer am Meer), 4,9 s (Bahnübergang) und 12 s (Hand im Gegenlicht). Achte beim offiziellen Clip auf wechselnde Einstellungsgrößen und bei GENEL auf das gleichbleibende Küstenlicht in getrennten Einstellungen. Unsere Postkarte mit festen Bildfeldern ist eine andere Übung. Das sind Stichproben einzelner Bilder, keine vollständigen Bewegungs- oder Audiotests.",
   "archive_note": "Das folgende Archiv bewahrt die Quellrezepte und API-bezogenen Parameter. Passe sie für SeaImagine an die obigen Bedienelemente an: 5/10/15 Sekunden und 480p/720p. Schreibe die zeitlich festgelegten Aktionen passend um; Bearbeitung und Verlängerung erfordern jeweils gesondert unterstützte Abläufe."
 }

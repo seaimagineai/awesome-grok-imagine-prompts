@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Fonti e note di visione (in inglese)",
   "archive_label": "Altre ricette e la raccolta originale con attribuzione qui sotto",
-  "recipe_count_note": "38 ricette distinte in inglese in totale: 35 riprese dalla fonte e questi 3 nuovi esercizi. Le traduzioni non aggiungono nuovi scenari.",
+  "recipe_count_note": "62 prompt distinti in inglese: 35 dal progetto originale e 27 nuovi. Gli ultimi 24 sono stati scritti prendendo spunto da temi dei social e non sono stati testati tramite generazione. Le traduzioni non contano come nuove scene.",
   "viewing_note": "Il 24 settembre 2026 abbiamo esaminato alcuni fotogrammi nei lettori originali di X: per la clip ufficiale, circa a 3,6 s (elmo ed esercito), 19,8 s (primo piano di un volto) e 34,6 s (città sul mare in fiamme); per GENEL, circa a 0,05 s (ringhiera sul mare), 4,9 s (passaggio a livello) e 12 s (mano in controluce). Studia i cambi di scala delle inquadrature nella clip ufficiale e la luce costiera coerente tra i diversi piani di GENEL. La nostra cartolina a riquadri fissi è un esercizio diverso. Sono fotogrammi campionati, non prove complete del movimento o dell’audio.",
   "archive_note": "L’archivio seguente conserva le ricette originali e i parametri pensati per l’API. Per SeaImagine, adattali ai comandi indicati sopra: 5/10/15 secondi e 480p/720p. Riscrivi le azioni temporizzate per rispettare la durata; montaggio ed estensione richiedono procedure supportate separatamente."
 }

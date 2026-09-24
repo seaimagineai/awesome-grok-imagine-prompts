@@ -2,7 +2,7 @@
 
 {{LANGUAGE_NAV}}
 
-> 38 prompt, tra cui 8 esempi illustrati disponibili in 15 lingue. Esplora le categorie e copia i prompt completi.
+> 62 prompt, tra cui 8 esempi illustrati disponibili in 15 lingue. Esplora le categorie e copia i prompt completi.
 
 ![Grok Imagine 1.5 — Quaderno di prompt aperto con una scarpa, un tram e una balena di carta in un unico scenario](assets/seaimagine-grok-hero.webp)
 

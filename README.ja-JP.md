@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 本のプロンプトを収録。そのうち画像付きの 8 作例は 15 言語で掲載しています。カテゴリ別に探して、プロンプト全文をコピーできます。
+> 62 本のプロンプトを収録。そのうち画像付きの 8 作例は 15 言語で掲載しています。カテゴリ別に探して、プロンプト全文をコピーできます。
 
 ![Grok Imagine 1.5 — 開いたプロンプト手帳から、靴・路面電車・紙のクジラが一つの世界へ広がる](assets/seaimagine-grok-hero.webp)
 
@@ -26,40 +26,37 @@
 
 [画像付きの例](#featured-prompts) · [公式とコミュニティの作品](#learn-from-official-and-community-examples) · [設定と操作の参考資料](#writing-guide)
 
+**[ほかのプロンプトを見る（英語）](docs/PROMPT_INDEX.md) · 54**
+
+| カテゴリ | 件数 |
+| --- | --- |
+| [広告と商品](prompts/01-ads-and-products.md) | 6 |
+| [映画のような物語](prompts/02-cinematic-storytelling.md) | 6 |
+| [SNS とライフスタイル](prompts/03-social-ugc.md) | 6 |
+| [人物と参照素材](prompts/04-characters-and-references.md) | 6 |
+| [編集と延長](prompts/05-editing-and-extension.md) | 6 |
+| [質感と心地よい音](prompts/07-satisfying-materials.md) | 6 |
+| [空間とシーンの変化](prompts/08-spaces-and-transformations.md) | 6 |
+| [ミニチュアと非現実の日常](prompts/09-miniature-and-surreal.md) | 6 |
+| [ファッションとパフォーマンス](prompts/10-fashion-and-performance.md) | 6 |
+
 <a id="visual-index"></a>
-
-### 画像付き作例一覧
-
-8 件の作例にプロンプト全文と開始フレーム画像を掲載。画像は構想を示すもので、検証済みの動画出力ではありません。
-
-出典が Flaq AI と表示された5つの例は、元の長さと解像度を保存しています。残る3つは SeaImagine の現在の選択肢に合わせて書いています。元の例を SeaImagine で使う場合は 5/10/15 秒と 480p/720p を選び、動作の時間配分を組み直してください。
-
-| | |
-| --- | --- |
-| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="シーグラスのボトル — 条件をそろえて動きを比較する"></a><br>[1. シーグラスのボトル — 条件をそろえて動きを比較する](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="ブルールート — 雨の市場を走る配達員の追跡ショット"></a><br>[2. ブルールート — 雨の市場を走る配達員の追跡ショット](#case-blue-route)<br>10s · 16:9 · 1080p |
-| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="ハニーローフ — ミニチュアのパン屋の物語"></a><br>[3. ハニーローフ — ミニチュアのパン屋の物語](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="港での再会 — 一つの感情の変化を描く"></a><br>[4. 港での再会 — 一つの感情の変化を描く](#case-harbor-reunion)<br>10s · 16:9 · 720p |
-| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="最初のひと口 — 自然なカフェ体験レビュー"></a><br>[5. 最初のひと口 — 自然なカフェ体験レビュー](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="夜明けの塩田線 — 旅行ドキュメンタリー"></a><br>[6. 夜明けの塩田線 — 旅行ドキュメンタリー](#case-salt-line)<br>12s · 16:9 · 1080p |
-| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="海辺のポストカード — 構成を決めた画像を動かす"></a><br>[7. 海辺のポストカード — 構成を決めた画像を動かす](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="シトラス・ヘイロー — 高級香水の商品映像"></a><br>[8. シトラス・ヘイロー — 高級香水の商品映像](#case-citrus-halo)<br>8s · 16:9 · 1080p |
-
-**ほかのプロンプトを見る（英語） · 30**
-
-| カテゴリ | 作例索引 |
-| --- | --- |
-| [広告と商品 · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
-| [映画のような物語 · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
-| [SNS とライフスタイル · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
-| [人物と参照素材 · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
-| [編集と延長 · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## コピーしてアレンジできる画像付きプロンプト
+
+8 件の作例にプロンプト全文と開始フレーム画像を掲載。画像は構想を示すもので、検証済みの動画出力ではありません。
+
+出典が Flaq AI と表示された5つの例は、元の長さと解像度を保存しています。残る3つは SeaImagine の現在の選択肢に合わせて書いています。元の例を SeaImagine で使う場合は 5/10/15 秒と 480p/720p を選び、動作の時間配分を組み直してください。
 
 <a id="case-sea-glass-bottle"></a>
 
 <a id="seaimagine-sea-glass-bottle"></a>
 
 ### 1. シーグラスのボトル — 条件をそろえて動きを比較する
+
+![シーグラスのボトル — 条件をそろえて動きを比較する](assets/seaimagine-sea-glass-bottle.webp)
 
 **画像から動画を生成する設定:** 5s · 16:9 · 720p · [開始フレーム — 開いて保存](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/ja-JP/sea-glass-bottle.txt)
 
@@ -75,13 +72,15 @@
 最後の1秒は安定した画を保つ。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-blue-route"></a>
 
 <a id="3-blue-route--rain-market-courier-tracking-shot"></a>
 
 ### 2. ブルールート — 雨の市場を走る配達員の追跡ショット
+
+![ブルールート — 雨の市場を走る配達員の追跡ショット](assets/rainy-market-courier-video.webp)
 
 **画像から動画を生成する設定:** 10s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ja-JP/blue-route.txt)
 
@@ -101,13 +100,15 @@
 連続性の固定：ライダーの服、ヘルメット、バイクの形状、荷箱、青いパネル、市場の配置を正確に保つ。車両の変形、車輪のゆがみ、衝突、武器、読める看板、ロゴ、瞬間移動するカメラ、不可能な速度変化を入れない。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. ハニーローフ — ミニチュアのパン屋の物語
+
+![ハニーローフ — ミニチュアのパン屋の物語](assets/pear-bakery-miniature-video.webp)
 
 **画像から動画を生成する設定:** 9s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ja-JP/honey-loaf.txt)
 
@@ -127,13 +128,15 @@
 連続性の固定：人数、顔のデザイン、縮尺、服の色、梨の形、室内配置、手作りの質感を保つ。職人の追加、光沢のあるCG、ゴムのような手足、浮く小道具、溶けるパン、カット、ロゴ、既存シリーズを思わせるキャラクターデザインを入れない。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. 港での再会 — 一つの感情の変化を描く
+
+![港での再会 — 一つの感情の変化を描く](assets/seaimagine-harbor-reunion.webp)
 
 **画像から動画を生成する設定:** 10s · 16:9 · 720p · [開始フレーム — 開いて保存](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/ja-JP/harbor-reunion.txt)
 
@@ -151,13 +154,15 @@
 人物の追加、大げさな身振り、顔の過度な美肌処理、指の増加、カメラの急な跳びを避ける。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-first-sip"></a>
 
 <a id="2-first-sip--authentic-café-ugc-review"></a>
 
 ### 5. 最初のひと口 — 自然なカフェ体験レビュー
+
+<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="480" alt="最初のひと口 — 自然なカフェ体験レビュー"></a>
 
 **画像から動画を生成する設定:** 10s · 9:16 · 1080p · [開始フレーム — 開いて保存](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ja-JP/first-sip.txt)
 
@@ -177,13 +182,15 @@
 連続性の固定：顔の美化、着替え、指の増加、カップや食べ物の再設計、背景人物の出現、ロゴ、大げさなインフルエンサー風の身振りを入れない。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. 夜明けの塩田線 — 旅行ドキュメンタリー
+
+![夜明けの塩田線 — 旅行ドキュメンタリー](assets/coastal-salt-train-documentary.webp)
 
 **画像から動画を生成する設定:** 12s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ja-JP/salt-line.txt)
 
@@ -203,13 +210,15 @@
 連続性の固定：現実的な作業、安定した人体構造、固定された風景、変わらない列車デザイン、自然な反射と水の物理挙動。現代的な街のスカイライン、観光客の演出、新しい建物、ロゴ、読める看板、過度に鮮やかな絵はがき色、タイムラプスの空を入れない。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. 海辺のポストカード — 構成を決めた画像を動かす
+
+<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="海辺のポストカード — 構成を決めた画像を動かす"></a>
 
 **画像から動画を生成する設定:** 5s · 9:16 · 720p · [開始フレーム — 開いて保存](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/ja-JP/coastal-postcard.txt)
 
@@ -226,13 +235,15 @@
 最後は紙の角が落ち着き、元の構図を保った状態で終える。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="case-citrus-halo"></a>
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
 ### 8. シトラス・ヘイロー — 高級香水の商品映像
+
+![シトラス・ヘイロー — 高級香水の商品映像](assets/citrus-fragrance-product-video.webp)
 
 **画像から動画を生成する設定:** 8s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ja-JP/citrus-halo.txt)
 
@@ -252,7 +263,7 @@
 連続性の固定：ボトルの輪郭、キャップの面、液面、台座、配色、背景のアーチを変えない。ラベル、ロゴ、余分な果物、浮くボトル、形状の揺らぎ、カメラの跳び、人工的なきらめきの爆発を入れない。
 ```
 
-[カテゴリ索引に戻る](#find-the-right-prompt) · [画像付き作例一覧](#visual-index)
+[カテゴリ索引に戻る](#find-the-right-prompt)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -321,6 +332,6 @@
 
 ## 収録内容と出典
 
-英語のプロンプト例は計 38 種類です。元コレクションから引き継いだ 35 種類と、新しい練習例 3 種類で構成されています。翻訳は別のシナリオとして数えません。
+英語のプロンプトは全62件。元の35件とオリジナル27件です。最新の24件はSNSの題材を参考に新規執筆しており、生成結果は未検証です。翻訳は別のシーンとして数えません。
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/ja/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

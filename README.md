@@ -1,11 +1,11 @@
 # Grok Imagine 1.5 Prompt Library
 
-> 38 prompts, including 8 illustrated cases available in 15 languages. Browse by category and copy complete prompts.
+> 62 prompts, including 8 illustrated cases available in 15 languages. Browse by category and copy complete prompts.
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Prompts](https://img.shields.io/badge/English_recipes-38-7c3aed)](#prompt-library)
+[![Prompts](https://img.shields.io/badge/English_recipes-62-7c3aed)](#prompt-library)
 [![Languages](https://img.shields.io/badge/languages-15-0ea5e9)](#multilingual-prompts)
 
 ![Grok Imagine 1.5 — Open prompt notebook with a product shoe, tram and paper whale in one continuous scene](assets/seaimagine-grok-hero.webp)
@@ -30,40 +30,37 @@ Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintain
 
 [Illustrated examples](#featured-prompts) · [Official and community work](#learn-from-official-and-community-examples) · [Settings and operation reference](#writing-guide)
 
+**[Browse more prompts (English)](docs/PROMPT_INDEX.md) · 54**
+
+| Category | Count |
+| --- | --- |
+| [Ads and products](prompts/01-ads-and-products.md) | 6 |
+| [Cinematic stories](prompts/02-cinematic-storytelling.md) | 6 |
+| [Social and lifestyle](prompts/03-social-ugc.md) | 6 |
+| [Characters and references](prompts/04-characters-and-references.md) | 6 |
+| [Editing and extension](prompts/05-editing-and-extension.md) | 6 |
+| [Satisfying materials and ASMR](prompts/07-satisfying-materials.md) | 6 |
+| [Spaces and transformations](prompts/08-spaces-and-transformations.md) | 6 |
+| [Miniature and surreal scenes](prompts/09-miniature-and-surreal.md) | 6 |
+| [Fashion and performance](prompts/10-fashion-and-performance.md) | 6 |
+
 <a id="visual-index"></a>
-
-### Visual case overview
-
-8 cases with full prompts and starting-frame images. Images illustrate concepts; they are not verified video outputs.
-
-The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other three use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.
-
-| | |
-| --- | --- |
-| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="Sea-glass bottle — a controlled motion comparison"></a><br>[1. Sea-glass bottle — a controlled motion comparison](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="Blue Route — rain-market courier tracking shot"></a><br>[2. Blue Route — rain-market courier tracking shot](#case-blue-route)<br>10s · 16:9 · 1080p |
-| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="The Honey Loaf — miniature bakery story"></a><br>[3. The Honey Loaf — miniature bakery story](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="Harbor reunion — one emotional beat"></a><br>[4. Harbor reunion — one emotional beat](#case-harbor-reunion)<br>10s · 16:9 · 720p |
-| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="First Sip — authentic café UGC review"></a><br>[5. First Sip — authentic café UGC review](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="Salt Line at Dawn — travel documentary"></a><br>[6. Salt Line at Dawn — travel documentary](#case-salt-line)<br>12s · 16:9 · 1080p |
-| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="Coastal postcard — animate a planned image"></a><br>[7. Coastal postcard — animate a planned image](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="Citrus Halo — premium fragrance product film"></a><br>[8. Citrus Halo — premium fragrance product film](#case-citrus-halo)<br>8s · 16:9 · 1080p |
-
-**Browse more prompts (English) · 30**
-
-| Category | Case index |
-| --- | --- |
-| [Ads and products · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
-| [Cinematic stories · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
-| [Social and lifestyle · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
-| [Characters and references · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
-| [Editing and extension · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## Illustrated prompts to copy and adapt
+
+8 cases with full prompts and starting-frame images. Images illustrate concepts; they are not verified video outputs.
+
+The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other three use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.
 
 <a id="case-sea-glass-bottle"></a>
 
 <a id="seaimagine-sea-glass-bottle"></a>
 
 ### 1. Sea-glass bottle — a controlled motion comparison
+
+![Sea-glass bottle — a controlled motion comparison](assets/seaimagine-sea-glass-bottle.webp)
 
 **Image-to-video settings:** 5s · 16:9 · 720p · [Starting frame — open and save](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/en-US/sea-glass-bottle.txt)
 
@@ -79,13 +76,15 @@ Avoid logo generation, changing liquid level, bending edges, floating objects or
 Hold a stable frame for the final second.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-blue-route"></a>
 
 <a id="3-blue-route--rain-market-courier-tracking-shot"></a>
 
 ### 2. Blue Route — rain-market courier tracking shot
+
+![Blue Route — rain-market courier tracking shot](assets/rainy-market-courier-video.webp)
 
 **Image-to-video settings:** 10s · 16:9 · 1080p · [Starting frame — open and save](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/en-US/blue-route.txt)
 
@@ -115,13 +114,15 @@ and market layout. No vehicle morphing, wheel deformation, collisions, weapons, 
 signs, logos, teleporting camera, or impossible speed ramp.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. The Honey Loaf — miniature bakery story
+
+![The Honey Loaf — miniature bakery story](assets/pear-bakery-miniature-video.webp)
 
 **Image-to-video settings:** 9s · 16:9 · 1080p · [Starting frame — open and save](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/en-US/honey-loaf.txt)
 
@@ -150,13 +151,15 @@ room layout, and handcrafted texture. No extra bakers, glossy CGI, rubber limbs,
 props, melting loaf, camera cuts, logos, or franchise-like character design.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. Harbor reunion — one emotional beat
+
+![Harbor reunion — one emotional beat](assets/seaimagine-harbor-reunion.webp)
 
 **Image-to-video settings:** 10s · 16:9 · 720p · [Starting frame — open and save](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/en-US/harbor-reunion.txt)
 
@@ -174,13 +177,15 @@ Lock the two identities, clothing, pier geometry, boat position and morning ligh
 Avoid extra people, dramatic gestures, face smoothing, extra fingers and camera jumps.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-first-sip"></a>
 
 <a id="2-first-sip--authentic-café-ugc-review"></a>
 
 ### 5. First Sip — authentic café UGC review
+
+<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="480" alt="First Sip — authentic café UGC review"></a>
 
 **Image-to-video settings:** 10s · 9:16 · 1080p · [Starting frame — open and save](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/en-US/first-sip.txt)
 
@@ -207,13 +212,15 @@ Continuity lock: no face beautification, no wardrobe change, no extra fingers, n
 redesign, no background people appearing, no logos, and no exaggerated influencer gestures.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. Salt Line at Dawn — travel documentary
+
+![Salt Line at Dawn — travel documentary](assets/coastal-salt-train-documentary.webp)
 
 **Image-to-video settings:** 12s · 16:9 · 1080p · [Starting frame — open and save](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/en-US/salt-line.txt)
 
@@ -243,13 +250,15 @@ plausible reflections and water physics. No modern skyline, tourist staging, new
 logos, readable signs, oversaturated postcard color, or time-lapse sky.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. Coastal postcard — animate a planned image
+
+<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="Coastal postcard — animate a planned image"></a>
 
 **Image-to-video settings:** 5s · 9:16 · 720p · [Starting frame — open and save](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/en-US/coastal-postcard.txt)
 
@@ -266,13 +275,15 @@ Avoid merging panels, inventing a new scene, redrawing letters or moving objects
 End with the paper corner resting and the original composition intact.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="case-citrus-halo"></a>
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
 ### 8. Citrus Halo — premium fragrance product film
+
+![Citrus Halo — premium fragrance product film](assets/citrus-fragrance-product-video.webp)
 
 **Image-to-video settings:** 8s · 16:9 · 1080p · [Starting frame — open and save](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/en-US/citrus-halo.txt)
 
@@ -301,7 +312,7 @@ palette, or background arch. No label, logo, extra fruit, floating bottle, geome
 camera jump, or artificial sparkle explosion.
 ```
 
-[Back to category index](#find-the-right-prompt) · [Visual case overview](#visual-index)
+[Back to category index](#find-the-right-prompt)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -382,6 +393,6 @@ On September 24, 2026, we sampled the original X players: the official clip at a
 
 ## Collection and attribution
 
-38 distinct English recipes in total: 35 inherited recipes and these 3 new exercises. Translations do not add new scenarios.
+62 distinct English prompts: 35 inherited and 27 original. The 24 newest prompts are inspired by social-media themes, newly written and not generation-tested. Translations are not additional scenarios.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

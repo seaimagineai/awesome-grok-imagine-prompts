@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 프롬프트 38개를 수록했으며, 그중 이미지 예제 8개는 15개 언어로 제공합니다. 분류별로 찾아보고 전체 프롬프트를 복사하세요.
+> 프롬프트 62개를 수록했으며, 그중 이미지 예제 8개는 15개 언어로 제공합니다. 분류별로 찾아보고 전체 프롬프트를 복사하세요.
 
 ![Grok Imagine 1.5 — 펼친 프롬프트 노트에서 신발, 전차, 종이 고래가 하나의 장면으로 이어지는 모습](assets/seaimagine-grok-hero.webp)
 
@@ -26,40 +26,37 @@
 
 [이미지 예제](#featured-prompts) · [공식 및 커뮤니티 작품](#learn-from-official-and-community-examples) · [설정 및 조작 참고](#writing-guide)
 
+**[더 많은 프롬프트 보기(영어)](docs/PROMPT_INDEX.md) · 54**
+
+| 분류 | 개수 |
+| --- | --- |
+| [광고와 제품](prompts/01-ads-and-products.md) | 6 |
+| [영화 같은 이야기](prompts/02-cinematic-storytelling.md) | 6 |
+| [소셜 및 라이프스타일](prompts/03-social-ugc.md) | 6 |
+| [인물과 참조 자료](prompts/04-characters-and-references.md) | 6 |
+| [편집과 길이 연장](prompts/05-editing-and-extension.md) | 6 |
+| [만족스러운 질감과 소리](prompts/07-satisfying-materials.md) | 6 |
+| [공간과 장면 전환](prompts/08-spaces-and-transformations.md) | 6 |
+| [미니어처와 초현실적 일상](prompts/09-miniature-and-surreal.md) | 6 |
+| [패션과 퍼포먼스](prompts/10-fashion-and-performance.md) | 6 |
+
 <a id="visual-index"></a>
-
-### 이미지 예제 한눈에 보기
-
-8개 예제에 전체 프롬프트와 시작 프레임 이미지를 제공합니다. 이미지는 구상용이며 검증된 영상 결과가 아닙니다.
-
-출처가 Flaq AI로 표시된 다섯 예제는 원래 길이와 해상도를 유지합니다. 나머지 세 예제는 SeaImagine의 현재 옵션에 맞춰 작성했습니다. 원본 예제를 SeaImagine에서 사용할 때는 5/10/15초와 480p/720p를 선택하고 동작의 시간 배분을 다시 정하세요.
-
-| | |
-| --- | --- |
-| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="바다 유리병 — 조건을 통제하며 움직임 비교하기"></a><br>[1. 바다 유리병 — 조건을 통제하며 움직임 비교하기](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="블루 루트 — 비 내리는 시장의 배달원 추적 숏"></a><br>[2. 블루 루트 — 비 내리는 시장의 배달원 추적 숏](#case-blue-route)<br>10s · 16:9 · 1080p |
-| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="허니 로프 — 미니어처 빵집 이야기"></a><br>[3. 허니 로프 — 미니어처 빵집 이야기](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="항구에서의 재회 — 하나의 감정 변화에 집중하기"></a><br>[4. 항구에서의 재회 — 하나의 감정 변화에 집중하기](#case-harbor-reunion)<br>10s · 16:9 · 720p |
-| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="첫 모금 — 자연스러운 카페 체험 리뷰"></a><br>[5. 첫 모금 — 자연스러운 카페 체험 리뷰](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="새벽의 염전 철도 — 여행 다큐멘터리"></a><br>[6. 새벽의 염전 철도 — 여행 다큐멘터리](#case-salt-line)<br>12s · 16:9 · 1080p |
-| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="해안 엽서 — 구성을 정한 이미지를 움직이기"></a><br>[7. 해안 엽서 — 구성을 정한 이미지를 움직이기](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="시트러스 헤일로 — 고급 향수 제품 영상"></a><br>[8. 시트러스 헤일로 — 고급 향수 제품 영상](#case-citrus-halo)<br>8s · 16:9 · 1080p |
-
-**더 많은 프롬프트 보기(영어) · 30**
-
-| 분류 | 예제 색인 |
-| --- | --- |
-| [광고와 제품 · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
-| [영화 같은 이야기 · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
-| [소셜 및 라이프스타일 · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
-| [인물과 참조 자료 · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
-| [편집과 길이 연장 · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## 복사하고 바꿔 쓸 수 있는 이미지 프롬프트
+
+8개 예제에 전체 프롬프트와 시작 프레임 이미지를 제공합니다. 이미지는 구상용이며 검증된 영상 결과가 아닙니다.
+
+출처가 Flaq AI로 표시된 다섯 예제는 원래 길이와 해상도를 유지합니다. 나머지 세 예제는 SeaImagine의 현재 옵션에 맞춰 작성했습니다. 원본 예제를 SeaImagine에서 사용할 때는 5/10/15초와 480p/720p를 선택하고 동작의 시간 배분을 다시 정하세요.
 
 <a id="case-sea-glass-bottle"></a>
 
 <a id="seaimagine-sea-glass-bottle"></a>
 
 ### 1. 바다 유리병 — 조건을 통제하며 움직임 비교하기
+
+![바다 유리병 — 조건을 통제하며 움직임 비교하기](assets/seaimagine-sea-glass-bottle.webp)
 
 **이미지로 영상 만들기 설정:** 5s · 16:9 · 720p · [시작 프레임 — 열어서 저장](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/ko-KR/sea-glass-bottle.txt)
 
@@ -75,13 +72,15 @@
 마지막 1초는 안정된 화면을 유지한다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-blue-route"></a>
 
 <a id="3-blue-route--rain-market-courier-tracking-shot"></a>
 
 ### 2. 블루 루트 — 비 내리는 시장의 배달원 추적 숏
+
+![블루 루트 — 비 내리는 시장의 배달원 추적 숏](assets/rainy-market-courier-video.webp)
 
 **이미지로 영상 만들기 설정:** 10s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ko-KR/blue-route.txt)
 
@@ -101,13 +100,15 @@
 연속성 고정: 운전자 옷, 헬멧, 오토바이 형태, 화물 상자, 파란 패널, 시장 배치를 정확히 유지한다. 차량 변형, 바퀴 왜곡, 충돌, 무기, 읽을 수 있는 간판, 로고, 순간 이동 카메라, 불가능한 속도 변화는 없다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. 허니 로프 — 미니어처 빵집 이야기
+
+![허니 로프 — 미니어처 빵집 이야기](assets/pear-bakery-miniature-video.webp)
 
 **이미지로 영상 만들기 설정:** 9s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ko-KR/honey-loaf.txt)
 
@@ -127,13 +128,15 @@
 연속성 고정: 인물 수, 얼굴 디자인, 크기 비율, 옷 색, 배 모양, 실내 배치, 수공예 질감을 유지한다. 추가 제빵사, 번들거리는 컴퓨터 그래픽, 고무 같은 팔다리, 떠 있는 소품, 녹는 빵, 컷 전환, 로고, 유명 시리즈를 닮은 캐릭터 디자인은 없다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. 항구에서의 재회 — 하나의 감정 변화에 집중하기
+
+![항구에서의 재회 — 하나의 감정 변화에 집중하기](assets/seaimagine-harbor-reunion.webp)
 
 **이미지로 영상 만들기 설정:** 10s · 16:9 · 720p · [시작 프레임 — 열어서 저장](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/ko-KR/harbor-reunion.txt)
 
@@ -151,13 +154,15 @@
 인물 추가, 과장된 몸짓, 과도한 얼굴 보정, 손가락 추가, 카메라의 갑작스러운 도약을 피한다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-first-sip"></a>
 
 <a id="2-first-sip--authentic-café-ugc-review"></a>
 
 ### 5. 첫 모금 — 자연스러운 카페 체험 리뷰
+
+<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="480" alt="첫 모금 — 자연스러운 카페 체험 리뷰"></a>
 
 **이미지로 영상 만들기 설정:** 10s · 9:16 · 1080p · [시작 프레임 — 열어서 저장](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ko-KR/first-sip.txt)
 
@@ -177,13 +182,15 @@
 연속성 고정: 얼굴 미화, 옷 변경, 손가락 추가, 컵이나 음식 재설계, 배경 인물 출현, 로고, 과장된 인플루언서 몸짓은 없다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. 새벽의 염전 철도 — 여행 다큐멘터리
+
+![새벽의 염전 철도 — 여행 다큐멘터리](assets/coastal-salt-train-documentary.webp)
 
 **이미지로 영상 만들기 설정:** 12s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ko-KR/salt-line.txt)
 
@@ -203,13 +210,15 @@
 연속성 고정: 현실적인 노동 동작, 안정된 신체 구조, 고정된 풍경, 변하지 않는 기차 디자인, 타당한 반사와 물의 물리적 움직임. 현대 도시 스카이라인, 연출된 관광객, 새 건물, 로고, 읽을 수 있는 간판, 지나치게 채도 높은 엽서 색감, 타임랩스 하늘은 없다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. 해안 엽서 — 구성을 정한 이미지를 움직이기
+
+<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="해안 엽서 — 구성을 정한 이미지를 움직이기"></a>
 
 **이미지로 영상 만들기 설정:** 5s · 9:16 · 720p · [시작 프레임 — 열어서 저장](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/ko-KR/coastal-postcard.txt)
 
@@ -226,13 +235,15 @@
 마지막에는 종이 모서리가 내려앉고 원래 구도가 온전히 유지된다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="case-citrus-halo"></a>
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
 ### 8. 시트러스 헤일로 — 고급 향수 제품 영상
+
+![시트러스 헤일로 — 고급 향수 제품 영상](assets/citrus-fragrance-product-video.webp)
 
 **이미지로 영상 만들기 설정:** 8s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ko-KR/citrus-halo.txt)
 
@@ -252,7 +263,7 @@
 연속성 고정: 병 윤곽, 뚜껑의 각 면, 액체 높이, 받침대, 색상, 배경 아치를 바꾸지 않는다. 라벨, 로고, 추가 과일, 떠 있는 병, 형태 흔들림, 카메라 점프, 인위적인 반짝임 폭발은 없다.
 ```
 
-[분류 색인으로 돌아가기](#find-the-right-prompt) · [이미지 예제 한눈에 보기](#visual-index)
+[분류 색인으로 돌아가기](#find-the-right-prompt)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -309,6 +320,6 @@
 
 ## 모음과 출처
 
-서로 다른 영어 프롬프트는 총 38개로, 기존 예제 35개와 새 연습 예제 3개입니다. 번역본은 새로운 시나리오로 세지 않습니다.
+영어 프롬프트 총 62개: 원본 저장소의 35개와 자체 작성 27개입니다. 최신 24개는 소셜 미디어 소재를 참고해 새로 작성했으며 생성 결과는 검증하지 않았습니다. 번역은 새 장면으로 집계하지 않습니다.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/ko/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

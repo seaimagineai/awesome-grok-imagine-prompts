@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Sumber dan catatan penayangan (bahasa Inggris)",
   "archive_label": "Contoh lainnya dan koleksi asli dengan keterangan sumber tersedia di bawah",
-  "recipe_count_note": "Total ada 38 contoh prompt berbahasa Inggris yang berbeda: 35 dari koleksi asli dan 3 latihan baru ini. Terjemahan tidak dihitung sebagai skenario tambahan.",
+  "recipe_count_note": "62 prompt berbeda dalam bahasa Inggris: 35 dari repositori sumber dan 27 orisinal. Sebanyak 24 prompt terbaru ditulis dari inspirasi tema media sosial dan belum diuji melalui generasi. Terjemahan tidak dihitung sebagai adegan baru.",
   "viewing_note": "Pada 24 September 2026, kami memeriksa beberapa bingkai melalui pemutar di postingan X asli: klip resmi sekitar 3,6 detik (helm dan pasukan), 19,8 detik (wajah dari dekat), dan 34,6 detik (kota tepi air yang terbakar); video GENEL sekitar 0,05 detik (pagar tepi laut), 4,9 detik (perlintasan kereta), dan 12 detik (tangan dengan cahaya dari belakang). Pelajari pergantian ukuran shot dalam klip resmi serta cahaya pesisir yang konsisten di berbagai shot GENEL. Kartu pos kami dengan panel tetap merupakan latihan yang berbeda. Pemeriksaan ini hanya mengambil sampel bingkai, bukan pengujian gerakan atau audio secara menyeluruh.",
   "archive_note": "Arsip di bawah mempertahankan prompt asli dan parameter untuk API (antarmuka pemrograman aplikasi). Untuk SeaImagine, sesuaikan dengan kontrol di atas: 5/10/15 detik dan 480p/720p. Tulis ulang gerakan yang diberi rentang waktu agar sesuai dengan durasi; penyuntingan dan perpanjangan video memerlukan alur kerja tersendiri yang mendukung fungsi tersebut."
 }

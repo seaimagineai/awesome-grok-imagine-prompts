@@ -25,8 +25,13 @@ The MIT notice covers the source's code and original writing. The upstream READM
 
 ## September 24 expansion
 
-Three additional SeaImagine starting images and original exercises are presented on all 15 language homepages. Localizations do not increase the 38-scenario English recipe count. The interface image is a real browser capture; it is not a generated-video result. See [image notes](../assets/IMAGE_PROMPTS.md) and [viewing notes](COMMUNITY.md) for the separate evidence types.
+Three additional SeaImagine starting images and original exercises are presented on all 15 language homepages. Localizations do not increase the English recipe count. The interface image is a real browser capture; it is not a generated-video result. See [image notes](../assets/IMAGE_PROMPTS.md) and [viewing notes](COMMUNITY.md) for the separate evidence types.
 
 ## Unified topic gallery
 
 The five source featured cases have complete translations in all 15 homepage languages and are interleaved with the three new exercises by topic. Original English prompt bodies, images and source settings remain unchanged. Older writing guidance and additional localized prompts remain accessible through `docs/guides/`. The 120 displayed language versions represent eight shared scenes, not 120 distinct scenarios.
+
+
+## Social-theme expansion
+
+Twenty-four original English text-to-video briefs were added across four categories, bringing the English collection to 62 scenarios (35 inherited and 27 original). Source posts informed broad categories only; no new prompt is attributed to a social creator or claimed as tested output. See [inspiration and evidence](SOCIAL_INSPIRATION.md).

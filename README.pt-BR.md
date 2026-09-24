@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 prompts, incluindo 8 exemplos ilustrados disponíveis em 15 idiomas. Navegue por categoria e copie os prompts completos.
+> 62 prompts, incluindo 8 exemplos ilustrados disponíveis em 15 idiomas. Navegue por categoria e copie os prompts completos.
 
 ![Grok Imagine 1.5 — Caderno de prompts aberto com um tênis, um bonde e uma baleia de papel no mesmo cenário](assets/seaimagine-grok-hero.webp)
 
@@ -26,40 +26,37 @@ Adaptada de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) e mantida 
 
 [Exemplos ilustrados](#featured-prompts) · [Trabalhos oficiais e da comunidade](#learn-from-official-and-community-examples) · [Referência de configurações e uso](#writing-guide)
 
+**[Veja mais prompts (em inglês)](docs/PROMPT_INDEX.md) · 54**
+
+| Categoria | Quantidade |
+| --- | --- |
+| [Anúncios e produtos](prompts/01-ads-and-products.md) | 6 |
+| [Histórias cinematográficas](prompts/02-cinematic-storytelling.md) | 6 |
+| [Redes sociais e estilo de vida](prompts/03-social-ugc.md) | 6 |
+| [Personagens e referências](prompts/04-characters-and-references.md) | 6 |
+| [Edição e extensão](prompts/05-editing-and-extension.md) | 6 |
+| [Texturas e sons relaxantes](prompts/07-satisfying-materials.md) | 6 |
+| [Espaços e transformações](prompts/08-spaces-and-transformations.md) | 6 |
+| [Miniaturas e cenas surreais](prompts/09-miniature-and-surreal.md) | 6 |
+| [Moda e performance](prompts/10-fashion-and-performance.md) | 6 |
+
 <a id="visual-index"></a>
-
-### Visão geral dos exemplos ilustrados
-
-8 exemplos com prompts completos e imagens do quadro inicial. As imagens ilustram conceitos; não são resultados de vídeo verificados.
-
-Os cinco exemplos marcados como “Fonte: Flaq AI” preservam a duração e a resolução originais; os outros três usam as opções atuais do SeaImagine. Para usar um exemplo da fonte no SeaImagine, escolha 5/10/15 segundos e 480p/720p e reescreva suas ações cronometradas.
-
-| | |
-| --- | --- |
-| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="Garrafa de vidro marinho: comparação de movimentos controlados"></a><br>[1. Garrafa de vidro marinho: comparação de movimentos controlados](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="Rota azul: acompanhamento de um entregador no mercado chuvoso"></a><br>[2. Rota azul: acompanhamento de um entregador no mercado chuvoso](#case-blue-route)<br>10s · 16:9 · 1080p |
-| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="O pão com mel: história de uma padaria em miniatura"></a><br>[3. O pão com mel: história de uma padaria em miniatura](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="Reencontro no porto: um único momento de emoção"></a><br>[4. Reencontro no porto: um único momento de emoção](#case-harbor-reunion)<br>10s · 16:9 · 720p |
-| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="Primeiro gole: avaliação autêntica de uma criadora no café"></a><br>[5. Primeiro gole: avaliação autêntica de uma criadora no café](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="A linha do sal ao amanhecer: documentário de viagem"></a><br>[6. A linha do sal ao amanhecer: documentário de viagem](#case-salt-line)<br>12s · 16:9 · 1080p |
-| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="Cartão-postal litorâneo: anime uma imagem planejada"></a><br>[7. Cartão-postal litorâneo: anime uma imagem planejada](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="Halo cítrico: filme de uma fragrância premium"></a><br>[8. Halo cítrico: filme de uma fragrância premium](#case-citrus-halo)<br>8s · 16:9 · 1080p |
-
-**Veja mais prompts (em inglês) · 30**
-
-| Categoria | Índice de exemplos |
-| --- | --- |
-| [Anúncios e produtos · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
-| [Histórias cinematográficas · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
-| [Redes sociais e estilo de vida · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
-| [Personagens e referências · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
-| [Edição e extensão · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## Prompts ilustrados para copiar e adaptar
+
+8 exemplos com prompts completos e imagens do quadro inicial. As imagens ilustram conceitos; não são resultados de vídeo verificados.
+
+Os cinco exemplos marcados como “Fonte: Flaq AI” preservam a duração e a resolução originais; os outros três usam as opções atuais do SeaImagine. Para usar um exemplo da fonte no SeaImagine, escolha 5/10/15 segundos e 480p/720p e reescreva suas ações cronometradas.
 
 <a id="case-sea-glass-bottle"></a>
 
 <a id="seaimagine-sea-glass-bottle"></a>
 
 ### 1. Garrafa de vidro marinho: comparação de movimentos controlados
+
+![Garrafa de vidro marinho: comparação de movimentos controlados](assets/seaimagine-sea-glass-bottle.webp)
 
 **Configurações de imagem para vídeo:** 5s · 16:9 · 720p · [Quadro inicial: abrir e salvar](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/pt-BR/sea-glass-bottle.txt)
 
@@ -73,13 +70,15 @@ Evite gerar logotipos, mudar o nível do líquido, deformar bordas, fazer objeto
 Mantenha o enquadramento estável durante o último segundo.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-blue-route"></a>
 
 <a id="3-blue-route--rain-market-courier-tracking-shot"></a>
 
 ### 2. Rota azul: acompanhamento de um entregador no mercado chuvoso
+
+![Rota azul: acompanhamento de um entregador no mercado chuvoso](assets/rainy-market-courier-video.webp)
 
 **Configurações de imagem para vídeo:** 10s · 16:9 · 1080p · [Quadro inicial: abrir e salvar](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/pt-BR/blue-route.txt)
 
@@ -99,13 +98,15 @@ Preserve o entregador, a moto elétrica azul-cobalto, o baú, o mercado elevado,
 Continuidade: roupa e capacete exatos, geometria da moto, baú, painéis azuis e disposição do mercado. Sem transformação do veículo, deformação das rodas, colisões, armas, placas legíveis, logotipos, teletransporte da câmera ou mudanças impossíveis de velocidade.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. O pão com mel: história de uma padaria em miniatura
+
+![O pão com mel: história de uma padaria em miniatura](assets/pear-bakery-miniature-video.webp)
 
 **Configurações de imagem para vídeo:** 9s · 16:9 · 1080p · [Quadro inicial: abrir e salvar](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/pt-BR/honey-loaf.txt)
 
@@ -125,13 +126,15 @@ Mantenha a padaria em forma de pera, os três padeiros em miniatura, trajes, ros
 Continuidade: preserve a quantidade de personagens, desenho dos rostos, escala, cores das roupas, formato de pera, disposição do cômodo e textura artesanal. Sem padeiros extras, computação gráfica brilhante, membros de borracha, objetos flutuantes, pão derretendo, cortes, logotipos ou personagens semelhantes aos de franquias.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. Reencontro no porto: um único momento de emoção
+
+![Reencontro no porto: um único momento de emoção](assets/seaimagine-harbor-reunion.webp)
 
 **Configurações de imagem para vídeo:** 10s · 16:9 · 720p · [Quadro inicial: abrir e salvar](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/pt-BR/harbor-reunion.txt)
 
@@ -146,13 +149,15 @@ Fixe as duas identidades, as roupas, a geometria do píer, a posição do barco 
 Evite pessoas extras, gestos dramáticos, rostos alisados, dedos extras e saltos de câmera.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-first-sip"></a>
 
 <a id="2-first-sip--authentic-café-ugc-review"></a>
 
 ### 5. Primeiro gole: avaliação autêntica de uma criadora no café
+
+<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="480" alt="Primeiro gole: avaliação autêntica de uma criadora no café"></a>
 
 **Configurações de imagem para vídeo:** 10s · 9:16 · 1080p · [Quadro inicial: abrir e salvar](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/pt-BR/first-sip.txt)
 
@@ -172,13 +177,15 @@ Anime a foto do café como uma avaliação sincera de uma criadora, filmada com 
 Continuidade: sem embelezar o rosto, trocar roupas, adicionar dedos, redesenhar a xícara ou a comida, fazer pessoas surgirem ao fundo, logotipos ou gestos exagerados de influenciadora.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. A linha do sal ao amanhecer: documentário de viagem
+
+![A linha do sal ao amanhecer: documentário de viagem](assets/coastal-salt-train-documentary.webp)
 
 **Configurações de imagem para vídeo:** 12s · 16:9 · 1080p · [Quadro inicial: abrir e salvar](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/pt-BR/salt-line.txt)
 
@@ -198,13 +205,15 @@ Anime a cena das salinas costeiras como um documentário de viagem observacional
 Continuidade: trabalho realista, anatomia estável, paisagem fixa, design do trem inalterado, reflexos e física da água plausíveis. Sem horizonte urbano moderno, encenação turística, prédios novos, logotipos, placas legíveis, cores de cartão-postal supersaturadas ou céu acelerado.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. Cartão-postal litorâneo: anime uma imagem planejada
+
+<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="Cartão-postal litorâneo: anime uma imagem planejada"></a>
 
 **Configurações de imagem para vídeo:** 5s · 9:16 · 720p · [Quadro inicial: abrir e salvar](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/pt-BR/coastal-postcard.txt)
 
@@ -220,13 +229,15 @@ Evite fundir painéis, inventar uma nova cena, redesenhar letras ou mover objeto
 Termine com a ponta de papel em repouso e a composição original intacta.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="case-citrus-halo"></a>
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
 ### 8. Halo cítrico: filme de uma fragrância premium
+
+![Halo cítrico: filme de uma fragrância premium](assets/citrus-fragrance-product-video.webp)
 
 **Configurações de imagem para vídeo:** 8s · 16:9 · 1080p · [Quadro inicial: abrir e salvar](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/pt-BR/citrus-halo.txt)
 
@@ -246,7 +257,7 @@ Preserve o design do frasco fornecido, as proporções do vidro, a tampa, o pede
 Continuidade: não altere a silhueta do frasco, as facetas da tampa, o nível do líquido, o pedestal, a paleta ou o arco ao fundo. Sem rótulos, logotipos, frutas extras, frasco flutuante, geometria instável, saltos de câmera ou explosão artificial de brilhos.
 ```
 
-[Voltar ao índice de categorias](#find-the-right-prompt) · [Visão geral dos exemplos ilustrados](#visual-index)
+[Voltar ao índice de categorias](#find-the-right-prompt)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -303,6 +314,6 @@ Em 24 de setembro de 2026, examinamos alguns quadros nos players originais do X:
 
 ## Coleção e atribuição
 
-38 receitas distintas em inglês no total: 35 herdadas e estes 3 exercícios novos. As traduções não acrescentam novos cenários.
+62 prompts distintos em inglês: 35 do repositório original e 27 próprios. Os 24 mais recentes foram escritos a partir de temas das redes sociais e não foram testados por geração. Traduções não contam como novos cenários.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/pt/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Sources and viewing notes (English)",
   "archive_label": "More recipes and the attributed source collection below",
-  "recipe_count_note": "38 distinct English recipes in total: 35 inherited recipes and these 3 new exercises. Translations do not add new scenarios.",
+  "recipe_count_note": "62 distinct English prompts: 35 inherited and 27 original. The 24 newest prompts are inspired by social-media themes, newly written and not generation-tested. Translations are not additional scenarios.",
   "viewing_note": "On September 24, 2026, we sampled the original X players: the official clip at about 3.6s (helmet and army), 19.8s (face close-up), and 34.6s (burning waterfront city); GENEL at about 0.05s (seaside railing), 4.9s (railway crossing), and 12s (backlit hand). Study the official clip’s changes in shot size and GENEL’s consistent coastal light across separate shots. Our fixed-panel postcard is a different exercise. These are sampled frames, not full motion or audio tests.",
   "archive_note": "The archive below preserves the source recipes and API-oriented parameters. For SeaImagine, adapt them to the controls above: 5/10/15 seconds and 480p/720p. Rewrite timed actions to fit; editing and extension require separately supported workflows."
 }

@@ -65,7 +65,7 @@
   ],
   "source_details_label": "Fuentes y notas de visualización (en inglés)",
   "archive_label": "Más recetas y la colección original con atribución, a continuación",
-  "recipe_count_note": "38 recetas distintas en inglés en total: 35 heredadas y estos 3 ejercicios nuevos. Las traducciones no añaden escenarios nuevos.",
+  "recipe_count_note": "62 prompts distintos en inglés: 35 heredados y 27 originales. Los 24 más recientes se han escrito a partir de temas de redes sociales y no se han probado mediante generación. Las traducciones no cuentan como escenas nuevas.",
   "viewing_note": "El 24 de septiembre de 2026 examinamos fotogramas de los reproductores originales de X: del vídeo oficial, aproximadamente en 3,6 s (casco y ejército), 19,8 s (primer plano de un rostro) y 34,6 s (ciudad costera en llamas); de GENEL, aproximadamente en 0,05 s (barandilla junto al mar), 4,9 s (paso a nivel) y 12 s (mano a contraluz). Observa los cambios de escala de plano del vídeo oficial y la luz costera coherente entre los distintos planos de GENEL. Nuestra postal de paneles fijos es un ejercicio diferente. Son fotogramas muestreados, no pruebas completas de movimiento o audio.",
   "archive_note": "El archivo siguiente conserva las recetas originales y los parámetros orientados a la API. Para SeaImagine, adáptalos a los controles anteriores: 5/10/15 segundos y 480p/720p. Reescribe las acciones cronometradas para que encajen; la edición y la extensión requieren flujos de trabajo compatibles por separado."
 }
