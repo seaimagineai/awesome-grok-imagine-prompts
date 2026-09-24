@@ -1,5 +1,7 @@
 # Grok Imagine 1.5 Prompts for Ads & Product Videos
 
+> These source recipes preserve API-oriented timings and resolutions. The inspected SeaImagine interface offers 5/10/15 seconds and 480p/720p. Choose an offered setting and rewrite the action times; editing, extension and references require a separately supported workflow. See the [actual interface guide](../docs/SEAIMAGINE.md).
+
 [← Back to the main collection](../README.md) · [Next: Cinematic storytelling →](02-cinematic-storytelling.md)
 
 Six original commercial prompts designed around short, legible product actions. Replace bracketed placeholders with your own product details. If a logo or label must remain exact, supply it as a reference image and make it a continuity lock instead of asking the model to invent it.

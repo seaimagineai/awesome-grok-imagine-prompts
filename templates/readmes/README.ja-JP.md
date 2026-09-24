@@ -8,8 +8,7 @@
 
 SeaImagineがFlaq AIのコレクションを出典付きで再編集したものです。xAIの公式プロジェクトではありません。コンセプト画像はGrokの生成結果ではありません。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
-
-各言語に完全な例文があります。全作例と補足資料は英語です。参照画像、編集、延長は高度な機能や別のワークフローであり、SeaImagineの1.5画面ですべて使えるとは限りません。
+{{LOCALIZED_CORE}}
 
 ## 1. 湯気の喫茶店：ドリップバッグ商品ショット
 

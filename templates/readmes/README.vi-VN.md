@@ -8,8 +8,7 @@
 
 SeaImagine biên soạn lại bộ sưu tập của Flaq AI và ghi rõ nguồn. Đây không phải dự án chính thức của xAI. Ảnh ý tưởng không phải kết quả Grok đã được kiểm chứng. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
-
-Mỗi ngôn ngữ có một ví dụ đầy đủ; toàn bộ danh mục và tài liệu bổ sung bằng tiếng Anh. Tham chiếu, chỉnh sửa và nối dài là quy trình nâng cao hoặc riêng biệt, không phải tính năng đã được xác nhận trên trang SeaImagine 1.5.
+{{LOCALIZED_CORE}}
 
 ## Nguyên tắc nhanh
 

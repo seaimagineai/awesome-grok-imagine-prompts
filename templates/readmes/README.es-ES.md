@@ -8,8 +8,7 @@
 
 SeaImagine adapta esta colección de Flaq AI con atribución. No es un proyecto oficial de xAI. Las imágenes conceptuales no son resultados verificados de Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
-
-Cada idioma incluye un ejemplo completo; el catálogo íntegro y la documentación adicional están en inglés. Las referencias, la edición y la extensión son flujos avanzados o separados, no funciones confirmadas de la página 1.5 de SeaImagine.
+{{LOCALIZED_CORE}}
 
 ## 1. Cosecha de luz: anuncio de aceite de oliva
 

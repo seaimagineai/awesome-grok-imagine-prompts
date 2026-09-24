@@ -12,7 +12,9 @@
 
 This SeaImagine edition adapts the attributed Flaq AI collection. It is independent of xAI. Concept images are not verified Grok outputs. Source: [flaqai/awesome-grok-imagine](https://github.com/flaqai/awesome-grok-imagine). See [attribution](docs/ATTRIBUTION.md).
 
-[**Browse prompts**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#create-with-seaimagine) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
+[**Try the three SeaImagine cases**](#seaimagine-harbor-reunion) · [**Browse all recipes**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#seaimagine-browser-workflow) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
+
+{{LOCALIZED_CORE}}
 
 ## Find the right prompt
 
@@ -178,28 +180,13 @@ plausible reflections and water physics. No modern skyline, tourist staging, new
 logos, readable signs, oversaturated postcard color, or time-lapse sky.
 ```
 
-## Learn from official and community examples
-
-[![Official 1.5 Preview launch — watch on X](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-**Official Preview launch — @grok, with creator credit to Heavy Pulp.** [Watch the original](https://x.com/grok/status/2062225080843747351) · [Released 1.5 / Odyssey behind the scenes](https://x.ai/news/grok-imagine-video-1-5). Historical Preview footage and the released model are labeled separately.
-
-[![GENEL collage-to-video post — watch on X](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-**GENEL — plan the image, then animate it.** The creator reports using ChatGPT Images 2.0 for a collage and Grok Imagine Video 1.5 for motion. [Original post](https://x.com/genel_ai/status/2061382998873034825) · [Try a new coastal-postcard exercise](prompts/06-community-exercises.md#2-coastal-postcard--animate-a-planned-image).
-
-**JSFILMZ — a finished short and an honest comparison.** Read the [2.5-minute film post](https://x.com/JSFILMZ0412/status/2062480692835938771) and [Grok / Seedance comparison](https://x.com/JSFILMZ0412/status/2061117682515050669). The author describes both strengths and limitations; these are not claims that SeaImagine produced the films.
-
-Original X post text and audience snapshots were checked on September 24, 2026. Video playback was unavailable in the review browser, so no frame-by-frame or audio-quality verification is claimed. External thumbnails and videos remain their creators' property. See [source details and audience evidence](docs/COMMUNITY.md), [official examples](docs/OFFICIAL.md), and [three new practice prompts](prompts/06-community-exercises.md).
-
-
 ## What is included
 
-- **38 English recipes:** five illustrated prompts and 30 category recipes adapted from Flaq AI, plus [three new SeaImagine exercises](prompts/06-community-exercises.md). Translation variants are not counted as new recipes.
-- **23 localized prompt entries:** 12 extended prompts in Chinese, Japanese, and Spanish, plus one complete shared test scene in each of 11 additional languages.
-- **15 language landing pages:** every language includes localized guidance, navigation, and a copy-ready example rather than translated titles alone.
+- **38 English recipes:** five inherited illustrated prompts and 30 category recipes adapted from Flaq AI, plus [three new SeaImagine exercises](prompts/06-community-exercises.md). Translation variants are not counted as new recipes.
+- **Three new cases in every language, plus 23 inherited localized entries:** 12 extended prompts in Chinese, Japanese, and Spanish, plus one complete shared test scene in each of 11 additional languages.
+- **15 illustrated language guides:** every language now contains all three SeaImagine cases, full localized prompts, product steps, community notes and the existing language-specific material.
 - **Five practical collections:** advertising, cinematic storytelling, social/UGC, reference consistency, and editing/extension.
-- **A new SeaImagine cover and five inherited visual anchors:** with transparent [generation notes](assets/IMAGE_PROMPTS.md).
+- **A SeaImagine cover, three new starting images, a real interface screenshot and five inherited visual anchors:** with transparent [generation notes](assets/IMAGE_PROMPTS.md).
 - **Two access paths:** the SeaImagine browser workflow and separately documented official xAI API examples.
 
 ## Why this collection is different
@@ -207,7 +194,7 @@ Original X post text and audience snapshots were checked on September 24, 2026. 
 - **Model-specific recipes:** prompts are designed for 1–15 second clips, native audio, image-to-video fidelity, reference images, video editing, and extension.
 - **Production structure:** each recipe separates the visual anchor, motion, camera, physics, sound, continuity locks, and exclusions.
 - **Practical scenarios:** ads, e-commerce, creator content, travel, architecture, food, fashion, dialogue, fantasy, action, and post-production.
-- **Attributable visuals:** the cover was made for SeaImagine; the five teaching images and their paired prompts are retained from the credited source collection.
+- **Attributable visuals:** the cover and first three starting images were made for SeaImagine; the five later teaching images and their paired prompts are retained from the credited source collection.
 - **Multilingual starters:** localized pages and copy-ready recipes cover 15 languages with shared terminology and testing guidance.
 
 ## Grok Imagine Video 1.5 capabilities
@@ -300,7 +287,7 @@ The full collection contains **30 additional original prompts** grouped by produ
 
 ## Multilingual prompts
 
-The model accepts natural-language direction. This repository now provides localized landing pages in 15 languages. Chinese, Japanese, and Spanish include four extended prompts each; the other localized pages include one complete shared test scene so teams can compare instruction following without changing the creative brief.
+All fifteen homepages include the same three illustrated SeaImagine cases with fully localized prompts, browser steps and community guidance. The inherited English catalog remains complete below; Chinese, Japanese and Spanish also retain four extended prompts each, while the other eleven languages retain their shared test scene. The table below lists the inherited language material; the three SeaImagine cases are additional localized versions, not new unique recipes.
 
 | Language | Localized guide | Complete prompts |
 | --- | --- | --- |

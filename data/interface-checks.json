@@ -1,0 +1,32 @@
+{
+  "checked_on": "2026-09-24",
+  "url": "https://seaimagine.com/model/grok-imagine-1-5/",
+  "resolutions": [
+    "480p",
+    "720p"
+  ],
+  "durations_seconds": [
+    5,
+    10,
+    15
+  ],
+  "ratios": [
+    "2:3",
+    "3:2",
+    "1:1",
+    "9:16",
+    "16:9",
+    "4:3",
+    "3:4"
+  ],
+  "prompt_character_limit": 2000,
+  "screenshot": "assets/seaimagine-interface.jpg",
+  "screenshot_settings": {
+    "resolution": "720p",
+    "duration": 5,
+    "ratio": "16:9",
+    "starting_image_uploaded": false,
+    "generation_submitted": false
+  },
+  "scope": "Public interface observation only; no paid generation or uptime test."
+}

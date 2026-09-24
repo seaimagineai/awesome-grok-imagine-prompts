@@ -1,22 +1,25 @@
 #!/usr/bin/env python3
-"""Check local navigation, language coverage, provenance and recipe counts."""
+"""Check localized content, local navigation, provenance and generated pages."""
 import hashlib
 import json
 import re
 import subprocess
 import sys
+from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import unquote
+from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 errors = []
+
 
 def require(ok, message):
     if not ok:
         errors.append(message)
 
+
 def anchors(text):
-    result = set(re.findall(r'<a\s+(?:id|name)="([^"]+)"', text))
+    result = set(re.findall(r'<[^>]+\b(?:id|name)=[\"\']([^\"\']+)[\"\']', text))
     counts = {}
     for title in re.findall(r'^#{1,6}\s+(.+)$', text, re.M):
         slug = re.sub(r'[^\w\-\s]', '', title.lower()).replace(' ', '-')
@@ -25,15 +28,102 @@ def anchors(text):
         result.add(slug if n == 0 else f'{slug}-{n}')
     return result
 
+
+class HTMLTargets(HTMLParser):
+    """Collect links and images that Markdown link matching cannot see."""
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.targets = []
+        self.images = []
+
+    def handle_starttag(self, tag, attrs):
+        for key, value in attrs:
+            if key in ('href', 'src') and value:
+                self.targets.append(value)
+            if tag == 'img' and key == 'src' and value:
+                self.images.append(value)
+
+
+def check_target(path, target):
+    parts = urlsplit(target)
+    if parts.scheme or parts.netloc:
+        return
+    name, anchor = unquote(parts.path), unquote(parts.fragment)
+    dest = (path.parent / name).resolve() if name else path
+    require(dest.exists(), f'{path.relative_to(ROOT)}: missing {target}')
+    if anchor and dest.exists() and dest.suffix == '.md':
+        require(anchor in anchors(dest.read_text()), f'{path.relative_to(ROOT)}: missing anchor {target}')
+
+
+def same_schema(value, master, location):
+    """Require all master fields and nonempty strings, including nested lists."""
+    if type(value) is not type(master):
+        require(False, f'{location}: incorrect JSON type')
+        return False
+    valid = True
+    if isinstance(master, dict):
+        require(value.keys() == master.keys(), f'{location}: incorrect JSON fields')
+        valid = value.keys() == master.keys()
+        for key in value.keys() & master.keys():
+            valid = same_schema(value[key], master[key], f'{location}.{key}') and valid
+    elif isinstance(master, list):
+        require(len(value) == len(master), f'{location}: incorrect item count')
+        valid = len(value) == len(master)
+        for i, (child, expected) in enumerate(zip(value, master)):
+            valid = same_schema(child, expected, f'{location}[{i}]') and valid
+    elif isinstance(master, str):
+        require(bool(value.strip()), f'{location}: empty text')
+        valid = bool(value.strip())
+    return valid
+
+
 locales = json.loads((ROOT / 'data/locales.json').read_text())['languages']
 require(len(locales) == 15, 'Expected 15 website languages')
 require(len({x['locale'] for x in locales}) == 15, 'Duplicate locale')
+locale_dir = ROOT / 'data/homepage-locales'
+require({p.stem for p in locale_dir.glob('*.json')} == {x['locale'] for x in locales}, 'Homepage JSON languages differ from website manifest')
+master = json.loads((locale_dir / 'en-US.json').read_text())
+fixed_cases = [
+    ('harbor-reunion', 'assets/seaimagine-harbor-reunion.webp', '10s · 16:9 · 720p'),
+    ('coastal-postcard', 'assets/seaimagine-coastal-postcard.webp', '5s · 9:16 · 720p'),
+    ('sea-glass-bottle', 'assets/seaimagine-sea-glass-bottle.webp', '5s · 16:9 · 720p'),
+]
+fixed_urls = [
+    'https://x.com/grok/status/2062225080843747351',
+    'https://x.com/JSFILMZ0412/status/2062480692835938771',
+    'https://x.com/genel_ai/status/2061382998873034825',
+    'https://x.com/JSFILMZ0412/status/2061117682515050669',
+]
+require(len(master['cases']) == 3 and len(master['steps']) == 5 and len(master['community_items']) == 4, 'English master must contain 3 cases, 5 steps and 4 community explanations')
 for item in locales:
-    text = (ROOT / item['readme']).read_text()
-    require('```text\n' in text, item['readme'] + ': no complete prompt')
-    require(item['product_url'] in text, item['readme'] + ': missing localized product URL')
-    require('flaqai/awesome-grok-imagine' in text, item['readme'] + ': missing upstream attribution')
-    require(all(f']({x["readme"]})' in text for x in locales), item['readme'] + ': incomplete language navigation')
+    label = item['readme']
+    text = (ROOT / label).read_text()
+    require('```text\n' in text, label + ': no complete prompt')
+    require(item['product_url'] in text, label + ': missing localized product URL')
+    require('flaqai/awesome-grok-imagine' in text, label + ': missing upstream attribution')
+    require(all(f']({x["readme"]})' in text for x in locales), label + ': incomplete language navigation')
+    data_path = locale_dir / f'{item["locale"]}.json'
+    if not data_path.exists():
+        require(False, f'Missing locale JSON: {data_path.name}')
+        continue
+    data = json.loads(data_path.read_text())
+    if not same_schema(data, master, data_path.name):
+        continue
+    html_targets = HTMLTargets()
+    html_targets.feed(text)
+    images = set(re.findall(r'!\[[^\]]*\]\(([^\s)]+)', text)) | set(html_targets.images)
+    for case, fixed in zip(data['cases'], fixed_cases):
+        require(tuple(case[k] for k in ('id', 'image', 'settings')) == fixed, f'{data_path.name}: changed case identifiers, image or settings: {fixed[0]}')
+        require(len(case['prompt']) <= 2000, f'{data_path.name}: prompt exceeds 2,000 characters: {fixed[0]}')
+        require(f'```text\n{case["prompt"]}\n```' in text, f'{label}: missing complete prompt: {fixed[0]}')
+        require(case['image'] in images, f'{label}: missing displayed starting image: {fixed[0]}')
+        require(case['review'] in text, f'{label}: missing review: {fixed[0]}')
+    require('assets/seaimagine-interface.jpg' in images, f'{label}: missing interface screenshot')
+    for i, step in enumerate(data['steps'], 1):
+        require(f'{i}. {step}' in text, f'{label}: missing browser step {i}')
+    for community, expected in zip(data['community_items'], fixed_urls):
+        require(community['url'] == expected, f'{data_path.name}: changed community source URL')
+        require(community['text'] in text and expected in text, f'{label}: missing community explanation or source: {expected}')
 
 for path in ROOT.rglob('*.md'):
     if '.git' in path.parts or 'templates' in path.parts:
@@ -43,26 +133,33 @@ for path in ROOT.rglob('*.md'):
     require('docs/FLAQ_AI.md' not in text and 'https://flaq.ai/' not in text, f'{path.name}: stale provider route')
     require('/Users/' not in text, f'{path.name}: private local path')
     for target in re.findall(r'\]\(([^\s)]+)(?:\s+"[^"]*")?\)', text):
-        if re.match(r'^[a-zA-Z][\w+.-]*:', target):
-            continue
-        target = unquote(target)
-        name, _, anchor = target.partition('#')
-        dest = (path.parent / name).resolve() if name else path
-        require(dest.exists(), f'{path.relative_to(ROOT)}: missing {target}')
-        if anchor and dest.exists() and dest.suffix == '.md':
-            require(anchor in anchors(dest.read_text()), f'{path.relative_to(ROOT)}: missing anchor {target}')
+        check_target(path, target)
+    html_targets = HTMLTargets()
+    html_targets.feed(text)
+    for target in html_targets.targets:
+        check_target(path, target)
 
 readme = (ROOT / 'README.md').read_text()
-featured = readme.split('## Featured prompts')[1].split('\n## ')[0]
+featured_parts = readme.split('## Featured prompts', 1)
+require(len(featured_parts) == 2, 'Missing English featured section')
+featured = featured_parts[1].split('\n## ')[0] if len(featured_parts) == 2 else ''
 require(len(re.findall(r'```text\n', featured)) == 5, 'Expected five full featured prompts')
 require(len(re.findall(r'!\[', featured)) == 5, 'Expected five featured images')
 require(sum(len(re.findall(r'^## \d+\.', p.read_text(), re.M)) for p in (ROOT / 'prompts').glob('0[1-5]-*.md')) == 30, 'Expected 30 inherited category recipes')
-require(len(re.findall(r'^## \d+\.', (ROOT / 'prompts/06-community-exercises.md').read_text(), re.M)) == 3, 'Expected three new exercises')
+exercise_text = (ROOT / 'prompts/06-community-exercises.md').read_text()
+require(len(re.findall(r'^## \d+\.', exercise_text, re.M)) == 3, 'Expected three new exercises')
+exercise_prompts = re.findall(r'```text\n(.*?)\n```', exercise_text, re.S)
+require(exercise_prompts == [case['prompt'] for case in master['cases']], 'English exercise prompts differ from canonical en-US.json')
 require('Copyright (c) 2026 Flaq AI' in (ROOT / 'LICENSE').read_text(), 'Missing upstream copyright')
-for asset in json.loads((ROOT / 'data/assets.json').read_text()):
+assets = json.loads((ROOT / 'data/assets.json').read_text())
+require(len({asset['file'] for asset in assets}) == len(assets), 'Duplicate asset record')
+require({case[1] for case in fixed_cases} | {'assets/seaimagine-interface.jpg'} <= {asset['file'] for asset in assets}, 'Missing provenance records for new starting frames or interface screenshot')
+for asset in assets:
     p = ROOT / asset['file']
     require(p.exists() and hashlib.sha256(p.read_bytes()).hexdigest() == asset['sha256'], 'Changed or missing asset: ' + asset['file'])
-subprocess.run([sys.executable, str(ROOT / 'scripts/build.py'), '--check'], check=True)
+    require(bool(asset.get('origin', '').strip()), 'Missing asset origin: ' + asset['file'])
+result = subprocess.run([sys.executable, str(ROOT / 'scripts/build.py'), '--check'], capture_output=True, text=True)
+require(result.returncode == 0, result.stdout.strip() + '\n' + result.stderr.strip())
 if errors:
     raise SystemExit('\n'.join(errors))
-print('PASS: links, anchors, 15 locales, 38 English recipes, provenance and assets')
+print('PASS: local Markdown/HTML links, 15 complete localized homepages, 38 English recipes, synchronized prompts, provenance and assets')

@@ -28,5 +28,25 @@
     "file": "assets/seaimagine-grok-hero.webp",
     "sha256": "43d222a9e8e9da58865787933ee22a4a69239f179174e7c164d484d8c9badcd1",
     "origin": "SeaImagine editorial cover"
+  },
+  {
+    "file": "assets/seaimagine-harbor-reunion.webp",
+    "sha256": "5b2b8de2bd10c10a06304e040fe2f1f0da0721812ab9aaef872cf8349bb5ea2e",
+    "origin": "SeaImagine original AI-generated starting frame: harbor reunion exercise; not a verified Grok video result"
+  },
+  {
+    "file": "assets/seaimagine-coastal-postcard.webp",
+    "sha256": "8846240791c0d19aaff00bee23b5caccafd4f045aa0e850abe49da67209d9840",
+    "origin": "SeaImagine original AI-generated starting frame: coastal postcard exercise; not a verified Grok video result"
+  },
+  {
+    "file": "assets/seaimagine-sea-glass-bottle.webp",
+    "sha256": "d3f6c06ffb28842258da66e535dda906f8fb72f566c3270ed41eee4d84b7fd34",
+    "origin": "SeaImagine original AI-generated starting frame: sea-glass bottle exercise; not a verified Grok video result"
+  },
+  {
+    "file": "assets/seaimagine-interface.jpg",
+    "sha256": "adba195243c57d04a4fe9442b7957ab1546d99b887493d6f167093dbf53e1622",
+    "origin": "SeaImagine browser interface screenshot, English UI, captured 2026-09-24; https://seaimagine.com/model/grok-imagine-1-5/; not a completed generation"
   }
 ]

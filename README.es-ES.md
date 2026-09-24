@@ -8,8 +8,133 @@
 
 SeaImagine adapta esta colección de Flaq AI con atribución. No es un proyecto oficial de xAI. Las imágenes conceptuales no son resultados verificados de Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
+## Empieza con tres recetas ilustradas de SeaImagine
 
-Cada idioma incluye un ejemplo completo; el catálogo íntegro y la documentación adicional están en inglés. Las referencias, la edición y la extensión son flujos avanzados o separados, no funciones confirmadas de la página 1.5 de SeaImagine.
+Descarga una de las imágenes conceptuales de abajo o usa una imagen propia que encaje. Estas nuevas propuestas de SeaImagine utilizan los ajustes actuales del navegador: 480p o 720p; 5, 10 o 15 segundos. Las imágenes son fotogramas iniciales generados con IA, no resultados de vídeo de Grok verificados. Los tres prompts son ejercicios creativos sin probar.
+
+38 recetas distintas en inglés en total: 35 heredadas y estos 3 ejercicios nuevos. Las traducciones no añaden escenarios nuevos.
+
+[Reencuentro en el puerto: un solo momento emotivo](#seaimagine-harbor-reunion) · [Postal de la costa: anima una imagen planificada](#seaimagine-coastal-postcard) · [Botella de vidrio marino: compara movimientos controlados](#seaimagine-sea-glass-bottle)
+
+<a id="seaimagine-harbor-reunion"></a>
+
+### 1. Reencuentro en el puerto: un solo momento emotivo
+
+![Reencuentro en el puerto: un solo momento emotivo](assets/seaimagine-harbor-reunion.webp)
+
+[Fotograma inicial: abrir y guardar](assets/seaimagine-harbor-reunion.webp)
+
+**Ajustes de imagen a vídeo:** 10s · 16:9 · 720p
+
+```text
+Conserva a los dos adultos, sus rostros, la ropa azul marino y crema, el muelle de madera y la suave luz de la mañana de la imagen. Mantén a ambos personajes en el mismo plano medio amplio.
+0–3 segundos: la persona de la izquierda ve llegar a su amigo y da un pequeño paso. Sus hombros se relajan; su amigo responde con una sonrisa discreta. Mantén las manos visibles y relajadas.
+3–7 segundos: la persona de la izquierda dice en español natural: «Has venido». Su amigo asiente una vez. La frase debe sonar contenida, sin llanto ni expresiones faciales exageradas.
+7–10 segundos: ambos miran hacia el barco amarrado. Mantén el último segundo para permitir un corte al siguiente plano.
+Cámara: un único acercamiento suave, sin contraplano ni cortes.
+Audio: voz cercana e inteligible, agua suave del puerto y una gaviota lejana; sin música ni subtítulos.
+Fija las dos identidades, la ropa, la geometría del muelle, la posición del barco y la dirección de la luz matinal.
+Evita personas adicionales, gestos dramáticos, rostros alisados, dedos extra y saltos de cámara.
+```
+
+**Qué comprobar:** ¿Se entiende la emoción sin un gran cambio facial? Si el diálogo parece apresurado, elimina el paso hacia delante antes de aumentar la duración. Para una película más larga, escribe el siguiente plano por separado.
+
+<a id="seaimagine-coastal-postcard"></a>
+
+### 2. Postal de la costa: anima una imagen planificada
+
+<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="Postal de la costa: anima una imagen planificada"></a>
+
+[Fotograma inicial: abrir y guardar](assets/seaimagine-coastal-postcard.webp)
+
+**Ajustes de imagen a vídeo:** 5s · 9:16 · 720p
+
+```text
+Anima esta postal costera de tres paneles sin cambiar su distribución ni sus bordes. Conserva exactamente todos los objetos y colores. En el panel superior, una fina voluta de vapor asciende de la taza.
+En el panel central, el agua del puerto ondula suavemente y el sol destella en la superficie.
+En el panel inferior, solo la esquina de papel ya presente se eleva ligeramente y vuelve a reposar con una brisa leve.
+Mantén cada movimiento dentro de su panel. Los tres paneles deben permanecer visibles durante los cinco segundos.
+Cámara: fija, sin zoom, paneo, cortes ni transiciones entre paneles.
+Audio: agua tranquila y un suave crujido de papel; sin diálogo, música, subtítulos ni texto añadido.
+Conserva el asa de la taza, el marco de la ventana, las marcas del mapa, las dimensiones de los paneles y el orden de lectura.
+Evita fusionar paneles, inventar otra escena, redibujar letras o mover objetos a través de los bordes.
+Termina con la esquina del papel en reposo y la composición original intacta.
+```
+
+**Qué comprobar:** Si los bordes se deforman o las escenas se mezclan, recorta cada panel y anímalo por separado; después monta los clips en un editor.
+
+<a id="seaimagine-sea-glass-bottle"></a>
+
+### 3. Botella de vidrio marino: compara movimientos controlados
+
+![Botella de vidrio marino: compara movimientos controlados](assets/seaimagine-sea-glass-bottle.webp)
+
+[Fotograma inicial: abrir y guardar](assets/seaimagine-sea-glass-bottle.webp)
+
+**Ajustes de imagen a vídeo:** 5s · 16:9 · 720p
+
+```text
+Conserva la única botella de vidrio marino esmerilado sobre la piedra clara, su tapón cilíndrico, el frontal vacío sin impresiones, el nivel del agua, el horizonte y la suave luz lateral. La botella no se mueve en ningún momento.
+Durante cinco segundos, desplaza lentamente la cámara hacia la derecha, como máximo la anchura de una botella.
+Una pequeña gota de agua baja por el frontal y se detiene en la base. Las olas del mar al fondo se mueven suavemente desenfocadas. Mantén los reflejos coherentes con la cámara y la fuente de luz.
+Audio: solo oleaje lejano; sin música, voz, golpes de cristal ni salpicaduras exageradas.
+Sin cortes ni zoom. Conserva la silueta de la botella, la alineación del tapón, la textura del vidrio y la cantidad de objetos.
+Evita generar logotipos, cambiar el nivel del líquido, doblar los bordes, hacer flotar objetos o añadir accesorios.
+Mantén un encuadre estable durante el último segundo.
+```
+
+**Qué comprobar:** Anota el modelo utilizado, la duración, la resolución, el número de intentos y la fecha. Compara la forma de la botella, la continuidad de la gota, los reflejos y el movimiento de cámara. Un solo clip logrado no demuestra fiabilidad.
+
+<a id="seaimagine-browser-workflow"></a>
+
+## Usa los controles reales de SeaImagine
+
+[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/es/model/grok-imagine-1-5/)
+
+La captura muestra la interfaz en inglés comprobada el 24 de septiembre de 2026. Los nombres traducidos pueden variar; las posiciones y los pasos siguientes permiten identificar cada control. El prompt de la botella está rellenado y se han seleccionado 720p / 5s / 16:9; Start Frame sigue vacío. Sube la imagen inicial antes de generar. No se envió ninguna tarea.
+
+![Usa los controles reales de SeaImagine](assets/seaimagine-interface.jpg)
+
+1. Abre la página del modelo enlazada. Elige Video (Vídeo) y confirma Grok Imagine 1.5 en el selector de modelos.
+2. Usa Start Frame (Fotograma inicial), a la izquierda, para subir la imagen descargada. Pega el prompt completo en el área de texto grande; el contador actual permite 2.000 caracteres.
+3. Debajo del prompt, elige resolución (480p o 720p), duración (5s, 10s o 15s) y relación de aspecto. Para la botella: 720p, 5s, 16:9.
+4. Comprueba los créditos que aparecen junto a Generate (Generar); cambian según los ajustes. Generate envía una tarea real y puede requerir iniciar sesión o disponer de créditos. La captura no muestra una generación terminada.
+5. Previsualiza el resultado, comprueba los posibles fallos indicados y descárgalo si te convence. Si las recetas antiguas piden 6/8/9/12 segundos o 1080p, elige una duración disponible y reescribe los intervalos; usa 720p sin dar por hecho que 1080p esté disponible.
+
+<a id="learn-from-official-and-community-examples"></a>
+
+## Aprende de trabajos oficiales y de la comunidad
+
+Las publicaciones originales identifican al creador y la versión del modelo. Ábrelas para ver los vídeos; las notas prácticas de abajo describen métodos y no afirman que hayamos reproducido los vídeos.
+
+El 24 de septiembre de 2026 examinamos fotogramas de los reproductores originales de X: del vídeo oficial, aproximadamente en 3,6 s (casco y ejército), 19,8 s (primer plano de un rostro) y 34,6 s (ciudad costera en llamas); de GENEL, aproximadamente en 0,05 s (barandilla junto al mar), 4,9 s (paso a nivel) y 12 s (mano a contraluz). Observa los cambios de escala de plano del vídeo oficial y la luz costera coherente entre los distintos planos de GENEL. Nuestra postal de paneles fijos es un ejercicio diferente. Son fotogramas muestreados, no pruebas completas de movimiento o audio.
+
+### [Secuencia oficial de 1.5 Preview: Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
+
+[![Secuencia oficial de 1.5 Preview: Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
+
+Aprende a planificar un tráiler con planos cortos separados. Distingue las imágenes de Preview de las del modelo 1.5 publicado.
+
+### [Cortometraje terminado: JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
+
+El autor habla de una película de 2,5 minutos y comenta los límites de la actuación generada. Practica primero un intercambio tranquilo; construye historias más largas montando varios planos.
+
+### [Planificar la imagen antes de animarla: GENEL](https://x.com/genel_ai/status/2061382998873034825)
+
+[![Planificar la imagen antes de animarla: GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
+
+El creador explica que hizo un collage con ChatGPT Images 2.0 y después lo animó con Grok Imagine Video 1.5. Nuestro ejercicio de la postal mantiene fijos los bordes y asigna un solo movimiento a cada panel.
+
+### [Comparación controlada: JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
+
+Usa una misma imagen de origen y ajustes comparables. Examina la geometría, el movimiento y el audio en lugar de copiar una clasificación antigua. Nuestro ejercicio de la botella aísla esas variables.
+
+[Fuentes y notas de visualización (en inglés)](docs/COMMUNITY.md)
+
+## Más recetas y la colección original con atribución, a continuación
+
+El archivo siguiente conserva las recetas originales y los parámetros orientados a la API. Para SeaImagine, adáptalos a los controles anteriores: 5/10/15 segundos y 480p/720p. Reescribe las acciones cronometradas para que encajen; la edición y la extensión requieren flujos de trabajo compatibles por separado.
+
 
 ## 1. Cosecha de luz: anuncio de aceite de oliva
 

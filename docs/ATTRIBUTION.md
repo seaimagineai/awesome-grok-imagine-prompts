@@ -22,3 +22,7 @@ This SeaImagine edition adapts [Flaq AI's Awesome Grok Imagine](https://github.c
 ## Media is not all under the same license
 
 The MIT notice covers the source's code and original writing. The upstream README separately describes its generated images as demonstration assets; this edition retains them as attributed repository illustrations. They are not relabeled as SeaImagine-generated Grok outputs. New SeaImagine cover art is an AI-generated editorial concept, not a Grok result. Community and official images/videos remain with their respective owners and are linked to the originals; the repository does not grant reuse rights to those materials.
+
+## September 24 expansion
+
+Three additional SeaImagine starting images and original exercises are presented on all 15 language homepages. Localizations do not increase the 38-scenario English recipe count. The interface image is a real browser capture; it is not a generated-video result. See [image notes](../assets/IMAGE_PROMPTS.md) and [viewing notes](COMMUNITY.md) for the separate evidence types.

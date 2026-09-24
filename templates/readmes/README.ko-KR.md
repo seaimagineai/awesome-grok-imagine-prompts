@@ -8,8 +8,7 @@
 
 SeaImagine이 Flaq AI 자료를 출처와 함께 재구성했습니다. xAI 공식 프로젝트가 아니며 콘셉트 이미지는 Grok 생성 결과가 아닙니다. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
-
-각 언어에 완전한 예제가 있습니다. 전체 사례와 추가 문서는 영어로 제공됩니다. 참조 이미지, 편집, 연장은 별도 또는 고급 작업이며 SeaImagine 1.5 화면에서 모두 지원된다는 뜻은 아닙니다.
+{{LOCALIZED_CORE}}
 
 ## 빠른 작성 원칙
 

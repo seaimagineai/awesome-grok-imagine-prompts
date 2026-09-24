@@ -1,0 +1,71 @@
+{
+  "section_title": "Comece com três receitas ilustradas do SeaImagine",
+  "intro": "Baixe uma imagem conceitual abaixo ou use uma imagem sua que combine com a proposta. Estas novas propostas do SeaImagine usam as configurações atuais no navegador: 480p ou 720p; 5, 10 ou 15 segundos. As imagens são quadros iniciais gerados por IA, não resultados de vídeo do Grok verificados. Os três prompts são exercícios criativos ainda não testados.",
+  "image_label": "Quadro inicial: abrir e salvar",
+  "settings_label": "Configurações de imagem para vídeo",
+  "review_label": "O que verificar",
+  "cases": [
+    {
+      "id": "harbor-reunion",
+      "title": "Reencontro no porto: um único momento de emoção",
+      "image": "assets/seaimagine-harbor-reunion.webp",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Preserve os dois adultos, seus rostos, as roupas azul-marinho e creme, o píer de madeira e a luz suave da manhã da imagem fornecida. Mantenha os dois personagens no mesmo plano médio aberto.\n0–3 segundos: a pessoa à esquerda percebe o amigo chegando e dá um pequeno passo. Seus ombros relaxam; o amigo responde com um sorriso discreto. Mantenha as mãos visíveis e relaxadas.\n3–7 segundos: a pessoa à esquerda diz, em português brasileiro natural: “Você veio.” O amigo faz um único aceno afirmativo com a cabeça. A fala deve ser contida, sem choro nem expressões faciais exageradas.\n7–10 segundos: ambos olham para o barco atracado. Mantenha o último segundo para permitir um corte para o próximo plano.\nCâmera: uma única aproximação suave, sem contraplano e sem cortes.\nÁudio: voz próxima e compreensível, água suave do porto e uma gaivota distante; sem música nem legendas.\nFixe as duas identidades, as roupas, a geometria do píer, a posição do barco e a direção da luz da manhã.\nEvite pessoas extras, gestos dramáticos, rostos alisados, dedos extras e saltos de câmera.",
+      "review": "A emoção fica clara sem uma grande mudança facial? Se o diálogo parecer apressado, remova o passo à frente antes de aumentar a duração. Para um filme mais longo, escreva o próximo plano separadamente."
+    },
+    {
+      "id": "coastal-postcard",
+      "title": "Cartão-postal litorâneo: anime uma imagem planejada",
+      "image": "assets/seaimagine-coastal-postcard.webp",
+      "settings": "5s · 9:16 · 720p",
+      "prompt": "Anime este cartão-postal litorâneo de três painéis sem mudar a disposição ou as bordas. Preserve exatamente todos os objetos e cores. No painel superior, uma fina espiral de vapor sobe da xícara.\nNo painel central, a água do porto ondula suavemente e a luz do sol brilha na superfície.\nNo painel inferior, apenas a ponta de papel já existente se levanta um pouco e volta a repousar com uma brisa leve.\nMantenha cada movimento dentro do próprio painel. Todos os painéis permanecem visíveis durante os cinco segundos.\nCâmera: fixa, sem zoom, panorâmica, cortes ou transições entre painéis.\nÁudio: água calma e um leve ruído de papel; sem diálogo, música, legendas ou texto adicional.\nPreserve a alça da xícara, a moldura da janela, as marcações do mapa, as dimensões dos painéis e a ordem de leitura.\nEvite fundir painéis, inventar uma nova cena, redesenhar letras ou mover objetos através das bordas.\nTermine com a ponta de papel em repouso e a composição original intacta.",
+      "review": "Se as bordas se deformarem ou as cenas se misturarem, recorte cada painel e anime-o separadamente; depois, monte os clipes em um editor."
+    },
+    {
+      "id": "sea-glass-bottle",
+      "title": "Garrafa de vidro marinho: comparação de movimentos controlados",
+      "image": "assets/seaimagine-sea-glass-bottle.webp",
+      "settings": "5s · 16:9 · 720p",
+      "prompt": "Preserve a única garrafa de vidro marinho fosco sobre a pedra clara, sua tampa cilíndrica, a frente vazia sem impressão, o nível da água, o horizonte e a luz lateral suave. A garrafa nunca se move.\nDurante cinco segundos, deslize lentamente a câmera para a direita, no máximo a largura de uma garrafa.\nUma pequena gota de água desce pela frente e para na base. Ao fundo, as ondas do mar se movem suavemente, desfocadas. Mantenha os reflexos coerentes com a câmera e a fonte de luz.\nÁudio: apenas ondas distantes; sem música, voz, impacto de vidro ou respingos exagerados.\nSem cortes nem zoom. Preserve a silhueta da garrafa, o alinhamento da tampa, a textura do vidro e a quantidade de objetos.\nEvite gerar logotipos, mudar o nível do líquido, deformar bordas, fazer objetos flutuarem ou adicionar acessórios.\nMantenha o enquadramento estável durante o último segundo.",
+      "review": "Registre o modelo realmente usado, a duração, a resolução, o número de tentativas e a data. Compare o formato da garrafa, a continuidade da gota, os reflexos e o movimento da câmera. Um único clipe bem-sucedido não comprova confiabilidade."
+    }
+  ],
+  "workflow_title": "Use os controles reais do SeaImagine",
+  "workflow_intro": "A captura mostra a interface em inglês verificada em 24 de setembro de 2026. Os nomes traduzidos podem variar; as posições e os passos abaixo ajudam a identificar cada controle. O prompt da garrafa está preenchido e 720p / 5s / 16:9 estão selecionados; Start Frame ainda está vazio. Envie a imagem inicial antes de gerar. Nenhuma tarefa foi enviada.",
+  "steps": [
+    "Abra a página do modelo no link. Escolha Video (Vídeo) e confirme Grok Imagine 1.5 no seletor de modelos.",
+    "Use Start Frame (Quadro inicial), à esquerda, para enviar a imagem baixada. Cole o prompt completo na área de texto maior; o contador atual permite 2.000 caracteres.",
+    "Abaixo do prompt, selecione a resolução (480p ou 720p), a duração (5s, 10s ou 15s) e a proporção. Para a garrafa: 720p, 5s, 16:9.",
+    "Confira a quantidade de créditos ao lado de Generate (Gerar); ela muda conforme as configurações. Generate envia uma tarefa real e pode exigir login ou créditos. A captura não representa uma geração concluída.",
+    "Veja a prévia, confira os possíveis problemas indicados e baixe o resultado se estiver satisfatório. Se as receitas antigas pedirem 6/8/9/12 segundos ou 1080p, escolha uma duração disponível e reescreva os intervalos de tempo; use 720p sem pressupor que 1080p esteja disponível."
+  ],
+  "community_title": "Aprenda com trabalhos oficiais e da comunidade",
+  "community_intro": "As publicações originais identificam o criador e a versão do modelo. Abra os originais para assistir; as observações práticas abaixo descrevem métodos, sem afirmar que reproduzimos os vídeos.",
+  "community_items": [
+    {
+      "title": "Sequência oficial de 1.5 Preview: Grok / Heavy Pulp",
+      "text": "Aprenda a planejar um trailer em planos curtos separados. Diferencie as imagens de Preview das produzidas pelo modelo 1.5 lançado.",
+      "url": "https://x.com/grok/status/2062225080843747351"
+    },
+    {
+      "title": "Curta-metragem concluído: JSFILMZ",
+      "text": "O autor relata um filme de 2,5 minutos e comenta os limites da atuação gerada. Pratique primeiro uma conversa tranquila; monte histórias mais longas com planos editados.",
+      "url": "https://x.com/JSFILMZ0412/status/2062480692835938771"
+    },
+    {
+      "title": "Planejamento da imagem antes da animação: GENEL",
+      "text": "O criador relata ter feito uma colagem com ChatGPT Images 2.0 e depois a animado com Grok Imagine Video 1.5. Nosso exercício do cartão-postal mantém as bordas fixas e atribui apenas um movimento a cada painel.",
+      "url": "https://x.com/genel_ai/status/2061382998873034825"
+    },
+    {
+      "title": "Comparação controlada: JSFILMZ",
+      "text": "Use a mesma imagem de origem e configurações comparáveis. Verifique geometria, movimento e áudio em vez de copiar uma classificação antiga. Nosso exercício da garrafa isola essas variáveis.",
+      "url": "https://x.com/JSFILMZ0412/status/2061117682515050669"
+    }
+  ],
+  "source_details_label": "Fontes e observações sobre a visualização (em inglês)",
+  "archive_label": "Mais receitas e a coleção original com atribuição abaixo",
+  "recipe_count_note": "38 receitas distintas em inglês no total: 35 herdadas e estes 3 exercícios novos. As traduções não acrescentam novos cenários.",
+  "viewing_note": "Em 24 de setembro de 2026, examinamos alguns quadros nos players originais do X: no clipe oficial, por volta de 3,6 s (capacete e exército), 19,8 s (rosto em close) e 34,6 s (cidade à beira-mar em chamas); no de GENEL, por volta de 0,05 s (guarda-corpo à beira-mar), 4,9 s (passagem de nível) e 12 s (mão em contraluz). Observe as mudanças de escala dos planos no clipe oficial e a luz costeira consistente entre planos separados de GENEL. Nosso cartão-postal de painéis fixos é um exercício diferente. São amostras de quadros, não testes completos de movimento ou áudio.",
+  "archive_note": "O arquivo abaixo preserva as receitas originais e os parâmetros voltados à API. Para o SeaImagine, adapte-os aos controles acima: 5/10/15 segundos e 480p/720p. Reescreva as ações cronometradas para caberem na duração; edição e extensão exigem fluxos de trabalho compatíveis específicos."
+}

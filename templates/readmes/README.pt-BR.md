@@ -8,8 +8,7 @@
 
 A SeaImagine adapta esta coleção da Flaq AI com atribuição. Não é um projeto oficial da xAI. As imagens conceituais não são resultados verificados do Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
-
-Cada idioma inclui um exemplo completo; o catálogo completo e os documentos adicionais estão em inglês. Referências, edição e extensão são fluxos avançados ou separados, não funções confirmadas na página 1.5 da SeaImagine.
+{{LOCALIZED_CORE}}
 
 ## Regras rápidas
 

@@ -1,5 +1,7 @@
 # Prompts seleccionados de Grok Imagine 1.5 en español
 
+> Las recetas conservan los tiempos y las resoluciones del original, orientados a la API. La interfaz de SeaImagine comprobada ofrece 5, 10 o 15 segundos y 480p o 720p. Elige una opción disponible y ajusta los tiempos de cada acción. Las referencias, la edición y la extensión necesitan funciones compatibles por separado. Consulta la [guía de la interfaz real (en inglés)](../docs/SEAIMAGINE.md).
+
 [← Inicio en español](../README.es-ES.md) · [Colección completa en inglés](../README.md#prompt-library)
 
 Estos prompts se han concebido directamente en español; no son traducciones literales de los ejemplos ingleses.

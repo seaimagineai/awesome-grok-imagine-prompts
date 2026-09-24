@@ -8,8 +8,7 @@
 
 本庫由 SeaImagine 根據 Flaq AI 原始專案改編，保留來源署名，並非 xAI 官方專案。概念配圖不代表 Grok 實測效果。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 
-
-每頁都有完整的本地語言範例；完整圖文目錄與延伸文件以英語提供。參考圖、影片編輯與延長屬於進階或獨立流程，不代表 SeaImagine 的 1.5 頁面皆已支援。
+{{LOCALIZED_CORE}}
 
 ## 快速使用原則
 

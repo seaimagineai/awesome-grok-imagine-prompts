@@ -1,0 +1,71 @@
+{
+  "section_title": "Start with three SeaImagine illustrated recipes",
+  "intro": "Download a concept image below, or use your own matching image. These new SeaImagine briefs use the current browser settings: 480p or 720p; 5, 10 or 15 seconds. Images are AI-generated starting frames, not verified Grok video results. All three prompts are untested creative exercises.",
+  "image_label": "Starting frame — open and save",
+  "settings_label": "Image-to-video settings",
+  "review_label": "What to check",
+  "cases": [
+    {
+      "id": "harbor-reunion",
+      "title": "Harbor reunion — one emotional beat",
+      "image": "assets/seaimagine-harbor-reunion.webp",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Preserve the two adults, their faces, navy and cream clothing, wooden pier and soft morning\nlight from the supplied image. Keep both characters in the same medium-wide composition.\n0–3 seconds: the person on the left notices the arriving friend and takes one small step.\nTheir shoulders relax; the friend answers with a quiet smile. Keep hands visible and relaxed.\n3–7 seconds: the person on the left says, in natural English, \"You made it.\" The friend nods\nonce. Keep the line understated, with no crying or exaggerated facial expressions.\n7–10 seconds: both look toward the moored boat. Hold the last second for a cut to the next shot.\nCamera: one gentle push-in, no reverse shot and no cuts.\nAudio: close, intelligible speech, soft harbor water and a distant gull; no music or subtitles.\nLock the two identities, clothing, pier geometry, boat position and morning light direction.\nAvoid extra people, dramatic gestures, face smoothing, extra fingers and camera jumps.",
+      "review": "Does the emotion read without a large facial change? If the dialogue feels rushed, remove the step forward before adding time. For a longer film, write the next shot separately."
+    },
+    {
+      "id": "coastal-postcard",
+      "title": "Coastal postcard — animate a planned image",
+      "image": "assets/seaimagine-coastal-postcard.webp",
+      "settings": "5s · 9:16 · 720p",
+      "prompt": "Animate this three-panel coastal postcard without changing its layout or borders. Preserve\nall objects and colors exactly. In the upper panel, one thin curl of steam rises from the cup.\nIn the middle panel, the harbor water ripples gently and sunlight glints on the surface.\nIn the lower panel, only the existing paper corner lifts slightly and settles in a light breeze.\nKeep each motion inside its own panel. All panels remain visible throughout the five seconds.\nCamera: locked, no zoom, no pan, no cuts, no panel transitions.\nAudio: quiet water and a soft paper rustle; no dialogue, music, captions or added text.\nPreserve the cup handle, window frame, map markings, panel dimensions and reading order.\nAvoid merging panels, inventing a new scene, redrawing letters or moving objects across borders.\nEnd with the paper corner resting and the original composition intact.",
+      "review": "If panel borders melt or scenes mix, crop each panel and animate it separately, then assemble the clips in an editor."
+    },
+    {
+      "id": "sea-glass-bottle",
+      "title": "Sea-glass bottle — a controlled motion comparison",
+      "image": "assets/seaimagine-sea-glass-bottle.webp",
+      "settings": "5s · 16:9 · 720p",
+      "prompt": "Preserve the single frosted sea-glass bottle on the pale stone surface, its cylindrical cap,\nempty unprinted front, water level, horizon and soft side lighting. The bottle never moves.\nOver five seconds, make a slow camera slide to the right, no more than one bottle-width.\nOne small water droplet travels down the front and stops at the base. Background ocean waves\nmove softly out of focus. Keep reflections consistent with the camera and the light source.\nAudio: distant surf only; no music, voice, glass impact or exaggerated splash.\nNo cuts or zoom. Preserve the bottle silhouette, cap alignment, glass texture and object count.\nAvoid logo generation, changing liquid level, bending edges, floating objects or new props.\nHold a stable frame for the final second.",
+      "review": "Record the actual model, duration, resolution, number of attempts and date. Compare bottle shape, droplet continuity, reflections and camera motion. A single successful clip does not establish reliability."
+    }
+  ],
+  "workflow_title": "Use the actual SeaImagine controls",
+  "workflow_intro": "The screenshot shows the English interface checked on September 24, 2026. Localized wording may differ; the positions and steps below identify each control. The bottle prompt is filled in and 720p / 5s / 16:9 selected; Start Frame is still empty. Upload the starting image before generating. No task was submitted.",
+  "steps": [
+    "Open the linked model page. Choose Video and confirm Grok Imagine 1.5 in the model selector.",
+    "Use Start Frame on the left to upload your downloaded image. Paste the complete prompt into the large text area; the current counter allows 2,000 characters.",
+    "Below the prompt, select resolution (480p or 720p), duration (5s, 10s or 15s), and ratio. For the bottle: 720p, 5s, 16:9.",
+    "Check the credit amount beside Generate; it changes with the settings. Generate submits a real task and may require sign-in or credits. The screenshot is not a completed generation.",
+    "Preview the result, check the listed failure points, then download if acceptable. If the old recipes ask for 6/8/9/12 seconds or 1080p, choose an offered duration and rewrite the time ranges; use 720p instead of assuming 1080p is available."
+  ],
+  "community_title": "Learn from official and community work",
+  "community_intro": "The source posts identify the creator and model version. Open the originals to watch; the practical notes below describe methods, not a claim that we reproduced the videos.",
+  "community_items": [
+    {
+      "title": "Official 1.5 Preview sequence — Grok / Heavy Pulp",
+      "text": "Learn to plan a trailer as separate short shots. Keep Preview footage distinct from the released 1.5 model.",
+      "url": "https://x.com/grok/status/2062225080843747351"
+    },
+    {
+      "title": "Finished short — JSFILMZ",
+      "text": "The author reports a 2.5-minute film and discusses the limits of generated acting. Practice one quiet exchange first; build longer stories from edited shots.",
+      "url": "https://x.com/JSFILMZ0412/status/2062480692835938771"
+    },
+    {
+      "title": "Image planning before animation — GENEL",
+      "text": "The creator reports making a collage with ChatGPT Images 2.0, then animating it with Grok Imagine Video 1.5. Our postcard exercise keeps panel borders fixed and gives each panel just one motion.",
+      "url": "https://x.com/genel_ai/status/2061382998873034825"
+    },
+    {
+      "title": "Controlled comparison — JSFILMZ",
+      "text": "Use one source image and comparable settings. Check geometry, motion and audio rather than copying a historical ranking. Our bottle exercise isolates those variables.",
+      "url": "https://x.com/JSFILMZ0412/status/2061117682515050669"
+    }
+  ],
+  "source_details_label": "Sources and viewing notes (English)",
+  "archive_label": "More recipes and the attributed source collection below",
+  "recipe_count_note": "38 distinct English recipes in total: 35 inherited recipes and these 3 new exercises. Translations do not add new scenarios.",
+  "viewing_note": "On September 24, 2026, we sampled the original X players: the official clip at about 3.6s (helmet and army), 19.8s (face close-up), and 34.6s (burning waterfront city); GENEL at about 0.05s (seaside railing), 4.9s (railway crossing), and 12s (backlit hand). Study the official clip’s changes in shot size and GENEL’s consistent coastal light across separate shots. Our fixed-panel postcard is a different exercise. These are sampled frames, not full motion or audio tests.",
+  "archive_note": "The archive below preserves the source recipes and API-oriented parameters. For SeaImagine, adapt them to the controls above: 5/10/15 seconds and 480p/720p. Rewrite timed actions to fit; editing and extension require separately supported workflows."
+}

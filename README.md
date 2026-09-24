@@ -12,7 +12,141 @@
 
 This SeaImagine edition adapts the attributed Flaq AI collection. It is independent of xAI. Concept images are not verified Grok outputs. Source: [flaqai/awesome-grok-imagine](https://github.com/flaqai/awesome-grok-imagine). See [attribution](docs/ATTRIBUTION.md).
 
-[**Browse prompts**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#create-with-seaimagine) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
+[**Try the three SeaImagine cases**](#seaimagine-harbor-reunion) · [**Browse all recipes**](#prompt-library) · [**Choose by goal**](#find-the-right-prompt) · [**Read the prompting method**](#the-prompt-formula) · [**Create with SeaImagine**](#seaimagine-browser-workflow) · [**Official & community examples**](#learn-from-official-and-community-examples) · [**Contribute**](CONTRIBUTING.md)
+
+## Start with three SeaImagine illustrated recipes
+
+Download a concept image below, or use your own matching image. These new SeaImagine briefs use the current browser settings: 480p or 720p; 5, 10 or 15 seconds. Images are AI-generated starting frames, not verified Grok video results. All three prompts are untested creative exercises.
+
+38 distinct English recipes in total: 35 inherited recipes and these 3 new exercises. Translations do not add new scenarios.
+
+[Harbor reunion — one emotional beat](#seaimagine-harbor-reunion) · [Coastal postcard — animate a planned image](#seaimagine-coastal-postcard) · [Sea-glass bottle — a controlled motion comparison](#seaimagine-sea-glass-bottle)
+
+<a id="seaimagine-harbor-reunion"></a>
+
+### 1. Harbor reunion — one emotional beat
+
+![Harbor reunion — one emotional beat](assets/seaimagine-harbor-reunion.webp)
+
+[Starting frame — open and save](assets/seaimagine-harbor-reunion.webp)
+
+**Image-to-video settings:** 10s · 16:9 · 720p
+
+```text
+Preserve the two adults, their faces, navy and cream clothing, wooden pier and soft morning
+light from the supplied image. Keep both characters in the same medium-wide composition.
+0–3 seconds: the person on the left notices the arriving friend and takes one small step.
+Their shoulders relax; the friend answers with a quiet smile. Keep hands visible and relaxed.
+3–7 seconds: the person on the left says, in natural English, "You made it." The friend nods
+once. Keep the line understated, with no crying or exaggerated facial expressions.
+7–10 seconds: both look toward the moored boat. Hold the last second for a cut to the next shot.
+Camera: one gentle push-in, no reverse shot and no cuts.
+Audio: close, intelligible speech, soft harbor water and a distant gull; no music or subtitles.
+Lock the two identities, clothing, pier geometry, boat position and morning light direction.
+Avoid extra people, dramatic gestures, face smoothing, extra fingers and camera jumps.
+```
+
+**What to check:** Does the emotion read without a large facial change? If the dialogue feels rushed, remove the step forward before adding time. For a longer film, write the next shot separately.
+
+<a id="seaimagine-coastal-postcard"></a>
+
+### 2. Coastal postcard — animate a planned image
+
+<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="Coastal postcard — animate a planned image"></a>
+
+[Starting frame — open and save](assets/seaimagine-coastal-postcard.webp)
+
+**Image-to-video settings:** 5s · 9:16 · 720p
+
+```text
+Animate this three-panel coastal postcard without changing its layout or borders. Preserve
+all objects and colors exactly. In the upper panel, one thin curl of steam rises from the cup.
+In the middle panel, the harbor water ripples gently and sunlight glints on the surface.
+In the lower panel, only the existing paper corner lifts slightly and settles in a light breeze.
+Keep each motion inside its own panel. All panels remain visible throughout the five seconds.
+Camera: locked, no zoom, no pan, no cuts, no panel transitions.
+Audio: quiet water and a soft paper rustle; no dialogue, music, captions or added text.
+Preserve the cup handle, window frame, map markings, panel dimensions and reading order.
+Avoid merging panels, inventing a new scene, redrawing letters or moving objects across borders.
+End with the paper corner resting and the original composition intact.
+```
+
+**What to check:** If panel borders melt or scenes mix, crop each panel and animate it separately, then assemble the clips in an editor.
+
+<a id="seaimagine-sea-glass-bottle"></a>
+
+### 3. Sea-glass bottle — a controlled motion comparison
+
+![Sea-glass bottle — a controlled motion comparison](assets/seaimagine-sea-glass-bottle.webp)
+
+[Starting frame — open and save](assets/seaimagine-sea-glass-bottle.webp)
+
+**Image-to-video settings:** 5s · 16:9 · 720p
+
+```text
+Preserve the single frosted sea-glass bottle on the pale stone surface, its cylindrical cap,
+empty unprinted front, water level, horizon and soft side lighting. The bottle never moves.
+Over five seconds, make a slow camera slide to the right, no more than one bottle-width.
+One small water droplet travels down the front and stops at the base. Background ocean waves
+move softly out of focus. Keep reflections consistent with the camera and the light source.
+Audio: distant surf only; no music, voice, glass impact or exaggerated splash.
+No cuts or zoom. Preserve the bottle silhouette, cap alignment, glass texture and object count.
+Avoid logo generation, changing liquid level, bending edges, floating objects or new props.
+Hold a stable frame for the final second.
+```
+
+**What to check:** Record the actual model, duration, resolution, number of attempts and date. Compare bottle shape, droplet continuity, reflections and camera motion. A single successful clip does not establish reliability.
+
+<a id="seaimagine-browser-workflow"></a>
+
+## Use the actual SeaImagine controls
+
+[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/model/grok-imagine-1-5/)
+
+The screenshot shows the English interface checked on September 24, 2026. Localized wording may differ; the positions and steps below identify each control. The bottle prompt is filled in and 720p / 5s / 16:9 selected; Start Frame is still empty. Upload the starting image before generating. No task was submitted.
+
+![Use the actual SeaImagine controls](assets/seaimagine-interface.jpg)
+
+1. Open the linked model page. Choose Video and confirm Grok Imagine 1.5 in the model selector.
+2. Use Start Frame on the left to upload your downloaded image. Paste the complete prompt into the large text area; the current counter allows 2,000 characters.
+3. Below the prompt, select resolution (480p or 720p), duration (5s, 10s or 15s), and ratio. For the bottle: 720p, 5s, 16:9.
+4. Check the credit amount beside Generate; it changes with the settings. Generate submits a real task and may require sign-in or credits. The screenshot is not a completed generation.
+5. Preview the result, check the listed failure points, then download if acceptable. If the old recipes ask for 6/8/9/12 seconds or 1080p, choose an offered duration and rewrite the time ranges; use 720p instead of assuming 1080p is available.
+
+<a id="learn-from-official-and-community-examples"></a>
+
+## Learn from official and community work
+
+The source posts identify the creator and model version. Open the originals to watch; the practical notes below describe methods, not a claim that we reproduced the videos.
+
+On September 24, 2026, we sampled the original X players: the official clip at about 3.6s (helmet and army), 19.8s (face close-up), and 34.6s (burning waterfront city); GENEL at about 0.05s (seaside railing), 4.9s (railway crossing), and 12s (backlit hand). Study the official clip’s changes in shot size and GENEL’s consistent coastal light across separate shots. Our fixed-panel postcard is a different exercise. These are sampled frames, not full motion or audio tests.
+
+### [Official 1.5 Preview sequence — Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
+
+[![Official 1.5 Preview sequence — Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
+
+Learn to plan a trailer as separate short shots. Keep Preview footage distinct from the released 1.5 model.
+
+### [Finished short — JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
+
+The author reports a 2.5-minute film and discusses the limits of generated acting. Practice one quiet exchange first; build longer stories from edited shots.
+
+### [Image planning before animation — GENEL](https://x.com/genel_ai/status/2061382998873034825)
+
+[![Image planning before animation — GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
+
+The creator reports making a collage with ChatGPT Images 2.0, then animating it with Grok Imagine Video 1.5. Our postcard exercise keeps panel borders fixed and gives each panel just one motion.
+
+### [Controlled comparison — JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
+
+Use one source image and comparable settings. Check geometry, motion and audio rather than copying a historical ranking. Our bottle exercise isolates those variables.
+
+[Sources and viewing notes (English)](docs/COMMUNITY.md)
+
+## More recipes and the attributed source collection below
+
+The archive below preserves the source recipes and API-oriented parameters. For SeaImagine, adapt them to the controls above: 5/10/15 seconds and 480p/720p. Rewrite timed actions to fit; editing and extension require separately supported workflows.
+
 
 ## Find the right prompt
 
@@ -178,28 +312,13 @@ plausible reflections and water physics. No modern skyline, tourist staging, new
 logos, readable signs, oversaturated postcard color, or time-lapse sky.
 ```
 
-## Learn from official and community examples
-
-[![Official 1.5 Preview launch — watch on X](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-**Official Preview launch — @grok, with creator credit to Heavy Pulp.** [Watch the original](https://x.com/grok/status/2062225080843747351) · [Released 1.5 / Odyssey behind the scenes](https://x.ai/news/grok-imagine-video-1-5). Historical Preview footage and the released model are labeled separately.
-
-[![GENEL collage-to-video post — watch on X](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-**GENEL — plan the image, then animate it.** The creator reports using ChatGPT Images 2.0 for a collage and Grok Imagine Video 1.5 for motion. [Original post](https://x.com/genel_ai/status/2061382998873034825) · [Try a new coastal-postcard exercise](prompts/06-community-exercises.md#2-coastal-postcard--animate-a-planned-image).
-
-**JSFILMZ — a finished short and an honest comparison.** Read the [2.5-minute film post](https://x.com/JSFILMZ0412/status/2062480692835938771) and [Grok / Seedance comparison](https://x.com/JSFILMZ0412/status/2061117682515050669). The author describes both strengths and limitations; these are not claims that SeaImagine produced the films.
-
-Original X post text and audience snapshots were checked on September 24, 2026. Video playback was unavailable in the review browser, so no frame-by-frame or audio-quality verification is claimed. External thumbnails and videos remain their creators' property. See [source details and audience evidence](docs/COMMUNITY.md), [official examples](docs/OFFICIAL.md), and [three new practice prompts](prompts/06-community-exercises.md).
-
-
 ## What is included
 
-- **38 English recipes:** five illustrated prompts and 30 category recipes adapted from Flaq AI, plus [three new SeaImagine exercises](prompts/06-community-exercises.md). Translation variants are not counted as new recipes.
-- **23 localized prompt entries:** 12 extended prompts in Chinese, Japanese, and Spanish, plus one complete shared test scene in each of 11 additional languages.
-- **15 language landing pages:** every language includes localized guidance, navigation, and a copy-ready example rather than translated titles alone.
+- **38 English recipes:** five inherited illustrated prompts and 30 category recipes adapted from Flaq AI, plus [three new SeaImagine exercises](prompts/06-community-exercises.md). Translation variants are not counted as new recipes.
+- **Three new cases in every language, plus 23 inherited localized entries:** 12 extended prompts in Chinese, Japanese, and Spanish, plus one complete shared test scene in each of 11 additional languages.
+- **15 illustrated language guides:** every language now contains all three SeaImagine cases, full localized prompts, product steps, community notes and the existing language-specific material.
 - **Five practical collections:** advertising, cinematic storytelling, social/UGC, reference consistency, and editing/extension.
-- **A new SeaImagine cover and five inherited visual anchors:** with transparent [generation notes](assets/IMAGE_PROMPTS.md).
+- **A SeaImagine cover, three new starting images, a real interface screenshot and five inherited visual anchors:** with transparent [generation notes](assets/IMAGE_PROMPTS.md).
 - **Two access paths:** the SeaImagine browser workflow and separately documented official xAI API examples.
 
 ## Why this collection is different
@@ -207,7 +326,7 @@ Original X post text and audience snapshots were checked on September 24, 2026. 
 - **Model-specific recipes:** prompts are designed for 1–15 second clips, native audio, image-to-video fidelity, reference images, video editing, and extension.
 - **Production structure:** each recipe separates the visual anchor, motion, camera, physics, sound, continuity locks, and exclusions.
 - **Practical scenarios:** ads, e-commerce, creator content, travel, architecture, food, fashion, dialogue, fantasy, action, and post-production.
-- **Attributable visuals:** the cover was made for SeaImagine; the five teaching images and their paired prompts are retained from the credited source collection.
+- **Attributable visuals:** the cover and first three starting images were made for SeaImagine; the five later teaching images and their paired prompts are retained from the credited source collection.
 - **Multilingual starters:** localized pages and copy-ready recipes cover 15 languages with shared terminology and testing guidance.
 
 ## Grok Imagine Video 1.5 capabilities
@@ -300,7 +419,7 @@ The full collection contains **30 additional original prompts** grouped by produ
 
 ## Multilingual prompts
 
-The model accepts natural-language direction. This repository now provides localized landing pages in 15 languages. Chinese, Japanese, and Spanish include four extended prompts each; the other localized pages include one complete shared test scene so teams can compare instruction following without changing the creative brief.
+All fifteen homepages include the same three illustrated SeaImagine cases with fully localized prompts, browser steps and community guidance. The inherited English catalog remains complete below; Chinese, Japanese and Spanish also retain four extended prompts each, while the other eleven languages retain their shared test scene. The table below lists the inherited language material; the three SeaImagine cases are additional localized versions, not new unique recipes.
 
 | Language | Localized guide | Complete prompts |
 | --- | --- | --- |

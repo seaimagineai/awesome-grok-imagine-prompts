@@ -2,7 +2,18 @@
 
 [← Prompt library](../README.md) · [Practice prompts](../prompts/06-community-exercises.md)
 
-Selected for a complete workflow, useful comparison, or visible audience interest. These are creator reports, not SeaImagine generation tests. Checked on **September 24, 2026** by opening the original X posts. Text, authorship and displayed view counts were readable; the browser reported that media could not play. We therefore do not score motion, audio, or visual quality here. View counts are rounded snapshots, not measures of quality.
+Selected for a complete workflow, useful comparison, or visible audience interest. Checked on **September 24, 2026** in the original X posts. Text, authorship and displayed counts were readable. After pressing Play, the official and GENEL players loaded real video frames; the JSFILMZ short also loaded (player duration 2:45, while the author calls it 2.5 minutes). These are not SeaImagine generation tests. Audience counts are rounded snapshots, not quality scores.
+
+## Viewing notes: what the sampled frames teach
+
+| Original video | Frames directly observed | Practical lesson |
+| --- | --- | --- |
+| [Official Preview sequence](https://x.com/grok/status/2062225080843747351) | About 3.6s: helmet foreground, army and smoke behind. 19.8s: a face close-up with a blue veil. 34.6s: a wide view of a burning waterfront city. | Plan separate shots with different sizes: establish the setting, show a face, then reveal the larger consequence. Do not pack a trailer into one short generation. |
+| [GENEL coastal sequence](https://x.com/genel_ai/status/2061382998873034825) | About 0.05s: figure at a seaside railing. 4.9s: two people at a coastal railway crossing. 12s: a hand against bright sunlight. | Different full-frame shots share coastal light and color. Prepare images with consistent lighting before animation. Our fixed-panel postcard teaches a different constraint; it does not reproduce this video's editing. |
+
+We sampled these frames in the original players, rather than watching every frame continuously. Audio was not auditioned; motion consistency, lip sync, sound quality and comparative model rankings remain unscored. The JSFILMZ comparison player also loaded (2:00 duration); at about 5.3s it shows stacked, labeled Seedance / Grok views of an orange-clad fight scene. That verifies the comparison layout, not identical settings or a winning model. Its conclusions remain attributed to the creator.
+
+## Source and audience record
 
 | Example | Source and model attribution | Why open it? | Audience snapshot |
 | --- | --- | --- | --- |
