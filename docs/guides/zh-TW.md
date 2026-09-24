@@ -2,7 +2,7 @@
 
 [← 繁體中文](../../README.zh-TW.md)
 
-> [可複製、可改寫的圖文提示詞](../../README.zh-TW.md#featured-prompts) — 標註來源 Flaq AI 的五個範例保留原始長度與解析度；其餘六個範例依 SeaImagine 目前的選項編寫。在 SeaImagine 使用原始範例時，請選擇 5/10/15 秒與 480p/720p，並重新安排動作時間。
+> [可複製、可改寫的圖文提示詞](../../README.zh-TW.md#featured-prompts) — 按場景瀏覽圖片與完整提示詞。
 
 ## 快速使用原則
 

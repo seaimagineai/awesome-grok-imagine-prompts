@@ -13,12 +13,12 @@
     "Composiciones animadas"
   ],
   "gallery_title": "Prompts ilustrados para copiar y adaptar",
-  "gallery_intro": "11 casos con prompts completos e imágenes iniciales. Las imágenes ilustran conceptos; no son resultados de vídeo verificados.",
+  "gallery_intro": "Explora 11 casos ilustrados, copia un prompt y adapta la toma.",
   "prompt_label": "Copia el prompt completo",
-  "source_note": "Los cinco casos identificados como «Fuente: Flaq AI» conservan su duración y resolución originales; los otros seis usan las opciones actuales de SeaImagine. Para usar un caso de la fuente en SeaImagine, elige 5/10/15 segundos y 480p/720p y reescribe sus acciones cronometradas.",
+  "source_note": "En SeaImagine, elige 5/10/15 segundos y 480p/720p, y ajusta los tiempos de la acción.",
   "source_label": "Fuente: Flaq AI",
   "more_label": "Material de referencia",
-  "counts_label": "Colección y atribución",
+  "counts_label": "Notas",
   "quick_links": [
     "Ejemplos ilustrados",
     "Referencia de ajustes y uso",

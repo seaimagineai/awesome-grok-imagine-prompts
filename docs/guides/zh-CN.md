@@ -4,7 +4,7 @@
 
 [四条完整中文扩展练习](../../i18n/prompts.zh-CN.md)
 
-> [可复制、可改写的图文提示词](../../README.zh-CN.md#featured-prompts) — 标注来源 Flaq AI 的五个案例保留原始时长和分辨率；其余六个案例按 SeaImagine 当前选项编写。在 SeaImagine 使用源库案例时，请选择 5/10/15 秒和 480p/720p，并重新安排动作时间。
+> [可复制、可改写的图文提示词](../../README.zh-CN.md#featured-prompts) — 按场景浏览图片与完整提示词。
 
 ## 1. 竹影茶席：冷泡茶产品片
 

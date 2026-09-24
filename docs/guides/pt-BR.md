@@ -2,7 +2,7 @@
 
 [← Português](../../README.pt-BR.md)
 
-> [Prompts ilustrados para copiar e adaptar](../../README.pt-BR.md#featured-prompts) — Os cinco exemplos marcados como “Fonte: Flaq AI” preservam a duração e a resolução originais; os outros seis usam as opções atuais do SeaImagine. Para usar um exemplo da fonte no SeaImagine, escolha 5/10/15 segundos e 480p/720p e reescreva suas ações cronometradas.
+> [Prompts ilustrados para copiar e adaptar](../../README.pt-BR.md#featured-prompts) — Veja os casos ilustrados ou continue com referências de escrita e mais prompts.
 
 ## Regras rápidas
 

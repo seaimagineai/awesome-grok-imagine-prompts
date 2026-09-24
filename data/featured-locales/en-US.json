@@ -13,12 +13,12 @@
     "Animated layouts"
   ],
   "gallery_title": "Illustrated prompts to copy and adapt",
-  "gallery_intro": "11 cases with full prompts and starting-frame images. Images illustrate concepts; they are not verified video outputs.",
+  "gallery_intro": "Browse 11 illustrated cases, then copy a prompt and adapt the shot.",
   "prompt_label": "Copy the complete prompt",
-  "source_note": "The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other six use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.",
+  "source_note": "On SeaImagine, choose 5/10/15 seconds and 480p/720p, then adjust the action timing to match.",
   "source_label": "Source: Flaq AI",
   "more_label": "Reference material",
-  "counts_label": "Collection and attribution",
+  "counts_label": "Notes",
   "quick_links": [
     "Illustrated examples",
     "Settings and operation reference",

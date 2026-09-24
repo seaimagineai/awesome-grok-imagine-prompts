@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — สมุดพรอมป์ต์ที่เปิดออก มีรองเท้า รถราง และวาฬกระดาษอยู่ในฉากเดียวกัน](assets/seaimagine-grok-hero.webp)
 
-ดัดแปลงจาก [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) ดูแลโดย SeaImagine ภายใต้สัญญาอนุญาต [MIT](LICENSE) และเป็นโครงการอิสระจาก xAI ภาพแนวคิดไม่ได้แสดงผลการทดสอบจริงด้วย Grok
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@
 
 ## พรอมป์ต์พร้อมภาพที่คัดลอกและปรับใช้ได้
 
-ทั้ง 11 ตัวอย่างมีพรอมป์เต็มและภาพอ้างอิง ภาพใช้แสดงแนวคิด ไม่ใช่ผลวิดีโอที่ตรวจสอบแล้ว
-
-ตัวอย่างห้าแบบที่ระบุแหล่งที่มาเป็น Flaq AI คงความยาวและความละเอียดเดิมไว้ ส่วนอีกหกแบบเขียนตามตัวเลือกปัจจุบันของ SeaImagine เมื่อนำตัวอย่างต้นฉบับมาใช้ใน SeaImagine ให้เลือก 5/10/15 วินาที และ 480p/720p แล้วจัดช่วงเวลาของการกระทำใหม่
+เลือกฉากจากตัวอย่างพร้อมภาพ 11 แบบ แล้วคัดลอกพรอมป์ต์ฉบับเต็มได้เลย
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -74,8 +70,6 @@
 
 **การตั้งค่าภาพเป็นวิดีโอ:** 10s · 16:9 · 1080p · [เฟรมเริ่มต้น — เปิดและบันทึก](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/th-TH/blue-route.txt)
 
-[ที่มา: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 คงคนส่งของ มอเตอร์ไซค์ไฟฟ้าสีน้ำเงินโคบอลต์ กล่องสินค้า ตลาดยกระดับ กันสาดโปร่งแสง ทางเดินเหล็กเปียก แสง และชุดสีกลางคืนจากภาพ สร้างช็อตติดตามมุมต่ำต่อเนื่องหนึ่งช็อตที่สมจริง ทั้งมวลน้ำหนัก การยึดเกาะของยาง ฝน และระบบกันสะเทือน
 
@@ -101,8 +95,6 @@
 ![ขนมปังน้ำผึ้ง — เรื่องราวร้านขนมปังจิ๋ว](assets/pear-bakery-miniature-video.webp)
 
 **การตั้งค่าภาพเป็นวิดีโอ:** 9s · 16:9 · 1080p · [เฟรมเริ่มต้น — เปิดและบันทึก](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/th-TH/honey-loaf.txt)
-
-[ที่มา: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 คงร้านขนมปังในบ้านทรงลูกแพร์ คนทำขนมปังจิ๋วสามคน ชุด ใบหน้า ขนมปังน้ำผึ้ง เตาอบ หน้าต่าง มอส โคลเวอร์ ดวงจันทร์ วัสดุสต็อปโมชันที่ให้ความรู้สึกจับต้องได้ และความต่างของสีอุ่นกับสีเย็น
@@ -156,8 +148,6 @@
 
 **การตั้งค่าภาพเป็นวิดีโอ:** 10s · 9:16 · 1080p · [เฟรมเริ่มต้น — เปิดและบันทึก](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/th-TH/first-sip.txt)
 
-[ที่มา: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 ทำให้ภาพคาเฟ่ที่ให้มาเคลื่อนไหวเป็นรีวิวจากครีเอเตอร์อย่างจริงใจด้วยกล้องถือมือ คงใบหน้า อายุ รายละเอียดผิว ผม เสื้อสเวตเตอร์สีเขียวมอส ถ้วย ขนม หน้าต่าง และการจัดโต๊ะ
 
@@ -183,8 +173,6 @@
 ![รางเกลือยามรุ่งอรุณ — สารคดีท่องเที่ยว](assets/coastal-salt-train-documentary.webp)
 
 **การตั้งค่าภาพเป็นวิดีโอ:** 12s · 16:9 · 1080p · [เฟรมเริ่มต้น — เปิดและบันทึก](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/th-TH/salt-line.txt)
-
-[ที่มา: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 ทำให้ฉากนาเกลือชายฝั่งที่ให้มาเคลื่อนไหวเป็นสารคดีท่องเที่ยวแบบสังเกตการณ์ที่ให้เกียรติคนทำงาน คงคนงานสองคน รถไฟสีครีมกับสีเหลืองดิน แปลงเกลือ เนินหินปูน อาคาร ทะเล ทิศทางพระอาทิตย์ขึ้น และชุดสีฟิล์มหม่น
@@ -316,8 +304,6 @@
 
 **การตั้งค่าภาพเป็นวิดีโอ:** 8s · 16:9 · 1080p · [เฟรมเริ่มต้น — เปิดและบันทึก](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/th-TH/citrus-halo.txt)
 
-[ที่มา: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 คงแบบขวด สัดส่วนแก้ว ฝา ฐานหินปูน เปลือกเกรปฟรุต ฉากสีงาช้างอบอุ่น และแสงด้านข้างสีทองจากภาพที่ให้มา สร้างหนังสินค้าแปดวินาทีที่ดูสง่างาม
 
@@ -346,9 +332,9 @@
 
 [พื้นผิวขวด](#case-sea-glass-bottle) · [บทสนทนาช่างนาฬิกา](#case-clockwork-dialogue) · [ชุดหมุน](#case-cobalt-orbit)
 
-[![ผลิตภัณฑ์ วัสดุ สถาปัตยกรรม และแฟชั่นมาพบกันในพื้นที่สร้างสรรค์ที่เชื่อมต่อกัน ภาพแนวคิดแบรนด์ต้นฉบับของ SeaImagine](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/th/model/grok-imagine-1-5/)
+[![ผลิตภัณฑ์ วัสดุ สถาปัตยกรรม และแฟชั่นมาพบกันในพื้นที่สร้างสรรค์ที่เชื่อมต่อกัน](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/th/model/grok-imagine-1-5/)
 
-ผลิตภัณฑ์ วัสดุ สถาปัตยกรรม และแฟชั่นมาพบกันในพื้นที่สร้างสรรค์ที่เชื่อมต่อกัน ภาพแนวคิดแบรนด์ต้นฉบับของ SeaImagine
+ผลิตภัณฑ์ วัสดุ สถาปัตยกรรม และแฟชั่นมาพบกันในพื้นที่สร้างสรรค์ที่เชื่อมต่อกัน
 
 **[สร้างช็อตนี้ด้วย SeaImagine](https://seaimagine.com/th/model/grok-imagine-1-5/)**
 
@@ -366,12 +352,14 @@
 
 [ข้อมูลอ้างอิงการเขียน](docs/guides/th-TH.md) · [ข้อมูลอ้างอิงการตั้งค่าและการใช้งาน](docs/workflows/th-TH.md) · [SeaImagine](https://seaimagine.com/th/model/grok-imagine-1-5/)
 
-[แหล่งที่มา](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## คอลเลกชันและการระบุที่มา
+## หมายเหตุเพิ่มเติม
 
-รวมพรอมป์ภาษาอังกฤษต่างกัน 65 รายการ: จากต้นฉบับ 35 และสร้างสรรค์ใหม่ 30 รายการ ไม่นับคำแปลเป็นฉากใหม่ พรอมป์ต้นฉบับใหม่ยังไม่ได้ทดสอบสร้างจริง
+ภาพใช้แสดงแนวคิด และพรอมป์ต์ที่สร้างขึ้นใหม่ยังไม่ได้ทดสอบสร้างจริง โครงการนี้ดูแลโดย SeaImagine และไม่ได้เป็นส่วนหนึ่งของ xAI การตั้งค่าจริงขึ้นอยู่กับเครื่องมือที่ใช้
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/th/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+เมื่อเลือก 5/10/15 วินาที และ 480p/720p ให้ปรับช่วงเวลาของการเคลื่อนไหวในพรอมป์ต์ให้สอดคล้องกัน
+
+[แหล่งที่มา](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [ผลงานทางการและชุมชน](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/th/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

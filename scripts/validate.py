@@ -104,7 +104,9 @@ for item in locales:
     text = (ROOT / label).read_text()
     require('```text\n' in text, label + ': no complete prompt')
     require(item['product_url'] in text, label + ': missing localized product URL')
-    require('flaqai/awesome-grok-imagine' in text, label + ': missing upstream attribution')
+    require('docs/ATTRIBUTION.md' in text, label + ': missing attribution reference')
+    require(not re.search(r'\bflaq\b|flaqai/', text, re.I), label + ': visible upstream declaration returned')
+    require(ui_all[item['locale']]['footer_notice'] in text[text.find('<a id="multilingual-prompts">'):], label + ': notices must appear at the end')
     require(all(f']({x["readme"]})' in text for x in locales), label + ': incomplete language navigation')
     data_path = locale_dir / f'{item["locale"]}.json'
     if not data_path.exists():

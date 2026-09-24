@@ -78,3 +78,7 @@ The new images are original concept starting frames created with built-in image 
 ## Original brand scene — September 24, 2026
 
 Replaced the homepage product-interface screenshot with the official logo and an original sunlit seaside atrium in all fifteen languages. Product glass, amber material, a conservatory, cobalt fabric and a small paper whale share one perspective and an S-shaped water route. Independent visual review confirmed hierarchy, continuity, brand legibility and distinction from the notebook cover. The duplicate bottle emblem was removed in a targeted refinement; the main editor checked the final artwork separately. The real screenshot remains in workflow references only. All eleven case prompts remain unchanged.
+
+## Reading-flow language edit — September 24, 2026
+
+Removed homepage upstream-brand declarations and repeated case attribution labels; detailed provenance and the required license remain intact in the attribution document and LICENSE. Moved concept-image, generation-status, independence and settings-compatibility notes to the end of all fifteen homepages. Gallery introductions now invite browsing, brand captions describe the scene, and guide openings link directly to illustrated cases. All 165 localized prompt bodies are unchanged.

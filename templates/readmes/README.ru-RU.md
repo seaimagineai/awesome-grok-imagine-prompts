@@ -6,6 +6,4 @@
 
 ![Grok Imagine 1.5 — Открытый блокнот с промптами: кроссовок, трамвай и бумажный кит в единой сцене](assets/seaimagine-grok-hero.webp)
 
-Адаптировано из коллекции [Flaq AI](https://github.com/flaqai/awesome-grok-imagine); поддерживается SeaImagine. Лицензия [MIT](LICENSE). Это не официальный проект xAI. Концептуальные изображения не являются проверенными результатами Grok.
-
 {{LOCALIZED_CORE}}

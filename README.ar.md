@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — دفتر أوصاف مفتوح يضم حذاءً وترامًا وحوتًا ورقيًا في مشهد واحد متصل](assets/seaimagine-grok-hero.webp)
 
-مقتبسة من [Flaq AI](https://github.com/flaqai/awesome-grok-imagine)، وتتولى SeaImagine صيانتها. الترخيص: [MIT](LICENSE). المشروع مستقل عن xAI. الصور التصورية ليست نتائج موثّقة من Grok.
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@
 
 ## نصوص توجيه مصوّرة للنسخ والتعديل
 
-11 مثالًا بنصوص كاملة وصور بدء. الصور توضح أفكارًا، وليست نتائج فيديو موثقة.
-
-تحتفظ الأمثلة الخمسة الموسومة بعبارة «المصدر: Flaq AI» بمدتها ودقتها الأصليتين؛ وتستخدم الأمثلة الستة الأخرى خيارات SeaImagine الحالية. لاستخدام مثال من المصدر في SeaImagine، اختر 5/10/15 ثانية و480p/720p، وأعد كتابة توقيت أفعاله ليتناسب مع المدة المختارة.
+تصفح 11 مثالًا مصورًا، ثم انسخ النص وعدّل اللقطة.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -72,8 +68,6 @@
 
 **إعدادات تحويل الصورة إلى فيديو:** 10s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ar/blue-route.txt)
 
-[المصدر: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 حافظ على مندوب التوصيل والدراجة الكهربائية الزرقاء الكوبالتية وصندوق الحمولة والسوق المرتفع والمظلات شبه الشفافة والممر الفولاذي المبتل والإضاءة ولوحة الألوان الليلية في الصورة. أنشئ لقطة تتبّع واحدة منخفضة ومتصلة وواقعية، بكتلة وتماسك إطارات ومطر وتعليق مقنعة.
 
@@ -99,8 +93,6 @@
 ![رغيف العسل: حكاية مخبز مصغّر](assets/pear-bakery-miniature-video.webp)
 
 **إعدادات تحويل الصورة إلى فيديو:** 9s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ar/honey-loaf.txt)
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حافظ على المخبز في بيت على شكل كمثرى، والخبازين الثلاثة المصغّرين، والأزياء والوجوه ورغيف العسل والفرن والنافذة والطحلب والبرسيم والقمر والخامات الملموسة لتحريك الدمى إطارًا بإطار والتباين بين الألوان الدافئة والباردة.
@@ -154,8 +146,6 @@
 
 **إعدادات تحويل الصورة إلى فيديو:** 10s · 9:16 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ar/first-sip.txt)
 
-[المصدر: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 حرّك صورة المقهى المرفقة على هيئة مراجعة صادقة لصانعة محتوى مصوّرة بكاميرا محمولة باليد. حافظ على وجهها وعمرها وملمس بشرتها وشعرها وسترتها الخضراء الطحلبية والكوب والمعجنات والنافذة وترتيب الطاولة.
 
@@ -181,8 +171,6 @@
 ![خط الملح عند الفجر: فيلم وثائقي عن السفر](assets/coastal-salt-train-documentary.webp)
 
 **إعدادات تحويل الصورة إلى فيديو:** 12s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ar/salt-line.txt)
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حرّك مشهد أحواض الملح الساحلية المرفق كفيلم سفر وثائقي يرصد المكان باحترام. حافظ على العاملين والقطار بلونَي الكريم والمغرة وأحواض الملح والتلال الجيرية والمباني والبحر واتجاه الشروق ولوحة الألوان السينمائية الهادئة.
@@ -314,8 +302,6 @@
 
 **إعدادات تحويل الصورة إلى فيديو:** 8s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ar/citrus-halo.txt)
 
-[المصدر: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 حافظ على تصميم الزجاجة المرفقة ونسب الزجاج والغطاء والقاعدة الجيرية وقشر الجريب فروت والديكور العاجي الدافئ والإضاءة الجانبية الذهبية. أنشئ فيلم منتج أنيقًا مدته ثماني ثوانٍ.
 
@@ -344,9 +330,9 @@
 
 [الزجاج والضوء](#case-sea-glass-bottle) · [حوار صانعي الساعات](#case-clockwork-dialogue) · [دورة أزياء كاملة](#case-cobalt-orbit)
 
-[![تلتقي المنتجات والخامات والعمارة والأزياء في مساحة إبداعية واحدة متصلة. رسم تصوّري أصلي لهوية SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ar/model/grok-imagine-1-5/)
+[![يجمع مشهد واحد متصل الزجاج والقماش المنحوت ودفيئة بجانب البحر.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ar/model/grok-imagine-1-5/)
 
-تلتقي المنتجات والخامات والعمارة والأزياء في مساحة إبداعية واحدة متصلة. رسم تصوّري أصلي لهوية SeaImagine.
+يجمع مشهد واحد متصل الزجاج والقماش المنحوت ودفيئة بجانب البحر.
 
 **[أنشئ هذه اللقطة باستخدام SeaImagine](https://seaimagine.com/ar/model/grok-imagine-1-5/)**
 
@@ -364,12 +350,14 @@
 
 [مرجع الكتابة](docs/guides/ar.md) · [مرجع الإعدادات والتشغيل](docs/workflows/ar.md) · [SeaImagine](https://seaimagine.com/ar/model/grok-imagine-1-5/)
 
-[المصادر](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## المجموعة ونسب المحتوى إلى مصدره
+## ملاحظات
 
-65 نصًا إنجليزيًا مستقلًا: 35 موروثًا و30 أصليًا. النصوص الأصلية مكتوبة حديثًا ولم تُختبر بالتوليد. الترجمات ليست مشاهد إضافية.
+الصور توضيحات مفاهيمية، والنصوص الأصلية لم تُختبر بالتوليد بعد. تتولى SeaImagine صيانة المشروع، ولا تربطه علاقة تبعية بـ xAI. تعتمد الإعدادات المتاحة على الأداة المستخدمة.
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/ar/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+على SeaImagine اختر 5/10/15 ثانية و480p/720p، ثم اضبط توقيت الحركات وفقًا لذلك.
+
+[المصادر](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [أعمال رسمية ومن المجتمع](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/ar/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

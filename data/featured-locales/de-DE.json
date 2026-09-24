@@ -13,12 +13,12 @@
     "Animierte Layouts"
   ],
   "gallery_title": "Bebilderte Prompts zum Kopieren und Anpassen",
-  "gallery_intro": "11 Beispiele mit vollständigen Prompts und Startbildern. Die Bilder zeigen Konzepte, keine geprüften Videoergebnisse.",
+  "gallery_intro": "Entdecke 11 bebilderte Beispiele, kopiere einen Prompt und passe die Szene an.",
   "prompt_label": "Vollständigen Prompt kopieren",
-  "source_note": "Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen sechs verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.",
+  "source_note": "Wähle auf SeaImagine 5/10/15 Sekunden und 480p/720p und passe den zeitlichen Ablauf daran an.",
   "source_label": "Quelle: Flaq AI",
   "more_label": "Referenzmaterial",
-  "counts_label": "Sammlung und Quellenangaben",
+  "counts_label": "Hinweise",
   "quick_links": [
     "Bebilderte Beispiele",
     "Referenz zu Einstellungen und Bedienung",

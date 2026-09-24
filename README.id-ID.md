@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — Buku prompt terbuka dengan sepatu, trem, dan paus kertas dalam satu adegan yang menyatu](assets/seaimagine-grok-hero.webp)
 
-Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan dikelola oleh SeaImagine dengan lisensi [MIT](LICENSE). Proyek ini independen dari xAI. Gambar konsep tidak menunjukkan hasil uji Grok.
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@ Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan di
 
 ## Prompt bergambar untuk disalin dan disesuaikan
 
-11 contoh dilengkapi prompt lengkap dan gambar referensi. Gambar menunjukkan konsep, bukan hasil video terverifikasi.
-
-Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; enam contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
+Jelajahi 11 contoh bergambar, pilih adegan, lalu salin prompt lengkapnya.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -75,8 +71,6 @@ Tahan bingkai yang stabil pada detik terakhir.
 
 **Pengaturan gambar ke video:** 10s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/id-ID/blue-route.txt)
 
-[Sumber: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Pertahankan kurir, sepeda motor listrik biru kobalt, kotak barang, pasar di atas permukaan tanah, kanopi tembus cahaya, jalur baja basah, pencahayaan, dan palet malam. Buat satu shot mengikuti dari posisi rendah yang realistis dan berkelanjutan, dengan massa, cengkeraman ban, hujan, dan suspensi yang meyakinkan.
 
@@ -102,8 +96,6 @@ Kunci kesinambungan: pakaian pengendara, helm, bentuk motor, kotak barang, panel
 ![Roti Madu — cerita toko roti miniatur](assets/pear-bakery-miniature-video.webp)
 
 **Pengaturan gambar ke video:** 9s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/id-ID/honey-loaf.txt)
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Pertahankan toko roti dalam rumah berbentuk pir, tiga pembuat roti miniatur, kostum, wajah, roti madu, oven, jendela, lumut, semanggi, bulan, bahan stop-motion bertekstur nyata, serta kontras warna hangat dan dingin.
@@ -157,8 +149,6 @@ Roda lepas tetap terpisah dari jam; tak seorang pun memasang atau memutarnya. Ja
 
 **Pengaturan gambar ke video:** 10s · 9:16 · 1080p · [Bingkai awal — buka dan simpan](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/id-ID/first-sip.txt)
 
-[Sumber: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Animasikan foto kafe yang diberikan sebagai ulasan kreator yang jujur dengan kamera genggam. Pertahankan wajah, usia, tekstur kulit, rambut, sweter hijau lumut, cangkir, pastri, jendela, dan tata letak meja.
 
@@ -184,8 +174,6 @@ Kunci kesinambungan: tanpa mempercantik wajah, mengganti pakaian, jari tambahan,
 ![Jalur Garam saat Fajar — dokumenter perjalanan](assets/coastal-salt-train-documentary.webp)
 
 **Pengaturan gambar ke video:** 12s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/id-ID/salt-line.txt)
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Animasikan pemandangan tambak garam pesisir sebagai dokumenter perjalanan observasional yang menghormati para pekerja. Pertahankan dua pekerja, kereta krem dan oker, petak garam, bukit kapur, bangunan, laut, arah matahari terbit, dan palet film yang lembut.
@@ -317,8 +305,6 @@ Jaga identitas, konstruksi gaun asli, tubuh berkesinambungan yang masuk akal di 
 
 **Pengaturan gambar ke video:** 8s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/id-ID/citrus-halo.txt)
 
-[Sumber: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Pertahankan desain botol, proporsi kaca, tutup, alas batu kapur, kulit grapefruit, set gading hangat, dan cahaya samping keemasan pada gambar. Buat film produk delapan detik yang elegan.
 
@@ -347,9 +333,9 @@ Dari kejernihan botol kaca, ekspresi halus dalam dialog pemulih jam, hingga lipi
 
 [Material botol](#case-sea-glass-bottle) · [Dialog pemulih jam](#case-clockwork-dialogue) · [Putaran gaun](#case-cobalt-orbit)
 
-[![Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang mengalir. Ilustrasi konsep merek orisinal SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/id/model/grok-imagine-1-5/)
+[![Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang mengalir.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/id/model/grok-imagine-1-5/)
 
-Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang mengalir. Ilustrasi konsep merek orisinal SeaImagine.
+Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang mengalir.
 
 **[Buat adegan ini dengan SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/)**
 
@@ -367,12 +353,14 @@ Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang m
 
 [Referensi penulisan](docs/guides/id-ID.md) · [Referensi pengaturan dan penggunaan](docs/workflows/id-ID.md) · [SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/)
 
-[Sumber](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## Koleksi dan atribusi
+## Catatan tambahan
 
-Total 65 prompt bahasa Inggris berbeda: 35 dari sumber dan 30 orisinal. Terjemahan tidak dihitung sebagai adegan baru. Prompt orisinal belum diuji melalui generasi.
+Gambar merupakan ilustrasi konsep; prompt orisinal belum diuji melalui generasi. Proyek ini dikelola oleh SeaImagine dan tidak berafiliasi dengan xAI. Pengaturan aktual mengikuti alat yang digunakan.
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+Untuk pilihan 5/10/15 detik dan 480p/720p, sesuaikan juga waktu aksi dalam prompt.
+
+[Sumber](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [Karya resmi dan komunitas](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

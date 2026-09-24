@@ -13,12 +13,12 @@
     "Tata letak bergerak"
   ],
   "gallery_title": "Prompt bergambar untuk disalin dan disesuaikan",
-  "gallery_intro": "11 contoh dilengkapi prompt lengkap dan gambar referensi. Gambar menunjukkan konsep, bukan hasil video terverifikasi.",
+  "gallery_intro": "Jelajahi 11 contoh bergambar, pilih adegan, lalu salin prompt lengkapnya.",
   "prompt_label": "Salin prompt lengkap",
-  "source_note": "Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; enam contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.",
+  "source_note": "Untuk pilihan 5/10/15 detik dan 480p/720p, sesuaikan juga waktu aksi dalam prompt.",
   "source_label": "Sumber: Flaq AI",
   "more_label": "Bahan referensi",
-  "counts_label": "Koleksi dan atribusi",
+  "counts_label": "Catatan tambahan",
   "quick_links": [
     "Contoh bergambar",
     "Referensi pengaturan dan penggunaan",

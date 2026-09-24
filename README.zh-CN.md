@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — 展开的提示词手册，产品鞋、电车与纸鲸连成同一场景](assets/seaimagine-grok-hero.webp)
 
-改编自 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine)，由 SeaImagine 维护，采用 [MIT](LICENSE) 许可，与 xAI 无隶属关系。概念配图不代表 Grok 实测效果。
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@
 
 ## 可复制、可改写的图文提示词
 
-11 个案例均附完整提示词与参考图片。图片用于展示构思，并非已核验的视频结果。
-
-标注来源 Flaq AI 的五个案例保留原始时长和分辨率；其余六个案例按 SeaImagine 当前选项编写。在 SeaImagine 使用源库案例时，请选择 5/10/15 秒和 480p/720p，并重新安排动作时间。
+浏览 11 个图文案例，选择场景并复制完整提示词。
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -74,8 +70,6 @@
 
 **图生视频参数:** 10s · 16:9 · 1080p · [起始帧——打开并保存](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/zh-CN/blue-route.txt)
 
-[来源：Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 保留所提供图片中的快递员、钴蓝色电动摩托车、货箱、高架市场、半透明雨棚、湿钢制步道、灯光和夜间配色。制作一个贴近真实环境、连续的低机位跟拍镜头，表现可信的重量、轮胎抓地力、雨水和悬挂运动。
 
@@ -101,8 +95,6 @@
 ![蜂蜜面包——微缩烘焙坊故事](assets/pear-bakery-miniature-video.webp)
 
 **图生视频参数:** 9s · 16:9 · 1080p · [起始帧——打开并保存](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/zh-CN/honey-loaf.txt)
-
-[来源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 保留梨子屋烘焙坊、三名微缩面包师、服装、面孔、蜂蜜面包、烤炉、窗户、苔藓、三叶草、月亮、具有触感的定格动画材料，以及冷暖色对比。
@@ -156,8 +148,6 @@
 
 **图生视频参数:** 10s · 9:16 · 1080p · [起始帧——打开并保存](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/zh-CN/first-sip.txt)
 
-[来源：Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 把所提供的咖啡馆照片变成真实、手持拍摄的创作者体验分享。保留人物的脸、年龄、皮肤纹理、头发、苔绿色毛衣、杯子、糕点、窗户和桌面布局。
 
@@ -183,8 +173,6 @@
 ![晨曦盐田线——旅行纪录片](assets/coastal-salt-train-documentary.webp)
 
 **图生视频参数:** 12s · 16:9 · 1080p · [起始帧——打开并保存](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/zh-CN/salt-line.txt)
-
-[来源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 把所提供的沿海盐田场景变成尊重劳动者的观察式旅行纪录片。保留两名工人、奶油色与赭色列车、盐池、石灰岩山丘、建筑、海面、日出方向和低饱和胶片配色。
@@ -316,8 +304,6 @@
 
 **图生视频参数:** 8s · 16:9 · 1080p · [起始帧——打开并保存](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/zh-CN/citrus-halo.txt)
 
-[来源：Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 保留所提供图片中的瓶身设计、玻璃比例、瓶盖、石灰岩台座、葡萄柚皮、暖象牙色布景和金色侧光。制作一段优雅的八秒产品短片。
 
@@ -346,9 +332,9 @@
 
 [瓶身质感](#case-sea-glass-bottle) · [钟表师对白](#case-clockwork-dialogue) · [礼服旋转](#case-cobalt-orbit)
 
-[![产品、材质、建筑与时装，在同一个流动的创作空间相遇。SeaImagine 原创品牌概念图。](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/cn/model/grok-imagine-1-5/)
+[![产品、材质、建筑与时装，在同一个流动的创作空间相遇。](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/cn/model/grok-imagine-1-5/)
 
-产品、材质、建筑与时装，在同一个流动的创作空间相遇。SeaImagine 原创品牌概念图。
+产品、材质、建筑与时装，在同一个流动的创作空间相遇。
 
 **[用 SeaImagine 创作这一镜](https://seaimagine.com/cn/model/grok-imagine-1-5/)**
 
@@ -382,12 +368,14 @@
 
 [写作参考](docs/guides/zh-CN.md) · [参数与操作参考](docs/workflows/zh-CN.md) · [SeaImagine](https://seaimagine.com/cn/model/grok-imagine-1-5/)
 
-[来源](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## 合集与来源署名
+## 补充说明
 
-共 65 条不同的英语提示词：35 条保留自源库，30 条原创。翻译不计为新增场景；原创提示词尚未生成验证。
+图片为概念示意，原创提示词尚未生成验证。本项目由 SeaImagine 维护，与 xAI 无隶属关系。实际参数以所用工具为准。
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/cn/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+使用 5/10/15 秒、480p/720p 等选项时，请相应调整提示词中的动作时序。
+
+[来源](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [官方与社区作品](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/cn/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

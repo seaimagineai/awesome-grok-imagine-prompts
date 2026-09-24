@@ -6,6 +6,4 @@
 
 ![Grok Imagine 1.5 — 開いたプロンプト手帳から、靴・路面電車・紙のクジラが一つの世界へ広がる](assets/seaimagine-grok-hero.webp)
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) をもとに再編集し、SeaImagine が管理しています。[MIT](LICENSE) ライセンスで公開しており、xAI とは独立したプロジェクトです。コンセプト画像は Grok で実測した出力を示すものではありません。
-
 {{LOCALIZED_CORE}}

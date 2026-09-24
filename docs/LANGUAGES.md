@@ -34,7 +34,7 @@ Every homepage contains **one unified 9-category table + a complete 65-prompt in
 
 The English collection contains **65 distinct recipes: 35 inherited recipes plus 30 original briefs**. The five source cases are translated in `data/featured-locales/`; six original illustrated cases live in `data/homepage-locales/`. These 165 displayed language versions represent eleven shared scenes.
 
-The six original illustrated cases use 720p: the bottle uses 5 seconds and the five newer scenes use 10 seconds. Source cases retain their original settings. Adapt source timing and resolution to the options available in the chosen product.
+The six original illustrated cases use 720p: the bottle uses 5 seconds and the five newer scenes use 10 seconds. Case settings are preserved. Compatibility and verification notes appear together at the end of each homepage; detailed attribution remains in the attribution reference.
 
 The 54 category recipes (30 inherited plus 24 new originals) and advanced English documentation remain in English. All fifteen homepage category labels and recipe counts are localized. The 24 newest text-to-video prompts are untested original briefs based on documented social themes; see [research and attribution](SOCIAL_INSPIRATION.md). Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
 

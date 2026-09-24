@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — Sổ câu lệnh mở ra với giày, tàu điện và cá voi giấy trong cùng một khung cảnh](assets/seaimagine-grok-hero.webp)
 
-Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), do SeaImagine duy trì theo giấy phép [MIT](LICENSE) và độc lập với xAI. Ảnh ý tưởng không thể hiện kết quả thử nghiệm thực tế bằng Grok.
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@ Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), d
 
 ## Câu lệnh có hình để sao chép và điều chỉnh
 
-Cả 11 ví dụ có prompt đầy đủ và ảnh tham chiếu. Ảnh thể hiện ý tưởng, không phải kết quả video đã kiểm chứng.
-
-Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; sáu ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.
+Xem 11 ví dụ có hình, chọn cảnh và sao chép prompt đầy đủ.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -74,8 +70,6 @@ Giữ khung hình ổn định trong giây cuối.
 
 **Thiết lập tạo video từ ảnh:** 10s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/vi-VN/blue-route.txt)
 
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Giữ nguyên người giao hàng, xe máy điện xanh cobalt, thùng hàng, khu chợ trên cao, mái che xuyên sáng, lối đi thép ướt, ánh sáng và bảng màu ban đêm. Tạo một cảnh bám theo liên tục ở góc thấp, chân thực về khối lượng, độ bám lốp, mưa và hệ thống giảm xóc.
 
@@ -101,8 +95,6 @@ Khóa tính liên tục: giữ chính xác trang phục người lái, mũ bảo
 ![Ổ bánh mật ong — câu chuyện tiệm bánh tí hon](assets/pear-bakery-miniature-video.webp)
 
 **Thiết lập tạo video từ ảnh:** 9s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/vi-VN/honey-loaf.txt)
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Giữ nguyên tiệm bánh trong ngôi nhà hình quả lê, ba thợ bánh tí hon, trang phục, khuôn mặt, ổ bánh mật ong, lò, cửa sổ, rêu, cỏ ba lá, mặt trăng, vật liệu hoạt hình chụp từng khung hình có cảm giác sờ được và tương phản màu ấm lạnh.
@@ -156,8 +148,6 @@ Bánh răng luôn tách khỏi đồng hồ, không ai lắp hoặc xoay nó. Gi
 
 **Thiết lập tạo video từ ảnh:** 10s · 9:16 · 1080p · [Khung hình đầu — mở và lưu](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/vi-VN/first-sip.txt)
 
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Làm chuyển động ảnh quán cà phê được cung cấp thành một bài đánh giá chân thực của người sáng tạo với máy quay cầm tay. Giữ nguyên khuôn mặt, tuổi, kết cấu da, tóc, áo len xanh rêu, cốc, bánh ngọt, cửa sổ và bố trí bàn.
 
@@ -183,8 +173,6 @@ Khóa tính liên tục: không làm đẹp khuôn mặt, đổi quần áo, th�
 ![Tuyến đường muối lúc bình minh — phim tài liệu du lịch](assets/coastal-salt-train-documentary.webp)
 
 **Thiết lập tạo video từ ảnh:** 12s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/vi-VN/salt-line.txt)
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Làm chuyển động cảnh ruộng muối ven biển đã cho thành phim tài liệu du lịch quan sát, tôn trọng người lao động. Giữ nguyên hai công nhân, tàu màu kem và vàng đất, ô muối, đồi đá vôi, nhà, biển, hướng bình minh và bảng màu phim dịu.
@@ -316,8 +304,6 @@ Giữ danh tính, cấu tạo váy gốc, cơ thể liền mạch hợp lý dư�
 
 **Thiết lập tạo video từ ảnh:** 8s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/vi-VN/citrus-halo.txt)
 
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Giữ nguyên thiết kế chai, tỷ lệ thủy tinh, nắp, bệ đá vôi, vỏ bưởi chùm, bối cảnh màu ngà ấm và ánh sáng bên vàng trong ảnh. Tạo một phim sản phẩm thanh lịch dài tám giây.
 
@@ -346,9 +332,9 @@ Từ độ trong của chai thủy tinh, biểu cảm nhỏ trong đối thoại
 
 [Chất liệu chai](#case-sea-glass-bottle) · [Đối thoại thợ đồng hồ](#case-clockwork-dialogue) · [Váy xoay](#case-cobalt-orbit)
 
-[![Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong một không gian sáng tạo liền mạch. Hình ảnh ý tưởng thương hiệu nguyên bản của SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/vi/model/grok-imagine-1-5/)
+[![Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong một không gian sáng tạo liền mạch.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/vi/model/grok-imagine-1-5/)
 
-Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong một không gian sáng tạo liền mạch. Hình ảnh ý tưởng thương hiệu nguyên bản của SeaImagine.
+Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong một không gian sáng tạo liền mạch.
 
 **[Tạo cảnh này bằng SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/)**
 
@@ -366,12 +352,14 @@ Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong mộ
 
 [Tham khảo cách viết](docs/guides/vi-VN.md) · [Tài liệu tham khảo về cài đặt và thao tác](docs/workflows/vi-VN.md) · [SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/)
 
-[Nguồn](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## Bộ sưu tập và ghi nguồn
+## Ghi chú thêm
 
-Tổng 65 prompt tiếng Anh khác nhau: 35 từ kho gốc và 30 nguyên bản mới. Bản dịch không tính là cảnh mới. Prompt mới chưa được kiểm chứng bằng lần tạo thực tế.
+Hình ảnh minh họa ý tưởng; prompt nguyên bản chưa được kiểm chứng bằng lần tạo thực tế. Dự án do SeaImagine duy trì, không trực thuộc xAI. Thông số thực tế tùy thuộc công cụ sử dụng.
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+Khi chọn 5/10/15 giây và 480p/720p, hãy điều chỉnh thời gian hành động trong prompt cho phù hợp.
+
+[Nguồn](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [Tác phẩm chính thức và cộng đồng](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

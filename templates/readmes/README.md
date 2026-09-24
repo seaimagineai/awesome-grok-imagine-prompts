@@ -10,6 +10,4 @@
 
 ![Grok Imagine 1.5 — Open prompt notebook with a product shoe, tram and paper whale in one continuous scene](assets/seaimagine-grok-hero.webp)
 
-Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintained by SeaImagine. Independent of xAI; concept images are not verified Grok outputs. [Attribution](docs/ATTRIBUTION.md) · [MIT](LICENSE).
-
 {{LOCALIZED_CORE}}

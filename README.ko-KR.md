@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — 펼친 프롬프트 노트에서 신발, 전차, 종이 고래가 하나의 장면으로 이어지는 모습](assets/seaimagine-grok-hero.webp)
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine)를 바탕으로 재구성했으며 SeaImagine이 관리합니다. [MIT](LICENSE) 라이선스를 따르며 xAI와 독립된 프로젝트입니다. 콘셉트 이미지는 Grok으로 실험한 결과를 보여 주는 것이 아닙니다.
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@
 
 ## 복사하고 바꿔 쓸 수 있는 이미지 프롬프트
 
-11개 사례 모두 전체 프롬프트와 참조 이미지를 제공합니다. 이미지는 구상용이며 검증된 영상 결과가 아닙니다.
-
-출처가 Flaq AI로 표시된 다섯 예제는 원래 길이와 해상도를 유지합니다. 나머지 여섯 예제는 SeaImagine의 현재 옵션에 맞춰 작성했습니다. 원본 예제를 SeaImagine에서 사용할 때는 5/10/15초와 480p/720p를 선택하고 동작의 시간 배분을 다시 정하세요.
+11개 이미지 사례에서 장면을 고르고 전체 프롬프트를 복사하세요.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -74,8 +70,6 @@
 
 **이미지로 영상 만들기 설정:** 10s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ko-KR/blue-route.txt)
 
-[출처: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 제공된 배달원, 코발트색 전기 오토바이, 화물 상자, 고가 시장, 반투명 차양, 젖은 강철 통로, 조명, 밤의 색상을 유지한다. 무게, 타이어 접지력, 비, 서스펜션이 설득력 있게 느껴지는 현실적인 낮은 시점의 연속 추적 숏 하나를 만든다.
 
@@ -101,8 +95,6 @@
 ![허니 로프 — 미니어처 빵집 이야기](assets/pear-bakery-miniature-video.webp)
 
 **이미지로 영상 만들기 설정:** 9s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ko-KR/honey-loaf.txt)
-
-[출처: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 배 모양 집의 빵집, 미니어처 제빵사 세 명, 의상, 얼굴, 꿀빵, 오븐, 창문, 이끼, 클로버, 달, 손으로 만질 수 있을 듯한 스톱모션 재료, 따뜻하고 차가운 색의 대비를 유지한다.
@@ -156,8 +148,6 @@
 
 **이미지로 영상 만들기 설정:** 10s · 9:16 · 1080p · [시작 프레임 — 열어서 저장](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ko-KR/first-sip.txt)
 
-[출처: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 제공된 카페 사진을 솔직한 크리에이터 체험 리뷰로 움직이며 손으로 든 카메라 느낌을 살린다. 인물의 얼굴, 나이, 피부 질감, 머리카락, 이끼색 스웨터, 컵, 페이스트리, 창문, 테이블 배치를 유지한다.
 
@@ -183,8 +173,6 @@
 ![새벽의 염전 철도 — 여행 다큐멘터리](assets/coastal-salt-train-documentary.webp)
 
 **이미지로 영상 만들기 설정:** 12s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ko-KR/salt-line.txt)
-
-[출처: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 제공된 해안 염전 장면을 노동자를 존중하는 관찰형 여행 다큐멘터리로 움직인다. 작업자 두 명, 크림색과 황토색 기차, 염전, 석회암 언덕, 건물, 바다, 일출 방향, 차분한 필름 색상을 유지한다.
@@ -316,8 +304,6 @@
 
 **이미지로 영상 만들기 설정:** 8s · 16:9 · 1080p · [시작 프레임 — 열어서 저장](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ko-KR/citrus-halo.txt)
 
-[출처: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 제공된 병 디자인, 유리 비율, 뚜껑, 석회암 받침대, 자몽 껍질, 따뜻한 아이보리색 세트, 황금빛 측면광을 유지한다. 우아한 8초 제품 영상을 만든다.
 
@@ -346,9 +332,9 @@
 
 [병의 질감](#case-sea-glass-bottle) · [시계 복원사 대화](#case-clockwork-dialogue) · [드레스 회전](#case-cobalt-orbit)
 
-[![제품, 소재, 건축, 패션이 하나로 이어지는 창작 공간에서 만납니다. SeaImagine 오리지널 브랜드 콘셉트 이미지입니다.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ko/model/grok-imagine-1-5/)
+[![제품, 소재, 건축, 패션이 하나로 이어지는 창작 공간에서 만납니다.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ko/model/grok-imagine-1-5/)
 
-제품, 소재, 건축, 패션이 하나로 이어지는 창작 공간에서 만납니다. SeaImagine 오리지널 브랜드 콘셉트 이미지입니다.
+제품, 소재, 건축, 패션이 하나로 이어지는 창작 공간에서 만납니다.
 
 **[SeaImagine으로 이 장면 만들기](https://seaimagine.com/ko/model/grok-imagine-1-5/)**
 
@@ -366,12 +352,14 @@
 
 [작성 참고](docs/guides/ko-KR.md) · [설정 및 조작 참고](docs/workflows/ko-KR.md) · [SeaImagine](https://seaimagine.com/ko/model/grok-imagine-1-5/)
 
-[출처](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## 모음과 출처
+## 추가 안내
 
-서로 다른 영어 프롬프트는 총 65개입니다. 원본 35개와 창작 30개이며, 번역은 새 장면으로 세지 않습니다. 창작 프롬프트는 아직 생성 검증 전입니다.
+이미지는 구상을 보여 주며, 창작 프롬프트는 아직 생성 검증 전입니다. 이 프로젝트는 SeaImagine이 관리하며 xAI와 소속 관계가 없습니다. 실제 설정은 사용하는 도구를 기준으로 하세요.
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/ko/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+5/10/15초, 480p/720p 등의 설정에 맞춰 프롬프트의 동작 시간도 조정하세요.
+
+[출처](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [공식 및 커뮤니티 작품](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/ko/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

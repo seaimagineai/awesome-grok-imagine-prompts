@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — Carnet de prompts ouvert : une chaussure, un tramway et une baleine en papier dans un même décor](assets/seaimagine-grok-hero.webp)
 
-Adaptée de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) et maintenue par SeaImagine. Licence [MIT](LICENSE). Ce projet est indépendant de xAI. Les images conceptuelles ne sont pas des résultats vérifiés de Grok.
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@ Adaptée de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) et mainten
 
 ## Des prompts illustrés à copier et à adapter
 
-11 exemples avec prompts complets et images de départ. Les images illustrent des concepts, pas des vidéos vérifiées.
-
-Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les six autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.
+Parcourez 11 exemples illustrés, copiez un prompt et adaptez le plan.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -72,8 +68,6 @@ Gardez un cadre stable pendant la dernière seconde.
 
 **Réglages image vers vidéo:** 10s · 16:9 · 1080p · [Image de départ : ouvrir et enregistrer](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/fr-FR/blue-route.txt)
 
-[Source : Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Préservez le livreur, la moto électrique cobalt, le coffre de livraison, le marché surélevé, les auvents translucides, la passerelle en acier mouillée, l’éclairage et la palette nocturne fournis. Créez un seul travelling bas et continu, ancré dans le réel, avec masse, adhérence, pluie et suspension crédibles.
 
@@ -99,8 +93,6 @@ Continuité : tenue exacte, casque, géométrie de la moto, coffre, panneaux ble
 ![Le pain au miel : histoire de boulangerie miniature](assets/pear-bakery-miniature-video.webp)
 
 **Réglages image vers vidéo:** 9s · 16:9 · 1080p · [Image de départ : ouvrir et enregistrer](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/fr-FR/honey-loaf.txt)
-
-[Source : Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Conservez la boulangerie en forme de poire, les trois boulangers miniatures, costumes, visages, pain au miel, four, fenêtre, mousse, trèfle, lune, matières tactiles du stop motion et contraste chaud-froid.
@@ -154,8 +146,6 @@ L’engrenage reste séparé et immobile ; personne ne le monte. Préserve mains
 
 **Réglages image vers vidéo:** 10s · 9:16 · 1080p · [Image de départ : ouvrir et enregistrer](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/fr-FR/first-sip.txt)
 
-[Source : Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Animez la photo de café fournie comme un avis sincère de créatrice filmé caméra à la main. Préservez son visage, son âge, sa texture de peau, ses cheveux, son pull vert mousse, la tasse, la pâtisserie, la fenêtre et la disposition de la table.
 
@@ -181,8 +171,6 @@ Continuité : ni embellissement du visage, changement de tenue, doigts suppléme
 ![La ligne du sel à l’aube : documentaire de voyage](assets/coastal-salt-train-documentary.webp)
 
 **Réglages image vers vidéo:** 12s · 16:9 · 1080p · [Image de départ : ouvrir et enregistrer](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/fr-FR/salt-line.txt)
-
-[Source : Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Animez la scène côtière de marais salants fournie comme un documentaire de voyage d’observation respectueux. Préservez les deux ouvriers, le train crème et ocre, les bassins, les collines calcaires, bâtiments, mer, direction du lever du soleil et palette de film atténuée.
@@ -314,8 +302,6 @@ Préserve identité, construction de la robe et corps continu plausible sous le 
 
 **Réglages image vers vidéo:** 8s · 16:9 · 1080p · [Image de départ : ouvrir et enregistrer](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/fr-FR/citrus-halo.txt)
 
-[Source : Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Préservez le design du flacon fourni, les proportions du verre, le bouchon, le socle en calcaire, l’écorce de pamplemousse, le décor ivoire chaud et la lumière latérale dorée. Créez un élégant film de produit de huit secondes.
 
@@ -344,9 +330,9 @@ Emportez le plan du flacon, l’échange des horlogers ou le tour en robe cobalt
 
 [Verre et lumière](#case-sea-glass-bottle) · [Dialogue d’horlogers](#case-clockwork-dialogue) · [Un tour couture](#case-cobalt-orbit)
 
-[![Produit, matière, architecture et mode se rencontrent dans un même espace créatif fluide. Visuel de marque original de SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/fr/model/grok-imagine-1-5/)
+[![Verre, tissu sculpté et serre en bord de mer se côtoient dans une même scène fluide.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/fr/model/grok-imagine-1-5/)
 
-Produit, matière, architecture et mode se rencontrent dans un même espace créatif fluide. Visuel de marque original de SeaImagine.
+Verre, tissu sculpté et serre en bord de mer se côtoient dans une même scène fluide.
 
 **[Créer ce plan avec SeaImagine](https://seaimagine.com/fr/model/grok-imagine-1-5/)**
 
@@ -364,12 +350,14 @@ Produit, matière, architecture et mode se rencontrent dans un même espace cré
 
 [Référence de rédaction](docs/guides/fr-FR.md) · [Référence des réglages et des commandes](docs/workflows/fr-FR.md) · [SeaImagine](https://seaimagine.com/fr/model/grok-imagine-1-5/)
 
-[Sources](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## Collection et attribution
+## Notes
 
-65 prompts distincts en anglais : 35 hérités et 30 originaux. Les originaux sont nouveaux et non testés par génération. Les traductions ne comptent pas comme scènes supplémentaires.
+Les images sont des illustrations conceptuelles ; les prompts originaux n’ont pas encore été testés par génération. Projet maintenu par SeaImagine, sans affiliation à xAI. Les réglages disponibles dépendent de l’outil utilisé.
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/fr/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+Sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis ajustez le timing des actions.
+
+[Sources](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [Travaux officiels et communautaires](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/fr/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

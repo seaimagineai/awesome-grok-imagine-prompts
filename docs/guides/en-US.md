@@ -2,7 +2,7 @@
 
 [← English](../../README.md)
 
-> [Illustrated prompts to copy and adapt](../../README.md#featured-prompts) — The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other six use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.
+> [Illustrated prompts to copy and adapt](../../README.md#featured-prompts) — Browse the illustrated cases, or continue below for writing references and more prompts.
 
 ## Grok Imagine Video 1.5 capabilities
 

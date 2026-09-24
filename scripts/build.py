@@ -48,7 +48,7 @@ def render_core(data, featured, product_url, guide, locale, ui):
         rows.append(f'| [{ui["category_names"][n]} · {count}](docs/PROMPT_INDEX.md#{slug}) | {ui["scene_summaries"][n]} | {modes} | {examples} |')
     out.append('\n'.join(rows))
     out.append(f'[{featured["quick_links"][0]}](#featured-prompts) · [{ui["brand_label"]}](#create-with-seaimagine)')
-    out += ['<a id="visual-index"></a>', '<a id="featured-prompts"></a>', f'## {featured["gallery_title"]}', featured['gallery_intro'], featured['source_note']]
+    out += ['<a id="visual-index"></a>', '<a id="featured-prompts"></a>', f'## {featured["gallery_title"]}', featured['gallery_intro']]
     for i, ident in enumerate(ORDER, 1):
         case = cases[ident]
         out += [f'<a id="case-{ident}"></a>']
@@ -62,8 +62,6 @@ def render_core(data, featured, product_url, guide, locale, ui):
         else:
             out.append(f'![{case["title"]}]({case["image"]})')
         out += [f'**{data["settings_label"]}:** {case["settings"]} · [{data["image_label"]}]({case["image"]}) · [TXT](prompts/text/{locale}/{ident}.txt)']
-        if ident in source_ids:
-            out.append(f'[{featured["source_label"]}](docs/ATTRIBUTION.md)')
         out.append('```text\n' + case['prompt'] + '\n```')
         out.append(f'[{featured["back_label"]}](#find-the-right-prompt)')
     out += ['<a id="seaimagine-browser-workflow"></a>', '<a id="create-with-seaimagine"></a>',
@@ -78,10 +76,10 @@ def render_core(data, featured, product_url, guide, locale, ui):
     out.extend(f'<a id="{a}"></a>' for a in sorted(set(guide['legacy_anchors']) - {'multilingual-prompts'}))
     out += [f'## {featured["more_label"]}',
             f'[{featured["quick_links"][3]}]({guide["guide"]}) · [{featured["reference_label"]}](docs/workflows/{locale}.md) · [SeaImagine]({product_url})',
-            f'[{ui["source_label"]}](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)',
             '<a id="multilingual-prompts"></a>',
-            f'## {featured["counts_label"]}', data['recipe_count_note'],
-            '[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine]('+product_url+') · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)']
+            f'## {featured["counts_label"]}', ui['footer_notice'], featured['source_note'],
+            f'[{ui["source_label"]}](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [{featured["quick_links"][2]}](docs/COMMUNITY.md)',
+            '[SeaImagine]('+product_url+') · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)']
     return '\n\n'.join(out)+'\n'
 
 

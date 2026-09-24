@@ -4,7 +4,7 @@
 
 [Cuatro recetas completas adicionales en español](../../i18n/prompts.es-ES.md)
 
-> [Prompts ilustrados para copiar y adaptar](../../README.es-ES.md#featured-prompts) — Los cinco casos identificados como «Fuente: Flaq AI» conservan su duración y resolución originales; los otros seis usan las opciones actuales de SeaImagine. Para usar un caso de la fuente en SeaImagine, elige 5/10/15 segundos y 480p/720p y reescribe sus acciones cronometradas.
+> [Prompts ilustrados para copiar y adaptar](../../README.es-ES.md#featured-prompts) — Explora los casos ilustrados o sigue leyendo para consultar pautas de escritura y más prompts.
 
 ## 1. Cosecha de luz: anuncio de aceite de oliva
 

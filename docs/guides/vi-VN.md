@@ -2,7 +2,7 @@
 
 [← Tiếng Việt](../../README.vi-VN.md)
 
-> [Câu lệnh có hình để sao chép và điều chỉnh](../../README.vi-VN.md#featured-prompts) — Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; sáu ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.
+> [Câu lệnh có hình để sao chép và điều chỉnh](../../README.vi-VN.md#featured-prompts) — Duyệt hình ảnh và prompt đầy đủ theo từng cảnh.
 
 ## Nguyên tắc nhanh
 

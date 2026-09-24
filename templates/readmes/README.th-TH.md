@@ -6,6 +6,4 @@
 
 ![Grok Imagine 1.5 — สมุดพรอมป์ต์ที่เปิดออก มีรองเท้า รถราง และวาฬกระดาษอยู่ในฉากเดียวกัน](assets/seaimagine-grok-hero.webp)
 
-ดัดแปลงจาก [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) ดูแลโดย SeaImagine ภายใต้สัญญาอนุญาต [MIT](LICENSE) และเป็นโครงการอิสระจาก xAI ภาพแนวคิดไม่ได้แสดงผลการทดสอบจริงด้วย Grok
-
 {{LOCALIZED_CORE}}

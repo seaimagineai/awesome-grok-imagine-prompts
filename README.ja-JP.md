@@ -6,8 +6,6 @@
 
 ![Grok Imagine 1.5 — 開いたプロンプト手帳から、靴・路面電車・紙のクジラが一つの世界へ広がる](assets/seaimagine-grok-hero.webp)
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) をもとに再編集し、SeaImagine が管理しています。[MIT](LICENSE) ライセンスで公開しており、xAI とは独立したプロジェクトです。コンセプト画像は Grok で実測した出力を示すものではありません。
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -36,9 +34,7 @@
 
 ## コピーしてアレンジできる画像付きプロンプト
 
-11の例すべてに完全なプロンプトと参照画像があります。画像は構想の提示用で、検証済みの動画結果ではありません。
-
-出典が Flaq AI と表示された5つの例は、元の長さと解像度を保存しています。残る6つは SeaImagine の現在の選択肢に合わせて書いています。元の例を SeaImagine で使う場合は 5/10/15 秒と 480p/720p を選び、動作の時間配分を組み直してください。
+11の画像付き作例から場面を選び、プロンプト全文をコピーできます。
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -74,8 +70,6 @@
 
 **画像から動画を生成する設定:** 10s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ja-JP/blue-route.txt)
 
-[出典：Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 入力画像の配達員、コバルトブルーの電動バイク、荷箱、高架の市場、半透明の日よけ、ぬれた鉄製通路、照明、夜の配色を保つ。重量、タイヤのグリップ、雨、サスペンションに説得力のある、現実的で連続した低い位置からの追跡ショットを作る。
 
@@ -101,8 +95,6 @@
 ![ハニーローフ — ミニチュアのパン屋の物語](assets/pear-bakery-miniature-video.webp)
 
 **画像から動画を生成する設定:** 9s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ja-JP/honey-loaf.txt)
-
-[出典：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 梨の家のパン屋、3人の小さなパン職人、衣装、顔、ハニーローフ、オーブン、窓、苔、クローバー、月、手触りを感じるストップモーション素材、暖色と寒色の対比を保つ。
@@ -156,8 +148,6 @@
 
 **画像から動画を生成する設定:** 10s · 9:16 · 1080p · [開始フレーム — 開いて保存](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ja-JP/first-sip.txt)
 
-[出典：Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 入力されたカフェ写真を、誠実な手持ち撮影の体験レビューとして動かす。人物の顔、年齢、肌の質感、髪、モスグリーンのセーター、カップ、焼き菓子、窓、テーブル配置を保つ。
 
@@ -183,8 +173,6 @@
 ![夜明けの塩田線 — 旅行ドキュメンタリー](assets/coastal-salt-train-documentary.webp)
 
 **画像から動画を生成する設定:** 12s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ja-JP/salt-line.txt)
-
-[出典：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 入力された海辺の塩田を、働く人への敬意を持つ観察型の旅行ドキュメンタリーとして動かす。2人の作業員、クリーム色と黄土色の列車、塩田、石灰岩の丘、建物、海、日の出の方向、落ち着いたフィルムの配色を保つ。
@@ -316,8 +304,6 @@
 
 **画像から動画を生成する設定:** 8s · 16:9 · 1080p · [開始フレーム — 開いて保存](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ja-JP/citrus-halo.txt)
 
-[出典：Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 入力画像のボトルのデザイン、ガラスの比率、キャップ、石灰岩の台座、グレープフルーツの皮、暖かなアイボリーのセット、金色の側光を保つ。優雅な8秒の商品映像を作る。
 
@@ -346,9 +332,9 @@
 
 [瓶の質感](#case-sea-glass-bottle) · [時計修復師の会話](#case-clockwork-dialogue) · [ドレスの回転](#case-cobalt-orbit)
 
-[![商品、素材、建築、ファッションが、ひと続きの創作空間で出会います。SeaImagine オリジナルのブランドコンセプト画像。](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ja/model/grok-imagine-1-5/)
+[![商品、素材、建築、ファッションが、ひと続きの創作空間で出会います。](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ja/model/grok-imagine-1-5/)
 
-商品、素材、建築、ファッションが、ひと続きの創作空間で出会います。SeaImagine オリジナルのブランドコンセプト画像。
+商品、素材、建築、ファッションが、ひと続きの創作空間で出会います。
 
 **[SeaImagine でこのカットを作る](https://seaimagine.com/ja/model/grok-imagine-1-5/)**
 
@@ -378,12 +364,14 @@
 
 [プロンプト作成の参考資料](docs/guides/ja-JP.md) · [設定と操作の参考資料](docs/workflows/ja-JP.md) · [SeaImagine](https://seaimagine.com/ja/model/grok-imagine-1-5/)
 
-[出典](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## 収録内容と出典
+## 補足
 
-英語の独立したプロンプトは計65件：元のライブラリから35件、オリジナル30件。翻訳は新しい場面として数えません。オリジナルのプロンプトは生成検証前です。
+画像はコンセプトのイメージです。オリジナルのプロンプトは生成検証前です。本プロジェクトは SeaImagine が管理しており、xAI には所属していません。実際の設定は利用するツールに従ってください。
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/ja/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+5/10/15秒、480p/720pなどの設定を使う場合は、動作の時間配分も合わせて調整してください。
+
+[出典](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [公式とコミュニティの作品](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/ja/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

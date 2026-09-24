@@ -10,8 +10,6 @@
 
 ![Grok Imagine 1.5 — Open prompt notebook with a product shoe, tram and paper whale in one continuous scene](assets/seaimagine-grok-hero.webp)
 
-Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintained by SeaImagine. Independent of xAI; concept images are not verified Grok outputs. [Attribution](docs/ATTRIBUTION.md) · [MIT](LICENSE).
-
 <a id="find-the-right-prompt"></a>
 
 <a id="prompt-library"></a>
@@ -40,9 +38,7 @@ Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintain
 
 ## Illustrated prompts to copy and adapt
 
-11 cases with full prompts and starting-frame images. Images illustrate concepts; they are not verified video outputs.
-
-The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other six use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.
+Browse 11 illustrated cases, then copy a prompt and adapt the shot.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -77,8 +73,6 @@ Hold a stable frame for the final second.
 ![Blue Route — rain-market courier tracking shot](assets/rainy-market-courier-video.webp)
 
 **Image-to-video settings:** 10s · 16:9 · 1080p · [Starting frame — open and save](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/en-US/blue-route.txt)
-
-[Source: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Preserve the supplied courier, cobalt electric motorcycle, cargo box, elevated market,
@@ -115,8 +109,6 @@ signs, logos, teleporting camera, or impossible speed ramp.
 ![The Honey Loaf — miniature bakery story](assets/pear-bakery-miniature-video.webp)
 
 **Image-to-video settings:** 9s · 16:9 · 1080p · [Starting frame — open and save](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/en-US/honey-loaf.txt)
-
-[Source: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Keep the pear-house bakery, three miniature bakers, costumes, faces, honey loaf, oven,
@@ -179,8 +171,6 @@ Keep the loose gear separate and stationary throughout; nobody installs it. Pres
 
 **Image-to-video settings:** 10s · 9:16 · 1080p · [Starting frame — open and save](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/en-US/first-sip.txt)
 
-[Source: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Animate the supplied café photo as an honest handheld creator review. Preserve the person's
 face, age, skin texture, hair, moss-green sweater, cup, pastry, window, and table layout.
@@ -213,8 +203,6 @@ redesign, no background people appearing, no logos, and no exaggerated influence
 ![Salt Line at Dawn — travel documentary](assets/coastal-salt-train-documentary.webp)
 
 **Image-to-video settings:** 12s · 16:9 · 1080p · [Starting frame — open and save](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/en-US/salt-line.txt)
-
-[Source: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Animate the supplied coastal salt-pond scene as a respectful observational travel documentary.
@@ -356,8 +344,6 @@ Maintain one identity, the original dress construction and a plausible continuou
 
 **Image-to-video settings:** 8s · 16:9 · 1080p · [Starting frame — open and save](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/en-US/citrus-halo.txt)
 
-[Source: Flaq AI](docs/ATTRIBUTION.md)
-
 ```text
 Preserve the supplied bottle design, glass proportions, cap, limestone pedestal, grapefruit
 peel, warm ivory set, and golden side light. Create an elegant eight-second product film.
@@ -395,9 +381,9 @@ Bring the glass-bottle shot, clockmakers’ quiet exchange or cobalt gown turn t
 
 [Glass and light](#case-sea-glass-bottle) · [A clockmaker dialogue](#case-clockwork-dialogue) · [A couture turn](#case-cobalt-orbit)
 
-[![Product, material, architecture and fashion meet in one flowing creative space. Original SeaImagine brand concept artwork.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/model/grok-imagine-1-5/)
+[![Glass, sculpted fabric and a seaside conservatory share a single flowing scene.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/model/grok-imagine-1-5/)
 
-Product, material, architecture and fashion meet in one flowing creative space. Original SeaImagine brand concept artwork.
+Glass, sculpted fabric and a seaside conservatory share a single flowing scene.
 
 **[Create this shot with SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/)**
 
@@ -439,12 +425,14 @@ Product, material, architecture and fashion meet in one flowing creative space. 
 
 [Writing reference](docs/guides/en-US.md) · [Settings and operation reference](docs/workflows/en-US.md) · [SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/)
 
-[Sources](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
-
 <a id="multilingual-prompts"></a>
 
-## Collection and attribution
+## Notes
 
-65 distinct English prompts: 35 inherited and 30 original. Original prompts are newly written and not generation-tested. Translations are not additional scenarios.
+Images are concept illustrations; original prompts have not yet been generation-tested. Maintained by SeaImagine, with no affiliation to xAI. Available settings depend on the tool you use.
 
-[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)
+On SeaImagine, choose 5/10/15 seconds and 480p/720p, then adjust the action timing to match.
+
+[Sources](docs/ATTRIBUTION.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md) · [Official and community work](docs/COMMUNITY.md)
+
+[SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

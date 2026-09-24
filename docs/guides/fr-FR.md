@@ -2,7 +2,7 @@
 
 [← Français](../../README.fr-FR.md)
 
-> [Des prompts illustrés à copier et à adapter](../../README.fr-FR.md#featured-prompts) — Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les six autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.
+> [Des prompts illustrés à copier et à adapter](../../README.fr-FR.md#featured-prompts) — Parcourez les exemples illustrés ou poursuivez avec les repères de rédaction et d’autres prompts.
 
 ## Principes rapides
 
