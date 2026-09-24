@@ -8,7 +8,18 @@
 
 These recipes fit one readable dramatic beat into a short clip. For a longer scene, generate one shot at a time and end each shot on a stable pose that can be extended.
 
+## Index
+
+- [1. Last Tram Note — restrained urban romance](#1-last-tram-note--restrained-urban-romance)
+- [2. Room 407 — quiet hotel mystery](#2-room-407--quiet-hotel-mystery)
+- [3. Glasshouse Pursuit — grounded parkour action](#3-glasshouse-pursuit--grounded-parkour-action)
+- [4. Tidekeeper — coastal fantasy ritual](#4-tidekeeper--coastal-fantasy-ritual)
+- [5. Paper Moon Delivery — hand-drawn animation](#5-paper-moon-delivery--hand-drawn-animation)
+- [6. Europa Signal — hard-science discovery](#6-europa-signal--hard-science-discovery)
+
 ## 1. Last Tram Note — restrained urban romance
+
+[TXT](text/en-US/02-cinematic-storytelling-1.txt) · [↑ Index](#index)
 
 **Mode:** text-to-video · **Output:** 12s · 16:9 · 1080p
 
@@ -34,6 +45,8 @@ ads, camera cut, or time jump.
 
 ## 2. Room 407 — quiet hotel mystery
 
+[TXT](text/en-US/02-cinematic-storytelling-2.txt) · [↑ Index](#index)
+
 **Mode:** image-to-video · **Output:** 10s · 16:9 · 1080p
 
 ```text
@@ -57,6 +70,8 @@ or new character.
 ```
 
 ## 3. Glasshouse Pursuit — grounded parkour action
+
+[TXT](text/en-US/02-cinematic-storytelling-3.txt) · [↑ Index](#index)
 
 **Mode:** text-to-video · **Output:** 10s · 21:9 composition in 16:9 output · 1080p
 
@@ -82,6 +97,8 @@ impact, teleporting camera, aggressive motion blur, or environment redesign.
 
 ## 4. Tidekeeper — coastal fantasy ritual
 
+[TXT](text/en-US/02-cinematic-storytelling-4.txt) · [↑ Index](#index)
+
 **Mode:** image-to-video · **Output:** 11s · 2:3 · 1080p
 
 ```text
@@ -104,6 +121,8 @@ No crown, extra symbols, glowing eyes, body levitation, ocean wall, lightning, t
 ```
 
 ## 5. Paper Moon Delivery — hand-drawn animation
+
+[TXT](text/en-US/02-cinematic-storytelling-5.txt) · [↑ Index](#index)
 
 **Mode:** text-to-video · **Output:** 9s · 4:3 · 1080p
 
@@ -128,6 +147,8 @@ studio imitation, readable writing, or frame border changes.
 ```
 
 ## 6. Europa Signal — hard-science discovery
+
+[TXT](text/en-US/02-cinematic-storytelling-6.txt) · [↑ Index](#index)
 
 **Mode:** extension from a previous clip · **Output:** continue 10s · preserve input ratio and resolution
 

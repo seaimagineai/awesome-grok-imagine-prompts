@@ -1,7 +1,7 @@
 {
-  "nav_title": "What would you like to create?",
+  "nav_title": "Category index",
   "goal_label": "Goal",
-  "example_label": "Start with an illustrated example",
+  "example_label": "Illustrated cases",
   "browse_label": "Browse more prompts (English)",
   "goals": [
     "Product ads",
@@ -13,17 +13,17 @@
     "Animated layouts"
   ],
   "gallery_title": "Illustrated prompts to copy and adapt",
-  "gallery_intro": "Choose a subject below, save its starting image and copy the full prompt. Start with one action and one camera move; the images are concepts, not verified video results.",
+  "gallery_intro": "8 cases with full prompts and starting-frame images. Images illustrate concepts; they are not verified video outputs.",
   "prompt_label": "Copy the complete prompt",
   "source_note": "The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other three use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.",
   "source_label": "Source: Flaq AI",
-  "more_label": "More in this language: writing guide and additional exercises",
+  "more_label": "Reference material",
   "counts_label": "Collection and attribution",
   "quick_links": [
     "Illustrated examples",
-    "Browser steps",
+    "Settings and operation reference",
     "Official and community work",
-    "Writing guide"
+    "Writing reference"
   ],
   "collections": [
     "Ads and products",
@@ -74,5 +74,12 @@
       "prompt": "Animate the supplied coastal salt-pond scene as a respectful observational travel documentary.\nPreserve the two workers, cream-and-ochre train, salt beds, limestone hills, buildings, sea,\nsunrise direction, and muted film palette.\n\n0–4s: locked wide frame. The workers continue inspecting the channel: one guides a wooden\ntool through the shallow brine while the other steadies the divider. Water ripples respond to\nthe tool and morning breeze. The train approaches at a measured speed in the midground.\n\n4–9s: camera pans slowly right to follow the train. Wheels stay aligned to the rails; carriage\nspacing and window rhythm remain consistent. A light veil of sea haze drifts behind it while\nsunlight gradually catches the salt crystals in the foreground.\n\n9–12s: the train passes toward the coast and the pan eases to a stop. One worker stands,\nstretches naturally, and looks toward the line. Hold the final two seconds for an edit point.\n\nAudio: soft electric rail hum, rhythmic wheel joints, breeze across shallow water, distant\ngulls, wooden tool moving through brine. No narration, music, crowd, or dramatic horn.\n\nContinuity lock: realistic labor, stable anatomy, fixed landscape, unchanged train design,\nplausible reflections and water physics. No modern skyline, tourist staging, new buildings,\nlogos, readable signs, oversaturated postcard color, or time-lapse sky.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "All prompts",
+  "preview_title": "Visual case overview",
+  "category_label": "Category",
+  "count_label": "Count",
+  "browse_cases_label": "Case index",
+  "back_label": "Back to category index",
+  "reference_label": "Settings and operation reference"
 }

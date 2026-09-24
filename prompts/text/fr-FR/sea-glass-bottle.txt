@@ -1,0 +1,7 @@
+Conservez l’unique bouteille en verre marin dépoli sur la pierre claire, son bouchon cylindrique, sa face avant vierge sans inscription, le niveau d’eau, l’horizon et l’éclairage latéral doux. La bouteille ne bouge jamais.
+Pendant cinq secondes, effectuez un lent déplacement latéral de la caméra vers la droite, sur une distance ne dépassant pas la largeur d’une bouteille.
+Une petite goutte d’eau descend sur la face avant et s’arrête à la base. À l’arrière-plan, les vagues se déplacent doucement dans le flou. Gardez des reflets cohérents avec la caméra et la source lumineuse.
+Son : uniquement le ressac lointain ; ni musique, voix, choc de verre ou éclaboussures exagérées.
+Ni coupe ni zoom. Préservez la silhouette de la bouteille, l’alignement du bouchon, la texture du verre et le nombre d’objets.
+Évitez les logos générés, les changements du niveau de liquide, les bords déformés, les objets flottants ou les nouveaux accessoires.
+Gardez un cadre stable pendant la dernière seconde.

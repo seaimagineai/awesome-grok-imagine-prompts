@@ -1,0 +1,17 @@
+Create the same original adult cartographer using facial identity, skin, hair, and age from
+<IMAGE_0>; body proportions, weathered teal coat, boots, and satchel from <IMAGE_1>; and the round
+harbor map room, windows, chart table, and dawn lighting from <IMAGE_2>. Do not combine clothing
+or architecture from the identity portrait.
+
+Start in a medium-wide view. The cartographer crosses from the window to the chart table in four
+natural steps, sets the existing satchel on a chair, and unrolls one paper chart with both hands.
+Camera makes a slow half-circle to reveal their face in three-quarter profile. Sea breeze through
+the open window moves hair, coat hem, and only the loose chart corners. They notice one marked
+route, trace it with a finger, then look toward the harbor with a calm decision.
+
+Audio: gulls, distant rigging, boot steps, leather satchel, paper roll, quiet room. No dialogue,
+music, narration, or text.
+
+Lock: exact face, age, hairstyle, body, coat design and color, satchel, room geometry, chart count,
+and dawn light. No identity drift, wardrobe redesign, extra jewelry, extra fingers, readable map
+labels, logos, crowd, camera cut, or fantasy glow.

@@ -1,0 +1,16 @@
+Change only the time of day and related illumination. Transform the existing late-afternoon
+exterior into realistic blue hour approximately twenty minutes after sunset.
+
+Preserve every building, window, door, tree, path, parked bicycle, person, action, camera move,
+timing, framing, lens behavior, and surface material. Gradually cool the sky to deep cobalt while
+retaining a faint warm horizon. Turn on only the practical lights already visible in windows and
+under eaves; each light casts restrained, physically consistent warmth on nearby surfaces. Make
+existing street lamps illuminate in sequence as the camera passes. Adjust shadows, reflections,
+exposure, and white balance consistently across every frame. People and bicycle continue their
+original movement without any speed or identity change.
+
+Audio: preserve the source audio exactly. Do not add crickets, music, or electrical switch sounds.
+
+Do not add or remove architecture, windows, signage, vehicles, people, clouds, or lamps. No
+flickering exposure, new neon, fantasy glow, star time-lapse, wet ground, readable text mutation,
+camera stabilization change, or altered duration.

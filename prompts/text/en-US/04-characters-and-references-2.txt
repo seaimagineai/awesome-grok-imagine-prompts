@@ -1,0 +1,15 @@
+Use the fictional adult model's identity, body, skin, hair, and height from <IMAGE_0>. Dress them
+in the exact linen two-piece shown from front in <IMAGE_1> and back in <IMAGE_2>, plus the exact
+unbranded shoes from <IMAGE_3>. Use only the neutral plaster studio and light direction from
+<IMAGE_4>. Garment fit should respect the model's real body rather than changing their shape.
+
+The model takes three relaxed steps toward camera, stops, turns once to show the side and back,
+then returns to a three-quarter front pose. Camera stays at chest height and slowly pulls back to
+keep the full body and both shoes visible. Linen folds, hem, and sleeves respond to walking and
+settle with believable weight; closures and seams remain in place.
+
+Audio: shoes on plaster, light fabric movement, studio room tone. No music or speech.
+
+Lock: identity, body proportions, garment cut, seams, buttons, color, texture, back construction,
+shoe shape, and studio. No slimming, height change, face retouch, fabric morph, missing shoe,
+new accessory, logo, extreme runway pose, mirror, or camera cut.

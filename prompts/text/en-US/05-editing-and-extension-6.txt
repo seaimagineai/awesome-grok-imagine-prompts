@@ -1,0 +1,17 @@
+Keep the original unbranded desk speaker, turntable, background, surface, lighting, camera position,
+materials, color, and audio style. Modify only the object's rotational timing and the final-to-first
+transition so the clip becomes a seamless loop.
+
+The speaker completes exactly one constant-speed 360-degree rotation around its vertical center.
+It never translates, tilts, scales, flexes, or changes design. Highlights and shadow move smoothly
+and physically with the rotation, returning to their exact opening state on the last frame. Keep
+all buttons, grille holes, feet, seams, and reflections coherent across the hidden side. Remove any
+speed ramp, hesitation, reverse motion, exposure pulse, or final-frame freeze from the source.
+Background and camera stay perfectly locked. Match the last frame to the first in object angle,
+light, shadow, focus, and grain.
+
+Audio: create a continuous quiet room tone and low turntable motor that crosses the loop point
+without a click, volume jump, or fade. No music or voice.
+
+No label, logo, geometry invention, mirrored controls, floating object, camera orbit, background
+movement, shadow discontinuity, new reflection, or duration change.

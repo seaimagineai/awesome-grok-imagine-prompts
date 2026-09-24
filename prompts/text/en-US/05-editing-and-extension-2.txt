@@ -1,0 +1,15 @@
+Change only weather, seasonal surface details, and the light they physically affect. Convert the
+existing quiet autumn courtyard into the first gentle snowfall of early winter.
+
+Preserve all people, faces, clothes, actions, timing, camera path, buildings, benches, trees,
+ground geometry, and composition. Replace falling leaves with sparse snowflakes traveling in the
+same wind direction at varied depths. Add a thin, uneven dusting of fresh snow only on upward-facing
+surfaces; paths remain mostly visible and slightly damp. Bare branches keep their exact structure.
+Cool the daylight subtly and soften contrast while retaining believable skin color. Footsteps and
+wheel contact respond to damp ground without changing movement.
+
+Audio: keep original voices and foreground sounds. Replace leaf rustle with soft snowfall ambience
+and dampened courtyard room tone; do not add music.
+
+No blizzard, deep snow, wardrobe change, breath clouds unless temperature supports them, frozen
+fountain, new footprints ahead of people, extra branches, identity drift, camera change, or text.

@@ -3,6 +3,7 @@
 import argparse
 import html
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,7 +14,20 @@ COLLECTIONS = ['01-ads-and-products', '02-cinematic-storytelling', '03-social-ug
                '04-characters-and-references', '05-editing-and-extension']
 
 
-def render_core(data, featured, product_url, guide):
+def catalog():
+    groups = []
+    for slug in COLLECTIONS:
+        text = (ROOT / 'prompts' / (slug + '.md')).read_text()
+        entries = []
+        for title, body in re.findall(r'^## (\d+\..+?)\n(.*?)(?=^## |\Z)', text, re.M | re.S):
+            prompt = re.search(r'```text\n(.*?)\n```', body, re.S).group(1)
+            anchor = re.sub(r'[^\w\-\s]', '', title.lower()).replace(' ', '-')
+            entries.append((title, anchor, prompt))
+        groups.append((slug, entries))
+    return groups
+
+
+def render_core(data, featured, product_url, guide, locale):
     cases = {c['id']: c for c in data['cases'] + featured['cases']}
     source_ids = {c['id'] for c in featured['cases']}
     out = ['<a id="find-the-right-prompt"></a>', '<a id="prompt-library"></a>',
@@ -27,13 +41,25 @@ def render_core(data, featured, product_url, guide):
             links += f' · [{cases["citrus-halo"]["title"]}](#case-citrus-halo)'
         table.append(f'| {label} | {links} |')
     out.append('\n'.join(table))
-    out.append(f'**{featured["browse_label"]}:** ' + ' · '.join(
-        f'[{label}](prompts/{slug}.md)' for label, slug in zip(featured['collections'], COLLECTIONS)))
-    out.append(' · '.join(f'[{label}](#{anchor})' for label, anchor in zip(
-        featured['quick_links'], ['featured-prompts', 'seaimagine-browser-workflow',
-        'learn-from-official-and-community-examples', 'writing-guide'])))
-    out += ['<a id="featured-prompts"></a>', f'## {featured["gallery_title"]}',
-            featured['gallery_intro'], featured['source_note']]
+    out.append(' · '.join([f'[{featured["quick_links"][0]}](#featured-prompts)',
+        f'[{featured["quick_links"][2]}](#learn-from-official-and-community-examples)',
+        f'[{featured["reference_label"]}](#writing-guide)']))
+    out += ['<a id="visual-index"></a>', f'### {featured["preview_title"]}', featured['gallery_intro'], featured['source_note']]
+    preview = ['| | |', '| --- | --- |']
+    for a, b in zip(ORDER[::2], ORDER[1::2]):
+        cells = []
+        for ident in (a, b):
+            c = cases[ident]
+            cells.append(f'<a href="#case-{ident}"><img src="{c["image"]}" height="180" alt="{html.escape(c["title"], quote=True)}"></a><br>[{ORDER.index(ident)+1}. {c["title"]}](#case-{ident})<br>{c["settings"]}')
+        preview.append('| ' + ' | '.join(cells) + ' |')
+    out.append('\n'.join(preview))
+    out.append(f'**{featured["browse_label"]} · 30**')
+    rows = [f'| {featured["category_label"]} | {featured["browse_cases_label"]} |', '| --- | --- |']
+    for label, (slug, entries) in zip(featured['collections'], catalog()):
+        links = ' · '.join(f'[{title}](prompts/{slug}.md#{anchor})' for title, anchor, _ in entries)
+        rows.append(f'| [{label} · {len(entries)}](prompts/{slug}.md) | {links} |')
+    out.append('\n'.join(rows))
+    out += ['<a id="featured-prompts"></a>', f'## {featured["gallery_title"]}']
     for i, ident in enumerate(ORDER, 1):
         case = cases[ident]
         out += [f'<a id="case-{ident}"></a>']
@@ -42,21 +68,11 @@ def render_core(data, featured, product_url, guide):
         else:
             out += [f'<a id="seaimagine-{ident}"></a>']
         out += [f'### {i}. {case["title"]}']
-        if ident in ('coastal-postcard', 'first-sip'):
-            out.append(f'<a href="{case["image"]}"><img src="{case["image"]}" width="420" alt="{html.escape(case["title"], quote=True)}"></a>')
-        else:
-            out.append(f'![{case["title"]}]({case["image"]})')
-        out += [f'[{data["image_label"]}]({case["image"]})',
-                f'**{data["settings_label"]}:** {case["settings"]}']
+        out += [f'**{data["settings_label"]}:** {case["settings"]} · [{data["image_label"]}]({case["image"]}) · [TXT](prompts/text/{locale}/{ident}.txt)']
         if ident in source_ids:
-            out.append(f'[{featured["source_label"]}](docs/ATTRIBUTION.md) · [{featured["quick_links"][1]}](#seaimagine-browser-workflow)')
+            out.append(f'[{featured["source_label"]}](docs/ATTRIBUTION.md)')
         out.append('```text\n' + case['prompt'] + '\n```')
-        if 'review' in case:
-            out.append(f'**{data["review_label"]}:** {case["review"]}')
-    out += ['<a id="seaimagine-browser-workflow"></a>', '<a id="create-with-seaimagine"></a>',
-            f'## {data["workflow_title"]}', f'[SeaImagine · Grok Imagine 1.5]({product_url})',
-            data['workflow_intro'], f'![{data["workflow_title"]}](assets/seaimagine-interface.jpg)',
-            '\n'.join(f'{i}. {s}' for i,s in enumerate(data['steps'],1))]
+        out.append(f'[{featured["back_label"]}](#find-the-right-prompt) · [{featured["preview_title"]}](#visual-index)')
     out += ['<a id="learn-from-official-and-community-examples"></a>',
             f'## {data["community_title"]}', data['community_intro']]
     thumbs = {0:'https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg',
@@ -72,7 +88,8 @@ def render_core(data, featured, product_url, guide):
     # Keep existing external bookmarks valid after relocating reference material.
     out.extend(f'<a id="{a}"></a>' for a in sorted(set(guide['legacy_anchors']) - {'multilingual-prompts'}))
     out += [f'## {featured["more_label"]}',
-            f'[{featured["quick_links"][3]}]({guide["guide"]})',
+            f'[{featured["quick_links"][3]}]({guide["guide"]}) · [{featured["reference_label"]}](docs/workflows/{locale}.md) · [SeaImagine]({product_url})',
+            '<a id="seaimagine-browser-workflow"></a>', '<a id="create-with-seaimagine"></a>',
             '<a id="multilingual-prompts"></a>',
             f'## {featured["counts_label"]}', data['recipe_count_note'],
             '[Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine]('+product_url+') · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)']
@@ -87,11 +104,27 @@ def main():
     guides=json.loads((ROOT/'data/guide-index.json').read_text())
     nav=' · '.join(f'[{x["name"]}]({x["readme"]})' for x in locales)
     stale=[]
+    def output(path, text):
+        if args.check:
+            if not path.exists() or path.read_text() != text: stale.append(str(path.relative_to(ROOT)))
+        else:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(text)
+    for slug, entries in catalog():
+        for title, anchor, prompt in entries:
+            output(ROOT / 'prompts/text/en-US' / (slug + '-' + title.split('.')[0] + '.txt'), prompt + '\n')
     for item in locales:
         data=json.loads((ROOT/'data/homepage-locales'/f'{item["locale"]}.json').read_text())
         featured=json.loads((ROOT/'data/featured-locales'/f'{item["locale"]}.json').read_text())
+        for case in data['cases'] + featured['cases']:
+            output(ROOT / 'prompts/text' / item['locale'] / (case['id'] + '.txt'), case['prompt'] + '\n')
+        workflow = '\n\n'.join([f'# {data["workflow_title"]}', f'[← {item["name"]}](../../{item["readme"]})',
+            f'[SeaImagine · Grok Imagine 1.5]({item["product_url"]})', data['workflow_intro'],
+            f'![{data["workflow_title"]}](../../assets/seaimagine-interface.jpg)',
+            '\n'.join(f'{i}. {step}' for i, step in enumerate(data['steps'], 1))]) + '\n'
+        output(ROOT / 'docs/workflows' / (item['locale'] + '.md'), workflow)
         template=(ROOT/'templates/readmes'/item['readme']).read_text()
-        rendered=template.replace('{{LANGUAGE_NAV}}',nav).replace('{{PRODUCT_URL}}',item['product_url']).replace('{{LOCALIZED_CORE}}',render_core(data,featured,item['product_url'],guides[item['locale']]))
+        rendered=template.replace('{{LANGUAGE_NAV}}',nav).replace('{{PRODUCT_URL}}',item['product_url']).replace('{{LOCALIZED_CORE}}',render_core(data,featured,item['product_url'],guides[item['locale']],item['locale']))
         rendered=rendered.rstrip()+'\n'
         path=ROOT/item['readme']
         if args.check:

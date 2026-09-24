@@ -1,7 +1,7 @@
 {
-  "nav_title": "Apa yang ingin Anda buat?",
+  "nav_title": "Indeks kategori",
   "goal_label": "Tujuan",
-  "example_label": "Mulai dengan contoh bergambar",
+  "example_label": "Contoh bergambar",
   "browse_label": "Lihat prompt lainnya (bahasa Inggris)",
   "goals": [
     "Iklan produk",
@@ -13,17 +13,17 @@
     "Tata letak bergerak"
   ],
   "gallery_title": "Prompt bergambar untuk disalin dan disesuaikan",
-  "gallery_intro": "Pilih subjek di bawah, simpan gambar awalnya, lalu salin prompt lengkap. Mulailah dengan satu aksi dan satu gerakan kamera; gambar adalah konsep, bukan hasil video yang sudah diverifikasi.",
+  "gallery_intro": "8 contoh dengan prompt lengkap dan gambar bingkai awal. Gambar menunjukkan konsep, bukan hasil video yang telah diverifikasi.",
   "prompt_label": "Salin prompt lengkap",
   "source_note": "Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; tiga contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.",
   "source_label": "Sumber: Flaq AI",
-  "more_label": "Materi lain dalam bahasa Indonesia: panduan menulis dan latihan tambahan",
+  "more_label": "Bahan referensi",
   "counts_label": "Koleksi dan atribusi",
   "quick_links": [
     "Contoh bergambar",
-    "Langkah di browser",
+    "Referensi pengaturan dan penggunaan",
     "Karya resmi dan komunitas",
-    "Panduan menulis"
+    "Referensi penulisan"
   ],
   "collections": [
     "Iklan dan produk",
@@ -74,5 +74,12 @@
       "prompt": "Animasikan pemandangan tambak garam pesisir sebagai dokumenter perjalanan observasional yang menghormati para pekerja. Pertahankan dua pekerja, kereta krem dan oker, petak garam, bukit kapur, bangunan, laut, arah matahari terbit, dan palet film yang lembut.\n\n0–4s: bingkai lebar tetap. Pekerja terus memeriksa saluran: satu menggerakkan alat kayu dalam air garam dangkal sementara yang lain menahan pembatas. Riak air merespons alat dan angin pagi. Kereta mendekat dengan kecepatan terukur di bidang tengah.\n\n4–9s: kamera menoleh perlahan ke kanan mengikuti kereta. Roda tetap sejajar rel; jarak antargerbong dan irama jendela konsisten. Selapis tipis kabut laut bergerak di belakangnya, sementara sinar matahari bertahap menyentuh kristal garam di depan.\n\n9–12s: kereta melintas ke arah pantai dan gerakan kamera berhenti perlahan. Satu pekerja berdiri, meregangkan badan secara alami, dan melihat ke jalur kereta. Tahan dua detik terakhir untuk titik penyuntingan.\n\nAudio: dengung rel listrik lembut, bunyi sambungan roda berirama, angin melintasi air dangkal, camar jauh, dan alat kayu bergerak dalam air garam. Tanpa narasi, musik, kerumunan, atau klakson dramatis.\n\nKunci kesinambungan: kerja realistis, anatomi stabil, bentang alam tetap, desain kereta tidak berubah, pantulan dan fisika air masuk akal. Tanpa cakrawala kota modern, wisatawan yang diarahkan bergaya, bangunan baru, logo, papan terbaca, warna kartu pos terlalu jenuh, atau langit time-lapse.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Semua prompt",
+  "preview_title": "Sekilas contoh bergambar",
+  "category_label": "Kategori",
+  "count_label": "Jumlah",
+  "browse_cases_label": "Indeks contoh",
+  "back_label": "Kembali ke indeks kategori",
+  "reference_label": "Referensi pengaturan dan penggunaan"
 }

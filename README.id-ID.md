@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 prompt bahasa Inggris siap disalin untuk iklan produk, film pendek tentang tokoh, kisah fantasi, dan lainnya. Tersedia contoh pemula serta panduan penggunaan dalam 15 bahasa.
+> 38 prompt, termasuk 8 contoh bergambar yang tersedia dalam 15 bahasa. Telusuri berdasarkan kategori dan salin prompt lengkap.
 
 ![Grok Imagine 1.5 — Buku prompt terbuka dengan sepatu, trem, dan paus kertas dalam satu adegan yang menyatu](assets/seaimagine-grok-hero.webp)
 
@@ -12,9 +12,9 @@ Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan di
 
 <a id="prompt-library"></a>
 
-## Apa yang ingin Anda buat?
+## Indeks kategori
 
-| Tujuan | Mulai dengan contoh bergambar |
+| Tujuan | Contoh bergambar |
 | --- | --- |
 | Iklan produk | [Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](#case-sea-glass-bottle) · [Citrus Halo — film produk parfum premium](#case-citrus-halo) |
 | Aksi sinematik | [Rute Biru — mengikuti kurir di pasar berhujan](#case-blue-route) |
@@ -24,17 +24,36 @@ Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan di
 | Film perjalanan | [Jalur Garam saat Fajar — dokumenter perjalanan](#case-salt-line) |
 | Tata letak bergerak | [Kartu pos pesisir — menggerakkan gambar yang sudah dirancang](#case-coastal-postcard) |
 
-**Lihat prompt lainnya (bahasa Inggris):** [Iklan dan produk](prompts/01-ads-and-products.md) · [Cerita sinematik](prompts/02-cinematic-storytelling.md) · [Sosial dan gaya hidup](prompts/03-social-ugc.md) · [Tokoh dan referensi](prompts/04-characters-and-references.md) · [Penyuntingan dan perpanjangan](prompts/05-editing-and-extension.md)
+[Contoh bergambar](#featured-prompts) · [Karya resmi dan komunitas](#learn-from-official-and-community-examples) · [Referensi pengaturan dan penggunaan](#writing-guide)
 
-[Contoh bergambar](#featured-prompts) · [Langkah di browser](#seaimagine-browser-workflow) · [Karya resmi dan komunitas](#learn-from-official-and-community-examples) · [Panduan menulis](#writing-guide)
+<a id="visual-index"></a>
+
+### Sekilas contoh bergambar
+
+8 contoh dengan prompt lengkap dan gambar bingkai awal. Gambar menunjukkan konsep, bukan hasil video yang telah diverifikasi.
+
+Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; tiga contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
+
+| | |
+| --- | --- |
+| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="Botol kaca laut — membandingkan gerakan dengan variabel terkontrol"></a><br>[1. Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="Rute Biru — mengikuti kurir di pasar berhujan"></a><br>[2. Rute Biru — mengikuti kurir di pasar berhujan](#case-blue-route)<br>10s · 16:9 · 1080p |
+| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="Roti Madu — cerita toko roti miniatur"></a><br>[3. Roti Madu — cerita toko roti miniatur](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="Bertemu kembali di pelabuhan — satu perubahan emosi"></a><br>[4. Bertemu kembali di pelabuhan — satu perubahan emosi](#case-harbor-reunion)<br>10s · 16:9 · 720p |
+| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="Tegukan Pertama — ulasan kafe yang alami"></a><br>[5. Tegukan Pertama — ulasan kafe yang alami](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="Jalur Garam saat Fajar — dokumenter perjalanan"></a><br>[6. Jalur Garam saat Fajar — dokumenter perjalanan](#case-salt-line)<br>12s · 16:9 · 1080p |
+| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="Kartu pos pesisir — menggerakkan gambar yang sudah dirancang"></a><br>[7. Kartu pos pesisir — menggerakkan gambar yang sudah dirancang](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="Citrus Halo — film produk parfum premium"></a><br>[8. Citrus Halo — film produk parfum premium](#case-citrus-halo)<br>8s · 16:9 · 1080p |
+
+**Lihat prompt lainnya (bahasa Inggris) · 30**
+
+| Kategori | Indeks contoh |
+| --- | --- |
+| [Iklan dan produk · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
+| [Cerita sinematik · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
+| [Sosial dan gaya hidup · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
+| [Tokoh dan referensi · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
+| [Penyuntingan dan perpanjangan · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## Prompt bergambar untuk disalin dan disesuaikan
-
-Pilih subjek di bawah, simpan gambar awalnya, lalu salin prompt lengkap. Mulailah dengan satu aksi dan satu gerakan kamera; gambar adalah konsep, bukan hasil video yang sudah diverifikasi.
-
-Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; tiga contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -42,11 +61,7 @@ Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; 
 
 ### 1. Botol kaca laut — membandingkan gerakan dengan variabel terkontrol
 
-![Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](assets/seaimagine-sea-glass-bottle.webp)
-
-[Bingkai awal — buka dan simpan](assets/seaimagine-sea-glass-bottle.webp)
-
-**Pengaturan gambar ke video:** 5s · 16:9 · 720p
+**Pengaturan gambar ke video:** 5s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/id-ID/sea-glass-bottle.txt)
 
 ```text
 Pertahankan satu botol kaca laut buram di atas permukaan batu berwarna pucat, tutup silindernya,
@@ -61,7 +76,7 @@ Hindari munculnya logo, perubahan tinggi cairan, tepi yang melengkung, objek mel
 Tahan bingkai yang stabil pada detik terakhir.
 ```
 
-**Yang perlu diperiksa:** Catat model yang benar-benar digunakan, durasi, resolusi, jumlah percobaan, dan tanggal. Bandingkan bentuk botol, kesinambungan tetes air, pantulan, dan gerakan kamera. Satu klip yang berhasil belum membuktikan keandalan.
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
 
 <a id="case-blue-route"></a>
 
@@ -69,13 +84,9 @@ Tahan bingkai yang stabil pada detik terakhir.
 
 ### 2. Rute Biru — mengikuti kurir di pasar berhujan
 
-![Rute Biru — mengikuti kurir di pasar berhujan](assets/rainy-market-courier-video.webp)
+**Pengaturan gambar ke video:** 10s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/id-ID/blue-route.txt)
 
-[Bingkai awal — buka dan simpan](assets/rainy-market-courier-video.webp)
-
-**Pengaturan gambar ke video:** 10s · 16:9 · 1080p
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md) · [Langkah di browser](#seaimagine-browser-workflow)
+[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Pertahankan kurir, sepeda motor listrik biru kobalt, kotak barang, pasar di atas permukaan tanah, kanopi tembus cahaya, jalur baja basah, pencahayaan, dan palet malam. Buat satu shot mengikuti dari posisi rendah yang realistis dan berkelanjutan, dengan massa, cengkeraman ban, hujan, dan suspensi yang meyakinkan.
@@ -91,19 +102,17 @@ Audio: denging motor listrik realistis, percikan air, hujan di kanopi, suara ora
 Kunci kesinambungan: pakaian pengendara, helm, bentuk motor, kotak barang, panel biru, dan tata letak pasar harus sama persis. Tanpa perubahan bentuk kendaraan, roda berubah bentuk, tabrakan, senjata, papan terbaca, logo, kamera berpindah seketika, atau perubahan kecepatan yang mustahil.
 ```
 
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
+
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. Roti Madu — cerita toko roti miniatur
 
-![Roti Madu — cerita toko roti miniatur](assets/pear-bakery-miniature-video.webp)
+**Pengaturan gambar ke video:** 9s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/id-ID/honey-loaf.txt)
 
-[Bingkai awal — buka dan simpan](assets/pear-bakery-miniature-video.webp)
-
-**Pengaturan gambar ke video:** 9s · 16:9 · 1080p
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md) · [Langkah di browser](#seaimagine-browser-workflow)
+[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Pertahankan toko roti dalam rumah berbentuk pir, tiga pembuat roti miniatur, kostum, wajah, roti madu, oven, jendela, lumut, semanggi, bulan, bahan stop-motion bertekstur nyata, serta kontras warna hangat dan dingin.
@@ -119,17 +128,15 @@ Audio: ketukan kaki kecil di kayu, gemeretak api oven lembut, derit papan, seran
 Kunci kesinambungan: pertahankan jumlah tokoh, desain wajah, skala, warna pakaian, bentuk pir, tata ruang, dan tekstur kerajinan tangan. Tanpa pembuat roti tambahan, grafis komputer mengilap, anggota tubuh seperti karet, properti melayang, roti meleleh, potongan kamera, logo, atau desain tokoh mirip waralaba terkenal.
 ```
 
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
+
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. Bertemu kembali di pelabuhan — satu perubahan emosi
 
-![Bertemu kembali di pelabuhan — satu perubahan emosi](assets/seaimagine-harbor-reunion.webp)
-
-[Bingkai awal — buka dan simpan](assets/seaimagine-harbor-reunion.webp)
-
-**Pengaturan gambar ke video:** 10s · 16:9 · 720p
+**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/id-ID/harbor-reunion.txt)
 
 ```text
 Pertahankan dua orang dewasa, wajah mereka, pakaian biru tua dan krem, dermaga kayu,
@@ -145,7 +152,7 @@ Jaga identitas kedua tokoh, pakaian, bentuk dermaga, posisi perahu, dan arah cah
 Hindari orang tambahan, gerakan dramatis, penghalusan wajah, jari tambahan, dan lompatan kamera.
 ```
 
-**Yang perlu diperiksa:** Apakah emosinya terasa tanpa perubahan ekspresi yang besar? Jika dialog terasa terburu-buru, hapus langkah maju sebelum menambah durasi. Untuk film yang lebih panjang, tulis shot berikutnya secara terpisah.
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
 
 <a id="case-first-sip"></a>
 
@@ -153,13 +160,9 @@ Hindari orang tambahan, gerakan dramatis, penghalusan wajah, jari tambahan, dan 
 
 ### 5. Tegukan Pertama — ulasan kafe yang alami
 
-<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="420" alt="Tegukan Pertama — ulasan kafe yang alami"></a>
+**Pengaturan gambar ke video:** 10s · 9:16 · 1080p · [Bingkai awal — buka dan simpan](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/id-ID/first-sip.txt)
 
-[Bingkai awal — buka dan simpan](assets/cozy-cafe-ugc-video.webp)
-
-**Pengaturan gambar ke video:** 10s · 9:16 · 1080p
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md) · [Langkah di browser](#seaimagine-browser-workflow)
+[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Animasikan foto kafe yang diberikan sebagai ulasan kreator yang jujur dengan kamera genggam. Pertahankan wajah, usia, tekstur kulit, rambut, sweter hijau lumut, cangkir, pastri, jendela, dan tata letak meja.
@@ -175,19 +178,17 @@ Audio: suara dekat dari ponsel, suasana kafe yang sunyi, penguap susu dari jauh,
 Kunci kesinambungan: tanpa mempercantik wajah, mengganti pakaian, jari tambahan, desain ulang cangkir atau makanan, orang latar yang muncul, logo, atau gestur influencer berlebihan.
 ```
 
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
+
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. Jalur Garam saat Fajar — dokumenter perjalanan
 
-![Jalur Garam saat Fajar — dokumenter perjalanan](assets/coastal-salt-train-documentary.webp)
+**Pengaturan gambar ke video:** 12s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/id-ID/salt-line.txt)
 
-[Bingkai awal — buka dan simpan](assets/coastal-salt-train-documentary.webp)
-
-**Pengaturan gambar ke video:** 12s · 16:9 · 1080p
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md) · [Langkah di browser](#seaimagine-browser-workflow)
+[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Animasikan pemandangan tambak garam pesisir sebagai dokumenter perjalanan observasional yang menghormati para pekerja. Pertahankan dua pekerja, kereta krem dan oker, petak garam, bukit kapur, bangunan, laut, arah matahari terbit, dan palet film yang lembut.
@@ -203,17 +204,15 @@ Audio: dengung rel listrik lembut, bunyi sambungan roda berirama, angin melintas
 Kunci kesinambungan: kerja realistis, anatomi stabil, bentang alam tetap, desain kereta tidak berubah, pantulan dan fisika air masuk akal. Tanpa cakrawala kota modern, wisatawan yang diarahkan bergaya, bangunan baru, logo, papan terbaca, warna kartu pos terlalu jenuh, atau langit time-lapse.
 ```
 
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
+
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. Kartu pos pesisir — menggerakkan gambar yang sudah dirancang
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="Kartu pos pesisir — menggerakkan gambar yang sudah dirancang"></a>
-
-[Bingkai awal — buka dan simpan](assets/seaimagine-coastal-postcard.webp)
-
-**Pengaturan gambar ke video:** 5s · 9:16 · 720p
+**Pengaturan gambar ke video:** 5s · 9:16 · 720p · [Bingkai awal — buka dan simpan](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/id-ID/coastal-postcard.txt)
 
 ```text
 Animasikan kartu pos pesisir tiga panel ini tanpa mengubah tata letak atau batas panel.
@@ -228,7 +227,7 @@ Hindari penggabungan panel, penciptaan adegan baru, penggambaran ulang huruf, at
 Akhiri dengan sudut kertas yang sudah turun dan komposisi asli tetap utuh.
 ```
 
-**Yang perlu diperiksa:** Jika batas panel meleleh atau adegan bercampur, potong setiap panel dan animasikan secara terpisah, lalu gabungkan klip dengan aplikasi penyunting video.
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
 
 <a id="case-citrus-halo"></a>
 
@@ -236,13 +235,9 @@ Akhiri dengan sudut kertas yang sudah turun dan komposisi asli tetap utuh.
 
 ### 8. Citrus Halo — film produk parfum premium
 
-![Citrus Halo — film produk parfum premium](assets/citrus-fragrance-product-video.webp)
+**Pengaturan gambar ke video:** 8s · 16:9 · 1080p · [Bingkai awal — buka dan simpan](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/id-ID/citrus-halo.txt)
 
-[Bingkai awal — buka dan simpan](assets/citrus-fragrance-product-video.webp)
-
-**Pengaturan gambar ke video:** 8s · 16:9 · 1080p
-
-[Sumber: Flaq AI](docs/ATTRIBUTION.md) · [Langkah di browser](#seaimagine-browser-workflow)
+[Sumber: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Pertahankan desain botol, proporsi kaca, tutup, alas batu kapur, kulit grapefruit, set gading hangat, dan cahaya samping keemasan pada gambar. Buat film produk delapan detik yang elegan.
@@ -258,23 +253,7 @@ Audio: hanya efek suara studio jarak dekat — gerak lembut pita kulit, dua buny
 Kunci kesinambungan: jangan ubah siluet botol, bidang tutup, tinggi cairan, alas, palet, atau lengkungan latar. Tanpa label, logo, buah tambahan, botol melayang, bentuk bergoyang, kamera melompat, atau ledakan kilau buatan.
 ```
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
-
-## Gunakan kontrol yang benar-benar tersedia di SeaImagine
-
-[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/id/model/grok-imagine-1-5/)
-
-Tangkapan layar menampilkan antarmuka berbahasa Inggris yang diperiksa pada 24 September 2026. Teks dalam bahasa lain mungkin berbeda; posisi dan langkah di bawah membantu Anda menemukan setiap kontrol. Pada tangkapan layar, prompt botol sudah diisi dan 720p / 5s / 16:9 sudah dipilih; Start Frame (bingkai awal) masih kosong. Unggah gambar awal sebelum membuat video. Tidak ada tugas yang dikirim.
-
-![Gunakan kontrol yang benar-benar tersedia di SeaImagine](assets/seaimagine-interface.jpg)
-
-1. Buka halaman model yang ditautkan. Pilih Video dan pastikan Grok Imagine 1.5 terpilih pada pemilih model.
-2. Gunakan Start Frame (bingkai awal) di sebelah kiri untuk mengunggah gambar yang telah diunduh. Tempelkan prompt lengkap ke kolom teks besar; batas saat ini adalah 2.000 karakter.
-3. Di bawah prompt, pilih resolusi (480p atau 720p), durasi (5s, 10s, atau 15s), dan rasio. Untuk botol: 720p, 5s, 16:9.
-4. Periksa jumlah kredit di sebelah Generate (buat); jumlahnya berubah mengikuti pengaturan. Generate mengirim tugas sungguhan dan mungkin memerlukan login atau kredit. Tangkapan layar tersebut bukan hasil pembuatan yang sudah selesai.
-5. Pratinjau hasil, periksa kemungkinan masalah yang disebutkan, lalu unduh jika memuaskan. Jika contoh lama meminta 6/8/9/12 detik atau 1080p, pilih durasi yang tersedia dan tulis ulang rentang waktunya; gunakan 720p, jangan berasumsi 1080p tersedia.
+[Kembali ke indeks kategori](#find-the-right-prompt) · [Sekilas contoh bergambar](#visual-index)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -319,9 +298,13 @@ Pada 24 September 2026, kami memeriksa beberapa bingkai melalui pemutar di posti
 
 <a id="uji-multibahasa-bersama-bengkel-lampu-keramik"></a>
 
-## Materi lain dalam bahasa Indonesia: panduan menulis dan latihan tambahan
+## Bahan referensi
 
-[Panduan menulis](docs/guides/id-ID.md)
+[Referensi penulisan](docs/guides/id-ID.md) · [Referensi pengaturan dan penggunaan](docs/workflows/id-ID.md) · [SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/)
+
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
 
 <a id="multilingual-prompts"></a>
 

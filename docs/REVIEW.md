@@ -36,3 +36,12 @@ The follow-up comparison found that three new examples, product instructions and
 The independent reviewer checked source prompt/image pairing, topic variety, stable case anchors and the complete translations. Accepted fixes clarified which five cases retain source settings, restored explicit links to the four Chinese/Japanese/Spanish extended exercises, corrected one repeated Chinese adjective, and clarified the guide's reference back to the homepage examples.
 
 The main editor separately compared every prior localized prompt block with the new homepage plus its guide: all were retained, apart from that Chinese wording correction. The seven source README text blocks and all thirty category recipe bodies were also preserved. Validation checks the eight-case galleries, purpose-first section order, legacy anchors, source text hashes and the 2,000-character limit on translated featured prompts. GitHub's Markdown renderer emitted all eight complete prompt blocks on both the English and Chinese pages.
+
+
+## Experienced-reader catalogue revision — September 24, 2026
+
+The owner clarified that readers already know the model and prompt workflow. Removed the inline browser tutorial from all fifteen homepages and retained it in localized `docs/workflows/` references. Homepage order now prioritizes category navigation, eight numbered image previews, all thirty additional recipe links with task descriptions, and eight complete prompt blocks. Each prompt has a full starting-image link, a TXT export, and links back to the category and visual indexes. Five category documents also have local indexes and TXT exports.
+
+The independent review identified that a thirty-link table before the image previews delayed visual browsing and that creative titles without task descriptions weakened discovery. Both findings were accepted: previews now precede the full table and the full descriptive recipe titles remain visible. Preview numbers match the prompt section numbers. Images remain labelled as concept starting frames rather than verified video output.
+
+All 150 displayed prompt blocks (120 localized homepage blocks plus 30 category blocks) were compared with the preceding commit and remain byte-identical. The 150 TXT exports contain prompt text only. Generation and local link/provenance checks pass. This revision surfaces existing recipes; it does not claim new generated or verified video examples.

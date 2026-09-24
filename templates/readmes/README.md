@@ -1,6 +1,6 @@
 # Grok Imagine 1.5 Prompt Library
 
-> 38 copy-ready English prompts for product ads, character scenes, fantasy stories and more. Starter examples and practical guides in 15 languages.
+> 38 prompts, including 8 illustrated cases available in 15 languages. Browse by category and copy complete prompts.
 
 {{LANGUAGE_NAV}}
 

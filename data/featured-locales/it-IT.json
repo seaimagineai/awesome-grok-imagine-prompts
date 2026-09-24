@@ -1,7 +1,7 @@
 {
-  "nav_title": "Che cosa vuoi creare?",
+  "nav_title": "Indice delle categorie",
   "goal_label": "Obiettivo",
-  "example_label": "Inizia con un esempio illustrato",
+  "example_label": "Esempi illustrati",
   "browse_label": "Esplora altri prompt (in inglese)",
   "goals": [
     "Pubblicità di prodotti",
@@ -13,17 +13,17 @@
     "Composizioni animate"
   ],
   "gallery_title": "Prompt illustrati da copiare e adattare",
-  "gallery_intro": "Scegli un soggetto, salva l’immagine iniziale e copia il prompt completo. Inizia con un’azione e un movimento di camera; le immagini sono concetti, non risultati video verificati.",
+  "gallery_intro": "8 esempi con prompt completi e immagini del fotogramma iniziale. Le immagini illustrano concetti, non risultati video verificati.",
   "prompt_label": "Copia il prompt completo",
   "source_note": "I cinque esempi contrassegnati come «Fonte: Flaq AI» conservano durata e risoluzione originali; gli altri tre usano le opzioni attuali di SeaImagine. Per usare un esempio della fonte su SeaImagine, scegli 5/10/15 secondi e 480p/720p e riscrivi le azioni temporizzate.",
   "source_label": "Fonte: Flaq AI",
-  "more_label": "Altro in questa lingua: guida alla scrittura ed esercizi aggiuntivi",
+  "more_label": "Materiale di riferimento",
   "counts_label": "Raccolta e attribuzione",
   "quick_links": [
     "Esempi illustrati",
-    "Passaggi nel browser",
+    "Riferimento per impostazioni e uso",
     "Lavori ufficiali e della community",
-    "Guida alla scrittura"
+    "Riferimento per la scrittura"
   ],
   "collections": [
     "Pubblicità e prodotti",
@@ -74,5 +74,12 @@
       "prompt": "Anima la scena costiera delle saline come un documentario di viaggio rispettoso e osservativo. Conserva i due lavoratori, il treno crema e ocra, le vasche salanti, le colline calcaree, gli edifici, il mare, la direzione dell’alba e la tavolozza cinematografica tenue.\n\n0–4s: campo largo fisso. I lavoratori continuano a ispezionare il canale: uno muove uno strumento di legno nella salamoia poco profonda mentre l’altro tiene ferma la paratia. Le increspature reagiscono allo strumento e alla brezza mattutina. Il treno si avvicina a velocità moderata nel piano intermedio.\n\n4–9s: la camera fa una lenta panoramica a destra seguendo il treno. Le ruote restano allineate ai binari; distanza fra le carrozze e ritmo delle finestre rimangono costanti. Un velo leggero di foschia marina passa dietro mentre la luce del sole raggiunge gradualmente i cristalli di sale in primo piano.\n\n9–12s: il treno prosegue verso la costa e la panoramica si ferma dolcemente. Un lavoratore si alza, si stira naturalmente e guarda verso la linea ferroviaria. Mantieni gli ultimi due secondi per un punto di montaggio.\n\nAudio: lieve ronzio elettrico ferroviario, ritmo delle ruote sui giunti, brezza sull’acqua bassa, gabbiani lontani e strumento di legno nella salamoia. Niente narrazione, musica, folla o fischio drammatico.\n\nContinuità: lavoro realistico, anatomia stabile, paesaggio fisso, treno invariato, riflessi e fisica dell’acqua plausibili. Niente skyline moderno, messe in scena turistiche, nuovi edifici, loghi, cartelli leggibili, colori da cartolina sovrasaturi o cielo accelerato.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Tutti i prompt",
+  "preview_title": "Panoramica degli esempi illustrati",
+  "category_label": "Categoria",
+  "count_label": "Numero",
+  "browse_cases_label": "Indice degli esempi",
+  "back_label": "Torna all’indice delle categorie",
+  "reference_label": "Riferimento per impostazioni e uso"
 }

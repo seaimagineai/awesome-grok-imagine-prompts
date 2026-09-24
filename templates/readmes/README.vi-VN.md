@@ -2,7 +2,7 @@
 
 {{LANGUAGE_NAV}}
 
-> 38 câu lệnh tiếng Anh có thể sao chép, dành cho quảng cáo sản phẩm, phim ngắn về nhân vật, truyện kỳ ảo và nhiều chủ đề khác. Có ví dụ nhập môn và hướng dẫn sử dụng bằng 15 ngôn ngữ.
+> 38 câu lệnh, trong đó 8 ví dụ có hình được cung cấp bằng 15 ngôn ngữ. Duyệt theo danh mục và sao chép toàn bộ câu lệnh.
 
 ![Grok Imagine 1.5 — Sổ câu lệnh mở ra với giày, tàu điện và cá voi giấy trong cùng một khung cảnh](assets/seaimagine-grok-hero.webp)
 

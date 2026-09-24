@@ -1,0 +1,9 @@
+Animez cette carte postale côtière à trois cases sans modifier sa disposition ni ses bordures. Conservez exactement tous les objets et les couleurs. Dans la case supérieure, une fine volute de vapeur monte de la tasse.
+Dans la case centrale, l’eau du port ondule doucement et le soleil scintille à sa surface.
+Dans la case inférieure, seul le coin de papier déjà présent se soulève légèrement puis retombe sous une brise légère.
+Gardez chaque mouvement dans sa case. Toutes les cases restent visibles pendant les cinq secondes.
+Caméra : fixe, sans zoom, panoramique, coupe ni transition entre les cases.
+Son : eau calme et léger froissement de papier ; ni dialogue, musique, légendes ou texte ajouté.
+Préservez l’anse de la tasse, le cadre de la fenêtre, les marques de la carte, les dimensions des cases et l’ordre de lecture.
+Évitez de fusionner les cases, d’inventer une nouvelle scène, de redessiner les lettres ou de déplacer des objets au-delà des bordures.
+Terminez avec le coin de papier au repos et la composition initiale intacte.

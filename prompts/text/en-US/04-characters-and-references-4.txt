@@ -1,0 +1,16 @@
+Use technician A's identity and navy coveralls from <IMAGE_0>, speaking with <AUDIO_0>. Use
+technician B's identity and rust-colored coveralls from <IMAGE_1>, speaking with <AUDIO_1>. Place
+them at the workbench from <IMAGE_2>. Preserve the small radio, open tool roll, lamp, and window.
+
+Single two-shot with a slow push-in. A holds the radio chassis steady while B fits one existing
+connector. A asks, “Did the signal hold this time?” B watches the meter, pauses for one beat, then
+answers, “Long enough to hear the weather station.” A smiles slightly: “Then we try the roof.”
+B closes the tool roll and nods. Maintain correct eye lines, alternating mouth movement, and hands
+in contact with the same objects. No overlapping dialogue.
+
+Audio: use the assigned voices, workshop room tone, connector click, faint radio static, canvas
+tool roll. Dialogue is foreground; no music or subtitles.
+
+Lock: both identities and voices, coverall colors, height relationship, radio, tools, workshop,
+speaker order, and dialogue wording. No voice swap, face blend, duplicated tools, extra hands,
+lip movement on the silent person, readable brands, or cut.

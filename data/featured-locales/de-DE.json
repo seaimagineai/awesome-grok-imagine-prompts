@@ -1,7 +1,7 @@
 {
-  "nav_title": "Was möchtest du erstellen?",
+  "nav_title": "Kategorieindex",
   "goal_label": "Ziel",
-  "example_label": "Mit einem bebilderten Beispiel starten",
+  "example_label": "Bebilderte Beispiele",
   "browse_label": "Weitere Prompts ansehen (Englisch)",
   "goals": [
     "Produktwerbung",
@@ -13,17 +13,17 @@
     "Animierte Layouts"
   ],
   "gallery_title": "Bebilderte Prompts zum Kopieren und Anpassen",
-  "gallery_intro": "Wähle ein Motiv, speichere das Startbild und kopiere den vollständigen Prompt. Beginne mit einer Aktion und einer Kamerabewegung. Die Bilder sind Konzepte, keine überprüften Videoergebnisse.",
+  "gallery_intro": "8 Beispiele mit vollständigen Prompts und Startbildern. Die Bilder veranschaulichen Konzepte; sie sind keine überprüften Videoergebnisse.",
   "prompt_label": "Vollständigen Prompt kopieren",
   "source_note": "Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen drei verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.",
   "source_label": "Quelle: Flaq AI",
-  "more_label": "Mehr in dieser Sprache: Schreibanleitung und weitere Übungen",
+  "more_label": "Referenzmaterial",
   "counts_label": "Sammlung und Quellenangaben",
   "quick_links": [
     "Bebilderte Beispiele",
-    "Schritte im Browser",
+    "Referenz zu Einstellungen und Bedienung",
     "Offizielle Arbeiten und Community",
-    "Schreibanleitung"
+    "Referenz zum Schreiben"
   ],
   "collections": [
     "Werbung und Produkte",
@@ -74,5 +74,12 @@
       "prompt": "Animiere die vorgegebene Küstensalinen-Szene als respektvoll beobachtende Reisedokumentation. Erhalte die beiden Arbeiter, den creme-ockerfarbenen Zug, Salzbecken, Kalksteinhügel, Gebäude, Meer, Sonnenaufgangsrichtung und die gedämpfte Filmfarbpalette.\n\n0–4s: Feste weite Einstellung. Die Arbeiter prüfen weiter den Kanal: Einer führt ein Holzwerkzeug durch die flache Sole, der andere hält die Trennwand fest. Wellen reagieren auf Werkzeug und Morgenbrise. Im Mittelgrund nähert sich der Zug in gemäßigtem Tempo.\n\n4–9s: Die Kamera schwenkt langsam nach rechts und folgt dem Zug. Die Räder bleiben auf die Schienen ausgerichtet, Wagenabstände und Fensterrhythmus bleiben gleich. Ein leichter Meeresdunst zieht dahinter vorbei, während Sonnenlicht allmählich die Salzkristalle im Vordergrund trifft.\n\n9–12s: Der Zug fährt zur Küste weiter, der Schwenk endet sanft. Ein Arbeiter steht auf, streckt sich natürlich und schaut zur Strecke. Halte die letzten zwei Sekunden für einen Schnittpunkt.\n\nTon: leises elektrisches Bahnsummen, rhythmische Radstöße an Schienenfugen, Wind über flachem Wasser, entfernte Möwen und ein Holzwerkzeug in der Sole. Keine Erzählstimme, Musik, Menschenmenge oder dramatisches Horn.\n\nKontinuität: Realistische Arbeit, stabile Anatomie, feste Landschaft, unverändertes Zugdesign, plausible Spiegelungen und Wasserphysik. Keine moderne Skyline, touristische Inszenierung, neuen Gebäude, Logos, lesbaren Schilder, übersättigten Postkartenfarben oder Zeitrafferhimmel.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Alle Prompts",
+  "preview_title": "Bildbeispiele im Überblick",
+  "category_label": "Kategorie",
+  "count_label": "Anzahl",
+  "browse_cases_label": "Beispielindex",
+  "back_label": "Zurück zum Kategorieindex",
+  "reference_label": "Referenz zu Einstellungen und Bedienung"
 }

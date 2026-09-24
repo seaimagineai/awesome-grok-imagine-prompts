@@ -1,0 +1,9 @@
+Preserve the single frosted sea-glass bottle on the pale stone surface, its cylindrical cap,
+empty unprinted front, water level, horizon and soft side lighting. The bottle never moves.
+Over five seconds, make a slow camera slide to the right, no more than one bottle-width.
+One small water droplet travels down the front and stops at the base. Background ocean waves
+move softly out of focus. Keep reflections consistent with the camera and the light source.
+Audio: distant surf only; no music, voice, glass impact or exaggerated splash.
+No cuts or zoom. Preserve the bottle silhouette, cap alignment, glass texture and object count.
+Avoid logo generation, changing liquid level, bending edges, floating objects or new props.
+Hold a stable frame for the final second.

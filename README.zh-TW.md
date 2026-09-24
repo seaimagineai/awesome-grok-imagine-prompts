@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 段可複製的英文提示詞，涵蓋產品廣告、人物短片、奇幻故事等；提供 15 種語言的入門範例與操作指南。
+> 38 段提示詞，其中 8 個圖文範例提供 15 種語言版本。依分類瀏覽，複製完整提示詞。
 
 ![Grok Imagine 1.5 — 展開的提示詞手冊，產品鞋、電車與紙鯨連成同一場景](assets/seaimagine-grok-hero.webp)
 
@@ -12,9 +12,9 @@
 
 <a id="prompt-library"></a>
 
-## 你想創作什麼？
+## 分類索引
 
-| 創作目標 | 從圖文範例開始 |
+| 創作目標 | 圖文範例 |
 | --- | --- |
 | 產品廣告 | [海玻璃瓶——控制變因比較動態效果](#case-sea-glass-bottle) · [柑橘光環——精品香水產品短片](#case-citrus-halo) |
 | 電影感動作場面 | [藍色路線——雨中市場快遞員跟拍](#case-blue-route) |
@@ -24,17 +24,36 @@
 | 旅行短片 | [晨曦鹽田線——旅行紀錄片](#case-salt-line) |
 | 動態版面 | [海岸明信片——讓規劃好的圖片動起來](#case-coastal-postcard) |
 
-**瀏覽更多提示詞（英文）:** [廣告與產品](prompts/01-ads-and-products.md) · [電影故事](prompts/02-cinematic-storytelling.md) · [社群與生活風格](prompts/03-social-ugc.md) · [人物與參考素材](prompts/04-characters-and-references.md) · [編輯與延長影片](prompts/05-editing-and-extension.md)
+[圖文範例](#featured-prompts) · [官方與社群作品](#learn-from-official-and-community-examples) · [參數與操作參考](#writing-guide)
 
-[圖文範例](#featured-prompts) · [網頁操作步驟](#seaimagine-browser-workflow) · [官方與社群作品](#learn-from-official-and-community-examples) · [撰寫指南](#writing-guide)
+<a id="visual-index"></a>
+
+### 圖文範例速覽
+
+8 個範例均附完整提示詞與起始影格圖片。圖片用於呈現構想，並非已驗證的影片成果。
+
+標註來源 Flaq AI 的五個範例保留原始長度與解析度；其餘三個範例依 SeaImagine 目前的選項編寫。在 SeaImagine 使用原始範例時，請選擇 5/10/15 秒與 480p/720p，並重新安排動作時間。
+
+| | |
+| --- | --- |
+| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="海玻璃瓶——控制變因比較動態效果"></a><br>[1. 海玻璃瓶——控制變因比較動態效果](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="藍色路線——雨中市場快遞員跟拍"></a><br>[2. 藍色路線——雨中市場快遞員跟拍](#case-blue-route)<br>10s · 16:9 · 1080p |
+| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="蜂蜜麵包——微縮烘焙坊故事"></a><br>[3. 蜂蜜麵包——微縮烘焙坊故事](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="港口重逢——只呈現一個情緒轉折"></a><br>[4. 港口重逢——只呈現一個情緒轉折](#case-harbor-reunion)<br>10s · 16:9 · 720p |
+| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="第一口——自然的咖啡館體驗分享"></a><br>[5. 第一口——自然的咖啡館體驗分享](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="晨曦鹽田線——旅行紀錄片"></a><br>[6. 晨曦鹽田線——旅行紀錄片](#case-salt-line)<br>12s · 16:9 · 1080p |
+| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="海岸明信片——讓規劃好的圖片動起來"></a><br>[7. 海岸明信片——讓規劃好的圖片動起來](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="柑橘光環——精品香水產品短片"></a><br>[8. 柑橘光環——精品香水產品短片](#case-citrus-halo)<br>8s · 16:9 · 1080p |
+
+**瀏覽更多提示詞（英文） · 30**
+
+| 分類 | 範例索引 |
+| --- | --- |
+| [廣告與產品 · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
+| [電影故事 · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
+| [社群與生活風格 · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
+| [人物與參考素材 · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
+| [編輯與延長影片 · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## 可複製、可改寫的圖文提示詞
-
-從下方選一個主題，儲存起始圖片，再複製完整提示詞。先安排一個動作與一種運鏡；圖片用於呈現構想，並非已驗證的影片成果。
-
-標註來源 Flaq AI 的五個範例保留原始長度與解析度；其餘三個範例依 SeaImagine 目前的選項編寫。在 SeaImagine 使用原始範例時，請選擇 5/10/15 秒與 480p/720p，並重新安排動作時間。
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -42,11 +61,7 @@
 
 ### 1. 海玻璃瓶——控制變因比較動態效果
 
-![海玻璃瓶——控制變因比較動態效果](assets/seaimagine-sea-glass-bottle.webp)
-
-[起始影格——開啟並儲存](assets/seaimagine-sea-glass-bottle.webp)
-
-**圖片轉影片設定:** 5s · 16:9 · 720p
+**圖片轉影片設定:** 5s · 16:9 · 720p · [起始影格——開啟並儲存](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/zh-TW/sea-glass-bottle.txt)
 
 ```text
 保留淺色石面上唯一的霧面海玻璃瓶、圓柱形瓶蓋、沒有印字的空白正面、
@@ -60,7 +75,7 @@
 最後一秒保持畫面穩定。
 ```
 
-**檢查重點:** 記錄實際使用的模型、長度、解析度、嘗試次數及日期。比較瓶身形狀、水滴移動的連貫性、反射及攝影機運動。一次成功不能證明穩定性。
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
 
 <a id="case-blue-route"></a>
 
@@ -68,13 +83,9 @@
 
 ### 2. 藍色路線——雨中市場快遞員跟拍
 
-![藍色路線——雨中市場快遞員跟拍](assets/rainy-market-courier-video.webp)
+**圖片轉影片設定:** 10s · 16:9 · 1080p · [起始影格——開啟並儲存](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/zh-TW/blue-route.txt)
 
-[起始影格——開啟並儲存](assets/rainy-market-courier-video.webp)
-
-**圖片轉影片設定:** 10s · 16:9 · 1080p
-
-[來源：Flaq AI](docs/ATTRIBUTION.md) · [網頁操作步驟](#seaimagine-browser-workflow)
+[來源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 保留提供的圖片中的快遞員、鈷藍色電動機車、貨箱、高架市場、半透明雨棚、濕鋼製步道、燈光與夜間配色。製作一個貼近真實環境、連續的低機位跟拍鏡頭，呈現可信的重量、輪胎抓地力、雨水與懸吊運動。
@@ -90,19 +101,17 @@
 連續性要求：精確保留騎士服裝、頭盔、機車幾何形狀、貨箱、藍色車殼與市場配置。不要車輛變形、車輪扭曲、碰撞、武器、可讀招牌、標誌、瞬移鏡頭或不可能的速度突變。
 ```
 
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
+
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. 蜂蜜麵包——微縮烘焙坊故事
 
-![蜂蜜麵包——微縮烘焙坊故事](assets/pear-bakery-miniature-video.webp)
+**圖片轉影片設定:** 9s · 16:9 · 1080p · [起始影格——開啟並儲存](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/zh-TW/honey-loaf.txt)
 
-[起始影格——開啟並儲存](assets/pear-bakery-miniature-video.webp)
-
-**圖片轉影片設定:** 9s · 16:9 · 1080p
-
-[來源：Flaq AI](docs/ATTRIBUTION.md) · [網頁操作步驟](#seaimagine-browser-workflow)
+[來源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 保留梨子屋烘焙坊、三名微縮麵包師、服裝、臉孔、蜂蜜麵包、烤爐、窗戶、苔蘚、三葉草、月亮、具有觸感的停格動畫材料，以及冷暖色對比。
@@ -118,17 +127,15 @@
 連續性要求：保留人物數量、臉部設計、比例、服裝顏色、梨子形狀、室內配置與手工材質。不要多餘麵包師、光滑的電腦生成質感、橡膠般的肢體、懸浮道具、融化的麵包、鏡頭切換、標誌或類似知名系列的人物設計。
 ```
 
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
+
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. 港口重逢——只呈現一個情緒轉折
 
-![港口重逢——只呈現一個情緒轉折](assets/seaimagine-harbor-reunion.webp)
-
-[起始影格——開啟並儲存](assets/seaimagine-harbor-reunion.webp)
-
-**圖片轉影片設定:** 10s · 16:9 · 720p
+**圖片轉影片設定:** 10s · 16:9 · 720p · [起始影格——開啟並儲存](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/zh-TW/harbor-reunion.txt)
 
 ```text
 保留提供的圖片中的兩名成年人、各自的臉孔、深藍色與奶油色服裝、木碼頭及柔和晨光。
@@ -144,7 +151,7 @@
 避免多出人物、戲劇化動作、臉部磨皮、多餘手指及鏡頭跳動。
 ```
 
-**檢查重點:** 不靠大幅度表情變化，情緒是否仍然清楚？如果對白顯得倉促，先刪去向前踏步的動作，再考慮延長時間。製作長片時，另外撰寫下一個鏡頭。
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
 
 <a id="case-first-sip"></a>
 
@@ -152,13 +159,9 @@
 
 ### 5. 第一口——自然的咖啡館體驗分享
 
-<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="420" alt="第一口——自然的咖啡館體驗分享"></a>
+**圖片轉影片設定:** 10s · 9:16 · 1080p · [起始影格——開啟並儲存](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/zh-TW/first-sip.txt)
 
-[起始影格——開啟並儲存](assets/cozy-cafe-ugc-video.webp)
-
-**圖片轉影片設定:** 10s · 9:16 · 1080p
-
-[來源：Flaq AI](docs/ATTRIBUTION.md) · [網頁操作步驟](#seaimagine-browser-workflow)
+[來源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 把提供的咖啡館照片變成真實、手持拍攝的創作者體驗分享。保留人物的臉、年齡、皮膚紋理、頭髮、苔綠色毛衣、杯子、糕點、窗戶與桌面配置。
@@ -174,19 +177,17 @@
 連續性要求：不要美化臉部、換衣服、多餘手指、重新設計杯子或食物、憑空出現的背景人物、標誌或誇張的網紅動作。
 ```
 
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
+
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. 晨曦鹽田線——旅行紀錄片
 
-![晨曦鹽田線——旅行紀錄片](assets/coastal-salt-train-documentary.webp)
+**圖片轉影片設定:** 12s · 16:9 · 1080p · [起始影格——開啟並儲存](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/zh-TW/salt-line.txt)
 
-[起始影格——開啟並儲存](assets/coastal-salt-train-documentary.webp)
-
-**圖片轉影片設定:** 12s · 16:9 · 1080p
-
-[來源：Flaq AI](docs/ATTRIBUTION.md) · [網頁操作步驟](#seaimagine-browser-workflow)
+[來源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 把提供的沿海鹽田場景變成尊重勞動者的觀察式旅行紀錄片。保留兩名工人、奶油色與赭色列車、鹽池、石灰岩山丘、建築、海面、日出方向與低飽和底片配色。
@@ -202,17 +203,15 @@
 連續性要求：勞動動作真實、人體結構穩定、地景固定、列車設計不變，反射與水體運動符合物理規律。不要現代城市天際線、擺拍遊客、新建築、標誌、可讀招牌、過度飽和的明信片色彩或縮時攝影天空。
 ```
 
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
+
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. 海岸明信片——讓規劃好的圖片動起來
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="海岸明信片——讓規劃好的圖片動起來"></a>
-
-[起始影格——開啟並儲存](assets/seaimagine-coastal-postcard.webp)
-
-**圖片轉影片設定:** 5s · 9:16 · 720p
+**圖片轉影片設定:** 5s · 9:16 · 720p · [起始影格——開啟並儲存](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/zh-TW/coastal-postcard.txt)
 
 ```text
 讓這張三格海岸明信片動起來，不改變版面或邊框。
@@ -227,7 +226,7 @@
 結尾時紙角落穩，原有構圖保持完整。
 ```
 
-**檢查重點:** 如果畫格邊框融化或場景混在一起，將每一格單獨裁切並生成影片，再用剪輯軟體組合。
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
 
 <a id="case-citrus-halo"></a>
 
@@ -235,13 +234,9 @@
 
 ### 8. 柑橘光環——精品香水產品短片
 
-![柑橘光環——精品香水產品短片](assets/citrus-fragrance-product-video.webp)
+**圖片轉影片設定:** 8s · 16:9 · 1080p · [起始影格——開啟並儲存](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/zh-TW/citrus-halo.txt)
 
-[起始影格——開啟並儲存](assets/citrus-fragrance-product-video.webp)
-
-**圖片轉影片設定:** 8s · 16:9 · 1080p
-
-[來源：Flaq AI](docs/ATTRIBUTION.md) · [網頁操作步驟](#seaimagine-browser-workflow)
+[來源：Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 保留提供的圖片中的瓶身設計、玻璃比例、瓶蓋、石灰岩台座、葡萄柚皮、暖象牙色布景與金色側光。製作一段優雅的八秒產品短片。
@@ -257,23 +252,7 @@
 連續性要求：不要改變瓶身輪廓、瓶蓋切面、液面高度、台座、配色或背景拱形。不要標籤、標誌、多餘水果、懸浮瓶子、幾何形狀晃動、鏡頭跳動或人造閃光爆發。
 ```
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
-
-## 依 SeaImagine 的實際介面操作
-
-[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/tw/model/grok-imagine-1-5/)
-
-截圖為 2026 年 9 月 24 日核對的英文介面。各語言介面的文字可能不同；以下透過位置與步驟說明各項控制項。 截圖中已填入玻璃瓶提示詞並選取 720p / 5s / 16:9；Start Frame（起始影格）仍是空的。生成前請先上傳起始圖片。此次未提交任務。
-
-![依 SeaImagine 的實際介面操作](assets/seaimagine-interface.jpg)
-
-1. 開啟連結中的模型頁。選擇 Video（影片），並在模型選單確認 Grok Imagine 1.5。
-2. 使用左側的 Start Frame（起始影格）上傳下載的圖片。將完整提示詞貼到大文字框；目前字數計數器允許 2,000 個字元。
-3. 在提示詞下方選擇解析度（480p 或 720p）、長度（5s、10s 或 15s）及畫面比例。玻璃瓶範例請選擇 720p、5s、16:9。
-4. 查看 Generate（生成）旁的點數，消耗點數會隨設定而變動。點選 Generate 會提交真實任務，可能需要登入或點數。截圖並非已完成的生成成果。
-5. 預覽成果，逐項檢查上述容易出錯之處，滿意後再下載。如果原有提示詞要求 6/8/9/12 秒或 1080p，請選擇介面支援的長度並改寫時間區段；解析度使用 720p，不要假設支援 1080p。
+[返回分類索引](#find-the-right-prompt) · [圖文範例速覽](#visual-index)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -318,9 +297,13 @@
 
 <a id="快速使用原則"></a>
 
-## 更多繁體中文內容：撰寫指南與補充練習
+## 參考資料
 
-[撰寫指南](docs/guides/zh-TW.md)
+[撰寫參考](docs/guides/zh-TW.md) · [參數與操作參考](docs/workflows/zh-TW.md) · [SeaImagine](https://seaimagine.com/tw/model/grok-imagine-1-5/)
+
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
 
 <a id="multilingual-prompts"></a>
 

@@ -1,0 +1,16 @@
+Use the exact fictional app interface and phone screen from <IMAGE_0>. Use only the hand shape,
+skin tone, and plain sleeve from <IMAGE_1>. Place the phone above a light oak desk with a paper
+notebook and one ceramic pen cup, soft morning daylight, realistic product-demo photography.
+
+0–3s: overhead camera descends slowly as the hand enters and taps the single primary button.
+The finger makes physical contact once and lifts. 3–6s: the interface responds with the supplied
+success state; preserve all visible words, spacing, colors, and icons exactly. A small physical
+desk lamp reflection moves across the phone glass as the camera shifts five degrees. 6–8s: the
+hand sets the phone beside the notebook and leaves frame; hold the readable result.
+
+Audio: fingertip tap, subtle interface confirmation tone, phone contact on wood, quiet room.
+No narration or music.
+
+Continuity: exact screen layout and text, phone proportions, hand anatomy, sleeve, desk objects,
+and light direction. No new interface elements, spelling changes, extra fingers, floating phone,
+brand marks, pop-up text, or dramatic holograms.

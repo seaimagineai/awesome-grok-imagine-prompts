@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 نص توجيه بالإنجليزية جاهزًا للنسخ لإعلانات المنتجات ومشاهد الشخصيات والقصص الخيالية وغيرها؛ مع أمثلة للبدء وأدلة بـ15 لغة.
+> 38 نص توجيه، منها 8 أمثلة مصوّرة متاحة بـ15 لغة. تصفّح حسب الفئة وانسخ نصوص التوجيه كاملة.
 
 ![Grok Imagine 1.5 — دفتر أوصاف مفتوح يضم حذاءً وترامًا وحوتًا ورقيًا في مشهد واحد متصل](assets/seaimagine-grok-hero.webp)
 
@@ -12,9 +12,9 @@
 
 <a id="prompt-library"></a>
 
-## ماذا تريد أن تنشئ؟
+## فهرس الفئات
 
-| الهدف | ابدأ بمثال مصوّر |
+| الهدف | أمثلة مصوّرة |
 | --- | --- |
 | إعلانات المنتجات | [زجاجة من زجاج البحر: مقارنة حركات مضبوطة](#case-sea-glass-bottle) · [هالة الحمضيات: فيلم لمنتج عطر فاخر](#case-citrus-halo) |
 | مشاهد حركة سينمائية | [المسار الأزرق: تتبّع مندوب توصيل في سوق ممطر](#case-blue-route) |
@@ -24,17 +24,36 @@
 | أفلام السفر | [خط الملح عند الفجر: فيلم وثائقي عن السفر](#case-salt-line) |
 | تصاميم متحركة | [بطاقة ساحلية: حرّك صورة مخططة مسبقًا](#case-coastal-postcard) |
 
-**تصفّح المزيد من نصوص التوجيه (بالإنجليزية):** [إعلانات ومنتجات](prompts/01-ads-and-products.md) · [قصص سينمائية](prompts/02-cinematic-storytelling.md) · [التواصل الاجتماعي والحياة اليومية](prompts/03-social-ugc.md) · [شخصيات وصور مرجعية](prompts/04-characters-and-references.md) · [التحرير والتمديد](prompts/05-editing-and-extension.md)
+[أمثلة مصوّرة](#featured-prompts) · [أعمال رسمية ومن المجتمع](#learn-from-official-and-community-examples) · [مرجع الإعدادات والتشغيل](#writing-guide)
 
-[أمثلة مصوّرة](#featured-prompts) · [خطوات المتصفح](#seaimagine-browser-workflow) · [أعمال رسمية ومن المجتمع](#learn-from-official-and-community-examples) · [دليل الكتابة](#writing-guide)
+<a id="visual-index"></a>
+
+### نظرة سريعة على الأمثلة المصوّرة
+
+8 أمثلة مع نصوص التوجيه الكاملة وصور الإطار الأول. الصور تعرض الأفكار وليست نتائج فيديو موثّقة.
+
+تحتفظ الأمثلة الخمسة الموسومة بعبارة «المصدر: Flaq AI» بمدتها ودقتها الأصليتين؛ وتستخدم الأمثلة الثلاثة الأخرى خيارات SeaImagine الحالية. لاستخدام مثال من المصدر في SeaImagine، اختر 5/10/15 ثانية و480p/720p، وأعد كتابة توقيت أفعاله ليتناسب مع المدة المختارة.
+
+| | |
+| --- | --- |
+| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="زجاجة من زجاج البحر: مقارنة حركات مضبوطة"></a><br>[1. زجاجة من زجاج البحر: مقارنة حركات مضبوطة](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="المسار الأزرق: تتبّع مندوب توصيل في سوق ممطر"></a><br>[2. المسار الأزرق: تتبّع مندوب توصيل في سوق ممطر](#case-blue-route)<br>10s · 16:9 · 1080p |
+| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="رغيف العسل: حكاية مخبز مصغّر"></a><br>[3. رغيف العسل: حكاية مخبز مصغّر](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="لقاء في الميناء: لحظة عاطفية واحدة"></a><br>[4. لقاء في الميناء: لحظة عاطفية واحدة](#case-harbor-reunion)<br>10s · 16:9 · 720p |
+| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="الرشفة الأولى: مراجعة طبيعية لصانعة محتوى في مقهى"></a><br>[5. الرشفة الأولى: مراجعة طبيعية لصانعة محتوى في مقهى](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="خط الملح عند الفجر: فيلم وثائقي عن السفر"></a><br>[6. خط الملح عند الفجر: فيلم وثائقي عن السفر](#case-salt-line)<br>12s · 16:9 · 1080p |
+| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="بطاقة ساحلية: حرّك صورة مخططة مسبقًا"></a><br>[7. بطاقة ساحلية: حرّك صورة مخططة مسبقًا](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="هالة الحمضيات: فيلم لمنتج عطر فاخر"></a><br>[8. هالة الحمضيات: فيلم لمنتج عطر فاخر](#case-citrus-halo)<br>8s · 16:9 · 1080p |
+
+**تصفّح المزيد من نصوص التوجيه (بالإنجليزية) · 30**
+
+| الفئة | فهرس الأمثلة |
+| --- | --- |
+| [إعلانات ومنتجات · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
+| [قصص سينمائية · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
+| [التواصل الاجتماعي والحياة اليومية · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
+| [شخصيات وصور مرجعية · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
+| [التحرير والتمديد · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## نصوص توجيه مصوّرة للنسخ والتعديل
-
-اختر موضوعًا أدناه، واحفظ صورة البداية، وانسخ نص التوجيه كاملًا. ابدأ بفعل واحد وحركة كاميرا واحدة؛ الصور تصوّرات وليست نتائج فيديو موثّقة.
-
-تحتفظ الأمثلة الخمسة الموسومة بعبارة «المصدر: Flaq AI» بمدتها ودقتها الأصليتين؛ وتستخدم الأمثلة الثلاثة الأخرى خيارات SeaImagine الحالية. لاستخدام مثال من المصدر في SeaImagine، اختر 5/10/15 ثانية و480p/720p، وأعد كتابة توقيت أفعاله ليتناسب مع المدة المختارة.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -42,11 +61,7 @@
 
 ### 1. زجاجة من زجاج البحر: مقارنة حركات مضبوطة
 
-![زجاجة من زجاج البحر: مقارنة حركات مضبوطة](assets/seaimagine-sea-glass-bottle.webp)
-
-[إطار البداية: افتح الصورة واحفظها](assets/seaimagine-sea-glass-bottle.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 5s · 16:9 · 720p
+**إعدادات تحويل الصورة إلى فيديو:** 5s · 16:9 · 720p · [إطار البداية: افتح الصورة واحفظها](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/ar/sea-glass-bottle.txt)
 
 ```text
 حافظ على الزجاجة الوحيدة من زجاج البحر المصنفر فوق السطح الحجري الفاتح، وغطائها الأسطواني، وواجهتها الخالية من الطباعة، ومستوى الماء، والأفق، والإضاءة الجانبية الناعمة. لا تتحرك الزجاجة مطلقًا.
@@ -58,7 +73,7 @@
 ثبّت الإطار خلال الثانية الأخيرة.
 ```
 
-**ما الذي يجب فحصه؟:** سجّل النموذج المستخدم فعليًا والمدة والدقة وعدد المحاولات والتاريخ. قارن شكل الزجاجة واستمرارية حركة القطرة والانعكاسات وحركة الكاميرا. نجاح مقطع واحد لا يثبت موثوقية النتائج.
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
 
 <a id="case-blue-route"></a>
 
@@ -66,13 +81,9 @@
 
 ### 2. المسار الأزرق: تتبّع مندوب توصيل في سوق ممطر
 
-![المسار الأزرق: تتبّع مندوب توصيل في سوق ممطر](assets/rainy-market-courier-video.webp)
+**إعدادات تحويل الصورة إلى فيديو:** 10s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ar/blue-route.txt)
 
-[إطار البداية: افتح الصورة واحفظها](assets/rainy-market-courier-video.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 10s · 16:9 · 1080p
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md) · [خطوات المتصفح](#seaimagine-browser-workflow)
+[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حافظ على مندوب التوصيل والدراجة الكهربائية الزرقاء الكوبالتية وصندوق الحمولة والسوق المرتفع والمظلات شبه الشفافة والممر الفولاذي المبتل والإضاءة ولوحة الألوان الليلية في الصورة. أنشئ لقطة تتبّع واحدة منخفضة ومتصلة وواقعية، بكتلة وتماسك إطارات ومطر وتعليق مقنعة.
@@ -88,19 +99,17 @@
 ثبات المشهد: حافظ بدقة على زي الراكب وخوذته وهندسة الدراجة وصندوق الحمولة والألواح الزرقاء وتخطيط السوق. بلا تحوّل للمركبة أو تشوّه للعجلات أو تصادم أو أسلحة أو لافتات مقروءة أو شعارات أو انتقال آني للكاميرا أو تغيّر مستحيل في السرعة.
 ```
 
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
+
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. رغيف العسل: حكاية مخبز مصغّر
 
-![رغيف العسل: حكاية مخبز مصغّر](assets/pear-bakery-miniature-video.webp)
+**إعدادات تحويل الصورة إلى فيديو:** 9s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ar/honey-loaf.txt)
 
-[إطار البداية: افتح الصورة واحفظها](assets/pear-bakery-miniature-video.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 9s · 16:9 · 1080p
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md) · [خطوات المتصفح](#seaimagine-browser-workflow)
+[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حافظ على المخبز في بيت على شكل كمثرى، والخبازين الثلاثة المصغّرين، والأزياء والوجوه ورغيف العسل والفرن والنافذة والطحلب والبرسيم والقمر والخامات الملموسة لتحريك الدمى إطارًا بإطار والتباين بين الألوان الدافئة والباردة.
@@ -116,17 +125,15 @@
 ثبات المشهد: حافظ على عدد الشخصيات وتصميم الوجوه والمقياس وألوان الملابس وشكل الكمثرى وترتيب الغرفة والملمس اليدوي. بلا خبازين إضافيين أو رسوم حاسوبية لامعة أو أطراف مطاطية أو أدوات عائمة أو رغيف يذوب أو قطع كاميرا أو شعارات أو شخصيات تشبه شخصيات سلاسل معروفة.
 ```
 
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
+
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. لقاء في الميناء: لحظة عاطفية واحدة
 
-![لقاء في الميناء: لحظة عاطفية واحدة](assets/seaimagine-harbor-reunion.webp)
-
-[إطار البداية: افتح الصورة واحفظها](assets/seaimagine-harbor-reunion.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 10s · 16:9 · 720p
+**إعدادات تحويل الصورة إلى فيديو:** 10s · 16:9 · 720p · [إطار البداية: افتح الصورة واحفظها](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/ar/harbor-reunion.txt)
 
 ```text
 حافظ على الشخصين البالغين ووجهيهما والملابس الكحلية والكريمية والرصيف الخشبي وضوء الصباح الناعم في الصورة المرفقة. أبقِ الشخصين في التكوين نفسه ضمن لقطة متوسطة واسعة.
@@ -139,7 +146,7 @@
 تجنّب أشخاصًا إضافيين، وإيماءات درامية، وتنعيم الوجوه، وأصابع إضافية، وقفزات الكاميرا.
 ```
 
-**ما الذي يجب فحصه؟:** هل تصل العاطفة دون تغير كبير في ملامح الوجه؟ إذا بدا الحوار متعجلًا، احذف الخطوة إلى الأمام قبل زيادة المدة. ولإنشاء فيلم أطول، اكتب اللقطة التالية بشكل منفصل.
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
 
 <a id="case-first-sip"></a>
 
@@ -147,13 +154,9 @@
 
 ### 5. الرشفة الأولى: مراجعة طبيعية لصانعة محتوى في مقهى
 
-<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="420" alt="الرشفة الأولى: مراجعة طبيعية لصانعة محتوى في مقهى"></a>
+**إعدادات تحويل الصورة إلى فيديو:** 10s · 9:16 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ar/first-sip.txt)
 
-[إطار البداية: افتح الصورة واحفظها](assets/cozy-cafe-ugc-video.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 10s · 9:16 · 1080p
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md) · [خطوات المتصفح](#seaimagine-browser-workflow)
+[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حرّك صورة المقهى المرفقة على هيئة مراجعة صادقة لصانعة محتوى مصوّرة بكاميرا محمولة باليد. حافظ على وجهها وعمرها وملمس بشرتها وشعرها وسترتها الخضراء الطحلبية والكوب والمعجنات والنافذة وترتيب الطاولة.
@@ -169,19 +172,17 @@
 ثبات المشهد: بلا تجميل للوجه أو تغيير للملابس أو أصابع إضافية أو إعادة تصميم للكوب أو الطعام أو ظهور أشخاص في الخلفية أو شعارات أو إيماءات مبالغ فيها لصانعة المحتوى.
 ```
 
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
+
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. خط الملح عند الفجر: فيلم وثائقي عن السفر
 
-![خط الملح عند الفجر: فيلم وثائقي عن السفر](assets/coastal-salt-train-documentary.webp)
+**إعدادات تحويل الصورة إلى فيديو:** 12s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ar/salt-line.txt)
 
-[إطار البداية: افتح الصورة واحفظها](assets/coastal-salt-train-documentary.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 12s · 16:9 · 1080p
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md) · [خطوات المتصفح](#seaimagine-browser-workflow)
+[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حرّك مشهد أحواض الملح الساحلية المرفق كفيلم سفر وثائقي يرصد المكان باحترام. حافظ على العاملين والقطار بلونَي الكريم والمغرة وأحواض الملح والتلال الجيرية والمباني والبحر واتجاه الشروق ولوحة الألوان السينمائية الهادئة.
@@ -197,17 +198,15 @@
 ثبات المشهد: عمل واقعي، وتشريح مستقر، ومنظر ثابت، وتصميم قطار دون تغيير، وانعكاسات وفيزياء ماء معقولة. بلا أفق مدينة حديثة أو استعراض سياحي مُفتعل أو مبانٍ جديدة أو شعارات أو لافتات مقروءة أو ألوان بطاقات مشبعة بإفراط أو سماء مسرّعة.
 ```
 
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
+
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. بطاقة ساحلية: حرّك صورة مخططة مسبقًا
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="بطاقة ساحلية: حرّك صورة مخططة مسبقًا"></a>
-
-[إطار البداية: افتح الصورة واحفظها](assets/seaimagine-coastal-postcard.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 5s · 9:16 · 720p
+**إعدادات تحويل الصورة إلى فيديو:** 5s · 9:16 · 720p · [إطار البداية: افتح الصورة واحفظها](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/ar/coastal-postcard.txt)
 
 ```text
 حرّك هذه البطاقة الساحلية المؤلفة من ثلاث لوحات دون تغيير ترتيبها أو حدودها. حافظ بدقة على جميع العناصر والألوان. في اللوحة العليا، يتصاعد خيط رفيع ملتف من البخار من الكوب.
@@ -221,7 +220,7 @@
 أنهِ الفيديو وطرف الورقة مستقر والتكوين الأصلي سليم.
 ```
 
-**ما الذي يجب فحصه؟:** إذا تشوّهت حدود اللوحات أو اختلطت المشاهد، اقتصّ كل لوحة وحرّكها منفردة، ثم اجمع المقاطع في برنامج مونتاج.
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
 
 <a id="case-citrus-halo"></a>
 
@@ -229,13 +228,9 @@
 
 ### 8. هالة الحمضيات: فيلم لمنتج عطر فاخر
 
-![هالة الحمضيات: فيلم لمنتج عطر فاخر](assets/citrus-fragrance-product-video.webp)
+**إعدادات تحويل الصورة إلى فيديو:** 8s · 16:9 · 1080p · [إطار البداية: افتح الصورة واحفظها](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ar/citrus-halo.txt)
 
-[إطار البداية: افتح الصورة واحفظها](assets/citrus-fragrance-product-video.webp)
-
-**إعدادات تحويل الصورة إلى فيديو:** 8s · 16:9 · 1080p
-
-[المصدر: Flaq AI](docs/ATTRIBUTION.md) · [خطوات المتصفح](#seaimagine-browser-workflow)
+[المصدر: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 حافظ على تصميم الزجاجة المرفقة ونسب الزجاج والغطاء والقاعدة الجيرية وقشر الجريب فروت والديكور العاجي الدافئ والإضاءة الجانبية الذهبية. أنشئ فيلم منتج أنيقًا مدته ثماني ثوانٍ.
@@ -251,23 +246,7 @@
 ثبات المشهد: لا تغيّر شكل الزجاجة أو أوجه الغطاء أو مستوى السائل أو القاعدة أو لوحة الألوان أو القوس الخلفي. بلا ملصق أو شعار أو فاكهة إضافية أو زجاجة عائمة أو هندسة متذبذبة أو قفزة كاميرا أو انفجار لمعان مصطنع.
 ```
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
-
-## استخدم عناصر التحكم الفعلية في SeaImagine
-
-[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/ar/model/grok-imagine-1-5/)
-
-تعرض لقطة الشاشة الواجهة الإنجليزية التي فُحصت في 24 سبتمبر 2026. قد تختلف التسميات المترجمة؛ وتساعدك المواضع والخطوات أدناه على تحديد كل عنصر تحكم. تم إدخال نص توجيه الزجاجة واختيار 720p / 5s / 16:9، لكن Start Frame ما زال فارغًا. ارفع صورة البداية قبل التوليد. لم تُرسل أي مهمة.
-
-![استخدم عناصر التحكم الفعلية في SeaImagine](assets/seaimagine-interface.jpg)
-
-1. افتح صفحة النموذج المشار إليها بالرابط. اختر Video (فيديو) وتأكد من اختيار Grok Imagine 1.5 في قائمة النماذج.
-2. استخدم Start Frame (إطار البداية) على اليسار لرفع الصورة التي نزّلتها. الصق نص التوجيه كاملًا في مساحة النص الكبيرة؛ يسمح العداد الحالي بإدخال 2,000 محرف.
-3. أسفل نص التوجيه، اختر الدقة (480p أو 720p)، والمدة (5s أو 10s أو 15s)، ونسبة العرض إلى الارتفاع. للزجاجة: 720p، و5s، و16:9.
-4. تحقق من عدد أرصدة التوليد بجانب Generate (توليد)، فهو يتغير حسب الإعدادات. يؤدي الضغط على Generate إلى إرسال مهمة فعلية، وقد يتطلب تسجيل الدخول أو أرصدة. لقطة الشاشة ليست عملية توليد مكتملة.
-5. عاين النتيجة، وافحص العيوب المحتملة المذكورة، ثم نزّل الفيديو إذا كان مقبولًا. إذا طلبت الوصفات القديمة 6/8/9/12 ثانية أو 1080p، فاختر مدة متاحة وأعد كتابة الفترات الزمنية؛ استخدم 720p بدل افتراض توفر 1080p.
+[العودة إلى فهرس الفئات](#find-the-right-prompt) · [نظرة سريعة على الأمثلة المصوّرة](#visual-index)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -312,9 +291,13 @@
 
 <a id="قواعد-سريعة"></a>
 
-## المزيد بهذه اللغة: دليل الكتابة وتمارين إضافية
+## مواد مرجعية
 
-[دليل الكتابة](docs/guides/ar.md)
+[مرجع الكتابة](docs/guides/ar.md) · [مرجع الإعدادات والتشغيل](docs/workflows/ar.md) · [SeaImagine](https://seaimagine.com/ar/model/grok-imagine-1-5/)
+
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
 
 <a id="multilingual-prompts"></a>
 

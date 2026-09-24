@@ -1,7 +1,7 @@
 {
-  "nav_title": "Bạn muốn tạo nội dung gì?",
+  "nav_title": "Mục lục danh mục",
   "goal_label": "Mục tiêu",
-  "example_label": "Bắt đầu bằng ví dụ có hình",
+  "example_label": "Ví dụ có hình",
   "browse_label": "Xem thêm câu lệnh (tiếng Anh)",
   "goals": [
     "Quảng cáo sản phẩm",
@@ -13,17 +13,17 @@
     "Bố cục chuyển động"
   ],
   "gallery_title": "Câu lệnh có hình để sao chép và điều chỉnh",
-  "gallery_intro": "Chọn chủ đề bên dưới, lưu ảnh đầu rồi sao chép toàn bộ câu lệnh. Bắt đầu với một hành động và một chuyển động máy quay. Ảnh chỉ minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.",
+  "gallery_intro": "8 ví dụ kèm câu lệnh đầy đủ và ảnh khung hình đầu. Ảnh minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.",
   "prompt_label": "Sao chép toàn bộ câu lệnh",
   "source_note": "Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; ba ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.",
   "source_label": "Nguồn: Flaq AI",
-  "more_label": "Thêm nội dung tiếng Việt: hướng dẫn viết và bài tập bổ sung",
+  "more_label": "Tài liệu tham khảo",
   "counts_label": "Bộ sưu tập và ghi nguồn",
   "quick_links": [
     "Ví dụ có hình",
-    "Các bước trên trình duyệt",
+    "Tài liệu tham khảo về cài đặt và thao tác",
     "Tác phẩm chính thức và cộng đồng",
-    "Hướng dẫn viết"
+    "Tham khảo cách viết"
   ],
   "collections": [
     "Quảng cáo và sản phẩm",
@@ -74,5 +74,12 @@
       "prompt": "Làm chuyển động cảnh ruộng muối ven biển đã cho thành phim tài liệu du lịch quan sát, tôn trọng người lao động. Giữ nguyên hai công nhân, tàu màu kem và vàng đất, ô muối, đồi đá vôi, nhà, biển, hướng bình minh và bảng màu phim dịu.\n\n0–4s: khung rộng cố định. Công nhân tiếp tục kiểm tra mương: một người đưa dụng cụ gỗ qua nước muối nông, người kia giữ vách ngăn. Gợn nước phản ứng với dụng cụ và gió sớm. Tàu tiến đến với tốc độ vừa phải ở trung cảnh.\n\n4–9s: máy quay lia chậm sang phải theo tàu. Bánh luôn thẳng với ray; khoảng cách toa và nhịp cửa sổ nhất quán. Một màn sương biển mỏng trôi phía sau trong khi nắng dần bắt vào tinh thể muối ở tiền cảnh.\n\n9–12s: tàu đi qua về hướng bờ biển và máy quay nhẹ nhàng ngừng lia. Một công nhân đứng lên, vươn người tự nhiên và nhìn về đường ray. Giữ hai giây cuối làm điểm dựng.\n\nÂm thanh: tiếng ù điện nhẹ của tàu, bánh qua mối nối đều nhịp, gió trên nước nông, hải âu xa và dụng cụ gỗ chuyển động trong nước muối. Không thuyết minh, nhạc, đám đông hoặc còi kịch tính.\n\nKhóa tính liên tục: lao động chân thực, giải phẫu ổn định, cảnh quan cố định, thiết kế tàu không đổi, phản xạ và vật lý nước hợp lý. Không đường chân trời đô thị hiện đại, khách du lịch tạo dáng dàn dựng, nhà mới, logo, biển đọc được, màu bưu thiếp quá bão hòa hoặc bầu trời tua nhanh.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Tất cả câu lệnh",
+  "preview_title": "Xem nhanh các ví dụ có hình",
+  "category_label": "Danh mục",
+  "count_label": "Số lượng",
+  "browse_cases_label": "Mục lục ví dụ",
+  "back_label": "Quay lại mục lục danh mục",
+  "reference_label": "Tài liệu tham khảo về cài đặt và thao tác"
 }

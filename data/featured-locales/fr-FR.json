@@ -1,7 +1,7 @@
 {
-  "nav_title": "Que souhaitez-vous créer ?",
+  "nav_title": "Index des catégories",
   "goal_label": "Objectif",
-  "example_label": "Commencez par un exemple illustré",
+  "example_label": "Exemples illustrés",
   "browse_label": "Parcourir d’autres prompts (en anglais)",
   "goals": [
     "Publicités de produits",
@@ -13,17 +13,17 @@
     "Compositions animées"
   ],
   "gallery_title": "Des prompts illustrés à copier et à adapter",
-  "gallery_intro": "Choisissez un sujet, enregistrez son image de départ et copiez le prompt complet. Commencez avec une action et un mouvement de caméra ; les images sont des concepts, pas des résultats vidéo vérifiés.",
+  "gallery_intro": "8 exemples avec prompts complets et images de départ. Les images illustrent des concepts ; elles ne constituent pas des résultats vidéo vérifiés.",
   "prompt_label": "Copier le prompt complet",
   "source_note": "Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les trois autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.",
   "source_label": "Source : Flaq AI",
-  "more_label": "Dans cette langue : guide de rédaction et exercices supplémentaires",
+  "more_label": "Documentation de référence",
   "counts_label": "Collection et attribution",
   "quick_links": [
     "Exemples illustrés",
-    "Étapes dans le navigateur",
+    "Référence des réglages et des commandes",
     "Travaux officiels et communautaires",
-    "Guide de rédaction"
+    "Référence de rédaction"
   ],
   "collections": [
     "Publicités et produits",
@@ -74,5 +74,12 @@
       "prompt": "Animez la scène côtière de marais salants fournie comme un documentaire de voyage d’observation respectueux. Préservez les deux ouvriers, le train crème et ocre, les bassins, les collines calcaires, bâtiments, mer, direction du lever du soleil et palette de film atténuée.\n\n0–4s : plan large fixe. Les ouvriers inspectent le canal : l’un guide un outil en bois dans la saumure peu profonde, l’autre maintient la séparation. L’eau ondule en réaction à l’outil et à la brise matinale. Le train approche à vitesse mesurée au second plan.\n\n4–9s : la caméra panoramique lentement à droite pour suivre le train. Les roues restent alignées sur les rails ; l’espacement des voitures et le rythme des fenêtres restent constants. Un léger voile de brume marine dérive derrière lui, tandis que le soleil éclaire progressivement les cristaux de sel au premier plan.\n\n9–12s : le train poursuit vers la côte et le panoramique s’arrête en douceur. Un ouvrier se redresse, s’étire naturellement et regarde la voie. Maintenez les deux dernières secondes pour un point de montage.\n\nSon : doux bourdonnement électrique du train, rythme des roues aux joints, brise sur l’eau peu profonde, mouettes lointaines, outil en bois dans la saumure. Ni narration, musique, foule ou klaxon dramatique.\n\nContinuité : travail réaliste, anatomie stable, paysage fixe, train inchangé, reflets et physique de l’eau plausibles. Ni silhouette urbaine moderne, mise en scène touristique, nouveaux bâtiments, logos, panneaux lisibles, couleurs de carte postale saturées ou ciel en accéléré.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Tous les prompts",
+  "preview_title": "Aperçu des exemples illustrés",
+  "category_label": "Catégorie",
+  "count_label": "Nombre",
+  "browse_cases_label": "Index des exemples",
+  "back_label": "Retour à l’index des catégories",
+  "reference_label": "Référence des réglages et des commandes"
 }

@@ -2,15 +2,15 @@
 
 [← Main collection](../README.md)
 
-All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. A purpose table and five category links appear before the gallery. Each image is paired with its complete local-language prompt. One browser tutorial and one official/community section follow.
+All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. The homepage provides direct links to all 38 recipes, an eight-image preview grid, complete local-language prompt blocks and TXT exports. Each preview links to its prompt; each prompt links to its full starting image and back to the index. Browser instructions live in separate localized reference pages.
 
 The images are concept starting frames, not verified Grok video results. Translation completeness does not establish generation quality or equivalent results across languages.
 
-The language set matches the fifteen links observed on the [SeaImagine model page](https://seaimagine.com/model/grok-imagine-1-5/) on September 24, 2026. Exact routes are in [locales.json](../data/locales.json). The interface screenshot uses English labels; all fifteen pages explain its controls in their own language.
+The language set matches the fifteen links observed on the [SeaImagine model page](https://seaimagine.com/model/grok-imagine-1-5/) on September 24, 2026. Exact routes are in [locales.json](../data/locales.json). The interface screenshot uses English labels; fifteen linked workflow references explain its controls in their own language.
 
 ## Language directory
 
-Every homepage contains **8 illustrated cases + 5 interface steps + 4 source explanations**. The guides preserve the earlier writing advice and additional local exercises.
+Every homepage contains **38 recipe links + 8 illustrated cases with TXT exports + 4 community sources**. The guides preserve the earlier writing advice and additional local exercises.
 
 | Language | Eight-case homepage | Further reading |
 | --- | --- | --- |
@@ -34,7 +34,7 @@ Every homepage contains **8 illustrated cases + 5 interface steps + 4 source exp
 
 The English collection contains **38 distinct recipes: 35 inherited recipes plus 3 new exercises**. The five inherited featured cases are now fully translated in `data/featured-locales/`, alongside three shared exercises in `data/homepage-locales/`. These 120 displayed language versions represent eight shared scenes, not 120 different scenarios.
 
-The three new exercises use 720p and durations of 10/5/5 seconds. The five inherited cases retain their original source settings; each has a source label and a nearby link to the actual browser controls. Choose 5/10/15 seconds and 480p/720p on the inspected SeaImagine interface, and adapt timed actions accordingly.
+The three new exercises use 720p and durations of 10/5/5 seconds. The five inherited cases retain their original source settings; each has a source label; actual browser controls are documented in the linked workflow reference. Choose 5/10/15 seconds and 480p/720p on the inspected SeaImagine interface, and adapt timed actions accordingly.
 
 The 30 further category recipes and advanced English documentation are not all translated. Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
 
@@ -45,6 +45,8 @@ The four community notes do not imply full video or audio testing; see [viewing 
 Maintain the three new exercises in [homepage-locales/en-US.json](../data/homepage-locales/en-US.json) and the five source cases plus navigation in [featured-locales/en-US.json](../data/featured-locales/en-US.json). Update all fourteen translations in the corresponding directories. Keep case IDs, images, settings, URLs and legacy anchors stable.
 
 The five original English prompt bodies are checked against [source hashes](../data/source-featured-provenance.json). The three new English prompts also match [the exercise document](../prompts/06-community-exercises.md). Writing guides live in `docs/guides/`; their mappings and compatibility anchors are in [guide-index.json](../data/guide-index.json).
+
+Plain-text exports in `prompts/text/` and the fifteen references in `docs/workflows/` are generated from the same canonical prompts and interface descriptions. Category pages retain full prompt blocks with per-page indexes and TXT links.
 
 Run `python3 scripts/build.py`, then `python3 scripts/validate.py`. Validation checks all eight complete prompts, local links, image pairings, source settings, early navigation, section order, old anchors and generated-file freshness. These checks do not replace language or video review.
 

@@ -6,7 +6,18 @@
 
 Six original commercial prompts designed around short, legible product actions. Replace bracketed placeholders with your own product details. If a logo or label must remain exact, supply it as a reference image and make it a continuity lock instead of asking the model to invent it.
 
+## Index
+
+- [1. Dew Drop Laboratory — skincare serum macro](#1-dew-drop-laboratory--skincare-serum-macro)
+- [2. Cold Brew Eclipse — coffee launch film](#2-cold-brew-eclipse--coffee-launch-film)
+- [3. Street-to-Studio — performance shoe demonstration](#3-street-to-studio--performance-shoe-demonstration)
+- [4. Doorstep Dinner — food delivery social ad](#4-doorstep-dinner--food-delivery-social-ad)
+- [5. Silver Current — artisan jewelry reveal](#5-silver-current--artisan-jewelry-reveal)
+- [6. One Tap Away — clean mobile app promo](#6-one-tap-away--clean-mobile-app-promo)
+
 ## 1. Dew Drop Laboratory — skincare serum macro
+
+[TXT](text/en-US/01-ads-and-products-1.txt) · [↑ Index](#index)
 
 **Mode:** text-to-video · **Output:** 8s · 16:9 · 1080p
 
@@ -29,6 +40,8 @@ splash, geometry drift, unreadable text, or watermark. End on a clean catalog-re
 ```
 
 ## 2. Cold Brew Eclipse — coffee launch film
+
+[TXT](text/en-US/01-ads-and-products-2.txt) · [↑ Index](#index)
 
 **Mode:** image-to-video · **Output:** 9s · 1:1 · 1080p
 
@@ -54,6 +67,8 @@ explosion, logos added by the model, or camera cut.
 
 ## 3. Street-to-Studio — performance shoe demonstration
 
+[TXT](text/en-US/01-ads-and-products-3.txt) · [↑ Index](#index)
+
 **Mode:** reference-to-video · **References:** `<IMAGE_0>` athlete, `<IMAGE_1>` shoe, `<IMAGE_2>` set · **Output:** 10s · 9:16 · 720p
 
 ```text
@@ -78,6 +93,8 @@ rubber floor, camera teleport, or slow-motion impact distortion.
 
 ## 4. Doorstep Dinner — food delivery social ad
 
+[TXT](text/en-US/01-ads-and-products-4.txt) · [↑ Index](#index)
+
 **Mode:** text-to-video · **Output:** 10s · 9:16 · 1080p
 
 ```text
@@ -101,6 +118,8 @@ unreadable packaging text, or glamour retouching.
 
 ## 5. Silver Current — artisan jewelry reveal
 
+[TXT](text/en-US/01-ads-and-products-5.txt) · [↑ Index](#index)
+
 **Mode:** image-to-video · **Output:** 7s · 3:2 · 1080p
 
 ```text
@@ -122,6 +141,8 @@ particles, extra jewelry, invented engraving, logo, hands, or jump cut. Finish c
 ```
 
 ## 6. One Tap Away — clean mobile app promo
+
+[TXT](text/en-US/01-ads-and-products-6.txt) · [↑ Index](#index)
 
 **Mode:** reference-to-video · **References:** `<IMAGE_0>` phone UI, `<IMAGE_1>` hand model · **Output:** 8s · 9:16 · 720p
 

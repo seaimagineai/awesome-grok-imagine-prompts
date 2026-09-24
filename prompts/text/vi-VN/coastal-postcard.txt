@@ -1,0 +1,10 @@
+Làm chuyển động bưu thiếp ven biển ba ô này mà không đổi bố cục hoặc đường viền.
+Giữ nguyên chính xác mọi vật thể và màu sắc. Ở ô trên, một làn hơi mảnh bốc lên từ chiếc cốc.
+Ở ô giữa, nước cảng gợn nhẹ và ánh nắng lấp lánh trên mặt nước.
+Ở ô dưới, chỉ góc tờ giấy có sẵn hơi nhấc lên rồi hạ xuống trong gió nhẹ.
+Mỗi chuyển động chỉ diễn ra trong ô của nó. Tất cả các ô luôn hiển thị suốt năm giây.
+Máy quay: cố định, không thu phóng, không lia, không cắt cảnh hoặc chuyển cảnh giữa các ô.
+Âm thanh: tiếng nước nhẹ và tiếng giấy sột soạt khẽ; không lời thoại, nhạc, phụ đề hay chữ thêm vào.
+Giữ nguyên quai cốc, khung cửa sổ, ký hiệu bản đồ, kích thước các ô và thứ tự đọc.
+Tránh gộp ô, tạo cảnh mới, vẽ lại chữ hoặc để vật thể di chuyển qua đường viền.
+Kết thúc khi góc giấy đã nằm yên và bố cục gốc vẫn nguyên vẹn.

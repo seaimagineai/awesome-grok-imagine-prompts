@@ -1,7 +1,7 @@
 {
-  "nav_title": "¿Qué te gustaría crear?",
+  "nav_title": "Índice de categorías",
   "goal_label": "Objetivo",
-  "example_label": "Empieza con un ejemplo ilustrado",
+  "example_label": "Ejemplos ilustrados",
   "browse_label": "Explora más prompts (en inglés)",
   "goals": [
     "Anuncios de productos",
@@ -13,17 +13,17 @@
     "Composiciones animadas"
   ],
   "gallery_title": "Prompts ilustrados para copiar y adaptar",
-  "gallery_intro": "Elige un tema, guarda su imagen inicial y copia el prompt completo. Empieza con una acción y un movimiento de cámara; las imágenes son conceptos, no resultados de vídeo verificados.",
+  "gallery_intro": "8 ejemplos con prompts completos e imágenes del fotograma inicial. Las imágenes ilustran conceptos; no son resultados de vídeo verificados.",
   "prompt_label": "Copia el prompt completo",
   "source_note": "Los cinco casos identificados como «Fuente: Flaq AI» conservan su duración y resolución originales; los otros tres usan las opciones actuales de SeaImagine. Para usar un caso de la fuente en SeaImagine, elige 5/10/15 segundos y 480p/720p y reescribe sus acciones cronometradas.",
   "source_label": "Fuente: Flaq AI",
-  "more_label": "Más en este idioma: guía de escritura y ejercicios adicionales",
+  "more_label": "Material de referencia",
   "counts_label": "Colección y atribución",
   "quick_links": [
     "Ejemplos ilustrados",
-    "Pasos en el navegador",
+    "Referencia de ajustes y uso",
     "Trabajos oficiales y de la comunidad",
-    "Guía de escritura"
+    "Referencia de escritura"
   ],
   "collections": [
     "Anuncios y productos",
@@ -74,5 +74,12 @@
       "prompt": "Anima la escena de salinas costeras proporcionada como un documental de viajes observacional y respetuoso. Conserva a los dos trabajadores, el tren crema y ocre, las salinas, las colinas de piedra caliza, los edificios, el mar, la dirección del amanecer y la paleta cinematográfica apagada.\n\n0–4s: plano general fijo. Los trabajadores siguen inspeccionando el canal: uno mueve una herramienta de madera por la salmuera poco profunda mientras el otro sujeta la separación. Las ondas responden a la herramienta y a la brisa matinal. El tren se acerca a velocidad moderada en el plano intermedio.\n\n4–9s: la cámara panea lentamente a la derecha siguiendo el tren. Las ruedas permanecen alineadas con los raíles; la separación entre vagones y el ritmo de las ventanas son constantes. Un velo ligero de bruma marina pasa detrás mientras la luz del sol ilumina gradualmente los cristales de sal del primer plano.\n\n9–12s: el tren continúa hacia la costa y el paneo se detiene suavemente. Un trabajador se incorpora, se estira de forma natural y mira hacia la vía. Mantén los dos últimos segundos como punto de montaje.\n\nAudio: suave zumbido eléctrico ferroviario, ritmo de las ruedas sobre las juntas, brisa sobre el agua somera, gaviotas lejanas y herramienta de madera moviéndose en la salmuera. Sin narración, música, multitud ni bocina dramática.\n\nContinuidad: trabajo realista, anatomía estable, paisaje fijo, diseño del tren intacto, reflejos y física del agua plausibles. Sin horizonte urbano moderno, puesta en escena turística, edificios nuevos, logotipos, letreros legibles, colores de postal sobresaturados ni cielo acelerado.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Todos los prompts",
+  "preview_title": "Vista rápida de los ejemplos ilustrados",
+  "category_label": "Categoría",
+  "count_label": "Cantidad",
+  "browse_cases_label": "Índice de ejemplos",
+  "back_label": "Volver al índice de categorías",
+  "reference_label": "Referencia de ajustes y uso"
 }

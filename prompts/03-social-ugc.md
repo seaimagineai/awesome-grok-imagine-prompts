@@ -6,7 +6,18 @@
 
 The strongest UGC prompts preserve small imperfections: uneven handheld framing, real pauses, natural skin, contact sounds, and ordinary environments. “Authentic” should describe behavior, not lower image quality.
 
+## Index
+
+- [1. Shelf Test — honest skincare mini-review](#1-shelf-test--honest-skincare-mini-review)
+- [2. Twelve-Minute Noodles — one-pan recipe reel](#2-twelve-minute-noodles--one-pan-recipe-reel)
+- [3. First Set — realistic morning fitness log](#3-first-set--realistic-morning-fitness-log)
+- [4. One Question, One Corner — street interview](#4-one-question-one-corner--street-interview)
+- [5. Clay Cup Morning — tactile pottery ASMR](#5-clay-cup-morning--tactile-pottery-asmr)
+- [6. Umbrella Reset — seamless pet comedy loop](#6-umbrella-reset--seamless-pet-comedy-loop)
+
 ## 1. Shelf Test — honest skincare mini-review
+
+[TXT](text/en-US/03-social-ugc-1.txt) · [↑ Index](#index)
 
 **Mode:** reference-to-video · **References:** `<IMAGE_0>` creator, `<IMAGE_1>` product · **Output:** 10s · 9:16 · 720p
 
@@ -29,6 +40,8 @@ product, influencer gestures, new logos, captions, or jump cut.
 ```
 
 ## 2. Twelve-Minute Noodles — one-pan recipe reel
+
+[TXT](text/en-US/03-social-ugc-2.txt) · [↑ Index](#index)
 
 **Mode:** text-to-video · **Output:** 12s · 9:16 · 1080p
 
@@ -53,6 +66,8 @@ raw-to-finished teleport, fire flare, food morphing, mess outside pan, logo, or 
 
 ## 3. First Set — realistic morning fitness log
 
+[TXT](text/en-US/03-social-ugc-3.txt) · [↑ Index](#index)
+
 **Mode:** image-to-video · **Output:** 9s · 9:16 · 1080p
 
 ```text
@@ -76,6 +91,8 @@ plastic muscles, unsafe bar path, logo, or jump cut.
 
 ## 4. One Question, One Corner — street interview
 
+[TXT](text/en-US/03-social-ugc-4.txt) · [↑ Index](#index)
+
 **Mode:** reference-to-video · **References:** `<IMAGE_0>` host, `<IMAGE_1>` guest, `<IMAGE_2>` corner · **Output:** 12s · 9:16 · 720p
 
 ```text
@@ -98,6 +115,8 @@ readable shop brands, or added text.
 
 ## 5. Clay Cup Morning — tactile pottery ASMR
 
+[TXT](text/en-US/03-social-ugc-5.txt) · [↑ Index](#index)
+
 **Mode:** image-to-video · **Output:** 10s · 3:4 · 1080p
 
 ```text
@@ -119,6 +138,8 @@ behavior. No extra fingers, cup inflating, color change, pottery breaking, new t
 ```
 
 ## 6. Umbrella Reset — seamless pet comedy loop
+
+[TXT](text/en-US/03-social-ugc-6.txt) · [↑ Index](#index)
 
 **Mode:** text-to-video · **Output:** 6s · 1:1 · 1080p
 

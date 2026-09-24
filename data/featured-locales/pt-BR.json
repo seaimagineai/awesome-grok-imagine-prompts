@@ -1,7 +1,7 @@
 {
-  "nav_title": "O que você quer criar?",
+  "nav_title": "Índice de categorias",
   "goal_label": "Objetivo",
-  "example_label": "Comece com um exemplo ilustrado",
+  "example_label": "Exemplos ilustrados",
   "browse_label": "Veja mais prompts (em inglês)",
   "goals": [
     "Anúncios de produtos",
@@ -13,17 +13,17 @@
     "Composições animadas"
   ],
   "gallery_title": "Prompts ilustrados para copiar e adaptar",
-  "gallery_intro": "Escolha um tema abaixo, salve a imagem inicial e copie o prompt completo. Comece com uma ação e um movimento de câmera; as imagens são conceitos, não resultados de vídeo verificados.",
+  "gallery_intro": "8 exemplos com prompts completos e imagens do quadro inicial. As imagens ilustram conceitos; não são resultados de vídeo verificados.",
   "prompt_label": "Copie o prompt completo",
   "source_note": "Os cinco exemplos marcados como “Fonte: Flaq AI” preservam a duração e a resolução originais; os outros três usam as opções atuais do SeaImagine. Para usar um exemplo da fonte no SeaImagine, escolha 5/10/15 segundos e 480p/720p e reescreva suas ações cronometradas.",
   "source_label": "Fonte: Flaq AI",
-  "more_label": "Mais neste idioma: guia de escrita e exercícios adicionais",
+  "more_label": "Material de referência",
   "counts_label": "Coleção e atribuição",
   "quick_links": [
     "Exemplos ilustrados",
-    "Passos no navegador",
+    "Referência de configurações e uso",
     "Trabalhos oficiais e da comunidade",
-    "Guia de escrita"
+    "Referência de escrita"
   ],
   "collections": [
     "Anúncios e produtos",
@@ -74,5 +74,12 @@
       "prompt": "Anime a cena das salinas costeiras como um documentário de viagem observacional e respeitoso. Preserve os dois trabalhadores, o trem creme e ocre, os tanques de sal, as colinas de calcário, os prédios, o mar, a direção do nascer do sol e a paleta cinematográfica suave.\n\n0–4s: plano aberto fixo. Os trabalhadores continuam inspecionando o canal: um move uma ferramenta de madeira na salmoura rasa enquanto o outro firma a divisória. As ondulações respondem à ferramenta e à brisa da manhã. O trem se aproxima em velocidade moderada no plano intermediário.\n\n4–9s: a câmera faz uma panorâmica lenta à direita para seguir o trem. As rodas continuam alinhadas aos trilhos; o espaçamento dos vagões e o ritmo das janelas permanecem constantes. Um véu leve de névoa marinha passa atrás enquanto a luz do sol alcança aos poucos os cristais de sal em primeiro plano.\n\n9–12s: o trem segue em direção à costa e a panorâmica para suavemente. Um trabalhador se levanta, se alonga naturalmente e olha para a linha. Mantenha os dois segundos finais para permitir um ponto de edição.\n\nÁudio: leve zumbido elétrico ferroviário, ritmo das rodas nas juntas, brisa sobre água rasa, gaivotas distantes e ferramenta de madeira na salmoura. Sem narração, música, multidão ou buzina dramática.\n\nContinuidade: trabalho realista, anatomia estável, paisagem fixa, design do trem inalterado, reflexos e física da água plausíveis. Sem horizonte urbano moderno, encenação turística, prédios novos, logotipos, placas legíveis, cores de cartão-postal supersaturadas ou céu acelerado.",
       "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
     }
-  ]
+  ],
+  "catalog_title": "Todos os prompts",
+  "preview_title": "Visão geral dos exemplos ilustrados",
+  "category_label": "Categoria",
+  "count_label": "Quantidade",
+  "browse_cases_label": "Índice de exemplos",
+  "back_label": "Voltar ao índice de categorias",
+  "reference_label": "Referência de configurações e uso"
 }

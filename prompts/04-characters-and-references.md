@@ -8,7 +8,18 @@
 
 Reference-to-video is best when each image has one job. Use clear, compatible references and explicitly map them in the prompt. Current xAI documentation allows up to seven reference images and up to three preset voices, with output capped at 720p.
 
+## Index
+
+- [1. Harbor Cartographer — consistent character introduction](#1-harbor-cartographer--consistent-character-introduction)
+- [2. Linen Set — virtual try-on walk test](#2-linen-set--virtual-try-on-walk-test)
+- [3. Counter Demo — product placement without redesign](#3-counter-demo--product-placement-without-redesign)
+- [4. Two Voices, One Repair — synchronized dialogue scene](#4-two-voices-one-repair--synchronized-dialogue-scene)
+- [5. Sunday Table — consistent three-person ensemble](#5-sunday-table--consistent-three-person-ensemble)
+- [6. Parcel Finch — reusable brand mascot motion](#6-parcel-finch--reusable-brand-mascot-motion)
+
 ## 1. Harbor Cartographer — consistent character introduction
+
+[TXT](text/en-US/04-characters-and-references-1.txt) · [↑ Index](#index)
 
 **References:** `<IMAGE_0>` face, `<IMAGE_1>` full-body wardrobe, `<IMAGE_2>` map room · **Output:** 10s · 16:9 · 720p
 
@@ -34,6 +45,8 @@ labels, logos, crowd, camera cut, or fantasy glow.
 
 ## 2. Linen Set — virtual try-on walk test
 
+[TXT](text/en-US/04-characters-and-references-2.txt) · [↑ Index](#index)
+
 **References:** `<IMAGE_0>` person, `<IMAGE_1>` front garment, `<IMAGE_2>` back garment, `<IMAGE_3>` shoes, `<IMAGE_4>` studio · **Output:** 10s · 9:16 · 720p
 
 ```text
@@ -55,6 +68,8 @@ new accessory, logo, extreme runway pose, mirror, or camera cut.
 ```
 
 ## 3. Counter Demo — product placement without redesign
+
+[TXT](text/en-US/04-characters-and-references-3.txt) · [↑ Index](#index)
 
 **References:** `<IMAGE_0>` presenter, `<IMAGE_1>` appliance front, `<IMAGE_2>` appliance sides, `<IMAGE_3>` kitchen · **Output:** 12s · 16:9 · 720p
 
@@ -80,6 +95,8 @@ steam before operation, extra appliance, or jump cut.
 
 ## 4. Two Voices, One Repair — synchronized dialogue scene
 
+[TXT](text/en-US/04-characters-and-references-4.txt) · [↑ Index](#index)
+
 **References:** `<IMAGE_0>` technician A, `<IMAGE_1>` technician B, `<IMAGE_2>` workshop, `<AUDIO_0>` voice A, `<AUDIO_1>` voice B · **Output:** 12s · 16:9 · 720p
 
 ```text
@@ -103,6 +120,8 @@ lip movement on the silent person, readable brands, or cut.
 
 ## 5. Sunday Table — consistent three-person ensemble
 
+[TXT](text/en-US/04-characters-and-references-5.txt) · [↑ Index](#index)
+
 **References:** `<IMAGE_0>` person A, `<IMAGE_1>` person B, `<IMAGE_2>` person C, `<IMAGE_3>` dining room, `<IMAGE_4>` cake · **Output:** 10s · 16:9 · 720p
 
 ```text
@@ -125,6 +144,8 @@ floating flame, brand, text, or cut.
 ```
 
 ## 6. Parcel Finch — reusable brand mascot motion
+
+[TXT](text/en-US/04-characters-and-references-6.txt) · [↑ Index](#index)
 
 **References:** `<IMAGE_0>` mascot front, `<IMAGE_1>` mascot side, `<IMAGE_2>` parcel prop, `<IMAGE_3>` color board · **Output:** 7s · 1:1 · 720p
 

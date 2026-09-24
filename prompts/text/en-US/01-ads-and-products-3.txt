@@ -1,0 +1,17 @@
+Use the adult athlete's identity, face, body proportions, and hairstyle from <IMAGE_0>. They
+wear the exact original, unbranded performance shoes from <IMAGE_1> in the clean graphite
+testing studio from <IMAGE_2>. Plain charcoal training clothes; no additional accessories.
+
+0–3s: low camera follows one natural walking step onto a matte force plate. The shoe compresses
+slightly under weight without changing its design. 3–7s: the athlete performs one controlled
+lateral bound and lands in balance; knees and ankles track naturally, laces and fabric react to
+motion, floor shadow stays connected. Camera tilts from shoe level to a medium full-body view.
+7–10s: the athlete takes one relaxed recovery step and looks toward camera with a small confident
+smile. Hold the final second.
+
+Audio: sole contact, fabric movement, quiet studio room tone, controlled breath. No voiceover,
+music, crowd, or text.
+
+Continuity: preserve identity, outfit, shoe panel geometry, sole thickness, colors, and both
+shoes as a matching pair. No extra limbs, floating feet, logo invention, superhuman jump,
+rubber floor, camera teleport, or slow-motion impact distortion.

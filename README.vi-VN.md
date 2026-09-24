@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 câu lệnh tiếng Anh có thể sao chép, dành cho quảng cáo sản phẩm, phim ngắn về nhân vật, truyện kỳ ảo và nhiều chủ đề khác. Có ví dụ nhập môn và hướng dẫn sử dụng bằng 15 ngôn ngữ.
+> 38 câu lệnh, trong đó 8 ví dụ có hình được cung cấp bằng 15 ngôn ngữ. Duyệt theo danh mục và sao chép toàn bộ câu lệnh.
 
 ![Grok Imagine 1.5 — Sổ câu lệnh mở ra với giày, tàu điện và cá voi giấy trong cùng một khung cảnh](assets/seaimagine-grok-hero.webp)
 
@@ -12,9 +12,9 @@ Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), d
 
 <a id="prompt-library"></a>
 
-## Bạn muốn tạo nội dung gì?
+## Mục lục danh mục
 
-| Mục tiêu | Bắt đầu bằng ví dụ có hình |
+| Mục tiêu | Ví dụ có hình |
 | --- | --- |
 | Quảng cáo sản phẩm | [Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](#case-sea-glass-bottle) · [Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](#case-citrus-halo) |
 | Hành động điện ảnh | [Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](#case-blue-route) |
@@ -24,17 +24,36 @@ Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), d
 | Phim du lịch | [Tuyến đường muối lúc bình minh — phim tài liệu du lịch](#case-salt-line) |
 | Bố cục chuyển động | [Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục](#case-coastal-postcard) |
 
-**Xem thêm câu lệnh (tiếng Anh):** [Quảng cáo và sản phẩm](prompts/01-ads-and-products.md) · [Câu chuyện điện ảnh](prompts/02-cinematic-storytelling.md) · [Mạng xã hội và phong cách sống](prompts/03-social-ugc.md) · [Nhân vật và tư liệu tham chiếu](prompts/04-characters-and-references.md) · [Chỉnh sửa và kéo dài](prompts/05-editing-and-extension.md)
+[Ví dụ có hình](#featured-prompts) · [Tác phẩm chính thức và cộng đồng](#learn-from-official-and-community-examples) · [Tài liệu tham khảo về cài đặt và thao tác](#writing-guide)
 
-[Ví dụ có hình](#featured-prompts) · [Các bước trên trình duyệt](#seaimagine-browser-workflow) · [Tác phẩm chính thức và cộng đồng](#learn-from-official-and-community-examples) · [Hướng dẫn viết](#writing-guide)
+<a id="visual-index"></a>
+
+### Xem nhanh các ví dụ có hình
+
+8 ví dụ kèm câu lệnh đầy đủ và ảnh khung hình đầu. Ảnh minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.
+
+Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; ba ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.
+
+| | |
+| --- | --- |
+| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số"></a><br>[1. Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa"></a><br>[2. Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](#case-blue-route)<br>10s · 16:9 · 1080p |
+| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="Ổ bánh mật ong — câu chuyện tiệm bánh tí hon"></a><br>[3. Ổ bánh mật ong — câu chuyện tiệm bánh tí hon](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc"></a><br>[4. Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](#case-harbor-reunion)<br>10s · 16:9 · 720p |
+| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="Ngụm đầu tiên — đánh giá quán cà phê tự nhiên"></a><br>[5. Ngụm đầu tiên — đánh giá quán cà phê tự nhiên](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="Tuyến đường muối lúc bình minh — phim tài liệu du lịch"></a><br>[6. Tuyến đường muối lúc bình minh — phim tài liệu du lịch](#case-salt-line)<br>12s · 16:9 · 1080p |
+| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục"></a><br>[7. Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp"></a><br>[8. Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](#case-citrus-halo)<br>8s · 16:9 · 1080p |
+
+**Xem thêm câu lệnh (tiếng Anh) · 30**
+
+| Danh mục | Mục lục ví dụ |
+| --- | --- |
+| [Quảng cáo và sản phẩm · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
+| [Câu chuyện điện ảnh · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
+| [Mạng xã hội và phong cách sống · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
+| [Nhân vật và tư liệu tham chiếu · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
+| [Chỉnh sửa và kéo dài · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## Câu lệnh có hình để sao chép và điều chỉnh
-
-Chọn chủ đề bên dưới, lưu ảnh đầu rồi sao chép toàn bộ câu lệnh. Bắt đầu với một hành động và một chuyển động máy quay. Ảnh chỉ minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.
-
-Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; ba ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -42,11 +61,7 @@ Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân 
 
 ### 1. Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số
 
-![Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](assets/seaimagine-sea-glass-bottle.webp)
-
-[Khung hình đầu — mở và lưu](assets/seaimagine-sea-glass-bottle.webp)
-
-**Thiết lập tạo video từ ảnh:** 5s · 16:9 · 720p
+**Thiết lập tạo video từ ảnh:** 5s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/vi-VN/sea-glass-bottle.txt)
 
 ```text
 Giữ nguyên một chai thủy tinh biển mờ duy nhất trên mặt đá màu nhạt, nắp hình trụ,
@@ -60,7 +75,7 @@ Tránh tạo logo, thay đổi mức chất lỏng, làm cong mép, vật thể 
 Giữ khung hình ổn định trong giây cuối.
 ```
 
-**Điểm cần kiểm tra:** Ghi lại mô hình thực tế, thời lượng, độ phân giải, số lần thử và ngày thực hiện. So sánh hình dạng chai, tính liên tục của giọt nước, phản xạ và chuyển động máy quay. Một đoạn thành công chưa đủ chứng minh độ ổn định.
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
 
 <a id="case-blue-route"></a>
 
@@ -68,13 +83,9 @@ Giữ khung hình ổn định trong giây cuối.
 
 ### 2. Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa
 
-![Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](assets/rainy-market-courier-video.webp)
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/vi-VN/blue-route.txt)
 
-[Khung hình đầu — mở và lưu](assets/rainy-market-courier-video.webp)
-
-**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 1080p
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md) · [Các bước trên trình duyệt](#seaimagine-browser-workflow)
+[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Giữ nguyên người giao hàng, xe máy điện xanh cobalt, thùng hàng, khu chợ trên cao, mái che xuyên sáng, lối đi thép ướt, ánh sáng và bảng màu ban đêm. Tạo một cảnh bám theo liên tục ở góc thấp, chân thực về khối lượng, độ bám lốp, mưa và hệ thống giảm xóc.
@@ -90,19 +101,17 @@ Giữ nguyên người giao hàng, xe máy điện xanh cobalt, thùng hàng, kh
 Khóa tính liên tục: giữ chính xác trang phục người lái, mũ bảo hiểm, hình dạng xe, thùng hàng, tấm ốp xanh và bố cục chợ. Không xe biến hình, bánh méo, va chạm, vũ khí, biển đọc được, logo, máy quay dịch chuyển tức thời hoặc thay đổi tốc độ phi lý.
 ```
 
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
+
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. Ổ bánh mật ong — câu chuyện tiệm bánh tí hon
 
-![Ổ bánh mật ong — câu chuyện tiệm bánh tí hon](assets/pear-bakery-miniature-video.webp)
+**Thiết lập tạo video từ ảnh:** 9s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/vi-VN/honey-loaf.txt)
 
-[Khung hình đầu — mở và lưu](assets/pear-bakery-miniature-video.webp)
-
-**Thiết lập tạo video từ ảnh:** 9s · 16:9 · 1080p
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md) · [Các bước trên trình duyệt](#seaimagine-browser-workflow)
+[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Giữ nguyên tiệm bánh trong ngôi nhà hình quả lê, ba thợ bánh tí hon, trang phục, khuôn mặt, ổ bánh mật ong, lò, cửa sổ, rêu, cỏ ba lá, mặt trăng, vật liệu hoạt hình chụp từng khung hình có cảm giác sờ được và tương phản màu ấm lạnh.
@@ -118,17 +127,15 @@ Giữ nguyên tiệm bánh trong ngôi nhà hình quả lê, ba thợ bánh tí 
 Khóa tính liên tục: giữ số nhân vật, thiết kế mặt, tỷ lệ, màu quần áo, hình quả lê, bố trí phòng và chất liệu thủ công. Không thêm thợ bánh, đồ họa máy tính bóng loáng, tay chân như cao su, đạo cụ lơ lửng, bánh chảy, cắt cảnh, logo hoặc thiết kế nhân vật giống loạt tác phẩm nổi tiếng.
 ```
 
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
+
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc
 
-![Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](assets/seaimagine-harbor-reunion.webp)
-
-[Khung hình đầu — mở và lưu](assets/seaimagine-harbor-reunion.webp)
-
-**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/vi-VN/harbor-reunion.txt)
 
 ```text
 Giữ nguyên hai người trưởng thành, khuôn mặt của họ, trang phục xanh hải quân và màu kem,
@@ -144,7 +151,7 @@ Giữ nhất quán nhận dạng hai người, trang phục, hình dạng cầu 
 Tránh thêm người, cử chỉ kịch tính, làm mịn mặt, ngón tay thừa và máy quay nhảy vị trí.
 ```
 
-**Điểm cần kiểm tra:** Cảm xúc có rõ mà không cần thay đổi nét mặt quá nhiều không? Nếu lời thoại nghe vội, hãy bỏ bước tiến lên trước khi tăng thời lượng. Với phim dài hơn, viết riêng cảnh quay tiếp theo.
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
 
 <a id="case-first-sip"></a>
 
@@ -152,13 +159,9 @@ Tránh thêm người, cử chỉ kịch tính, làm mịn mặt, ngón tay th�
 
 ### 5. Ngụm đầu tiên — đánh giá quán cà phê tự nhiên
 
-<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="420" alt="Ngụm đầu tiên — đánh giá quán cà phê tự nhiên"></a>
+**Thiết lập tạo video từ ảnh:** 10s · 9:16 · 1080p · [Khung hình đầu — mở và lưu](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/vi-VN/first-sip.txt)
 
-[Khung hình đầu — mở và lưu](assets/cozy-cafe-ugc-video.webp)
-
-**Thiết lập tạo video từ ảnh:** 10s · 9:16 · 1080p
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md) · [Các bước trên trình duyệt](#seaimagine-browser-workflow)
+[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Làm chuyển động ảnh quán cà phê được cung cấp thành một bài đánh giá chân thực của người sáng tạo với máy quay cầm tay. Giữ nguyên khuôn mặt, tuổi, kết cấu da, tóc, áo len xanh rêu, cốc, bánh ngọt, cửa sổ và bố trí bàn.
@@ -174,19 +177,17 @@ Làm chuyển động ảnh quán cà phê được cung cấp thành một bài
 Khóa tính liên tục: không làm đẹp khuôn mặt, đổi quần áo, thêm ngón tay, thiết kế lại cốc hoặc đồ ăn, người tự xuất hiện ở hậu cảnh, logo hay cử chỉ kiểu người nổi tiếng trên mạng quá mức.
 ```
 
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
+
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. Tuyến đường muối lúc bình minh — phim tài liệu du lịch
 
-![Tuyến đường muối lúc bình minh — phim tài liệu du lịch](assets/coastal-salt-train-documentary.webp)
+**Thiết lập tạo video từ ảnh:** 12s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/vi-VN/salt-line.txt)
 
-[Khung hình đầu — mở và lưu](assets/coastal-salt-train-documentary.webp)
-
-**Thiết lập tạo video từ ảnh:** 12s · 16:9 · 1080p
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md) · [Các bước trên trình duyệt](#seaimagine-browser-workflow)
+[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Làm chuyển động cảnh ruộng muối ven biển đã cho thành phim tài liệu du lịch quan sát, tôn trọng người lao động. Giữ nguyên hai công nhân, tàu màu kem và vàng đất, ô muối, đồi đá vôi, nhà, biển, hướng bình minh và bảng màu phim dịu.
@@ -202,17 +203,15 @@ Làm chuyển động cảnh ruộng muối ven biển đã cho thành phim tài
 Khóa tính liên tục: lao động chân thực, giải phẫu ổn định, cảnh quan cố định, thiết kế tàu không đổi, phản xạ và vật lý nước hợp lý. Không đường chân trời đô thị hiện đại, khách du lịch tạo dáng dàn dựng, nhà mới, logo, biển đọc được, màu bưu thiếp quá bão hòa hoặc bầu trời tua nhanh.
 ```
 
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
+
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục"></a>
-
-[Khung hình đầu — mở và lưu](assets/seaimagine-coastal-postcard.webp)
-
-**Thiết lập tạo video từ ảnh:** 5s · 9:16 · 720p
+**Thiết lập tạo video từ ảnh:** 5s · 9:16 · 720p · [Khung hình đầu — mở và lưu](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/vi-VN/coastal-postcard.txt)
 
 ```text
 Làm chuyển động bưu thiếp ven biển ba ô này mà không đổi bố cục hoặc đường viền.
@@ -227,7 +226,7 @@ Tránh gộp ô, tạo cảnh mới, vẽ lại chữ hoặc để vật thể d
 Kết thúc khi góc giấy đã nằm yên và bố cục gốc vẫn nguyên vẹn.
 ```
 
-**Điểm cần kiểm tra:** Nếu đường viền các ô bị tan hoặc cảnh bị trộn, hãy cắt riêng từng ô để tạo chuyển động, sau đó ghép các đoạn bằng phần mềm dựng phim.
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
 
 <a id="case-citrus-halo"></a>
 
@@ -235,13 +234,9 @@ Kết thúc khi góc giấy đã nằm yên và bố cục gốc vẫn nguyên v
 
 ### 8. Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp
 
-![Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](assets/citrus-fragrance-product-video.webp)
+**Thiết lập tạo video từ ảnh:** 8s · 16:9 · 1080p · [Khung hình đầu — mở và lưu](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/vi-VN/citrus-halo.txt)
 
-[Khung hình đầu — mở và lưu](assets/citrus-fragrance-product-video.webp)
-
-**Thiết lập tạo video từ ảnh:** 8s · 16:9 · 1080p
-
-[Nguồn: Flaq AI](docs/ATTRIBUTION.md) · [Các bước trên trình duyệt](#seaimagine-browser-workflow)
+[Nguồn: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Giữ nguyên thiết kế chai, tỷ lệ thủy tinh, nắp, bệ đá vôi, vỏ bưởi chùm, bối cảnh màu ngà ấm và ánh sáng bên vàng trong ảnh. Tạo một phim sản phẩm thanh lịch dài tám giây.
@@ -257,23 +252,7 @@ Giữ nguyên thiết kế chai, tỷ lệ thủy tinh, nắp, bệ đá vôi, v
 Khóa tính liên tục: không đổi đường bao chai, các mặt nắp, mức chất lỏng, bệ, bảng màu hoặc vòm phía sau. Không nhãn, logo, quả thêm vào, chai lơ lửng, hình dạng rung méo, máy quay nhảy vị trí hoặc bùng nổ lấp lánh nhân tạo.
 ```
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
-
-## Dùng đúng các tùy chọn hiện có trên SeaImagine
-
-[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/vi/model/grok-imagine-1-5/)
-
-Ảnh chụp màn hình cho thấy giao diện tiếng Anh được kiểm tra vào ngày 24 tháng 9 năm 2026. Cách ghi nhãn ở ngôn ngữ khác có thể khác; vị trí và các bước dưới đây giúp bạn tìm từng tùy chọn. Trong ảnh chụp màn hình, câu lệnh cho chai đã được điền và 720p / 5s / 16:9 đã được chọn; Start Frame (khung hình đầu) vẫn trống. Hãy tải ảnh đầu lên trước khi tạo video. Chưa có tác vụ nào được gửi.
-
-![Dùng đúng các tùy chọn hiện có trên SeaImagine](assets/seaimagine-interface.jpg)
-
-1. Mở trang mô hình được liên kết. Chọn Video và kiểm tra Grok Imagine 1.5 trong mục chọn mô hình.
-2. Dùng Start Frame (khung hình đầu) ở bên trái để tải lên ảnh đã tải về. Dán toàn bộ câu lệnh vào ô văn bản lớn; giới hạn hiện tại là 2.000 ký tự.
-3. Bên dưới câu lệnh, chọn độ phân giải (480p hoặc 720p), thời lượng (5s, 10s hoặc 15s) và tỷ lệ khung hình. Với ví dụ chai: 720p, 5s, 16:9.
-4. Kiểm tra số tín dụng cạnh Generate (tạo); mức tiêu hao thay đổi theo thiết lập. Generate gửi một tác vụ thật và có thể yêu cầu đăng nhập hoặc tín dụng. Ảnh chụp màn hình không phải kết quả tạo đã hoàn tất.
-5. Xem trước kết quả, kiểm tra các điểm dễ lỗi đã nêu, rồi tải xuống nếu đạt yêu cầu. Nếu ví dụ cũ yêu cầu 6/8/9/12 giây hoặc 1080p, hãy chọn thời lượng có sẵn và viết lại các khoảng thời gian; dùng 720p thay vì mặc định rằng 1080p có sẵn.
+[Quay lại mục lục danh mục](#find-the-right-prompt) · [Xem nhanh các ví dụ có hình](#visual-index)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -318,9 +297,13 @@ Ngày 24 tháng 9 năm 2026, chúng tôi xem một số khung hình bằng trìn
 
 <a id="thư-viện-đầy-đủ"></a>
 
-## Thêm nội dung tiếng Việt: hướng dẫn viết và bài tập bổ sung
+## Tài liệu tham khảo
 
-[Hướng dẫn viết](docs/guides/vi-VN.md)
+[Tham khảo cách viết](docs/guides/vi-VN.md) · [Tài liệu tham khảo về cài đặt và thao tác](docs/workflows/vi-VN.md) · [SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/)
+
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
 
 <a id="multilingual-prompts"></a>
 

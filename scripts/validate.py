@@ -117,10 +117,11 @@ for item in locales:
         require(len(case['prompt']) <= 2000, f'{data_path.name}: prompt exceeds 2,000 characters: {fixed[0]}')
         require(f'```text\n{case["prompt"]}\n```' in text, f'{label}: missing complete prompt: {fixed[0]}')
         require(case['image'] in images, f'{label}: missing displayed starting image: {fixed[0]}')
-        require(case['review'] in text, f'{label}: missing review: {fixed[0]}')
-    require('assets/seaimagine-interface.jpg' in images, f'{label}: missing interface screenshot')
+        require((ROOT / 'prompts/text' / item['locale'] / (case['id'] + '.txt')).read_text().rstrip('\n') == case['prompt'], f'{label}: TXT differs from prompt')
+    workflow = (ROOT / 'docs/workflows' / (item['locale'] + '.md')).read_text()
+    require('../../assets/seaimagine-interface.jpg' in workflow, f'{label}: missing reference screenshot')
     for i, step in enumerate(data['steps'], 1):
-        require(f'{i}. {step}' in text, f'{label}: missing browser step {i}')
+        require(f'{i}. {step}' in workflow, f'{label}: missing browser step {i}')
     for community, expected in zip(data['community_items'], fixed_urls):
         require(community['url'] == expected, f'{data_path.name}: changed community source URL')
         require(community['text'] in text and expected in text, f'{label}: missing community explanation or source: {expected}')
@@ -162,12 +163,16 @@ for item in locales:
     gallery_pos = text.find('<a id="featured-prompts">')
     workflow_pos = text.find('<a id="seaimagine-browser-workflow">')
     community_pos = text.find('<a id="learn-from-official-and-community-examples">')
-    require(0 <= nav_pos < gallery_pos < workflow_pos < community_pos, label + ': broken reader journey')
-    require(text.count('assets/seaimagine-interface.jpg') == 1, label + ': duplicated product tutorial')
-    gallery = text[gallery_pos:workflow_pos]
+    require(0 <= nav_pos < gallery_pos < community_pos < workflow_pos, label + ': broken reader journey')
+    require(text.count('assets/seaimagine-interface.jpg') == 0, label + ': duplicated product tutorial')
+    gallery = text[gallery_pos:community_pos]
     require(len(re.findall(r'```text\n', gallery)) == 8, label + ': expected eight complete gallery prompts')
     require(all('prompts/' + x in text[:gallery_pos] for x in ['01-ads-and-products.md', '02-cinematic-storytelling.md', '03-social-ugc.md', '04-characters-and-references.md', '05-editing-and-extension.md']), label + ': categories not before gallery')
     require(gallery.find('case-sea-glass-bottle') < gallery.find('case-blue-route') < gallery.find('case-honey-loaf'), label + ': opening lacks topic variety')
+    require(text.count('[TXT]') == 8, label + ': missing text exports')
+    for case in data['cases']:
+        require((ROOT / 'prompts/text' / item['locale'] / (case['id'] + '.txt')).read_text().rstrip('\n') == case['prompt'], label + ': source TXT mismatch')
+    require(text.index('<a id="visual-index">') < text.index('**' + data['browse_label']), label + ': visual browsing comes too late')
     explicit_ids = re.findall(r'<a id="([^"]+)"', text)
     require(len(explicit_ids) == len(set(explicit_ids)), label + ': duplicate explicit anchors')
 require(sum(len(re.findall(r'^## \d+\.', p.read_text(), re.M)) for p in (ROOT / 'prompts').glob('0[1-5]-*.md')) == 30, 'Expected 30 inherited category recipes')

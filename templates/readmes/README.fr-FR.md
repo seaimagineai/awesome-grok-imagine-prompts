@@ -2,7 +2,7 @@
 
 {{LANGUAGE_NAV}}
 
-> 38 prompts en anglais prêts à copier pour des publicités de produits, des scènes avec des personnages, des récits fantastiques et bien plus ; exemples pour débuter et guides en 15 langues.
+> 38 prompts, dont 8 exemples illustrés disponibles en 15 langues. Parcourez les catégories et copiez les prompts complets.
 
 ![Grok Imagine 1.5 — Carnet de prompts ouvert : une chaussure, un tramway et une baleine en papier dans un même décor](assets/seaimagine-grok-hero.webp)
 

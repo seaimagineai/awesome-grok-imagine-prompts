@@ -1,0 +1,15 @@
+Remove only the bright red plastic condiment bottle at the back-left edge of the restaurant table.
+Reconstruct the wooden tabletop, wall edge, and soft shadow behind it using surrounding texture,
+perspective, grain, and lighting. The repaired area must remain stable as the camera moves and as
+foreground hands briefly pass in front of it.
+
+Keep every other plate, glass, utensil, napkin, food item, person, face, hand action, reflection,
+camera move, focus pull, exposure, color grade, audio event, and clip timing exactly unchanged.
+Do not shift objects to fill the space. Preserve the original shallow depth of field and motion
+blur in the reconstructed area.
+
+Audio: preserve the complete source track without modification.
+
+No table redesign, cloned wood pattern, pulsing patch, missing plate, changed food, hand distortion,
+new object, crop, zoom, stabilization, relighting, skin retouch, logo removal elsewhere, or duration
+change. The requested bottle is the only element that should disappear.

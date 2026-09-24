@@ -8,7 +8,18 @@
 
 Editing prompts should read like change orders: name the exact modification first, then repeat everything that must remain unchanged. Current xAI documentation says edited video keeps the source duration and aspect ratio, with output capped at 720p; check the docs before production.
 
+## Index
+
+- [1. Blue Hour Conversion — day-to-night architectural edit](#1-blue-hour-conversion--day-to-night-architectural-edit)
+- [2. First Snow — controlled weather replacement](#2-first-snow--controlled-weather-replacement)
+- [3. Clean Plate — remove one distracting object](#3-clean-plate--remove-one-distracting-object)
+- [4. Practical Miniature — change rendering style, keep motion](#4-practical-miniature--change-rendering-style-keep-motion)
+- [5. Beyond the Gate — continue a travel shot](#5-beyond-the-gate--continue-a-travel-shot)
+- [6. Turntable Loop — repair a product animation into a seamless cycle](#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle)
+
 ## 1. Blue Hour Conversion — day-to-night architectural edit
+
+[TXT](text/en-US/05-editing-and-extension-1.txt) · [↑ Index](#index)
 
 **Mode:** video edit · **Output:** source duration and ratio · up to 720p
 
@@ -33,6 +44,8 @@ camera stabilization change, or altered duration.
 
 ## 2. First Snow — controlled weather replacement
 
+[TXT](text/en-US/05-editing-and-extension-2.txt) · [↑ Index](#index)
+
 **Mode:** video edit · **Output:** source duration and ratio · up to 720p
 
 ```text
@@ -55,6 +68,8 @@ fountain, new footprints ahead of people, extra branches, identity drift, camera
 
 ## 3. Clean Plate — remove one distracting object
 
+[TXT](text/en-US/05-editing-and-extension-3.txt) · [↑ Index](#index)
+
 **Mode:** video edit · **Output:** source duration and ratio · up to 720p
 
 ```text
@@ -76,6 +91,8 @@ change. The requested bottle is the only element that should disappear.
 ```
 
 ## 4. Practical Miniature — change rendering style, keep motion
+
+[TXT](text/en-US/05-editing-and-extension-4.txt) · [↑ Index](#index)
 
 **Mode:** video edit · **Output:** source duration and ratio · up to 720p
 
@@ -100,6 +117,8 @@ plastic, franchise imitation, object morphing, or altered duration.
 
 ## 5. Beyond the Gate — continue a travel shot
 
+[TXT](text/en-US/05-editing-and-extension-5.txt) · [↑ Index](#index)
+
 **Mode:** video extension · **Output:** continue 8s from the source final frame
 
 ```text
@@ -123,6 +142,8 @@ weather jump, new person, drone move, camera cut, time-lapse, text, or logo.
 ```
 
 ## 6. Turntable Loop — repair a product animation into a seamless cycle
+
+[TXT](text/en-US/05-editing-and-extension-6.txt) · [↑ Index](#index)
 
 **Mode:** video edit · **Output:** source duration and ratio · up to 720p
 

@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 38 готовых к копированию промптов на английском для рекламы продуктов, сцен с персонажами, фэнтезийных историй и многого другого; примеры для начала работы и руководства на 15 языках.
+> 38 промптов, в том числе 8 примеров с изображениями на 15 языках. Выбирайте по категориям и копируйте полные промпты.
 
 ![Grok Imagine 1.5 — Открытый блокнот с промптами: кроссовок, трамвай и бумажный кит в единой сцене](assets/seaimagine-grok-hero.webp)
 
@@ -12,9 +12,9 @@
 
 <a id="prompt-library"></a>
 
-## Что вы хотите создать?
+## Указатель категорий
 
-| Задача | Начните с иллюстрированного примера |
+| Задача | Примеры с изображениями |
 | --- | --- |
 | Реклама продуктов | [Бутылка из морского стекла: сравнение контролируемых движений](#case-sea-glass-bottle) · [Цитрусовый ореол: рекламный фильм премиального аромата](#case-citrus-halo) |
 | Кинематографичный экшен | [Синий маршрут: слежение за курьером на дождливом рынке](#case-blue-route) |
@@ -24,17 +24,36 @@
 | Фильмы о путешествиях | [Соляная линия на рассвете: фильм о путешествии](#case-salt-line) |
 | Анимированные композиции | [Открытка с побережья: оживите заранее продуманное изображение](#case-coastal-postcard) |
 
-**Другие промпты (на английском):** [Реклама и продукты](prompts/01-ads-and-products.md) · [Кинематографичные истории](prompts/02-cinematic-storytelling.md) · [Соцсети и повседневная жизнь](prompts/03-social-ugc.md) · [Персонажи и референсы](prompts/04-characters-and-references.md) · [Монтаж и продление](prompts/05-editing-and-extension.md)
+[Иллюстрированные примеры](#featured-prompts) · [Официальные работы и сообщество](#learn-from-official-and-community-examples) · [Справка по настройкам и работе](#writing-guide)
 
-[Иллюстрированные примеры](#featured-prompts) · [Шаги в браузере](#seaimagine-browser-workflow) · [Официальные работы и сообщество](#learn-from-official-and-community-examples) · [Руководство по написанию](#writing-guide)
+<a id="visual-index"></a>
+
+### Обзор примеров с изображениями
+
+8 примеров с полными промптами и изображениями начального кадра. Изображения показывают замысел, а не проверенные результаты генерации видео.
+
+Пять примеров с пометкой «Источник: Flaq AI» сохраняют исходные длительность и разрешение; остальные три используют текущие настройки SeaImagine. Чтобы использовать исходный пример в SeaImagine, выберите 5/10/15 секунд и 480p/720p и перепишите действия с учётом нового времени.
+
+| | |
+| --- | --- |
+| <a href="#case-sea-glass-bottle"><img src="assets/seaimagine-sea-glass-bottle.webp" height="180" alt="Бутылка из морского стекла: сравнение контролируемых движений"></a><br>[1. Бутылка из морского стекла: сравнение контролируемых движений](#case-sea-glass-bottle)<br>5s · 16:9 · 720p | <a href="#case-blue-route"><img src="assets/rainy-market-courier-video.webp" height="180" alt="Синий маршрут: слежение за курьером на дождливом рынке"></a><br>[2. Синий маршрут: слежение за курьером на дождливом рынке](#case-blue-route)<br>10s · 16:9 · 1080p |
+| <a href="#case-honey-loaf"><img src="assets/pear-bakery-miniature-video.webp" height="180" alt="Медовый хлеб: история миниатюрной пекарни"></a><br>[3. Медовый хлеб: история миниатюрной пекарни](#case-honey-loaf)<br>9s · 16:9 · 1080p | <a href="#case-harbor-reunion"><img src="assets/seaimagine-harbor-reunion.webp" height="180" alt="Встреча в гавани: один эмоциональный момент"></a><br>[4. Встреча в гавани: один эмоциональный момент](#case-harbor-reunion)<br>10s · 16:9 · 720p |
+| <a href="#case-first-sip"><img src="assets/cozy-cafe-ugc-video.webp" height="180" alt="Первый глоток: естественный отзыв автора в кафе"></a><br>[5. Первый глоток: естественный отзыв автора в кафе](#case-first-sip)<br>10s · 9:16 · 1080p | <a href="#case-salt-line"><img src="assets/coastal-salt-train-documentary.webp" height="180" alt="Соляная линия на рассвете: фильм о путешествии"></a><br>[6. Соляная линия на рассвете: фильм о путешествии](#case-salt-line)<br>12s · 16:9 · 1080p |
+| <a href="#case-coastal-postcard"><img src="assets/seaimagine-coastal-postcard.webp" height="180" alt="Открытка с побережья: оживите заранее продуманное изображение"></a><br>[7. Открытка с побережья: оживите заранее продуманное изображение](#case-coastal-postcard)<br>5s · 9:16 · 720p | <a href="#case-citrus-halo"><img src="assets/citrus-fragrance-product-video.webp" height="180" alt="Цитрусовый ореол: рекламный фильм премиального аромата"></a><br>[8. Цитрусовый ореол: рекламный фильм премиального аромата](#case-citrus-halo)<br>8s · 16:9 · 1080p |
+
+**Другие промпты (на английском) · 30**
+
+| Категория | Указатель примеров |
+| --- | --- |
+| [Реклама и продукты · 6](prompts/01-ads-and-products.md) | [1. Dew Drop Laboratory — skincare serum macro](prompts/01-ads-and-products.md#1-dew-drop-laboratory--skincare-serum-macro) · [2. Cold Brew Eclipse — coffee launch film](prompts/01-ads-and-products.md#2-cold-brew-eclipse--coffee-launch-film) · [3. Street-to-Studio — performance shoe demonstration](prompts/01-ads-and-products.md#3-street-to-studio--performance-shoe-demonstration) · [4. Doorstep Dinner — food delivery social ad](prompts/01-ads-and-products.md#4-doorstep-dinner--food-delivery-social-ad) · [5. Silver Current — artisan jewelry reveal](prompts/01-ads-and-products.md#5-silver-current--artisan-jewelry-reveal) · [6. One Tap Away — clean mobile app promo](prompts/01-ads-and-products.md#6-one-tap-away--clean-mobile-app-promo) |
+| [Кинематографичные истории · 6](prompts/02-cinematic-storytelling.md) | [1. Last Tram Note — restrained urban romance](prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) · [2. Room 407 — quiet hotel mystery](prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) · [3. Glasshouse Pursuit — grounded parkour action](prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) · [4. Tidekeeper — coastal fantasy ritual](prompts/02-cinematic-storytelling.md#4-tidekeeper--coastal-fantasy-ritual) · [5. Paper Moon Delivery — hand-drawn animation](prompts/02-cinematic-storytelling.md#5-paper-moon-delivery--hand-drawn-animation) · [6. Europa Signal — hard-science discovery](prompts/02-cinematic-storytelling.md#6-europa-signal--hard-science-discovery) |
+| [Соцсети и повседневная жизнь · 6](prompts/03-social-ugc.md) | [1. Shelf Test — honest skincare mini-review](prompts/03-social-ugc.md#1-shelf-test--honest-skincare-mini-review) · [2. Twelve-Minute Noodles — one-pan recipe reel](prompts/03-social-ugc.md#2-twelve-minute-noodles--one-pan-recipe-reel) · [3. First Set — realistic morning fitness log](prompts/03-social-ugc.md#3-first-set--realistic-morning-fitness-log) · [4. One Question, One Corner — street interview](prompts/03-social-ugc.md#4-one-question-one-corner--street-interview) · [5. Clay Cup Morning — tactile pottery ASMR](prompts/03-social-ugc.md#5-clay-cup-morning--tactile-pottery-asmr) · [6. Umbrella Reset — seamless pet comedy loop](prompts/03-social-ugc.md#6-umbrella-reset--seamless-pet-comedy-loop) |
+| [Персонажи и референсы · 6](prompts/04-characters-and-references.md) | [1. Harbor Cartographer — consistent character introduction](prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) · [2. Linen Set — virtual try-on walk test](prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) · [3. Counter Demo — product placement without redesign](prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) · [4. Two Voices, One Repair — synchronized dialogue scene](prompts/04-characters-and-references.md#4-two-voices-one-repair--synchronized-dialogue-scene) · [5. Sunday Table — consistent three-person ensemble](prompts/04-characters-and-references.md#5-sunday-table--consistent-three-person-ensemble) · [6. Parcel Finch — reusable brand mascot motion](prompts/04-characters-and-references.md#6-parcel-finch--reusable-brand-mascot-motion) |
+| [Монтаж и продление · 6](prompts/05-editing-and-extension.md) | [1. Blue Hour Conversion — day-to-night architectural edit](prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) · [2. First Snow — controlled weather replacement](prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) · [3. Clean Plate — remove one distracting object](prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) · [4. Practical Miniature — change rendering style, keep motion](prompts/05-editing-and-extension.md#4-practical-miniature--change-rendering-style-keep-motion) · [5. Beyond the Gate — continue a travel shot](prompts/05-editing-and-extension.md#5-beyond-the-gate--continue-a-travel-shot) · [6. Turntable Loop — repair a product animation into a seamless cycle](prompts/05-editing-and-extension.md#6-turntable-loop--repair-a-product-animation-into-a-seamless-cycle) |
 
 <a id="featured-prompts"></a>
 
 ## Иллюстрированные промпты для копирования и адаптации
-
-Выберите сюжет, сохраните начальное изображение и скопируйте полный промпт. Начните с одного действия и одного движения камеры. Изображения — концепты, а не проверенные результаты генерации видео.
-
-Пять примеров с пометкой «Источник: Flaq AI» сохраняют исходные длительность и разрешение; остальные три используют текущие настройки SeaImagine. Чтобы использовать исходный пример в SeaImagine, выберите 5/10/15 секунд и 480p/720p и перепишите действия с учётом нового времени.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -42,11 +61,7 @@
 
 ### 1. Бутылка из морского стекла: сравнение контролируемых движений
 
-![Бутылка из морского стекла: сравнение контролируемых движений](assets/seaimagine-sea-glass-bottle.webp)
-
-[Начальный кадр: открыть и сохранить](assets/seaimagine-sea-glass-bottle.webp)
-
-**Настройки видео по изображению:** 5s · 16:9 · 720p
+**Настройки видео по изображению:** 5s · 16:9 · 720p · [Начальный кадр: открыть и сохранить](assets/seaimagine-sea-glass-bottle.webp) · [TXT](prompts/text/ru-RU/sea-glass-bottle.txt)
 
 ```text
 Сохрани единственную бутылку из матового морского стекла на светлой каменной поверхности, её цилиндрическую крышку, пустую лицевую сторону без надписей, уровень воды, горизонт и мягкий боковой свет. Бутылка никогда не движется.
@@ -58,7 +73,7 @@
 В последнюю секунду удерживай стабильный кадр.
 ```
 
-**Что проверить:** Запишите фактическую модель, длительность, разрешение, число попыток и дату. Сравните форму бутылки, непрерывность движения капли, отражения и движение камеры. Один удачный клип не доказывает надёжность.
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
 
 <a id="case-blue-route"></a>
 
@@ -66,13 +81,9 @@
 
 ### 2. Синий маршрут: слежение за курьером на дождливом рынке
 
-![Синий маршрут: слежение за курьером на дождливом рынке](assets/rainy-market-courier-video.webp)
+**Настройки видео по изображению:** 10s · 16:9 · 1080p · [Начальный кадр: открыть и сохранить](assets/rainy-market-courier-video.webp) · [TXT](prompts/text/ru-RU/blue-route.txt)
 
-[Начальный кадр: открыть и сохранить](assets/rainy-market-courier-video.webp)
-
-**Настройки видео по изображению:** 10s · 16:9 · 1080p
-
-[Источник: Flaq AI](docs/ATTRIBUTION.md) · [Шаги в браузере](#seaimagine-browser-workflow)
+[Источник: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Сохрани исходного курьера, кобальтовый электромотоцикл, грузовой короб, приподнятый рынок, полупрозрачные навесы, мокрый стальной проход, освещение и ночную палитру. Создай один реалистичный непрерывный низкий проезд камеры с убедительной массой, сцеплением шин, дождём и подвеской.
@@ -88,19 +99,17 @@
 Непрерывность: точные одежда, шлем, геометрия мотоцикла, короб, синие панели и планировка рынка. Без превращения транспорта, деформации колёс, столкновений, оружия, читаемых вывесок, логотипов, телепортации камеры и невозможных скачков скорости.
 ```
 
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
+
 <a id="case-honey-loaf"></a>
 
 <a id="4-the-honey-loaf--miniature-bakery-story"></a>
 
 ### 3. Медовый хлеб: история миниатюрной пекарни
 
-![Медовый хлеб: история миниатюрной пекарни](assets/pear-bakery-miniature-video.webp)
+**Настройки видео по изображению:** 9s · 16:9 · 1080p · [Начальный кадр: открыть и сохранить](assets/pear-bakery-miniature-video.webp) · [TXT](prompts/text/ru-RU/honey-loaf.txt)
 
-[Начальный кадр: открыть и сохранить](assets/pear-bakery-miniature-video.webp)
-
-**Настройки видео по изображению:** 9s · 16:9 · 1080p
-
-[Источник: Flaq AI](docs/ATTRIBUTION.md) · [Шаги в браузере](#seaimagine-browser-workflow)
+[Источник: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Сохрани пекарню в доме-груше, трёх миниатюрных пекарей, костюмы, лица, медовый хлеб, печь, окно, мох, клевер, луну, осязаемые материалы кукольной анимации и контраст тёплого и холодного.
@@ -116,17 +125,15 @@
 Непрерывность: сохрани число персонажей, дизайн лиц, масштаб, цвета одежды, форму груши, планировку комнаты и рукотворную фактуру. Без лишних пекарей, глянцевой компьютерной графики, резиновых конечностей, парящего реквизита, тающего хлеба, склеек, логотипов и персонажей, похожих на героев известных франшиз.
 ```
 
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
+
 <a id="case-harbor-reunion"></a>
 
 <a id="seaimagine-harbor-reunion"></a>
 
 ### 4. Встреча в гавани: один эмоциональный момент
 
-![Встреча в гавани: один эмоциональный момент](assets/seaimagine-harbor-reunion.webp)
-
-[Начальный кадр: открыть и сохранить](assets/seaimagine-harbor-reunion.webp)
-
-**Настройки видео по изображению:** 10s · 16:9 · 720p
+**Настройки видео по изображению:** 10s · 16:9 · 720p · [Начальный кадр: открыть и сохранить](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/ru-RU/harbor-reunion.txt)
 
 ```text
 Сохрани двух взрослых, их лица, тёмно-синюю и кремовую одежду, деревянный причал и мягкий утренний свет исходного изображения. Оба персонажа остаются в одной средне-общей композиции.
@@ -139,7 +146,7 @@
 Избегай лишних людей, театральных жестов, сглаженных лиц, лишних пальцев и скачков камеры.
 ```
 
-**Что проверить:** Понятна ли эмоция без сильного изменения мимики? Если диалог кажется торопливым, сначала уберите шаг вперёд, а затем решайте, нужно ли увеличивать длительность. Для более длинного фильма напишите следующий план отдельно.
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
 
 <a id="case-first-sip"></a>
 
@@ -147,13 +154,9 @@
 
 ### 5. Первый глоток: естественный отзыв автора в кафе
 
-<a href="assets/cozy-cafe-ugc-video.webp"><img src="assets/cozy-cafe-ugc-video.webp" width="420" alt="Первый глоток: естественный отзыв автора в кафе"></a>
+**Настройки видео по изображению:** 10s · 9:16 · 1080p · [Начальный кадр: открыть и сохранить](assets/cozy-cafe-ugc-video.webp) · [TXT](prompts/text/ru-RU/first-sip.txt)
 
-[Начальный кадр: открыть и сохранить](assets/cozy-cafe-ugc-video.webp)
-
-**Настройки видео по изображению:** 10s · 9:16 · 1080p
-
-[Источник: Flaq AI](docs/ATTRIBUTION.md) · [Шаги в браузере](#seaimagine-browser-workflow)
+[Источник: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Анимируй исходную фотографию кафе как искренний авторский отзыв, снятый с рук. Сохрани лицо, возраст, фактуру кожи, волосы, мшисто-зелёный свитер, чашку, выпечку, окно и расположение предметов на столе.
@@ -169,19 +172,17 @@
 Непрерывность: без приукрашивания лица, смены одежды, лишних пальцев, изменения чашки или еды, появления людей сзади, логотипов и преувеличенных блогерских жестов.
 ```
 
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
+
 <a id="case-salt-line"></a>
 
 <a id="5-salt-line-at-dawn--travel-documentary"></a>
 
 ### 6. Соляная линия на рассвете: фильм о путешествии
 
-![Соляная линия на рассвете: фильм о путешествии](assets/coastal-salt-train-documentary.webp)
+**Настройки видео по изображению:** 12s · 16:9 · 1080p · [Начальный кадр: открыть и сохранить](assets/coastal-salt-train-documentary.webp) · [TXT](prompts/text/ru-RU/salt-line.txt)
 
-[Начальный кадр: открыть и сохранить](assets/coastal-salt-train-documentary.webp)
-
-**Настройки видео по изображению:** 12s · 16:9 · 1080p
-
-[Источник: Flaq AI](docs/ATTRIBUTION.md) · [Шаги в браузере](#seaimagine-browser-workflow)
+[Источник: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Анимируй исходную сцену прибрежных соляных прудов как уважительный наблюдательный документальный фильм о путешествии. Сохрани двух рабочих, кремово-охристый поезд, соляные бассейны, известняковые холмы, здания, море, направление рассветного света и приглушённую кинопалитру.
@@ -197,17 +198,15 @@
 Непрерывность: реалистичный труд, стабильная анатомия, неизменный ландшафт и дизайн поезда, правдоподобные отражения и физика воды. Без современного городского силуэта, туристической постановки, новых зданий, логотипов, читаемых вывесок, перенасыщенных открыточных цветов и ускоренного неба.
 ```
 
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
+
 <a id="case-coastal-postcard"></a>
 
 <a id="seaimagine-coastal-postcard"></a>
 
 ### 7. Открытка с побережья: оживите заранее продуманное изображение
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="420" alt="Открытка с побережья: оживите заранее продуманное изображение"></a>
-
-[Начальный кадр: открыть и сохранить](assets/seaimagine-coastal-postcard.webp)
-
-**Настройки видео по изображению:** 5s · 9:16 · 720p
+**Настройки видео по изображению:** 5s · 9:16 · 720p · [Начальный кадр: открыть и сохранить](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/ru-RU/coastal-postcard.txt)
 
 ```text
 Анимируй эту открытку с побережья из трёх панелей, не меняя их расположения и границ. Точно сохрани все предметы и цвета. В верхней панели от чашки поднимается тонкий завиток пара.
@@ -221,7 +220,7 @@
 В конце уголок бумаги лежит неподвижно, исходная композиция сохранена.
 ```
 
-**Что проверить:** Если границы расплываются или сцены смешиваются, вырежьте каждую панель, анимируйте её отдельно, затем соберите клипы в видеоредакторе.
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
 
 <a id="case-citrus-halo"></a>
 
@@ -229,13 +228,9 @@
 
 ### 8. Цитрусовый ореол: рекламный фильм премиального аромата
 
-![Цитрусовый ореол: рекламный фильм премиального аромата](assets/citrus-fragrance-product-video.webp)
+**Настройки видео по изображению:** 8s · 16:9 · 1080p · [Начальный кадр: открыть и сохранить](assets/citrus-fragrance-product-video.webp) · [TXT](prompts/text/ru-RU/citrus-halo.txt)
 
-[Начальный кадр: открыть и сохранить](assets/citrus-fragrance-product-video.webp)
-
-**Настройки видео по изображению:** 8s · 16:9 · 1080p
-
-[Источник: Flaq AI](docs/ATTRIBUTION.md) · [Шаги в браузере](#seaimagine-browser-workflow)
+[Источник: Flaq AI](docs/ATTRIBUTION.md)
 
 ```text
 Сохрани дизайн исходного флакона, пропорции стекла, крышку, известняковый постамент, кожуру грейпфрута, тёплую декорацию цвета слоновой кости и золотой боковой свет. Создай элегантный восьмисекундный фильм о продукте.
@@ -251,23 +246,7 @@
 Непрерывность: не меняй силуэт флакона, грани крышки, уровень жидкости, постамент, палитру и арку на фоне. Без этикеток, логотипов, дополнительных фруктов, парящего флакона, нестабильной геометрии, скачков камеры и искусственного взрыва блёсток.
 ```
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
-
-## Используйте реальные элементы управления SeaImagine
-
-[SeaImagine · Grok Imagine 1.5](https://seaimagine.com/ru/model/grok-imagine-1-5/)
-
-На снимке показан английский интерфейс, проверенный 24 сентября 2026 года. Переведённые названия могут отличаться; расположение элементов и шаги ниже помогут найти нужные настройки. Промпт бутылки уже вставлен, выбраны 720p / 5s / 16:9; Start Frame пока пуст. Загрузите начальное изображение перед генерацией. Задание не отправлялось.
-
-![Используйте реальные элементы управления SeaImagine](assets/seaimagine-interface.jpg)
-
-1. Откройте страницу модели по ссылке. Выберите Video (Видео) и убедитесь, что в списке моделей указана Grok Imagine 1.5.
-2. Загрузите скачанное изображение через Start Frame (Начальный кадр) слева. Вставьте полный промпт в большое текстовое поле; текущий счётчик допускает 2 000 символов.
-3. Под промптом выберите разрешение (480p или 720p), длительность (5s, 10s или 15s) и соотношение сторон. Для бутылки: 720p, 5s, 16:9.
-4. Проверьте количество кредитов рядом с Generate (Создать): оно зависит от настроек. Generate отправляет реальное задание и может потребовать входа в аккаунт или кредитов. Снимок экрана не является завершённой генерацией.
-5. Посмотрите результат, проверьте перечисленные возможные дефекты и скачайте видео, если оно подходит. Если старые рецепты требуют 6/8/9/12 секунд или 1080p, выберите доступную длительность и перепишите временные интервалы; используйте 720p, не предполагая, что 1080p доступно.
+[Вернуться к указателю категорий](#find-the-right-prompt) · [Обзор примеров с изображениями](#visual-index)
 
 <a id="learn-from-official-and-community-examples"></a>
 
@@ -312,9 +291,13 @@
 
 <a id="полная-библиотека"></a>
 
-## На этом языке: руководство по написанию и дополнительные упражнения
+## Справочные материалы
 
-[Руководство по написанию](docs/guides/ru-RU.md)
+[Справка по написанию](docs/guides/ru-RU.md) · [Справка по настройкам и работе](docs/workflows/ru-RU.md) · [SeaImagine](https://seaimagine.com/ru/model/grok-imagine-1-5/)
+
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
 
 <a id="multilingual-prompts"></a>
 

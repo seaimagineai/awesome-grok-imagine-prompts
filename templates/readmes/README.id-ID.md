@@ -2,7 +2,7 @@
 
 {{LANGUAGE_NAV}}
 
-> 38 prompt bahasa Inggris siap disalin untuk iklan produk, film pendek tentang tokoh, kisah fantasi, dan lainnya. Tersedia contoh pemula serta panduan penggunaan dalam 15 bahasa.
+> 38 prompt, termasuk 8 contoh bergambar yang tersedia dalam 15 bahasa. Telusuri berdasarkan kategori dan salin prompt lengkap.
 
 ![Grok Imagine 1.5 — Buku prompt terbuka dengan sepatu, trem, dan paus kertas dalam satu adegan yang menyatu](assets/seaimagine-grok-hero.webp)
 

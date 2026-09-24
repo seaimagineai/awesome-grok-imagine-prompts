@@ -1,0 +1,10 @@
+Animate this three-panel coastal postcard without changing its layout or borders. Preserve
+all objects and colors exactly. In the upper panel, one thin curl of steam rises from the cup.
+In the middle panel, the harbor water ripples gently and sunlight glints on the surface.
+In the lower panel, only the existing paper corner lifts slightly and settles in a light breeze.
+Keep each motion inside its own panel. All panels remain visible throughout the five seconds.
+Camera: locked, no zoom, no pan, no cuts, no panel transitions.
+Audio: quiet water and a soft paper rustle; no dialogue, music, captions or added text.
+Preserve the cup handle, window frame, map markings, panel dimensions and reading order.
+Avoid merging panels, inventing a new scene, redrawing letters or moving objects across borders.
+End with the paper corner resting and the original composition intact.

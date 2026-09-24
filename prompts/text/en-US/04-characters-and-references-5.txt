@@ -1,0 +1,16 @@
+Create three fictional adults with separate, unchanged identities: person A from <IMAGE_0>, person
+B from <IMAGE_1>, and person C from <IMAGE_2>. Use the dining room from <IMAGE_3> and the exact
+homemade cake from <IMAGE_4>. Seat A left, B center, C right. Keep each reference person's own
+hair, age, skin, and clothing; do not average or swap features.
+
+Start on a medium-wide table view. B carries the cake with both hands, sets it at center, and sits.
+A lights one candle while C shields the flame from a small open-window breeze. They exchange a
+brief look, then all three lean toward the cake and laugh at the candle relighting after a failed
+blow. Camera remains at table height with a tiny natural push-in. Hands never overlap impossibly.
+
+Audio: plate contact, match strike, breeze, quiet room, one shared natural laugh. No song,
+dialogue, music, or captions.
+
+Lock: three distinct identities, seat positions, clothes, cake design, one candle, table setting,
+room, and daylight. No face blending, fourth person, duplicated cake, age change, hand fusion,
+floating flame, brand, text, or cut.

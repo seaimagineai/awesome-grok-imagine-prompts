@@ -1,0 +1,7 @@
+Conserva la única botella de vidrio marino esmerilado sobre la piedra clara, su tapón cilíndrico, el frontal vacío sin impresiones, el nivel del agua, el horizonte y la suave luz lateral. La botella no se mueve en ningún momento.
+Durante cinco segundos, desplaza lentamente la cámara hacia la derecha, como máximo la anchura de una botella.
+Una pequeña gota de agua baja por el frontal y se detiene en la base. Las olas del mar al fondo se mueven suavemente desenfocadas. Mantén los reflejos coherentes con la cámara y la fuente de luz.
+Audio: solo oleaje lejano; sin música, voz, golpes de cristal ni salpicaduras exageradas.
+Sin cortes ni zoom. Conserva la silueta de la botella, la alineación del tapón, la textura del vidrio y la cantidad de objetos.
+Evita generar logotipos, cambiar el nivel del líquido, doblar los bordes, hacer flotar objetos o añadir accesorios.
+Mantén un encuadre estable durante el último segundo.
