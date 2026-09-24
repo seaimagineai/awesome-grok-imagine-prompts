@@ -2,7 +2,7 @@
 
 > 38 copy-ready English recipes, illustrated examples, official demos and community case studies. 15 language guides for creators making product videos, short films and social content.
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
+{{LANGUAGE_NAV}}
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Prompts](https://img.shields.io/badge/English_recipes-38-7c3aed)](#prompt-library)
@@ -405,7 +405,7 @@ Original contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) befo
 
 ## Create with SeaImagine
 
-Start with [Grok Imagine 1.5 on SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/): upload a starting image, copy a featured motion prompt, and choose the settings available on the page. For a clean first attempt, use one action and one camera move. Compare the result with the source frame before spending more credits.
+Start with [Grok Imagine 1.5 on SeaImagine]({{PRODUCT_URL}}): upload a starting image, copy a featured motion prompt, and choose the settings available on the page. For a clean first attempt, use one action and one camera move. Compare the result with the source frame before spending more credits.
 
 Need a still image first? Use the site's [image creation tools](https://seaimagine.com/) to prepare your composition, then animate it. The [SeaImagine workflow](docs/SEAIMAGINE.md) explains the steps and links to related brand tools. Public pages were accessible on September 24, 2026; no paid generation or long-term uptime test was performed.
 

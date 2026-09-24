@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-09-24",
+  "source": "https://seaimagine.com/model/grok-imagine-1-5/",
+  "source_element": "footer language links",
+  "languages": [
+    {
+      "locale": "en-US",
+      "website_path": "en",
+      "name": "English",
+      "readme": "README.md",
+      "product_url": "https://seaimagine.com/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "zh-CN",
+      "website_path": "cn",
+      "name": "简体中文",
+      "readme": "README.zh-CN.md",
+      "product_url": "https://seaimagine.com/cn/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "zh-TW",
+      "website_path": "tw",
+      "name": "繁體中文",
+      "readme": "README.zh-TW.md",
+      "product_url": "https://seaimagine.com/tw/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "ja-JP",
+      "website_path": "ja",
+      "name": "日本語",
+      "readme": "README.ja-JP.md",
+      "product_url": "https://seaimagine.com/ja/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "ko-KR",
+      "website_path": "ko",
+      "name": "한국어",
+      "readme": "README.ko-KR.md",
+      "product_url": "https://seaimagine.com/ko/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "es-ES",
+      "website_path": "es",
+      "name": "Español",
+      "readme": "README.es-ES.md",
+      "product_url": "https://seaimagine.com/es/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "fr-FR",
+      "website_path": "fr",
+      "name": "Français",
+      "readme": "README.fr-FR.md",
+      "product_url": "https://seaimagine.com/fr/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "de-DE",
+      "website_path": "de",
+      "name": "Deutsch",
+      "readme": "README.de-DE.md",
+      "product_url": "https://seaimagine.com/de/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "pt-BR",
+      "website_path": "pt",
+      "name": "Português",
+      "readme": "README.pt-BR.md",
+      "product_url": "https://seaimagine.com/pt/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "it-IT",
+      "website_path": "it",
+      "name": "Italiano",
+      "readme": "README.it-IT.md",
+      "product_url": "https://seaimagine.com/it/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "ru-RU",
+      "website_path": "ru",
+      "name": "Русский",
+      "readme": "README.ru-RU.md",
+      "product_url": "https://seaimagine.com/ru/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "ar",
+      "website_path": "ar",
+      "name": "العربية",
+      "readme": "README.ar.md",
+      "product_url": "https://seaimagine.com/ar/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "id-ID",
+      "website_path": "id",
+      "name": "Bahasa Indonesia",
+      "readme": "README.id-ID.md",
+      "product_url": "https://seaimagine.com/id/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "th-TH",
+      "website_path": "th",
+      "name": "ไทย",
+      "readme": "README.th-TH.md",
+      "product_url": "https://seaimagine.com/th/model/grok-imagine-1-5/"
+    },
+    {
+      "locale": "vi-VN",
+      "website_path": "vi",
+      "name": "Tiếng Việt",
+      "readme": "README.vi-VN.md",
+      "product_url": "https://seaimagine.com/vi/model/grok-imagine-1-5/"
+    }
+  ]
+}

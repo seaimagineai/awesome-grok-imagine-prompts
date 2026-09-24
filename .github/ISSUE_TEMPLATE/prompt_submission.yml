@@ -1,0 +1,94 @@
+name: Submit an original Grok Imagine prompt
+description: Propose one tested, reproducible prompt for the collection
+title: "[Prompt] "
+labels:
+  - prompt-submission
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing. Submit one original prompt at a time. Do not paste prompts, translations, or media copied from another gallery, creator, course, or commercial pack.
+
+  - type: input
+    id: title
+    attributes:
+      label: Prompt title
+      description: Use a descriptive, searchable title without third-party brand names.
+      placeholder: Rainy window bakery product film
+    validations:
+      required: true
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Generation mode
+      options:
+        - Text-to-video
+        - Image-to-video
+        - Reference-to-video
+        - Video edit
+        - Video extension
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Prompt and dialogue language
+      placeholder: English; dialogue in Brazilian Portuguese
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Production goal
+      description: Describe audience, destination, duration, aspect ratio, and why this scenario is useful.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Reference roles
+      description: List each input and its single role. Do not include private or expiring URLs.
+      placeholder: "<IMAGE_0>: fictional character identity; <IMAGE_1>: garment construction"
+
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Complete prompt
+      description: Include opening frame/source lock, action, camera, physics, audio, continuity, exclusions, and final state.
+      render: text
+    validations:
+      required: true
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Tested settings
+      placeholder: "Model: grok-imagine-video-1.5; duration: 8s; aspect ratio: 16:9; resolution: 720p"
+    validations:
+      required: true
+
+  - type: textarea
+    id: results
+    attributes:
+      label: Result and iteration notes
+      description: Explain what worked, what failed, and the single changes that improved the output. Link only to media you can legally share.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Originality and rights
+      options:
+        - label: I wrote this prompt from scratch and did not lightly paraphrase or translate another prompt collection.
+          required: true
+        - label: I have the right to share every linked reference and output asset.
+          required: true
+        - label: The submission does not contain private data, unauthorized likenesses, protected characters, hidden promotion, or undisclosed affiliate links.
+          required: true
+        - label: I understand that maintainers may edit the prompt for clarity, safety, formatting, and consistency.
+          required: true

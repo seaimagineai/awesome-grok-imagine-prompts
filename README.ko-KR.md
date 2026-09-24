@@ -1,0 +1,56 @@
+# SeaImagine · Grok Imagine 1.5 — 한국어
+
+[English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
+
+> 영어 레시피 38개: Flaq AI에서 가져온 35개와 SeaImagine 연습 예제 3개입니다. 15개 언어 안내를 제공하며 번역을 별도 사례로 세지 않습니다.
+
+![SeaImagine · Grok Imagine 1.5](assets/seaimagine-grok-hero.webp)
+
+SeaImagine이 Flaq AI 자료를 출처와 함께 재구성했습니다. xAI 공식 프로젝트가 아니며 콘셉트 이미지는 Grok 생성 결과가 아닙니다. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
+
+
+각 언어에 완전한 예제가 있습니다. 전체 사례와 추가 문서는 영어로 제공됩니다. 참조 이미지, 편집, 연장은 별도 또는 고급 작업이며 SeaImagine 1.5 화면에서 모두 지원된다는 뜻은 아닙니다.
+
+## 빠른 작성 원칙
+
+- 1–15초 장면에는 하나의 핵심 동작과 하나의 카메라 이동만 우선 배치합니다.
+- 이미지-투-비디오에서는 인물, 제품 형태, 재질, 조명, 구도를 먼저 고정합니다.
+- 대사는 정확한 한국어 문장과 말투, 지역 변이, 속도, 쉼, 믹스 우선순위를 함께 적습니다.
+- 참조 이미지마다 신원, 의상, 제품, 장소처럼 한 가지 역할만 부여합니다.
+- 마지막 1초를 안정적으로 마쳐 편집이나 연장에 활용합니다.
+
+## 공통 다국어 테스트: 도자기 조명 공방
+
+**모드:** 이미지-투-비디오 · **출력:** 8초 · 16:9 · 720p
+
+```text
+입력 이미지의 가상 성인 공예가, 얼굴, 손, 남색 앞치마, 독창적인 타공 도자기 조명, 나무 도구,
+공방 선반, 구도와 따뜻한 측면광을 그대로 유지한다. 조명의 실루엣과 구멍 수, 배열은 바꾸지 않는다.
+
+0–3초: 카메라가 약 5cm 천천히 전진한다. 공예가는 왼손으로 조명 받침을 고정하고 오른손의 기존
+부드러운 솔로 표면을 한 번 쓸어낸다. 미세한 흙먼지가 측면광 속에서 자연스럽게 내려앉는다.
+3–6초: 기존 조광 다이얼을 한 번 돌리자 따뜻한 빛이 원래 구멍을 통해 서서히 나온다. 공예가는
+자연스러운 한국어로 “작은 구멍들이 빛을 더 부드럽게 만들어요.”라고 말한다. 6–8초: 솔을 내려놓고
+조명을 바라본다. 카메라는 멈추고 마지막 1초를 안정적으로 유지한다.
+
+오디오: 솔과 도자기의 마찰음, 다이얼 클릭, 조용한 공방 환경음, 가까운 한국어 음성. 음악과 자막 없음.
+
+연속성: 인물, 손, 앞치마, 조명 형태와 구멍, 도구, 선반, 조명 방향을 고정한다. 여분의 손가락,
+조명 재설계, 구멍 증가, 얼굴 변화, 가짜 문자, 로고, 컷 전환, 과한 광채를 금지한다.
+```
+
+## 전체 프롬프트 라이브러리
+
+- [광고 및 제품 영상](prompts/01-ads-and-products.md)
+- [시네마틱 스토리텔링](prompts/02-cinematic-storytelling.md)
+- [소셜, UGC 및 라이프스타일](prompts/03-social-ugc.md)
+- [캐릭터와 참조 일관성](prompts/04-characters-and-references.md)
+- [영상 편집 및 연장](prompts/05-editing-and-extension.md)
+
+## SeaImagine에서 만들기
+
+[Grok Imagine 1.5 · SeaImagine](https://seaimagine.com/ko/model/grok-imagine-1-5/)
+
+시작 이미지를 올리고 움직임 프롬프트를 붙여 넣은 뒤 화면에서 제공하는 설정을 선택하세요. 얼굴, 손, 제품 형태와 소리를 확인하고 영상을 저장하세요.
+
+[SeaImagine](docs/SEAIMAGINE.md) · [xAI](docs/OFFICIAL.md) · [X / Community](docs/COMMUNITY.md) · [15 languages](docs/LANGUAGES.md)

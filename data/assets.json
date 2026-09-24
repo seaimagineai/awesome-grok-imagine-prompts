@@ -1,0 +1,32 @@
+[
+  {
+    "file": "assets/citrus-fragrance-product-video.webp",
+    "sha256": "4f3ab68072bad01912c4788c5c01f490a925b520fb69243029c283c73f4342c8",
+    "origin": "flaqai/awesome-grok-imagine"
+  },
+  {
+    "file": "assets/coastal-salt-train-documentary.webp",
+    "sha256": "6058cd415616471f578a6a9089189fedaff74d634f6ccba1c9bf43e1050a125d",
+    "origin": "flaqai/awesome-grok-imagine"
+  },
+  {
+    "file": "assets/cozy-cafe-ugc-video.webp",
+    "sha256": "5b50251aa7422aeff85190fd676522fc0e3663535c8fb8eb756be30003b9cc4d",
+    "origin": "flaqai/awesome-grok-imagine"
+  },
+  {
+    "file": "assets/pear-bakery-miniature-video.webp",
+    "sha256": "020b3116d0f9ae7de87853661ae40cff256c29050e526c31257b30788f9510c1",
+    "origin": "flaqai/awesome-grok-imagine"
+  },
+  {
+    "file": "assets/rainy-market-courier-video.webp",
+    "sha256": "e81016f3016133931262e9cd54e077c529e214f0f606792b60b65687a00d6927",
+    "origin": "flaqai/awesome-grok-imagine"
+  },
+  {
+    "file": "assets/seaimagine-grok-hero.webp",
+    "sha256": "43d222a9e8e9da58865787933ee22a4a69239f179174e7c164d484d8c9badcd1",
+    "origin": "SeaImagine editorial cover"
+  }
+]
