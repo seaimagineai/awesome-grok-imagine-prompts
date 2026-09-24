@@ -4,7 +4,7 @@
 
 > 英語レシピ38本：Flaq AIから引き継いだ35本と、SeaImagineの練習用3本。15言語のガイドを用意し、翻訳を別の作例として数えていません。
 
-![SeaImagine · Grok Imagine 1.5](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 — 3つの作例の開始画像：開始画像 → 動きのプロンプト → 生成と確認](assets/seaimagine-grok-hero.webp)
 
 SeaImagineがFlaq AIのコレクションを出典付きで再編集したものです。xAIの公式プロジェクトではありません。コンセプト画像はGrokの生成結果ではありません。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 

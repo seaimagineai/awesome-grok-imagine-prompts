@@ -4,7 +4,7 @@
 
 > 38 وصفة باللغة الإنجليزية: 35 مقتبسة من Flaq AI و3 تمارين جديدة من SeaImagine. أدلة بـ15 لغة، ولا تُحسب الترجمات كمشاهد جديدة.
 
-![SeaImagine · Grok Imagine 1.5](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 — صور البداية لثلاثة أمثلة: صورة البداية ← وصف الحركة ← التوليد والمراجعة](assets/seaimagine-grok-hero.webp)
 
 أعدّت SeaImagine هذه المجموعة انطلاقًا من مجموعة Flaq AI مع ذكر المصدر. المشروع غير تابع لـxAI. الصور التصورية ليست نتائج مؤكدة من Grok. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 

@@ -8,7 +8,7 @@
 [![Prompts](https://img.shields.io/badge/English_recipes-38-7c3aed)](#prompt-library)
 [![Languages](https://img.shields.io/badge/languages-15-0ea5e9)](#multilingual-prompts)
 
-![Original cinematic panorama for the Awesome Grok Imagine 1.5 prompt collection](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 — Three case starting frames; start frame → motion prompt → generate and review](assets/seaimagine-grok-hero.webp)
 
 This SeaImagine edition adapts the attributed Flaq AI collection. It is independent of xAI. Concept images are not verified Grok outputs. Source: [flaqai/awesome-grok-imagine](https://github.com/flaqai/awesome-grok-imagine). See [attribution](docs/ATTRIBUTION.md).
 

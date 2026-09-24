@@ -4,7 +4,7 @@
 
 > 영어 레시피 38개: Flaq AI에서 가져온 35개와 SeaImagine 연습 예제 3개입니다. 15개 언어 안내를 제공하며 번역을 별도 사례로 세지 않습니다.
 
-![SeaImagine · Grok Imagine 1.5](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 — 세 가지 예제의 시작 이미지: 시작 이미지 → 동작 프롬프트 → 생성 및 검토](assets/seaimagine-grok-hero.webp)
 
 SeaImagine이 Flaq AI 자료를 출처와 함께 재구성했습니다. xAI 공식 프로젝트가 아니며 콘셉트 이미지는 Grok 생성 결과가 아닙니다. [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 

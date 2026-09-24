@@ -4,7 +4,7 @@
 
 > 38 条英语配方：保留源库 35 条，新增 3 条 SeaImagine 练习。提供 15 种语言指南；翻译不重复计为新场景。
 
-![SeaImagine · Grok Imagine 1.5](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 — 三个案例的首帧；首帧 → 动作提示词 → 生成与检查](assets/seaimagine-grok-hero.webp)
 
 本库由 SeaImagine 根据 Flaq AI 源库改编，保留来源署名，与 xAI 无隶属关系。概念配图不代表 Grok 实测效果。 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 

@@ -4,7 +4,7 @@
 
 > สูตรภาษาอังกฤษ 38 รายการ: ดัดแปลงจาก Flaq AI 35 รายการ และแบบฝึกหัดใหม่ของ SeaImagine 3 รายการ มีคู่มือ 15 ภาษา โดยไม่นับคำแปลเป็นฉากใหม่
 
-![SeaImagine · Grok Imagine 1.5](assets/seaimagine-grok-hero.webp)
+![SeaImagine · Grok Imagine 1.5 — ภาพเริ่มต้นของสามตัวอย่าง: ภาพเริ่มต้น → คำสั่งการเคลื่อนไหว → สร้างและตรวจสอบ](assets/seaimagine-grok-hero.webp)
 
 SeaImagine ดัดแปลงคอลเลกชันจาก Flaq AI พร้อมระบุที่มา ไม่ใช่โครงการอย่างเป็นทางการของ xAI ภาพแนวคิดไม่ใช่ผลลัพธ์จาก Grok ที่ผ่านการตรวจสอบ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [MIT](LICENSE)
 

@@ -8,7 +8,7 @@ These images are original visual concept anchors created for the upstream Flaq A
 
 **File:** `seaimagine-grok-hero.webp` · **Created:** September 24, 2026 · **Tool:** Codex built-in image generation.
 
-New 3:1 editorial cover: a creator studio opens onto a turquoise coast, with a fragrance bottle, coffee cup, storyboard cards, coastal train and miniature fantasy architecture. The image carries the text “SeaImagine” and “Grok Imagine 1.5 • Prompt Library”. It is a concept illustration, not generated-video evidence.
+Redesigned 3:1 cover built from this repository's harbor reunion, three-panel coastal postcard and frosted sea-glass bottle references. A navy-and-ivory editorial layout emphasizes the model and prompt library; the bottom strip explains START FRAME → MOTION PROMPT → GENERATE & REVIEW. An extra wave symbol from the first draft was removed during review. This replaces the earlier coastal-studio illustration. It is an editorial concept, not generated-video evidence. See the [exact prompt and reference inputs](SEAIMAGINE_COVER_PROMPT.md).
 
 ## Upstream hero panorama (source brief only)
 
