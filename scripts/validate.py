@@ -83,6 +83,11 @@ require(len({x['locale'] for x in locales}) == 15, 'Duplicate locale')
 locale_dir = ROOT / 'data/homepage-locales'
 require({p.stem for p in locale_dir.glob('*.json')} == {x['locale'] for x in locales}, 'Homepage JSON languages differ from website manifest')
 master = json.loads((locale_dir / 'en-US.json').read_text())
+ui_all = json.loads((ROOT / 'data/catalog-ui.json').read_text())
+require(set(ui_all) == {x['locale'] for x in locales}, 'Catalog UI language coverage differs')
+for locale, ui in ui_all.items():
+    same_schema(ui, ui_all['en-US'], 'catalog-ui.' + locale)
+    require(len(ui['category_names']) == len(ui['scene_summaries']) == 9, locale + ': wrong category count')
 fixed_cases = [
     ('harbor-reunion', 'assets/seaimagine-harbor-reunion.webp', '10s · 16:9 · 720p'),
     ('coastal-postcard', 'assets/seaimagine-coastal-postcard.webp', '5s · 9:16 · 720p'),
@@ -124,7 +129,8 @@ for item in locales:
         require(f'{i}. {step}' in workflow, f'{label}: missing browser step {i}')
     for community, expected in zip(data['community_items'], fixed_urls):
         require(community['url'] == expected, f'{data_path.name}: changed community source URL')
-        require(community['text'] in text and expected in text, f'{label}: missing community explanation or source: {expected}')
+        require(expected in (ROOT / 'docs/COMMUNITY.md').read_text(), f'{label}: missing archived community source')
+    require(data['community_title'] not in text and 'pbs.twimg.com' not in text, f'{label}: removed community gallery returned')
 
 for path in ROOT.rglob('*.md'):
     if '.git' in path.parts or 'templates' in path.parts:
@@ -163,13 +169,15 @@ for item in locales:
     gallery_pos = text.find('<a id="featured-prompts">')
     workflow_pos = text.find('<a id="seaimagine-browser-workflow">')
     community_pos = text.find('<a id="learn-from-official-and-community-examples">')
-    require(0 <= nav_pos < gallery_pos < community_pos < workflow_pos, label + ': broken reader journey')
-    require(text.count('assets/seaimagine-interface.jpg') == 0, label + ': duplicated product tutorial')
-    gallery = text[gallery_pos:community_pos]
+    require(0 <= nav_pos < gallery_pos < workflow_pos < community_pos, label + ': broken reader journey')
+    require(text.count('assets/seaimagine-interface.jpg') == 1, label + ': duplicated product tutorial')
+    gallery = text[gallery_pos:workflow_pos]
     require(len(re.findall(r'```text\n', gallery)) == 8, label + ': expected eight complete gallery prompts')
-    require(all('prompts/' + x in text[:gallery_pos] for x in ['01-ads-and-products.md', '02-cinematic-storytelling.md', '03-social-ugc.md', '04-characters-and-references.md', '05-editing-and-extension.md']), label + ': categories not before gallery')
+    require(all('docs/PROMPT_INDEX.md#' + x.removesuffix('.md') in text[:gallery_pos] for x in ['01-ads-and-products.md', '02-cinematic-storytelling.md', '03-social-ugc.md', '04-characters-and-references.md', '05-editing-and-extension.md']), label + ': categories not before gallery')
     require(gallery.find('case-sea-glass-bottle') < gallery.find('case-blue-route') < gallery.find('case-honey-loaf'), label + ': opening lacks topic variety')
     require(text.count('[TXT]') == 8, label + ': missing text exports')
+    require(len(re.findall(r'^\| ---.*$', text[:gallery_pos], re.M)) == 1, label + ': expected a single category table')
+    require(ui_all[item['locale']]['brand_title'] in text and ui_all[item['locale']]['brand_cta'] in text, label + ': missing illustrated brand section')
     for case in data['cases']:
         require((ROOT / 'prompts/text' / item['locale'] / (case['id'] + '.txt')).read_text().rstrip('\n') == case['prompt'], label + ': source TXT mismatch')
     require('height="180"' not in text and '### ' + data['preview_title'] not in text, label + ': removed visual overview returned')

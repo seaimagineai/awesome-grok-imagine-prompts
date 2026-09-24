@@ -14,31 +14,21 @@ Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan di
 
 ## Indeks kategori
 
-| Tujuan | Contoh bergambar |
-| --- | --- |
-| Iklan produk | [Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](#case-sea-glass-bottle) · [Citrus Halo — film produk parfum premium](#case-citrus-halo) |
-| Aksi sinematik | [Rute Biru — mengikuti kurir di pasar berhujan](#case-blue-route) |
-| Cerita fantasi | [Roti Madu — cerita toko roti miniatur](#case-honey-loaf) |
-| Dialog tokoh | [Bertemu kembali di pelabuhan — satu perubahan emosi](#case-harbor-reunion) |
-| Video gaya hidup | [Tegukan Pertama — ulasan kafe yang alami](#case-first-sip) |
-| Film perjalanan | [Jalur Garam saat Fajar — dokumenter perjalanan](#case-salt-line) |
-| Tata letak bergerak | [Kartu pos pesisir — menggerakkan gambar yang sudah dirancang](#case-coastal-postcard) |
+[Lihat prompt lainnya (bahasa Inggris) · 62](docs/PROMPT_INDEX.md)
 
-[Contoh bergambar](#featured-prompts) · [Karya resmi dan komunitas](#learn-from-official-and-community-examples) · [Referensi pengaturan dan penggunaan](#writing-guide)
+| Kategori | Adegan | Mode | Contoh |
+| --- | --- | --- | --- |
+| [Produk dan iklan · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Makro produk perawatan kulit / kopi / perhiasan / iklan aplikasi | Teks ke video / Gambar ke video / Referensi ke video | [Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](#case-sea-glass-bottle) · [Citrus Halo — film produk parfum premium](#case-citrus-halo) |
+| [Cerita sinematik · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Aksi / romansa / ketegangan / fiksi ilmiah / animasi | Teks ke video / Gambar ke video / Perpanjangan video | [Rute Biru — mengikuti kurir di pasar berhujan](#case-blue-route) · [Kartu pos pesisir — menggerakkan gambar yang sudah dirancang](#case-coastal-postcard) |
+| [Media sosial dan keseharian · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Ulasan pengalaman / makanan / kebugaran / wawancara | Teks ke video / Gambar ke video / Referensi ke video | [Tegukan Pertama — ulasan kafe yang alami](#case-first-sip) · [Jalur Garam saat Fajar — dokumenter perjalanan](#case-salt-line) |
+| [Karakter dan dialog · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Karakter / pakaian / dialog / adegan kelompok | Referensi ke video / Gambar ke video | [Bertemu kembali di pelabuhan — satu perubahan emosi](#case-harbor-reunion) |
+| [Transformasi visual dan kelanjutan · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Perubahan cuaca / penghapusan objek / perubahan gaya / kelanjutan | Penyuntingan video / Perpanjangan video | — |
+| [Bahan dan suara yang memuaskan · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Pasir ditekan / lembaran tembaga / tetesan air / marbling | Teks ke video | — |
+| [Ruang dan arsitektur · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Furnitur yang terbuka / halaman / penampang rumah | Teks ke video | — |
+| [Miniatur dan surealisme · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Feri dalam cangkir / hujan dalam laci / bulan kertas | Teks ke video / Gambar ke video | [Roti Madu — cerita toko roti miniatur](#case-honey-loaf) |
+| [Mode dan pertunjukan · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Gerak rok / jubah / proyeksi pada kerah / langkah tari | Teks ke video | — |
 
-**[Lihat prompt lainnya (bahasa Inggris)](docs/PROMPT_INDEX.md) · 54**
-
-| Kategori | Jumlah |
-| --- | --- |
-| [Iklan dan produk](prompts/01-ads-and-products.md) | 6 |
-| [Cerita sinematik](prompts/02-cinematic-storytelling.md) | 6 |
-| [Sosial dan gaya hidup](prompts/03-social-ugc.md) | 6 |
-| [Tokoh dan referensi](prompts/04-characters-and-references.md) | 6 |
-| [Penyuntingan dan perpanjangan](prompts/05-editing-and-extension.md) | 6 |
-| [Tekstur dan suara menenangkan](prompts/07-satisfying-materials.md) | 6 |
-| [Ruang dan transformasi](prompts/08-spaces-and-transformations.md) | 6 |
-| [Miniatur dan adegan surealis](prompts/09-miniature-and-surreal.md) | 6 |
-| [Mode dan pertunjukan](prompts/10-fashion-and-performance.md) | 6 |
+[Contoh bergambar](#featured-prompts) · [Berkreasi dengan SeaImagine](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -266,40 +256,23 @@ Kunci kesinambungan: jangan ubah siluet botol, bidang tutup, tinggi cairan, alas
 
 [Kembali ke indeks kategori](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## Wujudkan adegan pilihan Anda di SeaImagine
+
+Pilih video produk botol kaca, dialog di pelabuhan, atau kartu pos animasi di atas, lalu gunakan gambar dan prompt lengkapnya di Grok Imagine 1.5 pada SeaImagine. Eksplorasi bahan dalam adegan produk, akting dalam dialog, dan komposisi dalam animasi grafis.
+
+[Bahan produk](#case-sea-glass-bottle) · [Dialog karakter](#case-harbor-reunion) · [Tata letak animasi](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/id/model/grok-imagine-1-5/)
+
+Antarmuka asli: prompt botol kaca sudah diisi, 720p · 5 dtk · 16:9. Gambar awal belum diunggah; belum ada video yang dibuat.
+
+**[Buat adegan ini dengan SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## Belajar dari karya resmi dan komunitas
-
-Postingan sumber mencantumkan pembuat dan versi model. Buka postingan asli untuk menonton. Catatan praktis di bawah membahas metode, bukan klaim bahwa kami telah mereproduksi videonya.
-
-### [Cuplikan resmi 1.5 Preview — Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![Cuplikan resmi 1.5 Preview — Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-Pelajari cara merencanakan trailer sebagai rangkaian shot pendek yang terpisah. Bedakan rekaman Preview dari model 1.5 yang sudah dirilis.
-
-### [Film pendek yang sudah selesai — JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-Pembuatnya menyatakan telah membuat film berdurasi 2,5 menit dan membahas keterbatasan akting hasil generasi. Latih satu percakapan yang tenang terlebih dahulu; susun cerita yang lebih panjang dari shot yang diedit.
-
-### [Merancang gambar sebelum animasi — GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![Merancang gambar sebelum animasi — GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-Pembuatnya menyatakan telah membuat kolase dengan ChatGPT Images 2.0, lalu menganimasikannya memakai Grok Imagine Video 1.5. Latihan kartu pos kami mempertahankan batas panel dan memberi hanya satu gerakan pada tiap panel.
-
-### [Perbandingan terkontrol — JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-Gunakan satu gambar sumber dan pengaturan yang sebanding. Periksa bentuk, gerakan, dan audio, alih-alih menyalin peringkat lama. Latihan botol kami memisahkan variabel tersebut agar dapat diperiksa.
-
-<details>
-<summary>Pengamatan bingkai dan batas verifikasi</summary>
-
-Pada 24 September 2026, kami memeriksa beberapa bingkai melalui pemutar di postingan X asli: klip resmi sekitar 3,6 detik (helm dan pasukan), 19,8 detik (wajah dari dekat), dan 34,6 detik (kota tepi air yang terbakar); video GENEL sekitar 0,05 detik (pagar tepi laut), 4,9 detik (perlintasan kereta), dan 12 detik (tangan dengan cahaya dari belakang). Pelajari pergantian ukuran shot dalam klip resmi serta cahaya pesisir yang konsisten di berbagai shot GENEL. Kartu pos kami dengan panel tetap merupakan latihan yang berbeda. Pemeriksaan ini hanya mengambil sampel bingkai, bukan pengujian gerakan atau audio secara menyeluruh.
-
-</details>
-
-[Sumber dan catatan penayangan (bahasa Inggris)](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -313,9 +286,7 @@ Pada 24 September 2026, kami memeriksa beberapa bingkai melalui pemutar di posti
 
 [Referensi penulisan](docs/guides/id-ID.md) · [Referensi pengaturan dan penggunaan](docs/workflows/id-ID.md) · [SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[Sumber](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

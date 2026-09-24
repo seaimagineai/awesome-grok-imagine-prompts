@@ -1,8 +1,8 @@
-# Grok Imagine 1.5 Prompts for Satisfying Materials & ASMR
+# Grok Imagine 1.5 Prompts — Satisfying materials & sounds
+
+[All categories](../docs/PROMPT_INDEX.md) · [Homepage](../README.md) · [← Visual transformations & continuation](05-editing-and-extension.md) · [Spaces & architecture →](08-spaces-and-transformations.md)
 
 Original, untested video prompts inspired by [social-video material and close-up sound trends](../docs/SOCIAL_INSPIRATION.md#satisfying-materials); these are new compositions, not copied social prompts or verified generation results. ASMR means close, detailed sounds intended to feel soothing.
-
-[← Back to the main collection](../README.md)
 
 ## Index
 

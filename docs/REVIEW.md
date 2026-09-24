@@ -54,3 +54,12 @@ Removed the separate preview section from all fifteen homepages. All eight start
 Added 24 original text-to-video briefs: six each for materials and close sound, spaces and transformations, miniature and surreal scenes, and fashion and performance. Category inspiration is documented using official YouTube reports and native-inspected X examples. Evidence distinguishes historical category demand, individual posts, model attribution and unverified playback; it does not claim a live X ranking. These 24 prompts are English, untested originals. The fifteen homepage category labels and counts are localized; the existing eight illustrated cases remain fully translated.
 
 Cross-review caught a stationary alcove inconsistent with a moving shelf opening and an embossing motion insufficient to create side veins. Both were corrected. Main independent review also corrected a profile-to-front rotation from half-turn to quarter-turn. Existing 150 displayed prompt blocks remain unchanged. New settings, TXT fidelity, unique prompt bodies and all 62 index entries are checked by the validator.
+
+
+## Unified categories and contextual brand section — September 24, 2026
+
+Replaced the two homepage classification tables with one nine-category table containing scene summaries, modes and direct illustrated-case links. Counts include the illustrated cases and total 62 without double counting. The complete index groups the same 62 prompts under those nine categories, adds top-level category links, and shows mode, duration, aspect ratio, resolution and TXT. Category page headings and previous/next navigation use the same names.
+
+Removed the homepage official/community video section and external thumbnails. Attribution and viewing evidence remain in linked references. After the eight large illustrated prompts, a localized SeaImagine section connects the bottle, dialogue and postcard examples to the real browser screenshot and model page. The screenshot caption explicitly states that the starting image is not uploaded and no generation has been performed.
+
+Independent review identified a metadata parser assumption: reference-based recipes do not use the Mode label. Fixed their index mode to reference-to-video; also synchronized category page headings/navigation. All existing prompt blocks remain byte-identical. Generation freshness, links, source hashes, nine-category localization and single-table/brand-section checks pass.

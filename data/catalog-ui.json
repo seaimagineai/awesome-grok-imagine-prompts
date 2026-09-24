@@ -1,0 +1,707 @@
+{
+  "en-US": {
+    "scenes_label": "Scenes",
+    "modes_label": "Modes",
+    "examples_label": "Examples",
+    "index_label": "Full prompt index",
+    "source_label": "Sources",
+    "brand_title": "Take your chosen shot to SeaImagine",
+    "brand_intro": "Choose the glass-bottle product shot, harbor dialogue, or animated postcard above, then bring its image and full prompt to Grok Imagine 1.5 on SeaImagine. Explore materials in product shots, performance in dialogue, and composition in motion graphics.",
+    "brand_caption": "Actual interface: the glass-bottle prompt is entered at 720p · 5s · 16:9. The start image has not been uploaded; no video has been generated.",
+    "brand_cta": "Create this shot with SeaImagine",
+    "mode_names": {
+      "text": "Text to video",
+      "image": "Image to video",
+      "reference": "Reference to video",
+      "edit": "Video editing",
+      "extension": "Video extension"
+    },
+    "scene_summaries": [
+      "Skincare close-ups / coffee / jewelry / app ads",
+      "Action / romance / suspense / science fiction / animation",
+      "Personal reviews / food / fitness / interviews",
+      "Characters / clothing / dialogue / ensemble scenes",
+      "Weather changes / cleanup / restyling / continuation",
+      "Sand pressing / copper foil / water droplets / marbling",
+      "Unfolding furniture / courtyards / house cutaways",
+      "Teacup ferries / rainy drawers / paper moons",
+      "Flowing skirts / capes / collar projections / dance steps"
+    ],
+    "brand_links": [
+      "Product materials",
+      "Character dialogue",
+      "Animated layouts"
+    ],
+    "category_names": [
+      "Products & advertising",
+      "Cinematic storytelling",
+      "Social & everyday life",
+      "Characters & dialogue",
+      "Visual transformations & continuation",
+      "Satisfying materials & sounds",
+      "Spaces & architecture",
+      "Miniature & surreal worlds",
+      "Fashion & performance"
+    ],
+    "brand_label": "Create with SeaImagine",
+    "total_label": "All prompts"
+  },
+  "zh-CN": {
+    "scenes_label": "包含场景",
+    "modes_label": "适用模式",
+    "examples_label": "案例",
+    "index_label": "完整提示词索引",
+    "source_label": "来源",
+    "brand_title": "把选中的镜头，带到 SeaImagine",
+    "brand_intro": "从前面的玻璃瓶产品片、港口对白或动态明信片选一条，带上对应图片与完整提示词，在 SeaImagine 的 Grok Imagine 1.5 页面继续创作。产品片看材质，人物片看表演，排版动画看构图。",
+    "brand_caption": "真实界面：已填入玻璃瓶提示词，720p · 5s · 16:9；起始图待上传，尚未生成。",
+    "brand_cta": "用 SeaImagine 创作这一镜",
+    "mode_names": {
+      "text": "文生视频",
+      "image": "图生视频",
+      "reference": "参考图生视频",
+      "edit": "视频编辑",
+      "extension": "视频续接"
+    },
+    "scene_summaries": [
+      "护肤微距 / 咖啡 / 珠宝 / 应用广告",
+      "动作 / 爱情 / 悬疑 / 科幻 / 动画",
+      "体验分享 / 美食 / 健身 / 采访",
+      "人物 / 服装 / 对白 / 群像",
+      "天气替换 / 清理 / 改风格 / 续接",
+      "压沙 / 铜箔 / 水珠 / 拓印",
+      "家具展开 / 庭院 / 房屋剖面",
+      "茶杯渡轮 / 抽屉雨景 / 纸月亮",
+      "裙摆 / 披风 / 衣领投影 / 舞步"
+    ],
+    "brand_links": [
+      "产品质感",
+      "人物对白",
+      "排版动画"
+    ],
+    "category_names": [
+      "产品与广告",
+      "电影叙事",
+      "社交与生活",
+      "人物与对白",
+      "视觉变换与续接",
+      "解压材质与声音",
+      "空间与建筑",
+      "微缩与超现实",
+      "时尚与表演"
+    ],
+    "brand_label": "SeaImagine 创作入口",
+    "total_label": "全部提示词"
+  },
+  "zh-TW": {
+    "scenes_label": "包含場景",
+    "modes_label": "適用模式",
+    "examples_label": "案例",
+    "index_label": "完整提示詞索引",
+    "source_label": "來源",
+    "brand_title": "把選中的鏡頭，帶到 SeaImagine",
+    "brand_intro": "從前面的玻璃瓶產品短片、港口對白或動態明信片選一個，帶上對應圖片與完整提示詞，在 SeaImagine 的 Grok Imagine 1.5 頁面繼續創作。產品短片看材質，人物短片看表演，排版動畫看構圖。",
+    "brand_caption": "實際介面：已填入玻璃瓶提示詞，720p · 5s · 16:9；起始圖片尚待上傳，尚未生成。",
+    "brand_cta": "用 SeaImagine 創作這個鏡頭",
+    "mode_names": {
+      "text": "文字生成影片",
+      "image": "圖片生成影片",
+      "reference": "參考圖生成影片",
+      "edit": "影片編輯",
+      "extension": "影片延伸"
+    },
+    "scene_summaries": [
+      "保養品微距 / 咖啡 / 珠寶 / 應用程式廣告",
+      "動作 / 愛情 / 懸疑 / 科幻 / 動畫",
+      "體驗分享 / 美食 / 健身 / 訪談",
+      "人物 / 服裝 / 對白 / 群像",
+      "天氣替換 / 清理 / 風格轉換 / 延伸",
+      "壓沙 / 銅箔 / 水珠 / 拓印",
+      "家具展開 / 庭院 / 房屋剖面",
+      "茶杯渡輪 / 抽屜雨景 / 紙月亮",
+      "裙襬 / 披風 / 衣領投影 / 舞步"
+    ],
+    "brand_links": [
+      "產品質感",
+      "人物對白",
+      "排版動畫"
+    ],
+    "category_names": [
+      "產品與廣告",
+      "電影敘事",
+      "社群與生活",
+      "人物與對白",
+      "視覺變換與延伸",
+      "療癒材質與聲音",
+      "空間與建築",
+      "微縮與超現實",
+      "時尚與表演"
+    ],
+    "brand_label": "SeaImagine 創作入口",
+    "total_label": "全部提示詞"
+  },
+  "ja-JP": {
+    "scenes_label": "シーン",
+    "modes_label": "対応モード",
+    "examples_label": "作例",
+    "index_label": "プロンプト総索引",
+    "source_label": "出典",
+    "brand_title": "選んだカットを SeaImagine で形にする",
+    "brand_intro": "上のガラス瓶の商品映像、港での会話、動くポストカードから一つ選び、画像とプロンプト全文を SeaImagine の Grok Imagine 1.5 に持ち込んでみましょう。商品映像では質感、会話では演技、モーショングラフィックスでは構図に注目できます。",
+    "brand_caption": "実際の画面：ガラス瓶のプロンプトを入力済み。720p · 5秒 · 16:9。開始画像は未アップロードで、動画はまだ生成していません。",
+    "brand_cta": "SeaImagine でこのカットを作る",
+    "mode_names": {
+      "text": "テキストから動画",
+      "image": "画像から動画",
+      "reference": "参照画像から動画",
+      "edit": "動画編集",
+      "extension": "動画延長"
+    },
+    "scene_summaries": [
+      "スキンケアの接写 / コーヒー / ジュエリー / アプリ広告",
+      "アクション / 恋愛 / サスペンス / SF / アニメーション",
+      "体験レビュー / グルメ / フィットネス / インタビュー",
+      "人物 / 衣装 / 会話 / 群像",
+      "天候変更 / 不要物除去 / 作風変更 / 続きの生成",
+      "砂のプレス / 銅箔 / 水滴 / マーブリング",
+      "展開する家具 / 中庭 / 家の断面",
+      "ティーカップの渡し船 / 引き出しの雨景色 / 紙の月",
+      "スカートの裾 / マント / 襟への投影 / ダンスステップ"
+    ],
+    "brand_links": [
+      "商品の質感",
+      "人物の会話",
+      "レイアウトアニメーション"
+    ],
+    "category_names": [
+      "商品・広告",
+      "映画的な物語",
+      "SNS・日常",
+      "人物・会話",
+      "映像変換・続きの生成",
+      "心地よい素材・音",
+      "空間・建築",
+      "ミニチュア・超現実",
+      "ファッション・パフォーマンス"
+    ],
+    "brand_label": "SeaImagine で作る",
+    "total_label": "すべてのプロンプト"
+  },
+  "ko-KR": {
+    "scenes_label": "장면",
+    "modes_label": "사용 모드",
+    "examples_label": "예시",
+    "index_label": "전체 프롬프트 색인",
+    "source_label": "출처",
+    "brand_title": "선택한 장면을 SeaImagine에서 만들어 보세요",
+    "brand_intro": "위의 유리병 제품 영상, 항구 대화, 움직이는 엽서 중 하나를 골라 이미지와 프롬프트 전문을 SeaImagine의 Grok Imagine 1.5에서 활용해 보세요. 제품 영상에서는 재질을, 인물 영상에서는 연기를, 레이아웃 애니메이션에서는 구도를 살펴볼 수 있습니다.",
+    "brand_caption": "실제 화면: 유리병 프롬프트 입력 완료, 720p · 5초 · 16:9. 시작 이미지는 아직 업로드하지 않았으며 영상도 생성하지 않았습니다.",
+    "brand_cta": "SeaImagine으로 이 장면 만들기",
+    "mode_names": {
+      "text": "텍스트로 영상 생성",
+      "image": "이미지로 영상 생성",
+      "reference": "참조 이미지로 영상 생성",
+      "edit": "영상 편집",
+      "extension": "영상 연장"
+    },
+    "scene_summaries": [
+      "스킨케어 접사 / 커피 / 주얼리 / 앱 광고",
+      "액션 / 로맨스 / 서스펜스 / SF / 애니메이션",
+      "체험 후기 / 음식 / 피트니스 / 인터뷰",
+      "인물 / 의상 / 대화 / 군상",
+      "날씨 변경 / 불필요한 요소 제거 / 스타일 변경 / 이어 만들기",
+      "모래 누르기 / 동박 / 물방울 / 마블링",
+      "펼쳐지는 가구 / 안뜰 / 주택 단면",
+      "찻잔 나룻배 / 서랍 속 빗속 풍경 / 종이 달",
+      "치맛자락 / 망토 / 옷깃 투사 / 춤 동작"
+    ],
+    "brand_links": [
+      "제품의 질감",
+      "인물 대화",
+      "레이아웃 애니메이션"
+    ],
+    "category_names": [
+      "제품과 광고",
+      "영화적 스토리텔링",
+      "소셜 콘텐츠와 일상",
+      "인물과 대화",
+      "시각적 변형과 이어 만들기",
+      "만족감을 주는 재질과 소리",
+      "공간과 건축",
+      "미니어처와 초현실",
+      "패션과 퍼포먼스"
+    ],
+    "brand_label": "SeaImagine에서 만들기",
+    "total_label": "전체 프롬프트"
+  },
+  "es-ES": {
+    "scenes_label": "Escenas",
+    "modes_label": "Modos",
+    "examples_label": "Ejemplos",
+    "index_label": "Índice completo de prompts",
+    "source_label": "Fuentes",
+    "brand_title": "Lleva la toma que has elegido a SeaImagine",
+    "brand_intro": "Elige el anuncio de la botella, el diálogo en el puerto o la postal animada de arriba y usa su imagen y prompt completo en Grok Imagine 1.5 de SeaImagine. Explora los materiales en las tomas de producto, la interpretación en los diálogos y la composición en las animaciones gráficas.",
+    "brand_caption": "Interfaz real: prompt de la botella introducido, 720p · 5 s · 16:9. La imagen inicial aún no se ha subido; no se ha generado ningún vídeo.",
+    "brand_cta": "Crea esta toma con SeaImagine",
+    "mode_names": {
+      "text": "Texto a vídeo",
+      "image": "Imagen a vídeo",
+      "reference": "Referencias a vídeo",
+      "edit": "Edición de vídeo",
+      "extension": "Extensión de vídeo"
+    },
+    "scene_summaries": [
+      "Macros de cosmética / café / joyería / anuncios de aplicaciones",
+      "Acción / romance / suspense / ciencia ficción / animación",
+      "Reseñas personales / comida / fitness / entrevistas",
+      "Personajes / vestuario / diálogos / escenas de grupo",
+      "Cambios de clima / limpieza / cambio de estilo / continuación",
+      "Prensado de arena / lámina de cobre / gotas de agua / marmoleado",
+      "Muebles desplegables / patios / cortes de viviendas",
+      "Ferris en tazas / lluvia en cajones / lunas de papel",
+      "Faldas en movimiento / capas / proyecciones sobre cuellos / pasos de baile"
+    ],
+    "brand_links": [
+      "Materiales de producto",
+      "Diálogos entre personajes",
+      "Composiciones animadas"
+    ],
+    "category_names": [
+      "Productos y publicidad",
+      "Narrativa cinematográfica",
+      "Redes sociales y vida cotidiana",
+      "Personajes y diálogos",
+      "Transformaciones visuales y continuación",
+      "Materiales y sonidos satisfactorios",
+      "Espacios y arquitectura",
+      "Miniaturas y surrealismo",
+      "Moda e interpretación"
+    ],
+    "brand_label": "Crear con SeaImagine",
+    "total_label": "Todos los prompts"
+  },
+  "fr-FR": {
+    "scenes_label": "Scènes",
+    "modes_label": "Modes",
+    "examples_label": "Exemples",
+    "index_label": "Index complet des prompts",
+    "source_label": "Sources",
+    "brand_title": "Réalisez le plan choisi avec SeaImagine",
+    "brand_intro": "Choisissez le plan produit du flacon, le dialogue au port ou la carte postale animée ci-dessus, puis reprenez son image et son prompt complet dans Grok Imagine 1.5 sur SeaImagine. Explorez les matières dans les plans produits, le jeu des personnages dans les dialogues et la composition dans les animations graphiques.",
+    "brand_caption": "Interface réelle : prompt du flacon saisi, 720p · 5 s · 16:9. L’image de départ n’a pas encore été importée ; aucune vidéo n’a été générée.",
+    "brand_cta": "Créer ce plan avec SeaImagine",
+    "mode_names": {
+      "text": "Texte vers vidéo",
+      "image": "Image vers vidéo",
+      "reference": "Références vers vidéo",
+      "edit": "Montage vidéo",
+      "extension": "Prolongement vidéo"
+    },
+    "scene_summaries": [
+      "Macros de soins / café / bijoux / publicités pour applications",
+      "Action / romance / suspense / science-fiction / animation",
+      "Retours d’expérience / cuisine / fitness / entretiens",
+      "Personnages / costumes / dialogues / scènes de groupe",
+      "Changement de météo / nettoyage / changement de style / prolongement",
+      "Sable pressé / feuille de cuivre / gouttes d’eau / marbrure",
+      "Meubles dépliants / cours intérieures / maisons en coupe",
+      "Ferrys dans des tasses / pluie dans un tiroir / lunes en papier",
+      "Jupes en mouvement / capes / projections sur un col / pas de danse"
+    ],
+    "brand_links": [
+      "Matières des produits",
+      "Dialogues de personnages",
+      "Compositions animées"
+    ],
+    "category_names": [
+      "Produits et publicité",
+      "Récits cinématographiques",
+      "Réseaux sociaux et quotidien",
+      "Personnages et dialogues",
+      "Transformations visuelles et prolongements",
+      "Matières et sons satisfaisants",
+      "Espaces et architecture",
+      "Miniatures et surréalisme",
+      "Mode et performance"
+    ],
+    "brand_label": "Créer avec SeaImagine",
+    "total_label": "Tous les prompts"
+  },
+  "de-DE": {
+    "scenes_label": "Szenen",
+    "modes_label": "Modi",
+    "examples_label": "Beispiele",
+    "index_label": "Vollständiger Prompt-Index",
+    "source_label": "Quellen",
+    "brand_title": "Setze deine gewählte Einstellung mit SeaImagine um",
+    "brand_intro": "Wähle oben die Produktaufnahme der Glasflasche, den Dialog am Hafen oder die animierte Postkarte. Nutze das jeweilige Bild und den vollständigen Prompt in Grok Imagine 1.5 auf SeaImagine. Erkunde Materialien in Produktaufnahmen, Schauspiel im Dialog und Bildaufbau in grafischen Animationen.",
+    "brand_caption": "Tatsächliche Oberfläche: Glasflaschen-Prompt eingegeben, 720p · 5 s · 16:9. Das Startbild wurde noch nicht hochgeladen; es wurde kein Video generiert.",
+    "brand_cta": "Diese Einstellung mit SeaImagine erstellen",
+    "mode_names": {
+      "text": "Text zu Video",
+      "image": "Bild zu Video",
+      "reference": "Referenzen zu Video",
+      "edit": "Videobearbeitung",
+      "extension": "Videoverlängerung"
+    },
+    "scene_summaries": [
+      "Hautpflege-Makros / Kaffee / Schmuck / App-Werbung",
+      "Action / Romantik / Spannung / Science-Fiction / Animation",
+      "Erfahrungsberichte / Essen / Fitness / Interviews",
+      "Figuren / Kleidung / Dialoge / Gruppenszenen",
+      "Wetter ändern / Bereinigung / Stil ändern / Fortsetzung",
+      "Sand pressen / Kupferfolie / Wassertropfen / Marmorierung",
+      "Aufklappbare Möbel / Innenhöfe / Hausquerschnitte",
+      "Teetassenfähren / Regen in Schubladen / Papiermonde",
+      "Schwingende Röcke / Umhänge / Kragenprojektionen / Tanzschritte"
+    ],
+    "brand_links": [
+      "Produktmaterialien",
+      "Figurendialoge",
+      "Animierte Layouts"
+    ],
+    "category_names": [
+      "Produkte und Werbung",
+      "Filmische Geschichten",
+      "Social Media und Alltag",
+      "Figuren und Dialoge",
+      "Visuelle Verwandlung und Fortsetzung",
+      "Entspannende Materialien und Klänge",
+      "Räume und Architektur",
+      "Miniaturen und surreale Welten",
+      "Mode und Performance"
+    ],
+    "brand_label": "Mit SeaImagine erstellen",
+    "total_label": "Alle Prompts"
+  },
+  "pt-BR": {
+    "scenes_label": "Cenas",
+    "modes_label": "Modos",
+    "examples_label": "Exemplos",
+    "index_label": "Índice completo de prompts",
+    "source_label": "Fontes",
+    "brand_title": "Leve a cena escolhida para o SeaImagine",
+    "brand_intro": "Escolha o vídeo de produto com a garrafa, o diálogo no porto ou o cartão-postal animado acima e use a imagem e o prompt completo no Grok Imagine 1.5 do SeaImagine. Explore materiais nas cenas de produto, atuação nos diálogos e composição nas animações gráficas.",
+    "brand_caption": "Interface real: prompt da garrafa preenchido, 720p · 5 s · 16:9. A imagem inicial ainda não foi enviada; nenhum vídeo foi gerado.",
+    "brand_cta": "Crie esta cena com o SeaImagine",
+    "mode_names": {
+      "text": "Texto para vídeo",
+      "image": "Imagem para vídeo",
+      "reference": "Referências para vídeo",
+      "edit": "Edição de vídeo",
+      "extension": "Extensão de vídeo"
+    },
+    "scene_summaries": [
+      "Macros de cosméticos / café / joias / anúncios de aplicativos",
+      "Ação / romance / suspense / ficção científica / animação",
+      "Relatos de experiência / comida / fitness / entrevistas",
+      "Personagens / roupas / diálogos / cenas em grupo",
+      "Troca de clima / remoção de elementos / mudança de estilo / continuação",
+      "Areia prensada / folha de cobre / gotas de água / marmorização",
+      "Móveis que se desdobram / pátios / casas em corte",
+      "Balsas em xícaras / chuva em gavetas / luas de papel",
+      "Saias em movimento / capas / projeções na gola / passos de dança"
+    ],
+    "brand_links": [
+      "Materiais de produtos",
+      "Diálogos de personagens",
+      "Composições animadas"
+    ],
+    "category_names": [
+      "Produtos e publicidade",
+      "Narrativa cinematográfica",
+      "Redes sociais e cotidiano",
+      "Personagens e diálogos",
+      "Transformações visuais e continuação",
+      "Materiais e sons satisfatórios",
+      "Espaços e arquitetura",
+      "Miniaturas e surrealismo",
+      "Moda e performance"
+    ],
+    "brand_label": "Criar com o SeaImagine",
+    "total_label": "Todos os prompts"
+  },
+  "it-IT": {
+    "scenes_label": "Scene",
+    "modes_label": "Modalità",
+    "examples_label": "Esempi",
+    "index_label": "Indice completo dei prompt",
+    "source_label": "Fonti",
+    "brand_title": "Porta l’inquadratura scelta su SeaImagine",
+    "brand_intro": "Scegli il video di prodotto con la bottiglia, il dialogo al porto o la cartolina animata qui sopra e usa l’immagine e il prompt completo in Grok Imagine 1.5 su SeaImagine. Esplora i materiali nelle riprese di prodotto, la recitazione nei dialoghi e la composizione nelle animazioni grafiche.",
+    "brand_caption": "Interfaccia reale: prompt della bottiglia inserito, 720p · 5 s · 16:9. L’immagine iniziale non è ancora stata caricata; non è stato generato alcun video.",
+    "brand_cta": "Crea questa inquadratura con SeaImagine",
+    "mode_names": {
+      "text": "Da testo a video",
+      "image": "Da immagine a video",
+      "reference": "Da riferimenti a video",
+      "edit": "Modifica video",
+      "extension": "Estensione video"
+    },
+    "scene_summaries": [
+      "Macro di cosmetici / caffè / gioielli / pubblicità di app",
+      "Azione / romanticismo / suspense / fantascienza / animazione",
+      "Recensioni personali / cibo / fitness / interviste",
+      "Personaggi / abiti / dialoghi / scene corali",
+      "Cambio del meteo / rimozione di elementi / cambio di stile / continuazione",
+      "Sabbia pressata / foglia di rame / gocce d’acqua / marmorizzazione",
+      "Mobili che si dispiegano / cortili / case in sezione",
+      "Traghetti in tazze / pioggia nei cassetti / lune di carta",
+      "Gonne in movimento / mantelli / proiezioni sui colletti / passi di danza"
+    ],
+    "brand_links": [
+      "Materiali dei prodotti",
+      "Dialoghi tra personaggi",
+      "Composizioni animate"
+    ],
+    "category_names": [
+      "Prodotti e pubblicità",
+      "Narrazione cinematografica",
+      "Social e vita quotidiana",
+      "Personaggi e dialoghi",
+      "Trasformazioni visive e continuazione",
+      "Materiali e suoni appaganti",
+      "Spazi e architettura",
+      "Miniature e surrealismo",
+      "Moda e performance"
+    ],
+    "brand_label": "Crea con SeaImagine",
+    "total_label": "Tutti i prompt"
+  },
+  "ru-RU": {
+    "scenes_label": "Сюжеты",
+    "modes_label": "Режимы",
+    "examples_label": "Примеры",
+    "index_label": "Полный указатель промптов",
+    "source_label": "Источники",
+    "brand_title": "Создайте выбранный кадр в SeaImagine",
+    "brand_intro": "Выберите выше ролик со стеклянным флаконом, диалог в порту или анимированную открытку и перенесите изображение и полный промпт в Grok Imagine 1.5 на SeaImagine. В предметной съёмке исследуйте материалы, в диалогах — актёрскую игру, в графической анимации — композицию.",
+    "brand_caption": "Реальный интерфейс: промпт для флакона введён, 720p · 5 с · 16:9. Начальное изображение ещё не загружено; видео не сгенерировано.",
+    "brand_cta": "Создать этот кадр в SeaImagine",
+    "mode_names": {
+      "text": "Текст в видео",
+      "image": "Изображение в видео",
+      "reference": "Референсы в видео",
+      "edit": "Редактирование видео",
+      "extension": "Продление видео"
+    },
+    "scene_summaries": [
+      "Макросъёмка косметики / кофе / украшения / реклама приложений",
+      "Экшен / романтика / саспенс / научная фантастика / анимация",
+      "Отзывы / еда / фитнес / интервью",
+      "Персонажи / одежда / диалоги / групповые сцены",
+      "Смена погоды / удаление объектов / смена стиля / продолжение",
+      "Прессование песка / медная фольга / капли воды / мраморирование",
+      "Раскладывающаяся мебель / дворики / дома в разрезе",
+      "Паромы в чашках / дождь в ящиках / бумажные луны",
+      "Движение юбок / плащи / проекции на воротники / танцевальные шаги"
+    ],
+    "brand_links": [
+      "Материалы изделий",
+      "Диалоги персонажей",
+      "Анимированные композиции"
+    ],
+    "category_names": [
+      "Продукты и реклама",
+      "Кинематографические истории",
+      "Соцсети и повседневность",
+      "Персонажи и диалоги",
+      "Визуальные преобразования и продолжение",
+      "Приятные материалы и звуки",
+      "Пространства и архитектура",
+      "Миниатюры и сюрреализм",
+      "Мода и выступления"
+    ],
+    "brand_label": "Создать в SeaImagine",
+    "total_label": "Все промпты"
+  },
+  "ar": {
+    "scenes_label": "المشاهد",
+    "modes_label": "الأوضاع",
+    "examples_label": "الأمثلة",
+    "index_label": "فهرس المطالبات الكامل",
+    "source_label": "المصادر",
+    "brand_title": "نفّذ اللقطة التي اخترتها في SeaImagine",
+    "brand_intro": "اختر من الأمثلة أعلاه لقطة المنتج بالقارورة الزجاجية أو الحوار في الميناء أو البطاقة البريدية المتحركة، ثم استخدم الصورة والمطالبة الكاملة في Grok Imagine 1.5 على SeaImagine. استكشف الخامات في لقطات المنتجات، والأداء في الحوار، والتكوين في الرسوم المتحركة.",
+    "brand_caption": "الواجهة الفعلية: أُدخلت مطالبة القارورة الزجاجية، بدقة 720p ومدة 5 ثوانٍ ونسبة 16:9. لم تُرفع صورة البداية بعد، ولم يُولّد أي فيديو.",
+    "brand_cta": "أنشئ هذه اللقطة باستخدام SeaImagine",
+    "mode_names": {
+      "text": "من نص إلى فيديو",
+      "image": "من صورة إلى فيديو",
+      "reference": "من صور مرجعية إلى فيديو",
+      "edit": "تحرير الفيديو",
+      "extension": "تمديد الفيديو"
+    },
+    "scene_summaries": [
+      "لقطات مقرّبة للعناية بالبشرة / قهوة / مجوهرات / إعلانات تطبيقات",
+      "حركة / رومانسية / تشويق / خيال علمي / رسوم متحركة",
+      "تجارب شخصية / طعام / لياقة / مقابلات",
+      "شخصيات / ملابس / حوار / مشاهد جماعية",
+      "تغيير الطقس / إزالة عناصر / تغيير الأسلوب / استكمال",
+      "ضغط الرمل / رقائق النحاس / قطرات الماء / تلوين رخامي",
+      "أثاث ينفتح / أفنية / مقاطع عرضية للمنازل",
+      "عبّارات في أكواب الشاي / مطر داخل الأدراج / أقمار ورقية",
+      "حركة التنانير / عباءات / إسقاطات على الياقات / خطوات رقص"
+    ],
+    "brand_links": [
+      "خامات المنتجات",
+      "حوار الشخصيات",
+      "تصاميم متحركة"
+    ],
+    "category_names": [
+      "المنتجات والإعلانات",
+      "السرد السينمائي",
+      "التواصل الاجتماعي والحياة اليومية",
+      "الشخصيات والحوار",
+      "التحولات البصرية والاستكمال",
+      "الخامات والأصوات المريحة",
+      "المساحات والعمارة",
+      "المصغّرات والسريالية",
+      "الأزياء والأداء"
+    ],
+    "brand_label": "أنشئ باستخدام SeaImagine",
+    "total_label": "جميع المطالبات"
+  },
+  "id-ID": {
+    "scenes_label": "Adegan",
+    "modes_label": "Mode",
+    "examples_label": "Contoh",
+    "index_label": "Indeks prompt lengkap",
+    "source_label": "Sumber",
+    "brand_title": "Wujudkan adegan pilihan Anda di SeaImagine",
+    "brand_intro": "Pilih video produk botol kaca, dialog di pelabuhan, atau kartu pos animasi di atas, lalu gunakan gambar dan prompt lengkapnya di Grok Imagine 1.5 pada SeaImagine. Eksplorasi bahan dalam adegan produk, akting dalam dialog, dan komposisi dalam animasi grafis.",
+    "brand_caption": "Antarmuka asli: prompt botol kaca sudah diisi, 720p · 5 dtk · 16:9. Gambar awal belum diunggah; belum ada video yang dibuat.",
+    "brand_cta": "Buat adegan ini dengan SeaImagine",
+    "mode_names": {
+      "text": "Teks ke video",
+      "image": "Gambar ke video",
+      "reference": "Referensi ke video",
+      "edit": "Penyuntingan video",
+      "extension": "Perpanjangan video"
+    },
+    "scene_summaries": [
+      "Makro produk perawatan kulit / kopi / perhiasan / iklan aplikasi",
+      "Aksi / romansa / ketegangan / fiksi ilmiah / animasi",
+      "Ulasan pengalaman / makanan / kebugaran / wawancara",
+      "Karakter / pakaian / dialog / adegan kelompok",
+      "Perubahan cuaca / penghapusan objek / perubahan gaya / kelanjutan",
+      "Pasir ditekan / lembaran tembaga / tetesan air / marbling",
+      "Furnitur yang terbuka / halaman / penampang rumah",
+      "Feri dalam cangkir / hujan dalam laci / bulan kertas",
+      "Gerak rok / jubah / proyeksi pada kerah / langkah tari"
+    ],
+    "brand_links": [
+      "Bahan produk",
+      "Dialog karakter",
+      "Tata letak animasi"
+    ],
+    "category_names": [
+      "Produk dan iklan",
+      "Cerita sinematik",
+      "Media sosial dan keseharian",
+      "Karakter dan dialog",
+      "Transformasi visual dan kelanjutan",
+      "Bahan dan suara yang memuaskan",
+      "Ruang dan arsitektur",
+      "Miniatur dan surealisme",
+      "Mode dan pertunjukan"
+    ],
+    "brand_label": "Berkreasi dengan SeaImagine",
+    "total_label": "Semua prompt"
+  },
+  "th-TH": {
+    "scenes_label": "ฉาก",
+    "modes_label": "โหมด",
+    "examples_label": "ตัวอย่าง",
+    "index_label": "ดัชนีพรอมป์ต์ทั้งหมด",
+    "source_label": "แหล่งที่มา",
+    "brand_title": "นำช็อตที่เลือกไปสร้างต่อใน SeaImagine",
+    "brand_intro": "เลือกวิดีโอสินค้าขวดแก้ว บทสนทนาที่ท่าเรือ หรือโปสการ์ดเคลื่อนไหวจากด้านบน แล้วนำภาพและพรอมป์ต์ฉบับเต็มไปใช้กับ Grok Imagine 1.5 บน SeaImagine ลองเน้นพื้นผิววัสดุในช็อตสินค้า การแสดงในบทสนทนา และองค์ประกอบภาพในกราฟิกเคลื่อนไหว",
+    "brand_caption": "หน้าจอจริง: ใส่พรอมป์ต์ขวดแก้วแล้ว ตั้งค่า 720p · 5 วินาที · 16:9 ยังไม่ได้อัปโหลดภาพเริ่มต้นและยังไม่ได้สร้างวิดีโอ",
+    "brand_cta": "สร้างช็อตนี้ด้วย SeaImagine",
+    "mode_names": {
+      "text": "ข้อความเป็นวิดีโอ",
+      "image": "ภาพเป็นวิดีโอ",
+      "reference": "ภาพอ้างอิงเป็นวิดีโอ",
+      "edit": "แก้ไขวิดีโอ",
+      "extension": "ต่อความยาววิดีโอ"
+    },
+    "scene_summaries": [
+      "ภาพมาโครสกินแคร์ / กาแฟ / เครื่องประดับ / โฆษณาแอป",
+      "แอ็กชัน / โรแมนติก / ระทึกขวัญ / ไซไฟ / แอนิเมชัน",
+      "รีวิวประสบการณ์ / อาหาร / ฟิตเนส / สัมภาษณ์",
+      "ตัวละคร / เสื้อผ้า / บทสนทนา / ฉากกลุ่ม",
+      "เปลี่ยนสภาพอากาศ / ลบสิ่งรบกวน / เปลี่ยนสไตล์ / ต่อฉาก",
+      "อัดทราย / แผ่นทองแดง / หยดน้ำ / ลายหินอ่อน",
+      "เฟอร์นิเจอร์คลี่ออก / ลานบ้าน / ภาพตัดบ้าน",
+      "เรือข้ามฟากในถ้วยชา / ฝนในลิ้นชัก / ดวงจันทร์กระดาษ",
+      "ชายกระโปรง / ผ้าคลุม / ภาพฉายบนปกเสื้อ / ท่าเต้น"
+    ],
+    "brand_links": [
+      "พื้นผิวสินค้า",
+      "บทสนทนาตัวละคร",
+      "เลย์เอาต์เคลื่อนไหว"
+    ],
+    "category_names": [
+      "สินค้าและโฆษณา",
+      "การเล่าเรื่องแบบภาพยนตร์",
+      "โซเชียลและชีวิตประจำวัน",
+      "ตัวละครและบทสนทนา",
+      "การแปลงภาพและต่อฉาก",
+      "วัสดุและเสียงที่ชวนผ่อนคลาย",
+      "พื้นที่และสถาปัตยกรรม",
+      "โลกจิ๋วและเหนือจริง",
+      "แฟชั่นและการแสดง"
+    ],
+    "brand_label": "สร้างด้วย SeaImagine",
+    "total_label": "พรอมป์ต์ทั้งหมด"
+  },
+  "vi-VN": {
+    "scenes_label": "Cảnh",
+    "modes_label": "Chế độ",
+    "examples_label": "Ví dụ",
+    "index_label": "Mục lục toàn bộ câu lệnh",
+    "source_label": "Nguồn",
+    "brand_title": "Đưa cảnh bạn chọn vào SeaImagine",
+    "brand_intro": "Chọn video sản phẩm chai thủy tinh, hội thoại ở bến cảng hoặc bưu thiếp chuyển động ở trên, rồi dùng hình ảnh và câu lệnh đầy đủ trong Grok Imagine 1.5 trên SeaImagine. Khám phá chất liệu ở cảnh sản phẩm, diễn xuất trong hội thoại và bố cục trong đồ họa chuyển động.",
+    "brand_caption": "Giao diện thực tế: đã nhập câu lệnh chai thủy tinh, 720p · 5 giây · 16:9. Chưa tải ảnh mở đầu lên và chưa tạo video.",
+    "brand_cta": "Tạo cảnh này bằng SeaImagine",
+    "mode_names": {
+      "text": "Văn bản thành video",
+      "image": "Ảnh thành video",
+      "reference": "Ảnh tham chiếu thành video",
+      "edit": "Chỉnh sửa video",
+      "extension": "Kéo dài video"
+    },
+    "scene_summaries": [
+      "Cận cảnh mỹ phẩm / cà phê / trang sức / quảng cáo ứng dụng",
+      "Hành động / lãng mạn / hồi hộp / khoa học viễn tưởng / hoạt hình",
+      "Chia sẻ trải nghiệm / ẩm thực / thể hình / phỏng vấn",
+      "Nhân vật / trang phục / hội thoại / cảnh đông người",
+      "Đổi thời tiết / xóa chi tiết / đổi phong cách / nối tiếp",
+      "Ép cát / lá đồng / giọt nước / tạo vân cẩm thạch",
+      "Nội thất mở ra / sân trong / mặt cắt ngôi nhà",
+      "Phà trong tách trà / mưa trong ngăn kéo / mặt trăng giấy",
+      "Tà váy / áo choàng / hình chiếu trên cổ áo / bước nhảy"
+    ],
+    "brand_links": [
+      "Chất liệu sản phẩm",
+      "Hội thoại nhân vật",
+      "Bố cục chuyển động"
+    ],
+    "category_names": [
+      "Sản phẩm và quảng cáo",
+      "Kể chuyện điện ảnh",
+      "Mạng xã hội và đời sống",
+      "Nhân vật và hội thoại",
+      "Biến đổi hình ảnh và nối tiếp",
+      "Chất liệu và âm thanh thư giãn",
+      "Không gian và kiến trúc",
+      "Thế giới thu nhỏ và siêu thực",
+      "Thời trang và trình diễn"
+    ],
+    "brand_label": "Sáng tạo với SeaImagine",
+    "total_label": "Tất cả câu lệnh"
+  }
+}

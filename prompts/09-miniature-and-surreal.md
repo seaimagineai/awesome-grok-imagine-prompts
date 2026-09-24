@@ -1,8 +1,8 @@
-# Grok Imagine 1.5 Prompts for Miniature Worlds & Everyday Surrealism
+# Grok Imagine 1.5 Prompts — Miniature & surreal worlds
+
+[All categories](../docs/PROMPT_INDEX.md) · [Homepage](../README.md) · [← Spaces & architecture](08-spaces-and-transformations.md) · [Fashion & performance →](10-fashion-and-performance.md)
 
 > Original prompt concepts, not generation-tested. Social category references: [inspiration and attribution](../docs/SOCIAL_INSPIRATION.md#miniature-and-surreal).
-
-[Main collection](../README.md)
 
 ## Index
 

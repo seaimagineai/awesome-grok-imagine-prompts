@@ -18,31 +18,21 @@ Adapted from [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), maintain
 
 ## Category index
 
-| Goal | Illustrated cases |
-| --- | --- |
-| Product ads | [Sea-glass bottle — a controlled motion comparison](#case-sea-glass-bottle) · [Citrus Halo — premium fragrance product film](#case-citrus-halo) |
-| Cinematic action | [Blue Route — rain-market courier tracking shot](#case-blue-route) |
-| Fantasy stories | [The Honey Loaf — miniature bakery story](#case-honey-loaf) |
-| Character dialogue | [Harbor reunion — one emotional beat](#case-harbor-reunion) |
-| Lifestyle videos | [First Sip — authentic café UGC review](#case-first-sip) |
-| Travel films | [Salt Line at Dawn — travel documentary](#case-salt-line) |
-| Animated layouts | [Coastal postcard — animate a planned image](#case-coastal-postcard) |
+[Browse more prompts (English) · 62](docs/PROMPT_INDEX.md)
 
-[Illustrated examples](#featured-prompts) · [Official and community work](#learn-from-official-and-community-examples) · [Settings and operation reference](#writing-guide)
+| Category | Scenes | Modes | Examples |
+| --- | --- | --- | --- |
+| [Products & advertising · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Skincare close-ups / coffee / jewelry / app ads | Text to video / Image to video / Reference to video | [Sea-glass bottle — a controlled motion comparison](#case-sea-glass-bottle) · [Citrus Halo — premium fragrance product film](#case-citrus-halo) |
+| [Cinematic storytelling · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Action / romance / suspense / science fiction / animation | Text to video / Image to video / Video extension | [Blue Route — rain-market courier tracking shot](#case-blue-route) · [Coastal postcard — animate a planned image](#case-coastal-postcard) |
+| [Social & everyday life · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Personal reviews / food / fitness / interviews | Text to video / Image to video / Reference to video | [First Sip — authentic café UGC review](#case-first-sip) · [Salt Line at Dawn — travel documentary](#case-salt-line) |
+| [Characters & dialogue · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Characters / clothing / dialogue / ensemble scenes | Reference to video / Image to video | [Harbor reunion — one emotional beat](#case-harbor-reunion) |
+| [Visual transformations & continuation · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Weather changes / cleanup / restyling / continuation | Video editing / Video extension | — |
+| [Satisfying materials & sounds · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sand pressing / copper foil / water droplets / marbling | Text to video | — |
+| [Spaces & architecture · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Unfolding furniture / courtyards / house cutaways | Text to video | — |
+| [Miniature & surreal worlds · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Teacup ferries / rainy drawers / paper moons | Text to video / Image to video | [The Honey Loaf — miniature bakery story](#case-honey-loaf) |
+| [Fashion & performance · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Flowing skirts / capes / collar projections / dance steps | Text to video | — |
 
-**[Browse more prompts (English)](docs/PROMPT_INDEX.md) · 54**
-
-| Category | Count |
-| --- | --- |
-| [Ads and products](prompts/01-ads-and-products.md) | 6 |
-| [Cinematic stories](prompts/02-cinematic-storytelling.md) | 6 |
-| [Social and lifestyle](prompts/03-social-ugc.md) | 6 |
-| [Characters and references](prompts/04-characters-and-references.md) | 6 |
-| [Editing and extension](prompts/05-editing-and-extension.md) | 6 |
-| [Satisfying materials and ASMR](prompts/07-satisfying-materials.md) | 6 |
-| [Spaces and transformations](prompts/08-spaces-and-transformations.md) | 6 |
-| [Miniature and surreal scenes](prompts/09-miniature-and-surreal.md) | 6 |
-| [Fashion and performance](prompts/10-fashion-and-performance.md) | 6 |
+[Illustrated examples](#featured-prompts) · [Create with SeaImagine](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -314,40 +304,23 @@ camera jump, or artificial sparkle explosion.
 
 [Back to category index](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## Take your chosen shot to SeaImagine
+
+Choose the glass-bottle product shot, harbor dialogue, or animated postcard above, then bring its image and full prompt to Grok Imagine 1.5 on SeaImagine. Explore materials in product shots, performance in dialogue, and composition in motion graphics.
+
+[Product materials](#case-sea-glass-bottle) · [Character dialogue](#case-harbor-reunion) · [Animated layouts](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/model/grok-imagine-1-5/)
+
+Actual interface: the glass-bottle prompt is entered at 720p · 5s · 16:9. The start image has not been uploaded; no video has been generated.
+
+**[Create this shot with SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## Learn from official and community work
-
-The source posts identify the creator and model version. Open the originals to watch; the practical notes below describe methods, not a claim that we reproduced the videos.
-
-### [Official 1.5 Preview sequence — Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![Official 1.5 Preview sequence — Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-Learn to plan a trailer as separate short shots. Keep Preview footage distinct from the released 1.5 model.
-
-### [Finished short — JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-The author reports a 2.5-minute film and discusses the limits of generated acting. Practice one quiet exchange first; build longer stories from edited shots.
-
-### [Image planning before animation — GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![Image planning before animation — GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-The creator reports making a collage with ChatGPT Images 2.0, then animating it with Grok Imagine Video 1.5. Our postcard exercise keeps panel borders fixed and gives each panel just one motion.
-
-### [Controlled comparison — JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-Use one source image and comparable settings. Check geometry, motion and audio rather than copying a historical ranking. Our bottle exercise isolates those variables.
-
-<details>
-<summary>Frame observations and verification limits</summary>
-
-On September 24, 2026, we sampled the original X players: the official clip at about 3.6s (helmet and army), 19.8s (face close-up), and 34.6s (burning waterfront city); GENEL at about 0.05s (seaside railing), 4.9s (railway crossing), and 12s (backlit hand). Study the official clip’s changes in shot size and GENEL’s consistent coastal light across separate shots. Our fixed-panel postcard is a different exercise. These are sampled frames, not full motion or audio tests.
-
-</details>
-
-[Sources and viewing notes (English)](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -385,9 +358,7 @@ On September 24, 2026, we sampled the original X players: the official clip at a
 
 [Writing reference](docs/guides/en-US.md) · [Settings and operation reference](docs/workflows/en-US.md) · [SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[Sources](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

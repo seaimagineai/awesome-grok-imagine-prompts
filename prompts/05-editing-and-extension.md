@@ -1,8 +1,8 @@
-# Grok Imagine 1.5 Prompts for Video Editing, Extension & Transformations
+# Grok Imagine 1.5 Prompts — Visual transformations & continuation
+
+[All categories](../docs/PROMPT_INDEX.md) · [Homepage](../README.md) · [← Characters & dialogue](04-characters-and-references.md) · [Satisfying materials & sounds →](07-satisfying-materials.md)
 
 > These source recipes preserve API-oriented timings and resolutions. The inspected SeaImagine interface offers 5/10/15 seconds and 480p/720p. Choose an offered setting and rewrite the action times; editing, extension and references require a separately supported workflow. See the [actual interface guide](../docs/SEAIMAGINE.md).
-
-[← Characters & references](04-characters-and-references.md) · [Main collection](../README.md)
 
 > **Model / provider note:** Reference, editing and extension controls are not assumed to be available on SeaImagine. Official editing and extension examples use `grok-imagine-video`, not `grok-imagine-video-1.5`. See [workflow boundaries](../docs/OFFICIAL.md).
 

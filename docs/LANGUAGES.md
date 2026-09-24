@@ -2,7 +2,7 @@
 
 [← Main collection](../README.md)
 
-All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. The homepage provides nine category links, a complete 62-prompt index, and eight large starting images directly beside their complete local-language prompts and TXT exports. The separate preview grid has been removed. Browser instructions live in separate localized reference pages.
+All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. The homepage provides nine category links, a complete 62-prompt index, and eight large starting images directly beside their complete local-language prompts and TXT exports. The separate preview grid has been removed. Featured cases belong to the same nine categories as the extended recipes; the complete index shows mode, duration, ratio, resolution and TXT links. Browser instructions live in separate localized reference pages.
 
 The images are concept starting frames, not verified Grok video results. Translation completeness does not establish generation quality or equivalent results across languages.
 
@@ -10,7 +10,7 @@ The language set matches the fifteen links observed on the [SeaImagine model pag
 
 ## Language directory
 
-Every homepage contains **9 category links + a complete 62-prompt index + 8 illustrated cases with TXT exports + 4 community sources**. The guides preserve the earlier writing advice and additional local exercises.
+Every homepage contains **one unified 9-category table + a complete 62-prompt index + 8 illustrated cases with TXT exports + an illustrated SeaImagine section**. The guides preserve the earlier writing advice and additional local exercises.
 
 | Language | Eight-case homepage | Further reading |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ The three new exercises use 720p and durations of 10/5/5 seconds. The five inher
 
 The 54 category recipes (30 inherited plus 24 new originals) and advanced English documentation remain in English. All fifteen homepage category labels and recipe counts are localized. The 24 newest text-to-video prompts are untested original briefs based on documented social themes; see [research and attribution](SOCIAL_INSPIRATION.md). Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
 
-The four community notes do not imply full video or audio testing; see [viewing evidence](COMMUNITY.md).
+Community video recommendations have been removed from the homepages. Sources remain in [the evidence reference](COMMUNITY.md). The SeaImagine section pairs a real interface screenshot with links to the bottle, dialogue and postcard cases; the screenshot is not a generated result.
 
 ## Maintenance
 
@@ -90,7 +90,7 @@ Use familiar local terms for close-up, wide shot, push-in, pan, orbit, locked ca
 
 ## Contribution checklist for a new localization
 
-- [ ] The page contains all three complete illustrated prompts, all five browser steps and all four community explanations.
+- [ ] The page contains eight complete illustrated prompts, one unified category table, and the localized SeaImagine image and call to action. Workflow instructions and community sources remain linked as references.
 - [ ] Every prompt fits the current 2,000-character input limit.
 - [ ] Case identifiers, images, settings, source URLs and English master synchronization pass validation.
 - [ ] Dialogue fits within the specified duration.

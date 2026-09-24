@@ -14,31 +14,21 @@
 
 ## 분류 색인
 
-| 만들고 싶은 영상 | 이미지 예제 |
-| --- | --- |
-| 제품 광고 | [바다 유리병 — 조건을 통제하며 움직임 비교하기](#case-sea-glass-bottle) · [시트러스 헤일로 — 고급 향수 제품 영상](#case-citrus-halo) |
-| 영화 같은 액션 | [블루 루트 — 비 내리는 시장의 배달원 추적 숏](#case-blue-route) |
-| 판타지 이야기 | [허니 로프 — 미니어처 빵집 이야기](#case-honey-loaf) |
-| 인물 대화 | [항구에서의 재회 — 하나의 감정 변화에 집중하기](#case-harbor-reunion) |
-| 라이프스타일 영상 | [첫 모금 — 자연스러운 카페 체험 리뷰](#case-first-sip) |
-| 여행 영상 | [새벽의 염전 철도 — 여행 다큐멘터리](#case-salt-line) |
-| 움직이는 레이아웃 | [해안 엽서 — 구성을 정한 이미지를 움직이기](#case-coastal-postcard) |
+[더 많은 프롬프트 보기(영어) · 62](docs/PROMPT_INDEX.md)
 
-[이미지 예제](#featured-prompts) · [공식 및 커뮤니티 작품](#learn-from-official-and-community-examples) · [설정 및 조작 참고](#writing-guide)
+| 분류 | 장면 | 사용 모드 | 예시 |
+| --- | --- | --- | --- |
+| [제품과 광고 · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | 스킨케어 접사 / 커피 / 주얼리 / 앱 광고 | 텍스트로 영상 생성 / 이미지로 영상 생성 / 참조 이미지로 영상 생성 | [바다 유리병 — 조건을 통제하며 움직임 비교하기](#case-sea-glass-bottle) · [시트러스 헤일로 — 고급 향수 제품 영상](#case-citrus-halo) |
+| [영화적 스토리텔링 · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | 액션 / 로맨스 / 서스펜스 / SF / 애니메이션 | 텍스트로 영상 생성 / 이미지로 영상 생성 / 영상 연장 | [블루 루트 — 비 내리는 시장의 배달원 추적 숏](#case-blue-route) · [해안 엽서 — 구성을 정한 이미지를 움직이기](#case-coastal-postcard) |
+| [소셜 콘텐츠와 일상 · 8](docs/PROMPT_INDEX.md#03-social-ugc) | 체험 후기 / 음식 / 피트니스 / 인터뷰 | 텍스트로 영상 생성 / 이미지로 영상 생성 / 참조 이미지로 영상 생성 | [첫 모금 — 자연스러운 카페 체험 리뷰](#case-first-sip) · [새벽의 염전 철도 — 여행 다큐멘터리](#case-salt-line) |
+| [인물과 대화 · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | 인물 / 의상 / 대화 / 군상 | 참조 이미지로 영상 생성 / 이미지로 영상 생성 | [항구에서의 재회 — 하나의 감정 변화에 집중하기](#case-harbor-reunion) |
+| [시각적 변형과 이어 만들기 · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | 날씨 변경 / 불필요한 요소 제거 / 스타일 변경 / 이어 만들기 | 영상 편집 / 영상 연장 | — |
+| [만족감을 주는 재질과 소리 · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | 모래 누르기 / 동박 / 물방울 / 마블링 | 텍스트로 영상 생성 | — |
+| [공간과 건축 · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | 펼쳐지는 가구 / 안뜰 / 주택 단면 | 텍스트로 영상 생성 | — |
+| [미니어처와 초현실 · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | 찻잔 나룻배 / 서랍 속 빗속 풍경 / 종이 달 | 텍스트로 영상 생성 / 이미지로 영상 생성 | [허니 로프 — 미니어처 빵집 이야기](#case-honey-loaf) |
+| [패션과 퍼포먼스 · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | 치맛자락 / 망토 / 옷깃 투사 / 춤 동작 | 텍스트로 영상 생성 | — |
 
-**[더 많은 프롬프트 보기(영어)](docs/PROMPT_INDEX.md) · 54**
-
-| 분류 | 개수 |
-| --- | --- |
-| [광고와 제품](prompts/01-ads-and-products.md) | 6 |
-| [영화 같은 이야기](prompts/02-cinematic-storytelling.md) | 6 |
-| [소셜 및 라이프스타일](prompts/03-social-ugc.md) | 6 |
-| [인물과 참조 자료](prompts/04-characters-and-references.md) | 6 |
-| [편집과 길이 연장](prompts/05-editing-and-extension.md) | 6 |
-| [만족스러운 질감과 소리](prompts/07-satisfying-materials.md) | 6 |
-| [공간과 장면 전환](prompts/08-spaces-and-transformations.md) | 6 |
-| [미니어처와 초현실적 일상](prompts/09-miniature-and-surreal.md) | 6 |
-| [패션과 퍼포먼스](prompts/10-fashion-and-performance.md) | 6 |
+[이미지 예제](#featured-prompts) · [SeaImagine에서 만들기](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -265,40 +255,23 @@
 
 [분류 색인으로 돌아가기](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## 선택한 장면을 SeaImagine에서 만들어 보세요
+
+위의 유리병 제품 영상, 항구 대화, 움직이는 엽서 중 하나를 골라 이미지와 프롬프트 전문을 SeaImagine의 Grok Imagine 1.5에서 활용해 보세요. 제품 영상에서는 재질을, 인물 영상에서는 연기를, 레이아웃 애니메이션에서는 구도를 살펴볼 수 있습니다.
+
+[제품의 질감](#case-sea-glass-bottle) · [인물 대화](#case-harbor-reunion) · [레이아웃 애니메이션](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/ko/model/grok-imagine-1-5/)
+
+실제 화면: 유리병 프롬프트 입력 완료, 720p · 5초 · 16:9. 시작 이미지는 아직 업로드하지 않았으며 영상도 생성하지 않았습니다.
+
+**[SeaImagine으로 이 장면 만들기](https://seaimagine.com/ko/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## 공식 작품과 커뮤니티 작품에서 배우기
-
-출처 게시물에는 제작자와 모델 버전이 나와 있습니다. 원문을 열어 영상을 시청하세요. 아래 실용적인 설명은 제작 방법을 소개하며, 저희가 해당 영상을 재현했다는 뜻은 아닙니다.
-
-### [공식 1.5 Preview 영상 — Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![공식 1.5 Preview 영상 — Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-예고편을 각각의 짧은 숏으로 나눠 계획하는 방법을 배워보세요. Preview 영상과 정식 출시된 1.5 모델을 구분하세요.
-
-### [완성된 단편 — JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-제작자는 2.5분 길이의 영화를 만들었다고 밝히며 생성된 연기의 한계를 설명합니다. 먼저 조용한 대화 한 장면을 연습하고, 편집한 여러 숏으로 더 긴 이야기를 만드세요.
-
-### [움직이기 전에 이미지 구성하기 — GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![움직이기 전에 이미지 구성하기 — GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-제작자는 ChatGPT Images 2.0으로 콜라주를 만든 뒤 Grok Imagine Video 1.5로 움직였다고 설명합니다. 저희 엽서 연습에서는 칸의 테두리를 고정하고 칸마다 한 가지 움직임만 지정합니다.
-
-### [조건을 통제한 비교 — JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-하나의 원본 이미지와 비교 가능한 설정을 사용하세요. 과거 순위를 그대로 따르기보다 형태, 움직임, 소리를 확인하세요. 병 연습은 이러한 변수를 나누어 살펴보도록 구성했습니다.
-
-<details>
-<summary>프레임 관찰과 검증 범위</summary>
-
-2026년 9월 24일, X 원문 게시물의 플레이어에서 일부 프레임을 확인했습니다. 공식 영상은 약 3.6초(투구와 군대), 19.8초(얼굴 클로즈업), 34.6초(불타는 수변 도시), GENEL 영상은 약 0.05초(해변 난간), 4.9초(철도 건널목), 12초(역광 속 손) 지점입니다. 공식 영상이 피사체를 담는 크기를 어떻게 바꾸는지, GENEL이 서로 다른 숏에서 해안의 빛을 어떻게 일관되게 유지하는지 살펴보세요. 칸을 고정하는 저희 엽서 예제는 이와 다른 연습입니다. 일부 프레임만 확인했으며, 전체 움직임이나 오디오를 검증한 것은 아닙니다.
-
-</details>
-
-[출처 및 시청 기록(영어)](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -312,9 +285,7 @@
 
 [작성 참고](docs/guides/ko-KR.md) · [설정 및 조작 참고](docs/workflows/ko-KR.md) · [SeaImagine](https://seaimagine.com/ko/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[출처](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

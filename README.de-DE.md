@@ -14,31 +14,21 @@ Adaptiert aus der Sammlung von [Flaq AI](https://github.com/flaqai/awesome-grok-
 
 ## Kategorieindex
 
-| Ziel | Bebilderte Beispiele |
-| --- | --- |
-| Produktwerbung | [Flasche aus Meerglas: kontrollierte Bewegungen vergleichen](#case-sea-glass-bottle) · [Zitrus-Halo: hochwertiger Parfüm-Produktfilm](#case-citrus-halo) |
-| Filmische Action | [Blaue Route: Kamerafahrt mit einem Kurier im Regenmarkt](#case-blue-route) |
-| Fantasygeschichten | [Das Honigbrot: Geschichte einer Miniaturbäckerei](#case-honey-loaf) |
-| Dialoge zwischen Figuren | [Wiedersehen am Hafen: ein einzelner emotionaler Moment](#case-harbor-reunion) |
-| Lifestyle-Videos | [Der erste Schluck: authentische Café-Bewertung einer Creatorin](#case-first-sip) |
-| Reisefilme | [Salzbahn im Morgengrauen: Reisedokumentation](#case-salt-line) |
-| Animierte Layouts | [Küstenpostkarte: ein vorbereitetes Bild animieren](#case-coastal-postcard) |
+[Weitere Prompts ansehen (Englisch) · 62](docs/PROMPT_INDEX.md)
 
-[Bebilderte Beispiele](#featured-prompts) · [Offizielle Arbeiten und Community](#learn-from-official-and-community-examples) · [Referenz zu Einstellungen und Bedienung](#writing-guide)
+| Kategorie | Szenen | Modi | Beispiele |
+| --- | --- | --- | --- |
+| [Produkte und Werbung · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Hautpflege-Makros / Kaffee / Schmuck / App-Werbung | Text zu Video / Bild zu Video / Referenzen zu Video | [Flasche aus Meerglas: kontrollierte Bewegungen vergleichen](#case-sea-glass-bottle) · [Zitrus-Halo: hochwertiger Parfüm-Produktfilm](#case-citrus-halo) |
+| [Filmische Geschichten · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Action / Romantik / Spannung / Science-Fiction / Animation | Text zu Video / Bild zu Video / Videoverlängerung | [Blaue Route: Kamerafahrt mit einem Kurier im Regenmarkt](#case-blue-route) · [Küstenpostkarte: ein vorbereitetes Bild animieren](#case-coastal-postcard) |
+| [Social Media und Alltag · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Erfahrungsberichte / Essen / Fitness / Interviews | Text zu Video / Bild zu Video / Referenzen zu Video | [Der erste Schluck: authentische Café-Bewertung einer Creatorin](#case-first-sip) · [Salzbahn im Morgengrauen: Reisedokumentation](#case-salt-line) |
+| [Figuren und Dialoge · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Figuren / Kleidung / Dialoge / Gruppenszenen | Referenzen zu Video / Bild zu Video | [Wiedersehen am Hafen: ein einzelner emotionaler Moment](#case-harbor-reunion) |
+| [Visuelle Verwandlung und Fortsetzung · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Wetter ändern / Bereinigung / Stil ändern / Fortsetzung | Videobearbeitung / Videoverlängerung | — |
+| [Entspannende Materialien und Klänge · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sand pressen / Kupferfolie / Wassertropfen / Marmorierung | Text zu Video | — |
+| [Räume und Architektur · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Aufklappbare Möbel / Innenhöfe / Hausquerschnitte | Text zu Video | — |
+| [Miniaturen und surreale Welten · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Teetassenfähren / Regen in Schubladen / Papiermonde | Text zu Video / Bild zu Video | [Das Honigbrot: Geschichte einer Miniaturbäckerei](#case-honey-loaf) |
+| [Mode und Performance · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Schwingende Röcke / Umhänge / Kragenprojektionen / Tanzschritte | Text zu Video | — |
 
-**[Weitere Prompts ansehen (Englisch)](docs/PROMPT_INDEX.md) · 54**
-
-| Kategorie | Anzahl |
-| --- | --- |
-| [Werbung und Produkte](prompts/01-ads-and-products.md) | 6 |
-| [Filmische Geschichten](prompts/02-cinematic-storytelling.md) | 6 |
-| [Social Media und Lifestyle](prompts/03-social-ugc.md) | 6 |
-| [Figuren und Referenzen](prompts/04-characters-and-references.md) | 6 |
-| [Bearbeitung und Verlängerung](prompts/05-editing-and-extension.md) | 6 |
-| [Materialien und entspannende Klänge](prompts/07-satisfying-materials.md) | 6 |
-| [Räume und Verwandlungen](prompts/08-spaces-and-transformations.md) | 6 |
-| [Miniaturen und surreale Szenen](prompts/09-miniature-and-surreal.md) | 6 |
-| [Mode und Performance](prompts/10-fashion-and-performance.md) | 6 |
+[Bebilderte Beispiele](#featured-prompts) · [Mit SeaImagine erstellen](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -259,40 +249,23 @@ Kontinuität: Verändere weder Flaschenkontur, Verschlussfacetten, Flüssigkeits
 
 [Zurück zum Kategorieindex](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## Setze deine gewählte Einstellung mit SeaImagine um
+
+Wähle oben die Produktaufnahme der Glasflasche, den Dialog am Hafen oder die animierte Postkarte. Nutze das jeweilige Bild und den vollständigen Prompt in Grok Imagine 1.5 auf SeaImagine. Erkunde Materialien in Produktaufnahmen, Schauspiel im Dialog und Bildaufbau in grafischen Animationen.
+
+[Produktmaterialien](#case-sea-glass-bottle) · [Figurendialoge](#case-harbor-reunion) · [Animierte Layouts](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/de/model/grok-imagine-1-5/)
+
+Tatsächliche Oberfläche: Glasflaschen-Prompt eingegeben, 720p · 5 s · 16:9. Das Startbild wurde noch nicht hochgeladen; es wurde kein Video generiert.
+
+**[Diese Einstellung mit SeaImagine erstellen](https://seaimagine.com/de/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## Von offiziellen Beispielen und der Community lernen
-
-Die Originalbeiträge nennen die Urheber und die Modellversion. Öffne die Originale, um sie anzusehen. Die Hinweise unten beschreiben Vorgehensweisen; sie behaupten nicht, dass wir die Videos nachgestellt haben.
-
-### [Offizielle 1.5-Preview-Sequenz: Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![Offizielle 1.5-Preview-Sequenz: Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-Lerne, einen Trailer als einzelne kurze Einstellungen zu planen. Unterscheide Preview-Material von Ergebnissen des veröffentlichten Modells 1.5.
-
-### [Fertiger Kurzfilm: JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-Der Autor berichtet von einem 2,5-minütigen Film und spricht über Grenzen generierten Schauspiels. Übe zunächst einen ruhigen Wortwechsel und baue längere Geschichten aus geschnittenen Einstellungen auf.
-
-### [Bildplanung vor der Animation: GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![Bildplanung vor der Animation: GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-Der Urheber berichtet, eine Collage mit ChatGPT Images 2.0 erstellt und anschließend mit Grok Imagine Video 1.5 animiert zu haben. Bei unserer Postkartenübung bleiben die Ränder fest; jedes Feld erhält nur eine Bewegung.
-
-### [Kontrollierter Vergleich: JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-Verwende dasselbe Ausgangsbild und vergleichbare Einstellungen. Prüfe Geometrie, Bewegung und Ton, statt eine alte Rangliste zu übernehmen. Unsere Flaschenübung betrachtet diese Variablen gezielt.
-
-<details>
-<summary>Bildbeobachtungen und Grenzen der Überprüfung</summary>
-
-Am 24. September 2026 haben wir einzelne Bilder in den ursprünglichen X-Playern geprüft: beim offiziellen Clip etwa bei 3,6 s (Helm und Armee), 19,8 s (Gesicht in Nahaufnahme) und 34,6 s (brennende Stadt am Wasser); bei GENEL etwa bei 0,05 s (Geländer am Meer), 4,9 s (Bahnübergang) und 12 s (Hand im Gegenlicht). Achte beim offiziellen Clip auf wechselnde Einstellungsgrößen und bei GENEL auf das gleichbleibende Küstenlicht in getrennten Einstellungen. Unsere Postkarte mit festen Bildfeldern ist eine andere Übung. Das sind Stichproben einzelner Bilder, keine vollständigen Bewegungs- oder Audiotests.
-
-</details>
-
-[Quellen und Hinweise zur Sichtung (Englisch)](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -306,9 +279,7 @@ Am 24. September 2026 haben wir einzelne Bilder in den ursprünglichen X-Playern
 
 [Referenz zum Schreiben](docs/guides/de-DE.md) · [Referenz zu Einstellungen und Bedienung](docs/workflows/de-DE.md) · [SeaImagine](https://seaimagine.com/de/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[Quellen](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

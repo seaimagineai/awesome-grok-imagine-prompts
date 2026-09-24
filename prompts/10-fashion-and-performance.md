@@ -1,8 +1,8 @@
-# Grok Imagine 1.5 Prompts for Fashion, Fabric & Movement
+# Grok Imagine 1.5 Prompts — Fashion & performance
+
+[All categories](../docs/PROMPT_INDEX.md) · [Homepage](../README.md) · [← Miniature & surreal worlds](09-miniature-and-surreal.md)
 
 > Original prompt concepts, not generation-tested. Social category references: [inspiration and attribution](../docs/SOCIAL_INSPIRATION.md#fashion-and-performance).
-
-[Main collection](../README.md)
 
 ## Index
 

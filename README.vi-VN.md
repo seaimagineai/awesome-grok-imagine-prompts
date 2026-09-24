@@ -14,31 +14,21 @@ Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), d
 
 ## Mục lục danh mục
 
-| Mục tiêu | Ví dụ có hình |
-| --- | --- |
-| Quảng cáo sản phẩm | [Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](#case-sea-glass-bottle) · [Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](#case-citrus-halo) |
-| Hành động điện ảnh | [Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](#case-blue-route) |
-| Truyện kỳ ảo | [Ổ bánh mật ong — câu chuyện tiệm bánh tí hon](#case-honey-loaf) |
-| Đối thoại nhân vật | [Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](#case-harbor-reunion) |
-| Video phong cách sống | [Ngụm đầu tiên — đánh giá quán cà phê tự nhiên](#case-first-sip) |
-| Phim du lịch | [Tuyến đường muối lúc bình minh — phim tài liệu du lịch](#case-salt-line) |
-| Bố cục chuyển động | [Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục](#case-coastal-postcard) |
+[Xem thêm câu lệnh (tiếng Anh) · 62](docs/PROMPT_INDEX.md)
 
-[Ví dụ có hình](#featured-prompts) · [Tác phẩm chính thức và cộng đồng](#learn-from-official-and-community-examples) · [Tài liệu tham khảo về cài đặt và thao tác](#writing-guide)
+| Danh mục | Cảnh | Chế độ | Ví dụ |
+| --- | --- | --- | --- |
+| [Sản phẩm và quảng cáo · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Cận cảnh mỹ phẩm / cà phê / trang sức / quảng cáo ứng dụng | Văn bản thành video / Ảnh thành video / Ảnh tham chiếu thành video | [Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](#case-sea-glass-bottle) · [Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](#case-citrus-halo) |
+| [Kể chuyện điện ảnh · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Hành động / lãng mạn / hồi hộp / khoa học viễn tưởng / hoạt hình | Văn bản thành video / Ảnh thành video / Kéo dài video | [Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](#case-blue-route) · [Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục](#case-coastal-postcard) |
+| [Mạng xã hội và đời sống · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Chia sẻ trải nghiệm / ẩm thực / thể hình / phỏng vấn | Văn bản thành video / Ảnh thành video / Ảnh tham chiếu thành video | [Ngụm đầu tiên — đánh giá quán cà phê tự nhiên](#case-first-sip) · [Tuyến đường muối lúc bình minh — phim tài liệu du lịch](#case-salt-line) |
+| [Nhân vật và hội thoại · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Nhân vật / trang phục / hội thoại / cảnh đông người | Ảnh tham chiếu thành video / Ảnh thành video | [Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](#case-harbor-reunion) |
+| [Biến đổi hình ảnh và nối tiếp · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Đổi thời tiết / xóa chi tiết / đổi phong cách / nối tiếp | Chỉnh sửa video / Kéo dài video | — |
+| [Chất liệu và âm thanh thư giãn · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Ép cát / lá đồng / giọt nước / tạo vân cẩm thạch | Văn bản thành video | — |
+| [Không gian và kiến trúc · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Nội thất mở ra / sân trong / mặt cắt ngôi nhà | Văn bản thành video | — |
+| [Thế giới thu nhỏ và siêu thực · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Phà trong tách trà / mưa trong ngăn kéo / mặt trăng giấy | Văn bản thành video / Ảnh thành video | [Ổ bánh mật ong — câu chuyện tiệm bánh tí hon](#case-honey-loaf) |
+| [Thời trang và trình diễn · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Tà váy / áo choàng / hình chiếu trên cổ áo / bước nhảy | Văn bản thành video | — |
 
-**[Xem thêm câu lệnh (tiếng Anh)](docs/PROMPT_INDEX.md) · 54**
-
-| Danh mục | Số lượng |
-| --- | --- |
-| [Quảng cáo và sản phẩm](prompts/01-ads-and-products.md) | 6 |
-| [Câu chuyện điện ảnh](prompts/02-cinematic-storytelling.md) | 6 |
-| [Mạng xã hội và phong cách sống](prompts/03-social-ugc.md) | 6 |
-| [Nhân vật và tư liệu tham chiếu](prompts/04-characters-and-references.md) | 6 |
-| [Chỉnh sửa và kéo dài](prompts/05-editing-and-extension.md) | 6 |
-| [Chất liệu và âm thanh thư giãn](prompts/07-satisfying-materials.md) | 6 |
-| [Không gian và biến đổi cảnh](prompts/08-spaces-and-transformations.md) | 6 |
-| [Thế giới thu nhỏ và siêu thực](prompts/09-miniature-and-surreal.md) | 6 |
-| [Thời trang và biểu diễn](prompts/10-fashion-and-performance.md) | 6 |
+[Ví dụ có hình](#featured-prompts) · [Sáng tạo với SeaImagine](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -265,40 +255,23 @@ Khóa tính liên tục: không đổi đường bao chai, các mặt nắp, m�
 
 [Quay lại mục lục danh mục](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## Đưa cảnh bạn chọn vào SeaImagine
+
+Chọn video sản phẩm chai thủy tinh, hội thoại ở bến cảng hoặc bưu thiếp chuyển động ở trên, rồi dùng hình ảnh và câu lệnh đầy đủ trong Grok Imagine 1.5 trên SeaImagine. Khám phá chất liệu ở cảnh sản phẩm, diễn xuất trong hội thoại và bố cục trong đồ họa chuyển động.
+
+[Chất liệu sản phẩm](#case-sea-glass-bottle) · [Hội thoại nhân vật](#case-harbor-reunion) · [Bố cục chuyển động](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/vi/model/grok-imagine-1-5/)
+
+Giao diện thực tế: đã nhập câu lệnh chai thủy tinh, 720p · 5 giây · 16:9. Chưa tải ảnh mở đầu lên và chưa tạo video.
+
+**[Tạo cảnh này bằng SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## Học từ tác phẩm chính thức và cộng đồng
-
-Các bài đăng nguồn ghi rõ người sáng tạo và phiên bản mô hình. Hãy mở bài gốc để xem video. Ghi chú thực hành bên dưới mô tả phương pháp, không có nghĩa là chúng tôi đã tái tạo được các video đó.
-
-### [Chuỗi cảnh chính thức 1.5 Preview — Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![Chuỗi cảnh chính thức 1.5 Preview — Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-Học cách lên kế hoạch cho trailer bằng các cảnh quay ngắn riêng biệt. Phân biệt tư liệu Preview với mô hình 1.5 đã phát hành.
-
-### [Phim ngắn đã hoàn thành — JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-Tác giả cho biết đã làm một phim dài 2,5 phút và thảo luận về giới hạn diễn xuất do mô hình tạo ra. Trước hết hãy tập một cuộc trao đổi nhẹ nhàng; ghép các cảnh đã biên tập để xây dựng câu chuyện dài hơn.
-
-### [Lên bố cục ảnh trước khi tạo chuyển động — GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![Lên bố cục ảnh trước khi tạo chuyển động — GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-Người sáng tạo cho biết đã làm ảnh ghép bằng ChatGPT Images 2.0 rồi tạo chuyển động bằng Grok Imagine Video 1.5. Bài tập bưu thiếp của chúng tôi cố định đường viền và chỉ giao một chuyển động cho mỗi ô.
-
-### [So sánh có kiểm soát — JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-Dùng cùng một ảnh nguồn và các thiết lập có thể so sánh. Kiểm tra hình dạng, chuyển động và âm thanh thay vì sao chép bảng xếp hạng cũ. Bài tập chai của chúng tôi tách riêng các biến này để kiểm tra.
-
-<details>
-<summary>Quan sát khung hình và giới hạn kiểm chứng</summary>
-
-Ngày 24 tháng 9 năm 2026, chúng tôi xem một số khung hình bằng trình phát trong bài đăng X gốc: clip chính thức ở khoảng 3,6 giây (mũ giáp và quân đội), 19,8 giây (cận cảnh khuôn mặt) và 34,6 giây (thành phố ven mặt nước đang cháy); clip GENEL ở khoảng 0,05 giây (lan can bên biển), 4,9 giây (đường ngang qua đường sắt) và 12 giây (bàn tay ngược sáng). Hãy học cách clip chính thức thay đổi cỡ cảnh và cách GENEL giữ ánh sáng ven biển nhất quán giữa các cảnh quay riêng biệt. Bưu thiếp với các ô cố định của chúng tôi là một bài tập khác. Đây chỉ là những khung hình được lấy mẫu, không phải kiểm tra đầy đủ chuyển động hoặc âm thanh.
-
-</details>
-
-[Nguồn và ghi chú xem video (tiếng Anh)](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -312,9 +285,7 @@ Ngày 24 tháng 9 năm 2026, chúng tôi xem một số khung hình bằng trìn
 
 [Tham khảo cách viết](docs/guides/vi-VN.md) · [Tài liệu tham khảo về cài đặt và thao tác](docs/workflows/vi-VN.md) · [SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[Nguồn](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

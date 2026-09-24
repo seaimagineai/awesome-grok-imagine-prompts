@@ -30,4 +30,4 @@ The June X launch post identifies **1.5 Preview**. The [official release article
 
 The original posts above do not provide complete reproducible prompts in the inspected text. We do not reconstruct their exact wording or claim identical results. [Three SeaImagine exercises](../prompts/06-community-exercises.md) teach a related workflow with new scenes: a harbor reunion, a coastal postcard and a controlled product test. They are new practice briefs, not the creators' prompts or tested reproductions.
 
-External thumbnails link to their original posts. Copyright stays with the respective creators; this repository's MIT license does not relicense their videos, images, voices or likenesses.
+The homepage no longer displays external video thumbnails; these source links remain for attribution. Copyright stays with the respective creators; this repository's MIT license does not relicense their videos, images, voices or likenesses.

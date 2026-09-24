@@ -1,8 +1,8 @@
-# Grok Imagine 1.5 Prompts for Social, UGC & Lifestyle Video
+# Grok Imagine 1.5 Prompts — Social & everyday life
+
+[All categories](../docs/PROMPT_INDEX.md) · [Homepage](../README.md) · [← Cinematic storytelling](02-cinematic-storytelling.md) · [Characters & dialogue →](04-characters-and-references.md)
 
 > These source recipes preserve API-oriented timings and resolutions. The inspected SeaImagine interface offers 5/10/15 seconds and 480p/720p. Choose an offered setting and rewrite the action times; editing, extension and references require a separately supported workflow. See the [actual interface guide](../docs/SEAIMAGINE.md).
-
-[← Cinematic storytelling](02-cinematic-storytelling.md) · [Main collection](../README.md) · [Next: Characters & references →](04-characters-and-references.md)
 
 The strongest UGC prompts preserve small imperfections: uneven handheld framing, real pauses, natural skin, contact sounds, and ordinary environments. “Authentic” should describe behavior, not lower image quality.
 

@@ -1,8 +1,8 @@
-# Grok Imagine 1.5 Prompts for Spaces & Transformations
+# Grok Imagine 1.5 Prompts — Spaces & architecture
+
+[All categories](../docs/PROMPT_INDEX.md) · [Homepage](../README.md) · [← Satisfying materials & sounds](07-satisfying-materials.md) · [Miniature & surreal worlds →](09-miniature-and-surreal.md)
 
 Original, untested video prompts inspired by [social-video miniature and spatial transformation formats](../docs/SOCIAL_INSPIRATION.md#spaces-and-transformations); these are newly written scenes, not copied social prompts or verified generation results.
-
-[← Back to the main collection](../README.md)
 
 ## Index
 

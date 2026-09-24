@@ -14,31 +14,21 @@
 
 ## 分類索引
 
-| 創作目標 | 圖文範例 |
-| --- | --- |
-| 產品廣告 | [海玻璃瓶——控制變因比較動態效果](#case-sea-glass-bottle) · [柑橘光環——精品香水產品短片](#case-citrus-halo) |
-| 電影感動作場面 | [藍色路線——雨中市場快遞員跟拍](#case-blue-route) |
-| 奇幻故事 | [蜂蜜麵包——微縮烘焙坊故事](#case-honey-loaf) |
-| 人物對白 | [港口重逢——只呈現一個情緒轉折](#case-harbor-reunion) |
-| 生活風格影片 | [第一口——自然的咖啡館體驗分享](#case-first-sip) |
-| 旅行短片 | [晨曦鹽田線——旅行紀錄片](#case-salt-line) |
-| 動態版面 | [海岸明信片——讓規劃好的圖片動起來](#case-coastal-postcard) |
+[瀏覽更多提示詞（英文） · 62](docs/PROMPT_INDEX.md)
 
-[圖文範例](#featured-prompts) · [官方與社群作品](#learn-from-official-and-community-examples) · [參數與操作參考](#writing-guide)
+| 分類 | 包含場景 | 適用模式 | 案例 |
+| --- | --- | --- | --- |
+| [產品與廣告 · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | 保養品微距 / 咖啡 / 珠寶 / 應用程式廣告 | 文字生成影片 / 圖片生成影片 / 參考圖生成影片 | [海玻璃瓶——控制變因比較動態效果](#case-sea-glass-bottle) · [柑橘光環——精品香水產品短片](#case-citrus-halo) |
+| [電影敘事 · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | 動作 / 愛情 / 懸疑 / 科幻 / 動畫 | 文字生成影片 / 圖片生成影片 / 影片延伸 | [藍色路線——雨中市場快遞員跟拍](#case-blue-route) · [海岸明信片——讓規劃好的圖片動起來](#case-coastal-postcard) |
+| [社群與生活 · 8](docs/PROMPT_INDEX.md#03-social-ugc) | 體驗分享 / 美食 / 健身 / 訪談 | 文字生成影片 / 圖片生成影片 / 參考圖生成影片 | [第一口——自然的咖啡館體驗分享](#case-first-sip) · [晨曦鹽田線——旅行紀錄片](#case-salt-line) |
+| [人物與對白 · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | 人物 / 服裝 / 對白 / 群像 | 參考圖生成影片 / 圖片生成影片 | [港口重逢——只呈現一個情緒轉折](#case-harbor-reunion) |
+| [視覺變換與延伸 · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | 天氣替換 / 清理 / 風格轉換 / 延伸 | 影片編輯 / 影片延伸 | — |
+| [療癒材質與聲音 · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | 壓沙 / 銅箔 / 水珠 / 拓印 | 文字生成影片 | — |
+| [空間與建築 · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | 家具展開 / 庭院 / 房屋剖面 | 文字生成影片 | — |
+| [微縮與超現實 · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | 茶杯渡輪 / 抽屜雨景 / 紙月亮 | 文字生成影片 / 圖片生成影片 | [蜂蜜麵包——微縮烘焙坊故事](#case-honey-loaf) |
+| [時尚與表演 · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | 裙襬 / 披風 / 衣領投影 / 舞步 | 文字生成影片 | — |
 
-**[瀏覽更多提示詞（英文）](docs/PROMPT_INDEX.md) · 54**
-
-| 分類 | 數量 |
-| --- | --- |
-| [廣告與產品](prompts/01-ads-and-products.md) | 6 |
-| [電影故事](prompts/02-cinematic-storytelling.md) | 6 |
-| [社群與生活風格](prompts/03-social-ugc.md) | 6 |
-| [人物與參考素材](prompts/04-characters-and-references.md) | 6 |
-| [編輯與延長影片](prompts/05-editing-and-extension.md) | 6 |
-| [療癒材質與微距聲音](prompts/07-satisfying-materials.md) | 6 |
-| [空間與場景變換](prompts/08-spaces-and-transformations.md) | 6 |
-| [微縮與超現實日常](prompts/09-miniature-and-surreal.md) | 6 |
-| [時尚造型與表演](prompts/10-fashion-and-performance.md) | 6 |
+[圖文範例](#featured-prompts) · [SeaImagine 創作入口](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -265,40 +255,23 @@
 
 [返回分類索引](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## 把選中的鏡頭，帶到 SeaImagine
+
+從前面的玻璃瓶產品短片、港口對白或動態明信片選一個，帶上對應圖片與完整提示詞，在 SeaImagine 的 Grok Imagine 1.5 頁面繼續創作。產品短片看材質，人物短片看表演，排版動畫看構圖。
+
+[產品質感](#case-sea-glass-bottle) · [人物對白](#case-harbor-reunion) · [排版動畫](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/tw/model/grok-imagine-1-5/)
+
+實際介面：已填入玻璃瓶提示詞，720p · 5s · 16:9；起始圖片尚待上傳，尚未生成。
+
+**[用 SeaImagine 創作這個鏡頭](https://seaimagine.com/tw/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## 學習官方與社群作品的做法
-
-來源貼文標示了創作者與模型版本。請開啟原始貼文觀看；以下實用建議介紹創作方法，不表示我們已經重現這些影片。
-
-### [官方 1.5 Preview 片段——Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![官方 1.5 Preview 片段——Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-學習將預告片拆成多個獨立短鏡頭來規劃。請區分 Preview 預覽版素材與已發布的 1.5 模型。
-
-### [完成的短片——JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-作者表示製作了一部 2.5 分鐘的短片，並討論生成式表演的限制。先練習一段平靜的交流，再透過剪輯多個鏡頭組成更長的故事。
-
-### [先規劃圖片，再製作動態——GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![先規劃圖片，再製作動態——GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-創作者表示先用 ChatGPT Images 2.0 製作拼貼圖，再用 Grok Imagine Video 1.5 生成動態。我們的明信片練習固定畫格邊框，並且每格只安排一個動作。
-
-### [控制變因的比較——JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-使用同一張原始圖片及可比較的設定。檢查幾何形狀、運動與聲音，不要直接沿用過去的排名。我們的玻璃瓶練習將這些變因分開檢查。
-
-<details>
-<summary>抽樣畫面觀察與驗證限制</summary>
-
-2026 年 9 月 24 日，我們在 X 原始貼文的播放器中抽樣查看了這些畫面：官方影片約 3.6 秒處（頭盔與軍隊）、19.8 秒處（臉部特寫）及 34.6 秒處（燃燒的濱水城市）；GENEL 影片約 0.05 秒處（海邊欄杆）、4.9 秒處（鐵路平交道）及 12 秒處（逆光中的手）。可以學習官方影片如何切換景別，以及 GENEL 如何在不同鏡頭之間維持一致的海岸光線。我們的固定畫格明信片是另一種練習。此次僅抽樣查看畫面，未完整測試動態效果或音訊。
-
-</details>
-
-[來源與觀看紀錄（英文）](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -312,9 +285,7 @@
 
 [撰寫參考](docs/guides/zh-TW.md) · [參數與操作參考](docs/workflows/zh-TW.md) · [SeaImagine](https://seaimagine.com/tw/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[來源](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

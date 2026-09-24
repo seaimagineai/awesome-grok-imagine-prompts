@@ -14,31 +14,21 @@
 
 ## カテゴリ索引
 
-| 作りたいもの | 画像付き作例 |
-| --- | --- |
-| 商品広告 | [シーグラスのボトル — 条件をそろえて動きを比較する](#case-sea-glass-bottle) · [シトラス・ヘイロー — 高級香水の商品映像](#case-citrus-halo) |
-| 映画のようなアクション | [ブルールート — 雨の市場を走る配達員の追跡ショット](#case-blue-route) |
-| ファンタジー | [ハニーローフ — ミニチュアのパン屋の物語](#case-honey-loaf) |
-| 人物の会話 | [港での再会 — 一つの感情の変化を描く](#case-harbor-reunion) |
-| ライフスタイル動画 | [最初のひと口 — 自然なカフェ体験レビュー](#case-first-sip) |
-| 旅行映像 | [夜明けの塩田線 — 旅行ドキュメンタリー](#case-salt-line) |
-| 動くレイアウト | [海辺のポストカード — 構成を決めた画像を動かす](#case-coastal-postcard) |
+[ほかのプロンプトを見る（英語） · 62](docs/PROMPT_INDEX.md)
 
-[画像付きの例](#featured-prompts) · [公式とコミュニティの作品](#learn-from-official-and-community-examples) · [設定と操作の参考資料](#writing-guide)
+| カテゴリ | シーン | 対応モード | 作例 |
+| --- | --- | --- | --- |
+| [商品・広告 · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | スキンケアの接写 / コーヒー / ジュエリー / アプリ広告 | テキストから動画 / 画像から動画 / 参照画像から動画 | [シーグラスのボトル — 条件をそろえて動きを比較する](#case-sea-glass-bottle) · [シトラス・ヘイロー — 高級香水の商品映像](#case-citrus-halo) |
+| [映画的な物語 · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | アクション / 恋愛 / サスペンス / SF / アニメーション | テキストから動画 / 画像から動画 / 動画延長 | [ブルールート — 雨の市場を走る配達員の追跡ショット](#case-blue-route) · [海辺のポストカード — 構成を決めた画像を動かす](#case-coastal-postcard) |
+| [SNS・日常 · 8](docs/PROMPT_INDEX.md#03-social-ugc) | 体験レビュー / グルメ / フィットネス / インタビュー | テキストから動画 / 画像から動画 / 参照画像から動画 | [最初のひと口 — 自然なカフェ体験レビュー](#case-first-sip) · [夜明けの塩田線 — 旅行ドキュメンタリー](#case-salt-line) |
+| [人物・会話 · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | 人物 / 衣装 / 会話 / 群像 | 参照画像から動画 / 画像から動画 | [港での再会 — 一つの感情の変化を描く](#case-harbor-reunion) |
+| [映像変換・続きの生成 · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | 天候変更 / 不要物除去 / 作風変更 / 続きの生成 | 動画編集 / 動画延長 | — |
+| [心地よい素材・音 · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | 砂のプレス / 銅箔 / 水滴 / マーブリング | テキストから動画 | — |
+| [空間・建築 · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | 展開する家具 / 中庭 / 家の断面 | テキストから動画 | — |
+| [ミニチュア・超現実 · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | ティーカップの渡し船 / 引き出しの雨景色 / 紙の月 | テキストから動画 / 画像から動画 | [ハニーローフ — ミニチュアのパン屋の物語](#case-honey-loaf) |
+| [ファッション・パフォーマンス · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | スカートの裾 / マント / 襟への投影 / ダンスステップ | テキストから動画 | — |
 
-**[ほかのプロンプトを見る（英語）](docs/PROMPT_INDEX.md) · 54**
-
-| カテゴリ | 件数 |
-| --- | --- |
-| [広告と商品](prompts/01-ads-and-products.md) | 6 |
-| [映画のような物語](prompts/02-cinematic-storytelling.md) | 6 |
-| [SNS とライフスタイル](prompts/03-social-ugc.md) | 6 |
-| [人物と参照素材](prompts/04-characters-and-references.md) | 6 |
-| [編集と延長](prompts/05-editing-and-extension.md) | 6 |
-| [質感と心地よい音](prompts/07-satisfying-materials.md) | 6 |
-| [空間とシーンの変化](prompts/08-spaces-and-transformations.md) | 6 |
-| [ミニチュアと非現実の日常](prompts/09-miniature-and-surreal.md) | 6 |
-| [ファッションとパフォーマンス](prompts/10-fashion-and-performance.md) | 6 |
+[画像付きの例](#featured-prompts) · [SeaImagine で作る](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -265,40 +255,23 @@
 
 [カテゴリ索引に戻る](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## 選んだカットを SeaImagine で形にする
+
+上のガラス瓶の商品映像、港での会話、動くポストカードから一つ選び、画像とプロンプト全文を SeaImagine の Grok Imagine 1.5 に持ち込んでみましょう。商品映像では質感、会話では演技、モーショングラフィックスでは構図に注目できます。
+
+[商品の質感](#case-sea-glass-bottle) · [人物の会話](#case-harbor-reunion) · [レイアウトアニメーション](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/ja/model/grok-imagine-1-5/)
+
+実際の画面：ガラス瓶のプロンプトを入力済み。720p · 5秒 · 16:9。開始画像は未アップロードで、動画はまだ生成していません。
+
+**[SeaImagine でこのカットを作る](https://seaimagine.com/ja/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## 公式とコミュニティの作品から学ぶ
-
-出典の投稿には制作者とモデルのバージョンが示されています。動画は元の投稿を開いて視聴してください。以下のメモは制作方法を説明するもので、動画を再現できたという報告ではありません。
-
-### [公式 1.5 Preview の映像 — Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![公式 1.5 Preview の映像 — Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-予告編を個別の短いショットに分けて計画する方法を学びます。Preview 版の映像と、正式に公開された 1.5 モデルは区別してください。
-
-### [完成した短編 — JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-作者は 2.5 分の作品を制作したと報告し、生成された演技の限界について述べています。まず静かなやり取りを一つ練習し、編集した複数のショットから長い物語を作りましょう。
-
-### [動画化の前に画像を設計する — GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![動画化の前に画像を設計する — GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-制作者は ChatGPT Images 2.0 でコラージュを作り、Grok Imagine Video 1.5 で動かしたと説明しています。このポストカード練習ではコマの枠を固定し、各コマの動きを一つに絞っています。
-
-### [条件をそろえた比較 — JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-同じ元画像と比較可能な設定を使います。過去の順位をそのまま採用するのではなく、形状、動き、音声を確認してください。ボトルの練習では、これらの変数を分けて確認します。
-
-<details>
-<summary>フレームの観察と検証の範囲</summary>
-
-2026 年 9 月 24 日、X の元投稿のプレーヤーで一部のフレームを確認しました。公式動画では約 3.6 秒（兜と軍勢）、19.8 秒（顔のクローズアップ）、34.6 秒（燃える水辺の都市）、GENEL の動画では約 0.05 秒（海辺の手すり）、4.9 秒（踏切）、12 秒（逆光の手）です。公式動画のショットサイズの切り替えや、GENEL の異なるショットに共通する海辺の光の使い方を参考にできます。固定されたコマを使う本ポストカード例は、これとは別の練習です。確認したのは一部のフレームであり、動きや音声を通して検証したものではありません。
-
-</details>
-
-[出典と視聴に関する記録（英語）](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -324,9 +297,7 @@
 
 [プロンプト作成の参考資料](docs/guides/ja-JP.md) · [設定と操作の参考資料](docs/workflows/ja-JP.md) · [SeaImagine](https://seaimagine.com/ja/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[出典](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 

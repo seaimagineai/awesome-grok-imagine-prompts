@@ -14,31 +14,21 @@ Adattata dalla raccolta di [Flaq AI](https://github.com/flaqai/awesome-grok-imag
 
 ## Indice delle categorie
 
-| Obiettivo | Esempi illustrati |
-| --- | --- |
-| Pubblicità di prodotti | [Bottiglia di vetro marino: confronto tra movimenti controllati](#case-sea-glass-bottle) · [Alone agrumato: filmato di una fragranza di alta gamma](#case-citrus-halo) |
-| Azione cinematografica | [Percorso blu: inseguimento di un corriere nel mercato piovoso](#case-blue-route) |
-| Storie fantasy | [Il pane al miele: storia di un forno in miniatura](#case-honey-loaf) |
-| Dialoghi tra personaggi | [Ritrovarsi al porto: un solo momento emotivo](#case-harbor-reunion) |
-| Video di vita quotidiana | [Primo sorso: recensione autentica di una creator al bar](#case-first-sip) |
-| Film di viaggio | [La linea del sale all’alba: documentario di viaggio](#case-salt-line) |
-| Composizioni animate | [Cartolina costiera: anima un’immagine progettata](#case-coastal-postcard) |
+[Esplora altri prompt (in inglese) · 62](docs/PROMPT_INDEX.md)
 
-[Esempi illustrati](#featured-prompts) · [Lavori ufficiali e della community](#learn-from-official-and-community-examples) · [Riferimento per impostazioni e uso](#writing-guide)
+| Categoria | Scene | Modalità | Esempi |
+| --- | --- | --- | --- |
+| [Prodotti e pubblicità · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Macro di cosmetici / caffè / gioielli / pubblicità di app | Da testo a video / Da immagine a video / Da riferimenti a video | [Bottiglia di vetro marino: confronto tra movimenti controllati](#case-sea-glass-bottle) · [Alone agrumato: filmato di una fragranza di alta gamma](#case-citrus-halo) |
+| [Narrazione cinematografica · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Azione / romanticismo / suspense / fantascienza / animazione | Da testo a video / Da immagine a video / Estensione video | [Percorso blu: inseguimento di un corriere nel mercato piovoso](#case-blue-route) · [Cartolina costiera: anima un’immagine progettata](#case-coastal-postcard) |
+| [Social e vita quotidiana · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Recensioni personali / cibo / fitness / interviste | Da testo a video / Da immagine a video / Da riferimenti a video | [Primo sorso: recensione autentica di una creator al bar](#case-first-sip) · [La linea del sale all’alba: documentario di viaggio](#case-salt-line) |
+| [Personaggi e dialoghi · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Personaggi / abiti / dialoghi / scene corali | Da riferimenti a video / Da immagine a video | [Ritrovarsi al porto: un solo momento emotivo](#case-harbor-reunion) |
+| [Trasformazioni visive e continuazione · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Cambio del meteo / rimozione di elementi / cambio di stile / continuazione | Modifica video / Estensione video | — |
+| [Materiali e suoni appaganti · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sabbia pressata / foglia di rame / gocce d’acqua / marmorizzazione | Da testo a video | — |
+| [Spazi e architettura · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Mobili che si dispiegano / cortili / case in sezione | Da testo a video | — |
+| [Miniature e surrealismo · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Traghetti in tazze / pioggia nei cassetti / lune di carta | Da testo a video / Da immagine a video | [Il pane al miele: storia di un forno in miniatura](#case-honey-loaf) |
+| [Moda e performance · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Gonne in movimento / mantelli / proiezioni sui colletti / passi di danza | Da testo a video | — |
 
-**[Esplora altri prompt (in inglese)](docs/PROMPT_INDEX.md) · 54**
-
-| Categoria | Numero |
-| --- | --- |
-| [Pubblicità e prodotti](prompts/01-ads-and-products.md) | 6 |
-| [Storie cinematografiche](prompts/02-cinematic-storytelling.md) | 6 |
-| [Social e vita quotidiana](prompts/03-social-ugc.md) | 6 |
-| [Personaggi e riferimenti](prompts/04-characters-and-references.md) | 6 |
-| [Montaggio ed estensione](prompts/05-editing-and-extension.md) | 6 |
-| [Materiali e suoni rilassanti](prompts/07-satisfying-materials.md) | 6 |
-| [Spazi e trasformazioni](prompts/08-spaces-and-transformations.md) | 6 |
-| [Miniature e scene surreali](prompts/09-miniature-and-surreal.md) | 6 |
-| [Moda e performance](prompts/10-fashion-and-performance.md) | 6 |
+[Esempi illustrati](#featured-prompts) · [Crea con SeaImagine](#create-with-seaimagine)
 
 <a id="visual-index"></a>
 
@@ -259,40 +249,23 @@ Continuità: non alterare sagoma del flacone, sfaccettature del tappo, livello d
 
 [Torna all’indice delle categorie](#find-the-right-prompt)
 
+<a id="seaimagine-browser-workflow"></a>
+
+<a id="create-with-seaimagine"></a>
+
+## Porta l’inquadratura scelta su SeaImagine
+
+Scegli il video di prodotto con la bottiglia, il dialogo al porto o la cartolina animata qui sopra e usa l’immagine e il prompt completo in Grok Imagine 1.5 su SeaImagine. Esplora i materiali nelle riprese di prodotto, la recitazione nei dialoghi e la composizione nelle animazioni grafiche.
+
+[Materiali dei prodotti](#case-sea-glass-bottle) · [Dialoghi tra personaggi](#case-harbor-reunion) · [Composizioni animate](#case-coastal-postcard)
+
+[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/it/model/grok-imagine-1-5/)
+
+Interfaccia reale: prompt della bottiglia inserito, 720p · 5 s · 16:9. L’immagine iniziale non è ancora stata caricata; non è stato generato alcun video.
+
+**[Crea questa inquadratura con SeaImagine](https://seaimagine.com/it/model/grok-imagine-1-5/)**
+
 <a id="learn-from-official-and-community-examples"></a>
-
-## Impara dai lavori ufficiali e della community
-
-I post originali identificano l’autore e la versione del modello. Apri gli originali per guardarli; le note pratiche seguenti descrivono metodi e non affermano che abbiamo riprodotto i video.
-
-### [Sequenza ufficiale di 1.5 Preview: Grok / Heavy Pulp](https://x.com/grok/status/2062225080843747351)
-
-[![Sequenza ufficiale di 1.5 Preview: Grok / Heavy Pulp](https://pbs.twimg.com/amplify_video_thumb/2062223812490358785/img/jq60CyfHvCahTVW9.jpg)](https://x.com/grok/status/2062225080843747351)
-
-Impara a progettare un trailer come una serie di brevi piani separati. Distingui il materiale di Preview da quello del modello 1.5 rilasciato.
-
-### [Cortometraggio completo: JSFILMZ](https://x.com/JSFILMZ0412/status/2062480692835938771)
-
-L’autore parla di un film di 2,5 minuti e dei limiti della recitazione generata. Esercitati prima con uno scambio tranquillo; costruisci storie più lunghe montando diversi piani.
-
-### [Progettare l’immagine prima di animarla: GENEL](https://x.com/genel_ai/status/2061382998873034825)
-
-[![Progettare l’immagine prima di animarla: GENEL](https://pbs.twimg.com/amplify_video_thumb/2061361400409452544/img/iMwjLXsXiNr1YSXn.jpg)](https://x.com/genel_ai/status/2061382998873034825)
-
-L’autore riferisce di aver creato un collage con ChatGPT Images 2.0 e poi di averlo animato con Grok Imagine Video 1.5. Il nostro esercizio della cartolina mantiene fissi i bordi e assegna un solo movimento a ogni riquadro.
-
-### [Confronto controllato: JSFILMZ](https://x.com/JSFILMZ0412/status/2061117682515050669)
-
-Usa la stessa immagine di partenza e impostazioni confrontabili. Controlla geometria, movimento e audio invece di copiare una vecchia classifica. Il nostro esercizio della bottiglia isola queste variabili.
-
-<details>
-<summary>Osservazioni sui fotogrammi e limiti della verifica</summary>
-
-Il 24 settembre 2026 abbiamo esaminato alcuni fotogrammi nei lettori originali di X: per la clip ufficiale, circa a 3,6 s (elmo ed esercito), 19,8 s (primo piano di un volto) e 34,6 s (città sul mare in fiamme); per GENEL, circa a 0,05 s (ringhiera sul mare), 4,9 s (passaggio a livello) e 12 s (mano in controluce). Studia i cambi di scala delle inquadrature nella clip ufficiale e la luce costiera coerente tra i diversi piani di GENEL. La nostra cartolina a riquadri fissi è un esercizio diverso. Sono fotogrammi campionati, non prove complete del movimento o dell’audio.
-
-</details>
-
-[Fonti e note di visione (in inglese)](docs/COMMUNITY.md)
 
 <a id="writing-guide"></a>
 
@@ -306,9 +279,7 @@ Il 24 settembre 2026 abbiamo esaminato alcuni fotogrammi nei lettori originali d
 
 [Riferimento per la scrittura](docs/guides/it-IT.md) · [Riferimento per impostazioni e uso](docs/workflows/it-IT.md) · [SeaImagine](https://seaimagine.com/it/model/grok-imagine-1-5/)
 
-<a id="seaimagine-browser-workflow"></a>
-
-<a id="create-with-seaimagine"></a>
+[Fonti](docs/COMMUNITY.md) · [X / YouTube](docs/SOCIAL_INSPIRATION.md)
 
 <a id="multilingual-prompts"></a>
 
