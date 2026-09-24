@@ -1,26 +1,10 @@
 {
   "section_title": "Choisissez une scène, copiez un prompt et lancez-vous",
-  "intro": "Vous voulez créer une scène avec des personnages, une carte postale animée ou un plan de produit ? Chaque exemple ci-dessous comprend une image de départ à télécharger, un prompt complet et une liste de points à vérifier. Choisissez une scène et adaptez son sujet à votre idée. Les exercices utilisent les options de SeaImagine dans le navigateur : 5/10/15 secondes et 480p/720p. Les images de départ sont des propositions conceptuelles générées par IA ; les prompts n’ont pas encore été testés en génération vidéo.",
+  "intro": "Explorez matières produit, dialogue retenu, météo changeante, coupe cristalline, architecture mécanique et mouvement couture. Chaque création originale fournit une image de départ, un prompt complet et des points de contrôle. Images conceptuelles par IA, pas de vidéos vérifiées ; prompts non testés par génération.",
   "image_label": "Image de départ : ouvrir et enregistrer",
   "settings_label": "Réglages image vers vidéo",
   "review_label": "Points à vérifier",
   "cases": [
-    {
-      "id": "harbor-reunion",
-      "title": "Retrouvailles au port : un seul moment d’émotion",
-      "image": "assets/seaimagine-harbor-reunion.webp",
-      "settings": "10s · 16:9 · 720p",
-      "prompt": "Conservez les deux adultes, leurs visages, les vêtements bleu marine et crème, le ponton en bois et la douce lumière matinale de l’image fournie. Gardez les deux personnages dans le même plan moyen large.\n0–3 secondes : la personne à gauche remarque son ami qui arrive et fait un petit pas. Ses épaules se détendent ; son ami répond par un sourire discret. Gardez les mains visibles et détendues.\n3–7 secondes : la personne à gauche dit en français naturel : « Tu es là. » Son ami hoche une fois la tête. La réplique reste sobre, sans pleurs ni expressions faciales exagérées.\n7–10 secondes : tous deux regardent le bateau amarré. Maintenez la dernière seconde pour permettre un raccord vers le plan suivant.\nCaméra : une seule avancée douce, sans contrechamp ni coupe.\nSon : voix proche et intelligible, clapotis du port et mouette lointaine ; ni musique ni sous-titres.\nFixez les deux identités, les vêtements, la géométrie du ponton, la position du bateau et la direction de la lumière matinale.\nÉvitez les personnes supplémentaires, les gestes théâtraux, les visages lissés, les doigts en trop et les sauts de caméra.",
-      "review": "L’émotion est-elle lisible sans grand changement du visage ? Si le dialogue semble précipité, supprimez le pas en avant avant d’allonger la durée. Pour un film plus long, écrivez le plan suivant séparément."
-    },
-    {
-      "id": "coastal-postcard",
-      "title": "Carte postale côtière : animez une image préparée",
-      "image": "assets/seaimagine-coastal-postcard.webp",
-      "settings": "5s · 9:16 · 720p",
-      "prompt": "Animez cette carte postale côtière à trois cases sans modifier sa disposition ni ses bordures. Conservez exactement tous les objets et les couleurs. Dans la case supérieure, une fine volute de vapeur monte de la tasse.\nDans la case centrale, l’eau du port ondule doucement et le soleil scintille à sa surface.\nDans la case inférieure, seul le coin de papier déjà présent se soulève légèrement puis retombe sous une brise légère.\nGardez chaque mouvement dans sa case. Toutes les cases restent visibles pendant les cinq secondes.\nCaméra : fixe, sans zoom, panoramique, coupe ni transition entre les cases.\nSon : eau calme et léger froissement de papier ; ni dialogue, musique, légendes ou texte ajouté.\nPréservez l’anse de la tasse, le cadre de la fenêtre, les marques de la carte, les dimensions des cases et l’ordre de lecture.\nÉvitez de fusionner les cases, d’inventer une nouvelle scène, de redessiner les lettres ou de déplacer des objets au-delà des bordures.\nTerminez avec le coin de papier au repos et la composition initiale intacte.",
-      "review": "Si les bordures se déforment ou si les scènes se mélangent, recadrez chaque case et animez-la séparément, puis assemblez les clips dans un logiciel de montage."
-    },
     {
       "id": "sea-glass-bottle",
       "title": "Bouteille en verre marin : comparer des mouvements maîtrisés",
@@ -28,6 +12,46 @@
       "settings": "5s · 16:9 · 720p",
       "prompt": "Conservez l’unique bouteille en verre marin dépoli sur la pierre claire, son bouchon cylindrique, sa face avant vierge sans inscription, le niveau d’eau, l’horizon et l’éclairage latéral doux. La bouteille ne bouge jamais.\nPendant cinq secondes, effectuez un lent déplacement latéral de la caméra vers la droite, sur une distance ne dépassant pas la largeur d’une bouteille.\nUne petite goutte d’eau descend sur la face avant et s’arrête à la base. À l’arrière-plan, les vagues se déplacent doucement dans le flou. Gardez des reflets cohérents avec la caméra et la source lumineuse.\nSon : uniquement le ressac lointain ; ni musique, voix, choc de verre ou éclaboussures exagérées.\nNi coupe ni zoom. Préservez la silhouette de la bouteille, l’alignement du bouchon, la texture du verre et le nombre d’objets.\nÉvitez les logos générés, les changements du niveau de liquide, les bords déformés, les objets flottants ou les nouveaux accessoires.\nGardez un cadre stable pendant la dernière seconde.",
       "review": "Notez le modèle réellement utilisé, la durée, la résolution, le nombre d’essais et la date. Comparez la forme de la bouteille, la continuité de la goutte, les reflets et le mouvement de caméra. Un seul clip réussi ne prouve pas la fiabilité."
+    },
+    {
+      "id": "clockwork-dialogue",
+      "title": "La dernière dent — duo d’horlogers",
+      "image": "assets/clockwork-dialogue.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anime cette référence en une scène de cinéma sobre de dix secondes. Conserve les deux restaurateurs adultes, l’horloge astronomique en laiton ouverte, l’unique engrenage libre et l’observatoire au clair de lune. La femme aux cheveux courts en tenue bleu marine reste à gauche ; l’homme grisonnant au tablier ocre, à droite. Cadre-les à mi-corps derrière l’établi.\n\n0–3s: plan à deux avec avancée presque imperceptible. Elle examine l’horloge et demande doucement en français : « Elle sera à l’heure ? » Il regarde le mécanisme. Seule elle parle, lèvres synchronisées. L’horloge bat déjà lentement ; l’échappement visible oscille régulièrement.\n\n3–7s: il écoute attentivement l’horloge, mains détendues et immobiles. L’engrenage reste fixe sur la table ; personne ne le touche. Après une courte pause il répond en français : « Maintenant, oui. » Seules ses lèvres bougent. Horloge et échappement conservent le même rythme lent.\n\n7–10s: elle passe du cadran à son visage et esquisse un sourire soulagé. Il croise son regard. Termine sur leur silence partagé, l’horloge battant entre eux et la lune froide dessinant leurs épaules.\n\nAudio : voix proches et sèches, tic-tac fin et lent dès la première image dans la pièce résonnante. Ni musique, voix superposées ou bruit d’engrenage déplacé.\n\nL’engrenage reste séparé et immobile ; personne ne le monte. Préserve mains, mécanisme, vêtements, regards et positions gauche/droite. Aucun démarrage par un geste, outil ou engrenage supplémentaire, sous-titre, coupe ou geste exagéré.",
+      "review": "Vérifier voix et lèvres, engrenage immobile, géométrie stable et tic-tac lent dès la première image."
+    },
+    {
+      "id": "rainlit-arcade",
+      "title": "La pluie gagne la galerie — changement de temps continu",
+      "image": "assets/rainlit-arcade.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Prends la galerie Art déco vide comme première image exacte d’une étude météorologique de dix secondes. Garde carreaux vert profond, laiton, terrazzo, arches répétées et appliques chaudes à gauche. L’ouverture lointaine sur la rue reste bleue au crépuscule. Tout le sol intérieur commence sec ; la caméra regarde la sortie depuis la galerie.\n\n0–3s: composition architecturale fixe, sans panoramique ni zoom. Au-delà du seuil lointain, une rafale chasse la pluie en diagonale dans la rue. Les premières gouttes entrent et ne foncent que le terrazzo au bord du seuil. Le premier plan reste parfaitement sec.\n\n3–7s: la rafale forcit, poussant la pluie fine plus loin dans la même direction. Un front humide irrégulier progresse du fond vers le milieu ; les gouttes rejoignent visiblement les taches existantes. De petites flaques peu profondes se forment. Conserve les reflets doux déjà présents sur le sol sec poli ; dans les zones mouillées, la pluie les fragmente en traînées chaudes ondulantes.\n\n7–10s: une dernière nappe de bruine atteint le milieu proche et ralentit. La bande la plus proche reste sèche. La pluie faiblit ; les cercles superposés diminuent dans les flaques et les reflets se stabilisent. Garde les arches inchangées devant l’ouverture bleue.\n\nAudio : pluie extérieure, puis impacts sur pierre de plus en plus proches, une rafale sourde et un écho léger. Ni tonnerre, musique ou voix.\n\nL’eau suit un chemin continu visible : aucun brillant instantané sur tout le sol, aucune flaque devant le front humide. Eau peu profonde, lampes stables, caméra horizontale, lignes architecturales rigides. Ni personnes, plantes ajoutées, nouvelles enseignes, éclairs, inondation, coupes ou surfaces remodelées.",
+      "review": "Vérifier eau depuis la rue, bande proche sèche, reflets initiaux conservés puis ridés par l’eau, architecture inchangée."
+    },
+    {
+      "id": "amber-orchard",
+      "title": "Verger d’ambre — une seule tranche translucide",
+      "image": "assets/amber-orchard.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Crée un gros plan de matière surréaliste de dix secondes. Préserve la poire en verre ambré transparent sur son assiette de pierre noire, ses bulles piégées et fines fibres dorées. Un seul couteau étroit entre par la droite ; sa pointe touche déjà le flanc droit de la poire. Aucun visage ni main. C’est un verre imaginaire rigide que l’on peut trancher proprement : matière impossible assumée, géométrie cohérente.\n\n0–3s: macro fixe de trois quarts, poire et assiette entières. Lumière latérale chaude sur les fibres. Retire d’abord le couteau de son contact actuel, relève-le au-dessus du flanc droit, puis aligne-le pour une coupe verticale retirant une fine tranche externe, pédoncule sur le grand corps.\n\n3–7s: une seule descente ininterrompue. La lame traverse le flanc jusqu’à effleurer l’assiette. Un unique plan de coupe net progresse avec elle ; une seule tranche se sépare. Le corps reste debout. La tranche bascule doucement à droite, expose sa section ambrée lisse et repose sur l’assiette sans se briser.\n\n7–10s: relève la lame verticalement hors du fruit et immobilise-la. Avance très légèrement la caméra pour montrer les faces complémentaires. Termine avec le grand corps, l’unique tranche détachée et le couteau bien lisibles.\n\nAudio : fin raclement cristallin pendant la coupe, tintement clair au contact de la pierre, puis brève résonance naturelle. Ni musique ni parole.\n\nBulles et fibres restent fixes dans leurs solides respectifs. Conserve transparence, silhouette hors de la coupe et position de l’assiette. Ni seconde coupe, tranches dupliquées, éclats, cœur liquide, fonte, fibres nouvelles, fragments flottants ou coupes de caméra.",
+      "review": "Le couteau quitte son contact initial avant une coupe unique en deux solides complémentaires ; pédoncule sur le grand corps, bulles fixes."
+    },
+    {
+      "id": "unfolding-atrium",
+      "title": "L’atrium s’ouvre — révélation d’une serre mécanique",
+      "image": "assets/unfolding-atrium.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anime la maquette en noyer et laiton en une ouverture mécanique précise de dix secondes. Garde socle de pierre grise, escaliers miniatures et fougères denses. Le toit vitré comporte exactement deux moitiés courbes, articulées sur des axes fixes au faîtage central. Fermés au départ ; l’intérieur se voit déjà à travers le verre.\n\n0–3s: toute la maquette en plan proche de trois quarts. Lumière chaude sur le veinage et les cylindres de charnière. La caméra monte lentement sans interruption, regardant dans l’atrium. Toit fermé un instant ; les rives extérieures se lèvent ensuite, faîtage immobile.\n\n3–7s: les deux moitiés pivotent vers le haut à vitesse identique autour des charnières fixes au faîtage. Les rives extérieures montent, découvrant les plantes ; le faîtage ne se sépare pas. Ouverture contrôlée, courbure et cadres rigides conservés. Monte juste assez pour voir la cage d’escalier ; tout le socle reste cadré.\n\n7–10s: les vantaux ralentissent jusqu’au même angle ouvert et s’arrêtent sans rebond. Tiens sur les fougères et escaliers encadrés par le toit ouvert. Une douce tache de jour pénètre plus loin ; les plantes restent immobiles. Termine sur une structure clairement lisible.\n\nAudio : léger ronronnement d’engrenages lié au toit, deux clics de butée presque simultanés, puis ambiance calme. Ni musique ni voix.\n\nExactement deux moitiés rigides, axes fixes au faîtage et même intérieur. Rien ne pousse, ne surgit du vide ou ne change d’échelle. Ni panneaux coulissants, verre détaché, métal plié, pièces nouvelles, socle ouvrant, personnes ou coupes.",
+      "review": "Vérifier deux moitiés rigides levant leurs rives sur un faîtage fixe non séparé ; intérieur déjà présent et socle entier cadré."
+    },
+    {
+      "id": "cobalt-orbit",
+      "title": "Orbite cobalt — étude de mode sur un tour complet",
+      "image": "assets/cobalt-orbit.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anime la mannequin adulte fictive en un portrait couture en pied de dix secondes. Garde cheveux noirs courts, boucles en disques de cuivre et robe sculpturale plissée bleu cobalt. Préserve salle circulaire en béton nu, verrière zénithale et sol propre. Elle commence face caméra, pieds posés et bras détendus. Cadre de la tête au sol, avec assez d’espace pour la jupe.\n\n0–3s: caméra totalement fixe. Après une brève pause de face, elle tourne lentement dans le sens horaire vu d’en haut, à petits pas maîtrisés sur place. Les épaules guident naturellement ; la jupe lourde suit avec un léger retard. À trois secondes, profil net après un quart de tour.\n\n3–7s: poursuis dans le même sens à une allure calme de défilé. Dos lisible vers cinq secondes, profil opposé vers sept. Elle reste centrée au même endroit. Les plis s’ouvrent et se ferment subtilement autour des jambes ; l’ourlet frôle le sol sans former de disque horizontal. Les boucles oscillent à peine.\n\n7–10s: termine exactement 360 degrés avant neuf secondes, de nouveau face caméra. Les pieds s’arrêtent, puis les derniers plis. Garde la pose frontale la seconde restante, regard serein vers l’objectif.\n\nAudio : pas doux sur béton, froissement discret de tissu et faible ambiance. Ni musique, dialogue ou applaudissements.\n\nPréserve identité, construction de la robe et corps continu plausible sous le vêtement. Tête, mains et ourlet toujours visibles. Direction de lumière et fond fixes. Ni orbite de caméra, tour supplémentaire, coupe, changement de couleur, ourlet volant, accessoires nouveaux ou déformation élastique du corps.",
+      "review": "Vérifier un seul tour achevé de face, caméra fixe, tête et ourlet visibles et jupe suivant le geste sans le conduire."
     }
   ],
   "workflow_title": "Utilisez les vrais contrôles de SeaImagine",
@@ -54,7 +78,7 @@
     },
     {
       "title": "Préparer l’image avant l’animation : GENEL",
-      "text": "Le créateur indique avoir réalisé un collage avec ChatGPT Images 2.0, puis l’avoir animé avec Grok Imagine Video 1.5. Notre exercice de carte postale fixe les bordures et attribue un seul mouvement à chaque case.",
+      "text": "Le créateur indique avoir réalisé un collage avec ChatGPT Images 2.0, puis l’avoir animé avec Grok Imagine Video 1.5.",
       "url": "https://x.com/genel_ai/status/2061382998873034825"
     },
     {
@@ -65,7 +89,7 @@
   ],
   "source_details_label": "Sources et notes de visionnage (en anglais)",
   "archive_label": "Autres recettes et collection source avec attribution ci-dessous",
-  "recipe_count_note": "62 prompts distincts en anglais : 35 issus du dépôt source et 27 originaux. Les 24 derniers sont de nouvelles créations inspirées de thèmes des réseaux sociaux, sans test de génération. Les traductions ne sont pas des scènes supplémentaires.",
-  "viewing_note": "Le 24 septembre 2026, nous avons examiné des images dans les lecteurs X originaux : pour le clip officiel, vers 3,6 s (casque et armée), 19,8 s (gros plan sur un visage) et 34,6 s (ville côtière en flammes) ; pour GENEL, vers 0,05 s (garde-corps en bord de mer), 4,9 s (passage à niveau) et 12 s (main à contre-jour). Étudiez les changements d’échelle des plans du clip officiel et la cohérence de la lumière côtière entre les plans de GENEL. Notre carte postale à cases fixes est un exercice différent. Il s’agit d’images échantillonnées, pas de tests complets du mouvement ou du son.",
+  "recipe_count_note": "65 prompts distincts en anglais : 35 hérités et 30 originaux. Les originaux sont nouveaux et non testés par génération. Les traductions ne comptent pas comme scènes supplémentaires.",
+  "viewing_note": "Le 24 septembre 2026, nous avons examiné des images dans les lecteurs X originaux : pour le clip officiel, vers 3,6 s (casque et armée), 19,8 s (gros plan sur un visage) et 34,6 s (ville côtière en flammes) ; pour GENEL, vers 0,05 s (garde-corps en bord de mer), 4,9 s (passage à niveau) et 12 s (main à contre-jour). Étudiez les changements d’échelle des plans du clip officiel et la cohérence de la lumière côtière entre les plans de GENEL. Il s’agit d’images échantillonnées, pas de tests complets du mouvement ou du son.",
   "archive_note": "Les archives ci-dessous conservent les recettes sources et les paramètres destinés à l’API. Pour SeaImagine, adaptez-les aux contrôles ci-dessus : 5/10/15 secondes et 480p/720p. Réécrivez les actions minutées pour respecter la durée ; le montage et la prolongation nécessitent des fonctions compatibles distinctes."
 }

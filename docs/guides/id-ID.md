@@ -2,7 +2,7 @@
 
 [← Bahasa Indonesia](../../README.id-ID.md)
 
-> [Prompt bergambar untuk disalin dan disesuaikan](../../README.id-ID.md#featured-prompts) — Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; tiga contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
+> [Prompt bergambar untuk disalin dan disesuaikan](../../README.id-ID.md#featured-prompts) — Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; enam contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
 
 ## Aturan cepat
 

@@ -13,9 +13,9 @@
     "动态排版"
   ],
   "gallery_title": "可复制、可改写的图文提示词",
-  "gallery_intro": "8 个案例均附完整提示词与起始帧图片。图片用于展示构思，并非已核验的视频结果。",
+  "gallery_intro": "11 个案例均附完整提示词与参考图片。图片用于展示构思，并非已核验的视频结果。",
   "prompt_label": "复制完整提示词",
-  "source_note": "标注来源 Flaq AI 的五个案例保留原始时长和分辨率；其余三个案例按 SeaImagine 当前选项编写。在 SeaImagine 使用源库案例时，请选择 5/10/15 秒和 480p/720p，并重新安排动作时间。",
+  "source_note": "标注来源 Flaq AI 的五个案例保留原始时长和分辨率；其余六个案例按 SeaImagine 当前选项编写。在 SeaImagine 使用源库案例时，请选择 5/10/15 秒和 480p/720p，并重新安排动作时间。",
   "source_label": "来源：Flaq AI",
   "more_label": "参考资料",
   "counts_label": "合集与来源署名",

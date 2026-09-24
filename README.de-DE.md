@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 62 Prompts, darunter 8 bebilderte Beispiele in 15 Sprachen. Nach Kategorien stöbern und vollständige Prompts kopieren.
+> 65 Prompts, darunter 11 bebilderte Beispiele in 15 Sprachen. Nach Kategorien stöbern und vollständige Prompts kopieren.
 
 ![Grok Imagine 1.5 — Offenes Prompt-Notizbuch mit Schuh, Straßenbahn und Papierwal in einer zusammenhängenden Szene](assets/seaimagine-grok-hero.webp)
 
@@ -14,19 +14,19 @@ Adaptiert aus der Sammlung von [Flaq AI](https://github.com/flaqai/awesome-grok-
 
 ## Kategorieindex
 
-[Weitere Prompts ansehen (Englisch) · 62](docs/PROMPT_INDEX.md)
+[Weitere Prompts ansehen (Englisch) · 65](docs/PROMPT_INDEX.md)
 
 | Kategorie | Szenen | Modi | Beispiele |
 | --- | --- | --- | --- |
 | [Produkte und Werbung · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Hautpflege-Makros / Kaffee / Schmuck / App-Werbung | Text zu Video / Bild zu Video / Referenzen zu Video | [Flasche aus Meerglas: kontrollierte Bewegungen vergleichen](#case-sea-glass-bottle) · [Zitrus-Halo: hochwertiger Parfüm-Produktfilm](#case-citrus-halo) |
-| [Filmische Geschichten · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Action / Romantik / Spannung / Science-Fiction / Animation | Text zu Video / Bild zu Video / Videoverlängerung | [Blaue Route: Kamerafahrt mit einem Kurier im Regenmarkt](#case-blue-route) · [Küstenpostkarte: ein vorbereitetes Bild animieren](#case-coastal-postcard) |
+| [Filmische Geschichten · 7](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Action / Romantik / Spannung / Science-Fiction / Animation | Text zu Video / Bild zu Video / Videoverlängerung | [Blaue Route: Kamerafahrt mit einem Kurier im Regenmarkt](#case-blue-route) |
 | [Social Media und Alltag · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Erfahrungsberichte / Essen / Fitness / Interviews | Text zu Video / Bild zu Video / Referenzen zu Video | [Der erste Schluck: authentische Café-Bewertung einer Creatorin](#case-first-sip) · [Salzbahn im Morgengrauen: Reisedokumentation](#case-salt-line) |
-| [Figuren und Dialoge · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Figuren / Kleidung / Dialoge / Gruppenszenen | Referenzen zu Video / Bild zu Video | [Wiedersehen am Hafen: ein einzelner emotionaler Moment](#case-harbor-reunion) |
-| [Visuelle Verwandlung und Fortsetzung · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Wetter ändern / Bereinigung / Stil ändern / Fortsetzung | Videobearbeitung / Videoverlängerung | — |
-| [Entspannende Materialien und Klänge · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sand pressen / Kupferfolie / Wassertropfen / Marmorierung | Text zu Video | — |
-| [Räume und Architektur · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Aufklappbare Möbel / Innenhöfe / Hausquerschnitte | Text zu Video | — |
+| [Figuren und Dialoge · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Figuren / Kleidung / Dialoge / Gruppenszenen | Referenzen zu Video / Bild zu Video | [Der letzte Zahn — Dialog am Uhrwerk](#case-clockwork-dialogue) |
+| [Visuelle Verwandlung und Fortsetzung · 7](docs/PROMPT_INDEX.md#05-editing-and-extension) | Wetter ändern / Bereinigung / Stil ändern / Fortsetzung | Videobearbeitung / Videoverlängerung / Bild zu Video | [Regen in der Passage — ein stetiger Wetterwechsel](#case-rainlit-arcade) |
+| [Entspannende Materialien und Klänge · 7](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sand pressen / Kupferfolie / Wassertropfen / Marmorierung | Text zu Video / Bild zu Video | [Bernsteingarten — eine durchscheinende Scheibe](#case-amber-orchard) |
+| [Räume und Architektur · 7](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Aufklappbare Möbel / Innenhöfe / Hausquerschnitte | Text zu Video / Bild zu Video | [Das Atrium öffnet sich — ein mechanisches Gewächshaus](#case-unfolding-atrium) |
 | [Miniaturen und surreale Welten · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Teetassenfähren / Regen in Schubladen / Papiermonde | Text zu Video / Bild zu Video | [Das Honigbrot: Geschichte einer Miniaturbäckerei](#case-honey-loaf) |
-| [Mode und Performance · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Schwingende Röcke / Umhänge / Kragenprojektionen / Tanzschritte | Text zu Video | — |
+| [Mode und Performance · 7](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Schwingende Röcke / Umhänge / Kragenprojektionen / Tanzschritte | Text zu Video / Bild zu Video | [Kobalt-Orbit — Mode in einer ganzen Drehung](#case-cobalt-orbit) |
 
 [Bebilderte Beispiele](#featured-prompts) · [Mit SeaImagine erstellen](#create-with-seaimagine)
 
@@ -36,9 +36,9 @@ Adaptiert aus der Sammlung von [Flaq AI](https://github.com/flaqai/awesome-grok-
 
 ## Bebilderte Prompts zum Kopieren und Anpassen
 
-8 Beispiele mit vollständigen Prompts und Startbildern. Die Bilder veranschaulichen Konzepte; sie sind keine überprüften Videoergebnisse.
+11 Beispiele mit vollständigen Prompts und Startbildern. Die Bilder zeigen Konzepte, keine geprüften Videoergebnisse.
 
-Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen drei verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.
+Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen sechs verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -118,25 +118,28 @@ Kontinuität: Erhalte Figurenanzahl, Gesichtsgestaltung, Maßstab, Kleidungsfarb
 
 [Zurück zum Kategorieindex](#find-the-right-prompt)
 
-<a id="case-harbor-reunion"></a>
+<a id="case-clockwork-dialogue"></a>
 
-<a id="seaimagine-harbor-reunion"></a>
+<a id="seaimagine-clockwork-dialogue"></a>
 
-### 4. Wiedersehen am Hafen: ein einzelner emotionaler Moment
+### 4. Der letzte Zahn — Dialog am Uhrwerk
 
-![Wiedersehen am Hafen: ein einzelner emotionaler Moment](assets/seaimagine-harbor-reunion.webp)
+![Der letzte Zahn — Dialog am Uhrwerk](assets/clockwork-dialogue.png)
 
-**Einstellungen für Bild zu Video:** 10s · 16:9 · 720p · [Startbild: öffnen und speichern](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/de-DE/harbor-reunion.txt)
+**Einstellungen für Bild zu Video:** 10s · 16:9 · 720p · [Startbild: öffnen und speichern](assets/clockwork-dialogue.png) · [TXT](prompts/text/de-DE/clockwork-dialogue.txt)
 
 ```text
-Erhalte die beiden Erwachsenen, ihre Gesichter, die dunkelblaue und cremefarbene Kleidung, den Holzsteg und das weiche Morgenlicht des Ausgangsbildes. Halte beide Personen in derselben halbweiten Einstellung.
-0–3 Sekunden: Die Person links bemerkt den ankommenden Freund und macht einen kleinen Schritt. Ihre Schultern entspannen sich; der Freund antwortet mit einem stillen Lächeln. Die Hände bleiben sichtbar und entspannt.
-3–7 Sekunden: Die Person links sagt auf natürlichem Deutsch: „Du bist da.“ Der Freund nickt einmal. Die Äußerung bleibt zurückhaltend, ohne Weinen oder übertriebene Mimik.
-7–10 Sekunden: Beide schauen zum vertäuten Boot. Halte die letzte Sekunde für einen Schnitt zur nächsten Einstellung.
-Kamera: eine sanfte Vorwärtsfahrt, kein Gegenschuss und keine Schnitte.
-Ton: nahe, verständliche Sprache, leises Hafenwasser und eine entfernte Möwe; keine Musik oder Untertitel.
-Fixiere beide Identitäten, Kleidung, Steggeometrie, Bootsposition und Richtung des Morgenlichts.
-Vermeide zusätzliche Personen, dramatische Gesten, geglättete Gesichter, zusätzliche Finger und Kamerasprünge.
+Animiere die Vorlage als zurückhaltende Filmszene von zehn Sekunden. Beide erwachsenen Restauratoren, offene astronomische Messinguhr, einzelnes loses Zahnrad und mondhelle Sternwarte bleiben erkennbar. Die kurzhaarige Frau in marineblauer Arbeitskleidung bleibt links, der grauhaarige Mann mit ockerfarbener Schürze rechts. Beide hinter der Werkbank ab Taille zeigen.
+
+0–3s: Zweierbild mit kaum merklicher Vorwärtsfahrt. Sie prüft die Uhr und fragt leise auf Deutsch: „Geht sie jetzt richtig?“ Er schaut auf das Uhrwerk. Nur sie spricht, lippensynchron. Die Uhr tickt bereits langsam; die sichtbare Hemmung schwingt gleichmäßig.
+
+3–7s: Er lauscht aufmerksam, Hände entspannt und still. Das lose Zahnrad bleibt reglos auf dem Tisch; niemand berührt es. Nach kurzer Hörpause antwortet er auf Deutsch: „Jetzt schon.“ Nur seine Lippen bewegen sich. Uhr und Hemmung behalten den langsamen Rhythmus.
+
+7–10s: Ihr Blick wandert von der Uhr zu ihm; sie lächelt leicht und erleichtert. Er erwidert den Blick. Ende auf ihrer gemeinsamen Pause, mit tickender Uhr zwischen ihnen und kühlem Mondsaum an den Schultern.
+
+Ton: nahe, trockene Stimmen und feines langsames Ticken ab dem ersten Bild im hallenden Raum. Keine Musik, überlappende Sprache oder Zahnradbewegungsgeräusche.
+
+Das Zahnrad bleibt getrennt und reglos; niemand baut es ein. Hände, Uhrwerk, Kleidung, Blickachsen und Seiten bewahren. Kein Start der Uhr durch eine Geste. Keine zusätzlichen Werkzeuge, Zahnräder, Untertitel, Schnitte oder übertriebenen Gesten.
 ```
 
 [Zurück zum Kategorieindex](#find-the-right-prompt)
@@ -197,26 +200,106 @@ Kontinuität: Realistische Arbeit, stabile Anatomie, feste Landschaft, unveränd
 
 [Zurück zum Kategorieindex](#find-the-right-prompt)
 
-<a id="case-coastal-postcard"></a>
+<a id="case-rainlit-arcade"></a>
 
-<a id="seaimagine-coastal-postcard"></a>
+<a id="seaimagine-rainlit-arcade"></a>
 
-### 7. Küstenpostkarte: ein vorbereitetes Bild animieren
+### 7. Regen in der Passage — ein stetiger Wetterwechsel
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="Küstenpostkarte: ein vorbereitetes Bild animieren"></a>
+![Regen in der Passage — ein stetiger Wetterwechsel](assets/rainlit-arcade.png)
 
-**Einstellungen für Bild zu Video:** 5s · 9:16 · 720p · [Startbild: öffnen und speichern](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/de-DE/coastal-postcard.txt)
+**Einstellungen für Bild zu Video:** 10s · 16:9 · 720p · [Startbild: öffnen und speichern](assets/rainlit-arcade.png) · [TXT](prompts/text/de-DE/rainlit-arcade.txt)
 
 ```text
-Animiere diese Küstenpostkarte mit drei Bildfeldern, ohne Anordnung oder Ränder zu verändern. Erhalte sämtliche Objekte und Farben exakt. Im oberen Feld steigt eine dünne Dampffahne aus der Tasse.
-Im mittleren Feld kräuselt sich das Hafenwasser sanft und Sonnenlicht glitzert auf der Oberfläche.
-Im unteren Feld hebt sich nur die bereits vorhandene Papierecke leicht und sinkt in einer schwachen Brise zurück.
-Jede Bewegung bleibt innerhalb ihres Feldes. Alle Felder bleiben während der gesamten fünf Sekunden sichtbar.
-Kamera: feststehend, kein Zoom, kein Schwenk, keine Schnitte oder Übergänge zwischen Feldern.
-Ton: leises Wasser und sanftes Papierrascheln; kein Dialog, keine Musik, Bildunterschriften oder zusätzlicher Text.
-Erhalte Tassenhenkel, Fensterrahmen, Kartenmarkierungen, Feldgrößen und Lesereihenfolge.
-Vermeide verschmelzende Felder, neue Szenen, neu gezeichnete Buchstaben oder Objekte, die über die Ränder wandern.
-Am Ende ruht die Papierecke wieder und die ursprüngliche Komposition bleibt erhalten.
+Nutze die leere Art-déco-Passage exakt als erstes Bild einer zehnsekündigen Wetterstudie. Dunkelgrüne Fliesen, Messing, Terrazzo, wiederholte Bögen und warme linke Wandleuchten bewahren. Die ferne Straßenöffnung bleibt dämmerungsblau. Der Innenboden beginnt ganz trocken; die Kamera blickt von innen zur Öffnung.
+
+0–3s: feste Architekturansicht ohne Schwenk oder Zoom. Hinter der fernen Schwelle treibt eine Böe Regen diagonal über die Straße. Erste Tropfen gelangen hinein und verdunkeln nur den Terrazzo direkt an der Schwelle. Der Vordergrund bleibt völlig trocken.
+
+3–7s: Die Böe verstärkt sich und trägt feinen Regen in gleicher Richtung weiter hinein. Eine unregelmäßige Nässefront rückt vom Ende zur Mitte; neue Tropfen verbinden sichtbar vorhandene Flecken. Kleine flache Pfützen entstehen. Vorhandene weiche Spiegelungen auf dem trockenen polierten Boden bewahren; Regen bricht sie in nassen Bereichen in warme wellige Streifen.
+
+7–10s: Ein letzter Sprühschwall erreicht den nahen Mittelgrund und lässt nach. Den vordersten Streifen trocken lassen. Der Regen schwächt sich; überlagerte Ringe in flachen Pfützen klingen ab, warme Spiegelungen beruhigen sich. Unveränderte Bögen vor der blauen Öffnung halten.
+
+Ton: zuerst Außenregen, dann immer nähere Tropfen auf Stein, eine tiefe Böe und sanfter Hall. Kein Donner, keine Musik oder Stimmen.
+
+Wasser gelangt auf einem durchgehend sichtbaren Weg hinein: kein sofortiger Glanz überall, keine Pfützen vor der Nässefront. Wasser flach, Lampen konstant, Kamera waagerecht, Architekturlinien starr. Keine Menschen, zusätzlichen Pflanzen, neuen Schilder, Blitze, Überflutung, Schnitte oder umgebauten Oberflächen.
+```
+
+[Zurück zum Kategorieindex](#find-the-right-prompt)
+
+<a id="case-amber-orchard"></a>
+
+<a id="seaimagine-amber-orchard"></a>
+
+### 8. Bernsteingarten — eine durchscheinende Scheibe
+
+![Bernsteingarten — eine durchscheinende Scheibe](assets/amber-orchard.png)
+
+**Einstellungen für Bild zu Video:** 10s · 16:9 · 720p · [Startbild: öffnen und speichern](assets/amber-orchard.png) · [TXT](prompts/text/de-DE/amber-orchard.txt)
+
+```text
+Erzeuge aus der Vorlage eine surreale Materialnahaufnahme von zehn Sekunden. Transparente bernsteinfarbene Glasbirne auf schwarzem Steinteller, eingeschlossene Bläschen und feine Goldfasern bewahren. Ein einziges schmales Messer kommt von rechts; seine Spitze berührt bereits die rechte Birnenflanke. Kein Gesicht, keine Hand. Die Birne ist starres, sauber schneidbares Fantasieglas: unmögliches Material ist gewollt, die Geometrie bleibt stimmig.
+
+0–3s: feste Dreiviertel-Makroansicht, ganze Birne und Teller sichtbar. Warmes Seitenlicht zeigt Fasern. Messer zuerst vom vorhandenen Kontakt zurückziehen, über die rechte Flanke heben und für einen senkrechten Schnitt ausrichten: dünne Außenscheibe abtrennen, Stiel am großen Körper lassen.
+
+3–7s: genau eine ununterbrochene Abwärtsbewegung. Die Klinge durchquert die Flanke, bis sie den Teller gerade berührt. Eine saubere Schnittebene folgt ihr; genau eine Scheibe löst sich. Der Hauptkörper bleibt aufrecht. Die Scheibe kippt sanft nach rechts, zeigt die glatte Bernsteinfläche und ruht auf dem Teller, ohne zu zerspringen.
+
+7–10s: Klinge senkrecht aus der Frucht heben und stillhalten. Kamera nur leicht vorschieben, um die zusammenpassenden Schnittflächen zu zeigen. Großkörper, einzelne Scheibe und Messer am Ende klar sichtbar.
+
+Ton: feines kristallines Schaben beim Schnitt, ein helles Klirren beim Steinkontakt, kurzes natürliches Nachklingen. Keine Musik oder Sprache.
+
+Blasen und Fasern bleiben fest in ihren jeweiligen Festkörpern. Transparenz, Kontur außerhalb des Schnitts und Tellerposition bewahren. Kein zweiter Schnitt, doppelte Scheiben, Splitter, Flüssigfüllung, Schmelzen, neue Fasern, schwebende Bruchstücke oder Kameraschnitte.
+```
+
+[Zurück zum Kategorieindex](#find-the-right-prompt)
+
+<a id="case-unfolding-atrium"></a>
+
+<a id="seaimagine-unfolding-atrium"></a>
+
+### 9. Das Atrium öffnet sich — ein mechanisches Gewächshaus
+
+![Das Atrium öffnet sich — ein mechanisches Gewächshaus](assets/unfolding-atrium.png)
+
+**Einstellungen für Bild zu Video:** 10s · 16:9 · 720p · [Startbild: öffnen und speichern](assets/unfolding-atrium.png) · [TXT](prompts/text/de-DE/unfolding-atrium.txt)
+
+```text
+Animiere das Architekturmodell aus Nussbaum und Messing als präzise mechanische Enthüllung von zehn Sekunden. Grauen Steinsockel, Miniaturtreppen und dichte Farne bewahren. Das Glasdach besteht aus genau zwei gewölbten Hälften mit festen Scharnierachsen am mittigen First. Anfangs geschlossen; der Innenraum ist bereits durchs Glas sichtbar.
+
+0–3s: ganzes Modell in naher Dreiviertelansicht. Warmes Licht streift Maserung und Messingscharniere. Die Kamera steigt langsam stetig und blickt leicht ins Atrium. Dach kurz geschlossen; dann heben sich die äußeren Traufkanten, der First bleibt fest.
+
+3–7s: Beide Hälften drehen gleich schnell nach oben um feste Firstscharniere. Die äußeren Traufkanten steigen und geben Pflanzen frei; der First trennt sich nicht. Kontrollierte Mechanik, ursprüngliche Krümmung und starre Rahmen bleiben. Kamera nur bis zur Sicht ins Treppenhaus heben; ganzer Sockel im Bild.
+
+7–10s: Beide Flügel bremsen auf gleiche Öffnungswinkel und stoppen ohne Nachfedern. Farne und Treppen im offenen Dachrahmen halten. Ein weicher Tageslichtfleck reicht tiefer hinein; Pflanzen stehen still. Offene Struktur am Ende klar lesbar.
+
+Ton: leises, mit dem Dach synchrones Getriebesurren, zwei fast gleichzeitige Anschlagklicks, dann ruhiger Raumton. Keine Musik oder Stimme.
+
+Genau zwei starre Hälften, feste Firstachsen und identischer Innenraum. Nichts wächst, entsteht aus dem Nichts oder ändert Maßstab. Keine Schiebepaneele, losen Scheiben, verbogenen Metalle, weiteren Räume, öffnenden Sockel, Menschen oder Schnitte.
+```
+
+[Zurück zum Kategorieindex](#find-the-right-prompt)
+
+<a id="case-cobalt-orbit"></a>
+
+<a id="seaimagine-cobalt-orbit"></a>
+
+### 10. Kobalt-Orbit — Mode in einer ganzen Drehung
+
+![Kobalt-Orbit — Mode in einer ganzen Drehung](assets/cobalt-orbit.png)
+
+**Einstellungen für Bild zu Video:** 10s · 16:9 · 720p · [Startbild: öffnen und speichern](assets/cobalt-orbit.png) · [TXT](prompts/text/de-DE/cobalt-orbit.txt)
+
+```text
+Animiere das fiktive erwachsene Model als zehnsekündiges Ganzkörper-Coutureporträt. Kurzes schwarzes Haar, Kupferscheibenohrringe und skulpturales kobaltblaues Plisseekleid bewahren. Nackter runder Betonraum, Oberlicht und sauberer Boden bleiben. Anfangs frontal, Füße aufgesetzt, Arme entspannt. Von Kopf bis Boden mit Platz für den Rock rahmen.
+
+0–3s: Kamera völlig fest. Nach kurzer Frontalpause dreht sie langsam im Uhrzeigersinn von oben gesehen, mit kleinen kontrollierten Schritten auf der Stelle. Schultern führen natürlich; der schwere Rock folgt leicht verzögert. Bei drei Sekunden klares Profil nach einer Vierteldrehung.
+
+3–7s: gleiche Richtung, ruhiges Laufstegtempo. Um fünf Sekunden klarer Rücken, um sieben Gegenprofil. Am gleichen Bodenpunkt zentriert bleiben. Falten öffnen und schließen sich leicht um die Beine; Saum streift den Boden, ohne als waagerechte Scheibe abzuheben. Ohrringe schwingen kaum.
+
+7–10s: Bis Sekunde neun genau 360 Grad vollenden und wieder frontal stehen. Füße stoppen, dann die letzte Rockbewegung. Letzte Sekunde Frontalpose halten, mit ruhigem Blick in die Linse.
+
+Ton: leise Schritte auf Beton, dezentes Stoffrascheln, schwacher Raumton. Keine Musik, Dialoge oder Applaus.
+
+Identität, Kleiderkonstruktion und plausiblen durchgehenden Körper unter dem Stoff bewahren. Kopf, Hände und Saum immer sichtbar. Lichtrichtung und Hintergrund fest. Keine Kameraumlaufbahn, weitere Drehung, Schnitte, Farbwechsel, schwebender Saum, neue Accessoires oder elastische Körperverformung.
 ```
 
 [Zurück zum Kategorieindex](#find-the-right-prompt)
@@ -225,7 +308,7 @@ Am Ende ruht die Papierecke wieder und die ursprüngliche Komposition bleibt erh
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
-### 8. Zitrus-Halo: hochwertiger Parfüm-Produktfilm
+### 11. Zitrus-Halo: hochwertiger Parfüm-Produktfilm
 
 ![Zitrus-Halo: hochwertiger Parfüm-Produktfilm](assets/citrus-fragrance-product-video.webp)
 
@@ -255,9 +338,9 @@ Kontinuität: Verändere weder Flaschenkontur, Verschlussfacetten, Flüssigkeits
 
 ## Setze deine gewählte Einstellung mit SeaImagine um
 
-Wähle oben die Produktaufnahme der Glasflasche, den Dialog am Hafen oder die animierte Postkarte. Nutze das jeweilige Bild und den vollständigen Prompt in Grok Imagine 1.5 auf SeaImagine. Erkunde Materialien in Produktaufnahmen, Schauspiel im Dialog und Bildaufbau in grafischen Animationen.
+Nimm den Glasflaschen-Shot, das Gespräch der Uhrmacher oder die Drehung im Kobaltkleid samt Startbild und vollständigem Prompt zu Grok Imagine 1.5 auf SeaImagine mit. Erkunde Glas und Licht, Pausen zwischen zwei Stimmen oder Stoff, der der Bewegung folgt.
 
-[Produktmaterialien](#case-sea-glass-bottle) · [Figurendialoge](#case-harbor-reunion) · [Animierte Layouts](#case-coastal-postcard)
+[Glas und Licht](#case-sea-glass-bottle) · [Uhrmacher im Dialog](#case-clockwork-dialogue) · [Eine Couture-Drehung](#case-cobalt-orbit)
 
 [![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/de/model/grok-imagine-1-5/)
 
@@ -285,6 +368,6 @@ Tatsächliche Oberfläche: Glasflaschen-Prompt eingegeben, 720p · 5 s · 16:9. 
 
 ## Sammlung und Quellenangaben
 
-62 unterschiedliche englische Prompts: 35 aus dem Quellprojekt und 27 eigene. Die neuesten 24 wurden nach Themen aus sozialen Medien neu verfasst und nicht durch Generierung getestet. Übersetzungen zählen nicht als neue Szenarien.
+65 eigenständige englische Prompts: 35 übernommen, 30 neu verfasst. Die Originale wurden nicht durch Generierung getestet. Übersetzungen zählen nicht als weitere Szenen.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/de/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

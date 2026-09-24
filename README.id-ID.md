@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 62 prompt, termasuk 8 contoh bergambar yang tersedia dalam 15 bahasa. Telusuri berdasarkan kategori dan salin prompt lengkap.
+> 65 prompt, termasuk 11 contoh bergambar yang tersedia dalam 15 bahasa. Telusuri berdasarkan kategori dan salin prompt lengkap.
 
 ![Grok Imagine 1.5 — Buku prompt terbuka dengan sepatu, trem, dan paus kertas dalam satu adegan yang menyatu](assets/seaimagine-grok-hero.webp)
 
@@ -14,19 +14,19 @@ Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan di
 
 ## Indeks kategori
 
-[Lihat prompt lainnya (bahasa Inggris) · 62](docs/PROMPT_INDEX.md)
+[Lihat prompt lainnya (bahasa Inggris) · 65](docs/PROMPT_INDEX.md)
 
 | Kategori | Adegan | Mode | Contoh |
 | --- | --- | --- | --- |
 | [Produk dan iklan · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Makro produk perawatan kulit / kopi / perhiasan / iklan aplikasi | Teks ke video / Gambar ke video / Referensi ke video | [Botol kaca laut — membandingkan gerakan dengan variabel terkontrol](#case-sea-glass-bottle) · [Citrus Halo — film produk parfum premium](#case-citrus-halo) |
-| [Cerita sinematik · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Aksi / romansa / ketegangan / fiksi ilmiah / animasi | Teks ke video / Gambar ke video / Perpanjangan video | [Rute Biru — mengikuti kurir di pasar berhujan](#case-blue-route) · [Kartu pos pesisir — menggerakkan gambar yang sudah dirancang](#case-coastal-postcard) |
+| [Cerita sinematik · 7](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Aksi / romansa / ketegangan / fiksi ilmiah / animasi | Teks ke video / Gambar ke video / Perpanjangan video | [Rute Biru — mengikuti kurir di pasar berhujan](#case-blue-route) |
 | [Media sosial dan keseharian · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Ulasan pengalaman / makanan / kebugaran / wawancara | Teks ke video / Gambar ke video / Referensi ke video | [Tegukan Pertama — ulasan kafe yang alami](#case-first-sip) · [Jalur Garam saat Fajar — dokumenter perjalanan](#case-salt-line) |
-| [Karakter dan dialog · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Karakter / pakaian / dialog / adegan kelompok | Referensi ke video / Gambar ke video | [Bertemu kembali di pelabuhan — satu perubahan emosi](#case-harbor-reunion) |
-| [Transformasi visual dan kelanjutan · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Perubahan cuaca / penghapusan objek / perubahan gaya / kelanjutan | Penyuntingan video / Perpanjangan video | — |
-| [Bahan dan suara yang memuaskan · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Pasir ditekan / lembaran tembaga / tetesan air / marbling | Teks ke video | — |
-| [Ruang dan arsitektur · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Furnitur yang terbuka / halaman / penampang rumah | Teks ke video | — |
+| [Karakter dan dialog · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Karakter / pakaian / dialog / adegan kelompok | Referensi ke video / Gambar ke video | [Roda Gigi Terakhir — duet pemulih jam](#case-clockwork-dialogue) |
+| [Transformasi visual dan kelanjutan · 7](docs/PROMPT_INDEX.md#05-editing-and-extension) | Perubahan cuaca / penghapusan objek / perubahan gaya / kelanjutan | Penyuntingan video / Perpanjangan video / Gambar ke video | [Hujan Memasuki Arkade — perubahan cuaca berkesinambungan](#case-rainlit-arcade) |
+| [Bahan dan suara yang memuaskan · 7](docs/PROMPT_INDEX.md#07-satisfying-materials) | Pasir ditekan / lembaran tembaga / tetesan air / marbling | Teks ke video / Gambar ke video | [Kebun Amber — satu irisan tembus cahaya](#case-amber-orchard) |
+| [Ruang dan arsitektur · 7](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Furnitur yang terbuka / halaman / penampang rumah | Teks ke video / Gambar ke video | [Atrium Terbuka — mekanisme rumah kaca](#case-unfolding-atrium) |
 | [Miniatur dan surealisme · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Feri dalam cangkir / hujan dalam laci / bulan kertas | Teks ke video / Gambar ke video | [Roti Madu — cerita toko roti miniatur](#case-honey-loaf) |
-| [Mode dan pertunjukan · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Gerak rok / jubah / proyeksi pada kerah / langkah tari | Teks ke video | — |
+| [Mode dan pertunjukan · 7](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Gerak rok / jubah / proyeksi pada kerah / langkah tari | Teks ke video / Gambar ke video | [Orbit Kobalt — satu putaran busana adibusana](#case-cobalt-orbit) |
 
 [Contoh bergambar](#featured-prompts) · [Berkreasi dengan SeaImagine](#create-with-seaimagine)
 
@@ -36,9 +36,9 @@ Diadaptasi dari [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) dan di
 
 ## Prompt bergambar untuk disalin dan disesuaikan
 
-8 contoh dengan prompt lengkap dan gambar bingkai awal. Gambar menunjukkan konsep, bukan hasil video yang telah diverifikasi.
+11 contoh dilengkapi prompt lengkap dan gambar referensi. Gambar menunjukkan konsep, bukan hasil video terverifikasi.
 
-Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; tiga contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
+Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; enam contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -121,28 +121,28 @@ Kunci kesinambungan: pertahankan jumlah tokoh, desain wajah, skala, warna pakaia
 
 [Kembali ke indeks kategori](#find-the-right-prompt)
 
-<a id="case-harbor-reunion"></a>
+<a id="case-clockwork-dialogue"></a>
 
-<a id="seaimagine-harbor-reunion"></a>
+<a id="seaimagine-clockwork-dialogue"></a>
 
-### 4. Bertemu kembali di pelabuhan — satu perubahan emosi
+### 4. Roda Gigi Terakhir — duet pemulih jam
 
-![Bertemu kembali di pelabuhan — satu perubahan emosi](assets/seaimagine-harbor-reunion.webp)
+![Roda Gigi Terakhir — duet pemulih jam](assets/clockwork-dialogue.png)
 
-**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/id-ID/harbor-reunion.txt)
+**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/clockwork-dialogue.png) · [TXT](prompts/text/id-ID/clockwork-dialogue.txt)
 
 ```text
-Pertahankan dua orang dewasa, wajah mereka, pakaian biru tua dan krem, dermaga kayu,
-dan cahaya pagi lembut dari gambar yang diberikan. Jaga kedua tokoh dalam komposisi medium-wide yang sama.
-0–3 detik: orang di sebelah kiri melihat temannya datang dan maju satu langkah kecil.
-Bahunya menjadi rileks; temannya membalas dengan senyum tenang. Tangan tetap terlihat dan rileks.
-3–7 detik: orang di kiri berkata dalam bahasa Indonesia yang alami, “Kamu datang juga.”
-Temannya mengangguk sekali. Ucapkan kalimat dengan tenang, tanpa tangisan atau ekspresi wajah berlebihan.
-7–10 detik: keduanya menoleh ke perahu yang tertambat. Tahan detik terakhir agar dapat disambung ke shot berikutnya.
-Kamera: satu gerakan maju yang lembut, tanpa reverse shot atau potongan.
-Audio: ucapan dekat dan jelas, suara air pelabuhan yang lembut, serta camar dari kejauhan; tanpa musik atau subtitel.
-Jaga identitas kedua tokoh, pakaian, bentuk dermaga, posisi perahu, dan arah cahaya pagi tetap sama.
-Hindari orang tambahan, gerakan dramatis, penghalusan wajah, jari tambahan, dan lompatan kamera.
+Animasikan referensi menjadi adegan film tenang selama 10 detik. Pertahankan dua pemulih dewasa, jam astronomi kuningan terbuka, satu roda gigi lepas, dan observatorium bercahaya bulan. Wanita berambut pendek berbaju kerja biru tua tetap di kiri; pria berambut kelabu bercelemek oker di kanan. Bingkai keduanya dari pinggang ke atas di seberang meja.
+
+0–3d: tahan komposisi berdua dengan gerak maju nyaris tak terasa. Wanita meneliti jam lalu bertanya lirih dalam bahasa Indonesia, “Bisa tepat waktu?” Pria menatap mekanisme jam. Hanya wanita bicara, bibir sesuai ucapan. Jam sudah berdetak pelan dan lambat sejak awal.
+
+3–7d: pria menjaga tangan rileks dan diam, mendengarkan jam dengan saksama sejenak, lalu menjawab dalam bahasa Indonesia, “Sekarang bisa.” Hanya bibirnya bergerak untuk kalimat ini. Ia tidak menyentuh roda lepas; roda tetap diam. Escapement yang terlihat terus berayun stabil.
+
+7–10d: wanita memandang dari jam ke pria, tersenyum kecil lega. Pria membalas tatapannya. Akhiri pada jeda bersama, detak di antara mereka dan cahaya bulan dingin membingkai bahu.
+
+Audio: dialog dekat dan kering; sepanjang adegan, detak halus merata di ruang bergema. Tanpa musik, ucapan bertumpuk, atau bunyi roda bergerak.
+
+Roda lepas tetap terpisah dari jam; tak seorang pun memasang atau memutarnya. Jaga anatomi tangan, isi jam, pakaian, arah pandang, posisi kiri/kanan. Detak tidak dipicu gestur. Tanpa alat atau roda tambahan, subtitel, potongan kamera, atau gestur berlebihan.
 ```
 
 [Kembali ke indeks kategori](#find-the-right-prompt)
@@ -203,27 +203,106 @@ Kunci kesinambungan: kerja realistis, anatomi stabil, bentang alam tetap, desain
 
 [Kembali ke indeks kategori](#find-the-right-prompt)
 
-<a id="case-coastal-postcard"></a>
+<a id="case-rainlit-arcade"></a>
 
-<a id="seaimagine-coastal-postcard"></a>
+<a id="seaimagine-rainlit-arcade"></a>
 
-### 7. Kartu pos pesisir — menggerakkan gambar yang sudah dirancang
+### 7. Hujan Memasuki Arkade — perubahan cuaca berkesinambungan
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="Kartu pos pesisir — menggerakkan gambar yang sudah dirancang"></a>
+![Hujan Memasuki Arkade — perubahan cuaca berkesinambungan](assets/rainlit-arcade.png)
 
-**Pengaturan gambar ke video:** 5s · 9:16 · 720p · [Bingkai awal — buka dan simpan](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/id-ID/coastal-postcard.txt)
+**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/rainlit-arcade.png) · [TXT](prompts/text/id-ID/rainlit-arcade.txt)
 
 ```text
-Animasikan kartu pos pesisir tiga panel ini tanpa mengubah tata letak atau batas panel.
-Pertahankan semua objek dan warna secara persis. Di panel atas, satu sulur uap tipis naik dari cangkir.
-Di panel tengah, air pelabuhan beriak pelan dan sinar matahari berkilau di permukaannya.
-Di panel bawah, hanya sudut kertas yang sudah ada yang terangkat sedikit lalu turun karena angin sepoi-sepoi.
-Jaga setiap gerakan tetap di dalam panelnya sendiri. Semua panel tetap terlihat sepanjang lima detik.
-Kamera: diam, tanpa zoom, pan, potongan, atau transisi antar panel.
-Audio: suara air yang tenang dan gemerisik kertas lembut; tanpa dialog, musik, takarir, atau teks tambahan.
-Pertahankan gagang cangkir, bingkai jendela, tanda pada peta, ukuran panel, dan urutan baca.
-Hindari penggabungan panel, penciptaan adegan baru, penggambaran ulang huruf, atau perpindahan objek melewati batas panel.
-Akhiri dengan sudut kertas yang sudah turun dan komposisi asli tetap utuh.
+Gunakan arkade Art Deco kosong pada referensi sebagai bingkai awal persis untuk studi cuaca 10 detik. Jaga ubin hijau tua, lis kuningan, lantai teraso, deretan lengkung, lampu hangat di kiri. Bukaan jalan jauh tetap biru senja. Lantai mulai kering dengan pantulan lembut batu poles yang sudah ada; kamera menghadap keluar dari dalam.
+
+0–3d: komposisi arsitektur terkunci, tanpa pan atau zoom. Di luar ambang jauh, embusan membawa hujan diagonal melintasi jalan. Tetes pertama melewati bukaan dan menggelapkan teraso hanya di dekat ambang. Depan tetap kering.
+
+3–7d: angin menguat, membawa gerimis lebih dalam dalam arah sama. Batas basah tak beraturan maju dari ujung jauh ke tengah; tetes berikut tampak menyatu dengan bercak sebelumnya. Genangan dangkal kecil terbentuk di area basah. Pertahankan pantulan lembut awal; di area basah, tetes memecah pantulan lampu kiri menjadi guratan hangat yang bergetar.
+
+7–10d: sapuan terakhir mencapai lantai dekat-tengah lalu melambat. Jalur terdekat tetap kering. Hujan mereda; riak bertumpuk menyusut dalam genangan dangkal, pantulan hangat tenang. Tahan lengkung tak berubah di depan bukaan biru.
+
+Audio: hujan luar lebih dahulu, lalu ketukan batu makin dekat, satu embusan rendah, gema arkade lembut. Tanpa guntur, musik, suara manusia.
+
+Jalur masuk air harus terus terlihat: bukan seluruh lantai tiba-tiba mengilap atau genangan mendahului batas basah. Air dangkal, lampu stabil, kamera rata, garis bangunan kaku. Tanpa orang, tanaman tambahan, papan baru, kilat, banjir, potongan kamera, atau permukaan yang berubah bentuk.
+```
+
+[Kembali ke indeks kategori](#find-the-right-prompt)
+
+<a id="case-amber-orchard"></a>
+
+<a id="seaimagine-amber-orchard"></a>
+
+### 8. Kebun Amber — satu irisan tembus cahaya
+
+![Kebun Amber — satu irisan tembus cahaya](assets/amber-orchard.png)
+
+**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/amber-orchard.png) · [TXT](prompts/text/id-ID/amber-orchard.txt)
+
+```text
+Buat close-up material surealis 10 detik dari referensi. Pertahankan pir kaca amber transparan di piring batu hitam, gelembung kecil dan serat emas halus di dalamnya. Satu pisau sempit masuk dari kanan, ujungnya menyentuh sisi kanan pir seperti referensi. Tanpa wajah atau tangan. Pir adalah kaca fantasi kaku yang dapat diiris bersih: material mustahil disengaja, geometri harus konsisten.
+
+0–3d: tampilan makro tiga perempat terkunci, seluruh pir dan piring terlihat. Cahaya samping hangat menyingkap serat. Pisau mundur dari titik kontak, terangkat ke atas bidang potong kanan, lalu sejajar untuk satu potongan vertikal tipis dari sisi luar; tangkai tetap pada tubuh besar.
+
+3–7d: satu gerakan turun tanpa putus. Pisau melewati sisi kanan hingga ujung tepat menyentuh piring. Satu bidang potong bersih mengikuti pisau; hanya satu irisan terpisah. Tubuh pir tetap tegak. Irisan miring lembut ke kanan, memperlihatkan penampang amber halus, lalu bersandar pada piring tanpa pecah.
+
+7–10d: angkat pisau lurus ke atas menjauhi pir, lalu diam. Kamera maju sedikit saja untuk menunjukkan dua bidang potong yang cocok. Akhiri dengan tubuh pir besar, satu irisan terlepas, dan pisau jelas terlihat.
+
+Audio: gesekan kristal halus saat memotong, satu denting cerah saat irisan menyentuh batu, lalu dering alami singkat. Tanpa musik atau bicara.
+
+Gelembung dan serat tetap di dalam masing-masing benda padat. Jaga transparansi, siluet di luar sayatan, dan posisi piring. Tanpa gerakan potong kedua, irisan ganda, serpihan, isi cair, lelehan, serat baru, pecahan melayang, atau potongan kamera.
+```
+
+[Kembali ke indeks kategori](#find-the-right-prompt)
+
+<a id="case-unfolding-atrium"></a>
+
+<a id="seaimagine-unfolding-atrium"></a>
+
+### 9. Atrium Terbuka — mekanisme rumah kaca
+
+![Atrium Terbuka — mekanisme rumah kaca](assets/unfolding-atrium.png)
+
+**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/unfolding-atrium.png) · [TXT](prompts/text/id-ID/unfolding-atrium.txt)
+
+```text
+Animasikan model arsitektur kayu walnut dan kuningan menjadi pengungkapan mekanisme presisi 10 detik. Pertahankan alas batu kelabu, tangga mini, pakis lebat. Atap kaca lengkung tepat dua belahan melengkung, berengsel pada sumbu tetap di bubungan tengah. Keduanya mulai tertutup; interior sudah terlihat melalui kaca.
+
+0–3d: tampilkan seluruh model dari dekat pada sudut tiga perempat. Cahaya hangat menyapu serat walnut dan tabung engsel kuningan kecil. Kamera naik perlahan terus-menerus, menunduk lembut ke atrium. Atap tetap tertutup sesaat, lalu tepi luar atap mulai terangkat; bubungan tidak terpisah.
+
+3–7d: kedua daun berputar ke atas dengan kecepatan sama pada engsel bubungan tetap. Tepi luar atap naik, membuka atrium bertanaman. Gerak mekanis terkendali; tiap daun mempertahankan lengkung dan rangka kuningan kaku. Kamera naik secukupnya untuk menampilkan ruang tangga; seluruh alas tetap dalam bingkai.
+
+7–10d: daun melambat ke sudut terbuka sama dan berhenti tanpa memantul. Tahan kanopi pakis dan tangga mini dibingkai atap terbuka. Sepetak cahaya siang lembut masuk lebih jauh; tanaman tetap diam. Akhiri dengan struktur terbuka jelas.
+
+Audio: dengung roda gigi lirih selaras gerak atap, dua klik penghenti hampir bersamaan, lalu suasana ruang tenang. Tanpa musik atau suara manusia.
+
+Tetap tepat dua daun, sumbu engsel bubungan tetap, tata interior sama. Tak ada yang tumbuh, terurai dari ruang kosong, atau berubah skala. Tanpa panel geser, kaca lepas, logam melengkung, ruang tambahan, alas terbuka, orang, atau potongan kamera.
+```
+
+[Kembali ke indeks kategori](#find-the-right-prompt)
+
+<a id="case-cobalt-orbit"></a>
+
+<a id="seaimagine-cobalt-orbit"></a>
+
+### 10. Orbit Kobalt — satu putaran busana adibusana
+
+![Orbit Kobalt — satu putaran busana adibusana](assets/cobalt-orbit.png)
+
+**Pengaturan gambar ke video:** 10s · 16:9 · 720p · [Bingkai awal — buka dan simpan](assets/cobalt-orbit.png) · [TXT](prompts/text/id-ID/cobalt-orbit.txt)
+
+```text
+Animasikan model mode dewasa fiktif pada referensi dalam potret seluruh tubuh 10 detik. Jaga rambut hitam pendek, anting cakram tembaga, gaun lipit biru kobalt skulptural. Pertahankan ruang beton melingkar kosong, skylight atas, lantai bersih. Awalnya menghadap kamera, kedua kaki menapak, lengan santai. Bingkai kepala hingga lantai, beri ruang lebar bagi rok.
+
+0–3d: kamera sepenuhnya diam. Setelah jeda frontal, ia berputar perlahan searah jarum jam dilihat dari atas, dengan langkah kecil terkendali di tempat. Bahu memimpin alami; rok lipit berat menyusul agak terlambat. Pada detik tiga, profil seperempat putaran jelas.
+
+3–7d: lanjut arah sama dengan tempo peragaan tenang. Lewati tampak belakang jelas sekitar detik lima, profil berlawanan sekitar tujuh. Tetap berpusat pada posisi lantai sama. Lipit membuka-menutup halus saat kain bergerak mengitari kaki; kelim menyapu lantai tanpa terangkat menjadi cakram horizontal. Anting hanya sedikit berayun.
+
+7–10d: selesaikan tepat satu putaran 360 derajat pada detik sembilan, kembali frontal. Kaki berhenti, disusul gerak terakhir rok. Tahan pose frontal selama sisa satu detik, tatap lensa dengan ekspresi tenang.
+
+Audio: langkah lembut di beton, gemerisik kain tertahan, suasana ruang rendah. Tanpa musik, dialog, tepuk tangan.
+
+Jaga identitas, konstruksi gaun asli, tubuh berkesinambungan yang masuk akal di bawah pakaian. Kepala, tangan, kelim selalu terlihat. Arah skylight dan latar tetap. Tanpa kamera mengorbit, putaran ekstra, potongan, perubahan warna kain, kelim terbang, aksesori baru, atau tubuh terdistorsi elastis.
 ```
 
 [Kembali ke indeks kategori](#find-the-right-prompt)
@@ -232,7 +311,7 @@ Akhiri dengan sudut kertas yang sudah turun dan komposisi asli tetap utuh.
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
-### 8. Citrus Halo — film produk parfum premium
+### 11. Citrus Halo — film produk parfum premium
 
 ![Citrus Halo — film produk parfum premium](assets/citrus-fragrance-product-video.webp)
 
@@ -262,9 +341,9 @@ Kunci kesinambungan: jangan ubah siluet botol, bidang tutup, tinggi cairan, alas
 
 ## Wujudkan adegan pilihan Anda di SeaImagine
 
-Pilih video produk botol kaca, dialog di pelabuhan, atau kartu pos animasi di atas, lalu gunakan gambar dan prompt lengkapnya di Grok Imagine 1.5 pada SeaImagine. Eksplorasi bahan dalam adegan produk, akting dalam dialog, dan komposisi dalam animasi grafis.
+Dari kejernihan botol kaca, ekspresi halus dalam dialog pemulih jam, hingga lipit gaun yang berputar: pilih gambar referensi dan prompt terkait, lalu lanjutkan kreasi di halaman Grok Imagine 1.5 SeaImagine.
 
-[Bahan produk](#case-sea-glass-bottle) · [Dialog karakter](#case-harbor-reunion) · [Tata letak animasi](#case-coastal-postcard)
+[Material botol](#case-sea-glass-bottle) · [Dialog pemulih jam](#case-clockwork-dialogue) · [Putaran gaun](#case-cobalt-orbit)
 
 [![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/id/model/grok-imagine-1-5/)
 
@@ -292,6 +371,6 @@ Antarmuka asli: prompt botol kaca sudah diisi, 720p · 5 dtk · 16:9. Gambar awa
 
 ## Koleksi dan atribusi
 
-62 prompt berbeda dalam bahasa Inggris: 35 dari repositori sumber dan 27 orisinal. Sebanyak 24 prompt terbaru ditulis dari inspirasi tema media sosial dan belum diuji melalui generasi. Terjemahan tidak dihitung sebagai adegan baru.
+Total 65 prompt bahasa Inggris berbeda: 35 dari sumber dan 30 orisinal. Terjemahan tidak dihitung sebagai adegan baru. Prompt orisinal belum diuji melalui generasi.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

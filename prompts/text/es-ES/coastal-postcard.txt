@@ -1,9 +1,0 @@
-Anima esta postal costera de tres paneles sin cambiar su distribución ni sus bordes. Conserva exactamente todos los objetos y colores. En el panel superior, una fina voluta de vapor asciende de la taza.
-En el panel central, el agua del puerto ondula suavemente y el sol destella en la superficie.
-En el panel inferior, solo la esquina de papel ya presente se eleva ligeramente y vuelve a reposar con una brisa leve.
-Mantén cada movimiento dentro de su panel. Los tres paneles deben permanecer visibles durante los cinco segundos.
-Cámara: fija, sin zoom, paneo, cortes ni transiciones entre paneles.
-Audio: agua tranquila y un suave crujido de papel; sin diálogo, música, subtítulos ni texto añadido.
-Conserva el asa de la taza, el marco de la ventana, las marcas del mapa, las dimensiones de los paneles y el orden de lectura.
-Evita fusionar paneles, inventar otra escena, redibujar letras o mover objetos a través de los bordes.
-Termina con la esquina del papel en reposo y la composición original intacta.

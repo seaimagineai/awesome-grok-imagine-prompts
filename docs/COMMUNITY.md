@@ -9,7 +9,7 @@ Selected for a complete workflow, useful comparison, or visible audience interes
 | Original video | Frames directly observed | Practical lesson |
 | --- | --- | --- |
 | [Official Preview sequence](https://x.com/grok/status/2062225080843747351) | About 3.6s: helmet foreground, army and smoke behind. 19.8s: a face close-up with a blue veil. 34.6s: a wide view of a burning waterfront city. | Plan separate shots with different sizes: establish the setting, show a face, then reveal the larger consequence. Do not pack a trailer into one short generation. |
-| [GENEL coastal sequence](https://x.com/genel_ai/status/2061382998873034825) | About 0.05s: figure at a seaside railing. 4.9s: two people at a coastal railway crossing. 12s: a hand against bright sunlight. | Different full-frame shots share coastal light and color. Prepare images with consistent lighting before animation. Our fixed-panel postcard teaches a different constraint; it does not reproduce this video's editing. |
+| [GENEL coastal sequence](https://x.com/genel_ai/status/2061382998873034825) | About 0.05s: figure at a seaside railing. 4.9s: two people at a coastal railway crossing. 12s: a hand against bright sunlight. | Different full-frame shots share coastal light and color. Prepare images with consistent lighting before animation. |
 
 We sampled these frames in the original players, rather than watching every frame continuously. Audio was not auditioned; motion consistency, lip sync, sound quality and comparative model rankings remain unscored. The JSFILMZ comparison player also loaded (2:00 duration); at about 5.3s it shows stacked, labeled Seedance / Grok views of an orange-clad fight scene. That verifies the comparison layout, not identical settings or a winning model. Its conclusions remain attributed to the creator.
 
@@ -28,6 +28,6 @@ The June X launch post identifies **1.5 Preview**. The [official release article
 
 ## What you can copy
 
-The original posts above do not provide complete reproducible prompts in the inspected text. We do not reconstruct their exact wording or claim identical results. [Three SeaImagine exercises](../prompts/06-community-exercises.md) teach a related workflow with new scenes: a harbor reunion, a coastal postcard and a controlled product test. They are new practice briefs, not the creators' prompts or tested reproductions.
+The original posts above do not provide complete reproducible prompts in the inspected text. We do not reconstruct their exact wording or claim identical results. [Six original illustrated prompts](../prompts/06-community-exercises.md) explore product motion, restrained dialogue, weather, translucent materials, mechanical architecture and fashion. They are original briefs, not the creators' prompts or tested reproductions.
 
 The homepage no longer displays external video thumbnails; these source links remain for attribution. Copyright stays with the respective creators; this repository's MIT license does not relicense their videos, images, voices or likenesses.

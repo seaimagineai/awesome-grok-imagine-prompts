@@ -1,26 +1,10 @@
 {
   "section_title": "Elige una escena, copia un prompt y empieza a crear",
-  "intro": "¿Quieres una escena con personajes, una postal animada o un plano de producto? Cada ejemplo incluye una imagen inicial descargable, un prompt completo y una lista de puntos que revisar. Elige una escena y adapta su protagonista o elemento principal a tu idea. Los ejercicios usan las opciones de SeaImagine en el navegador: 5/10/15 segundos y 480p/720p. Las imágenes son propuestas conceptuales generadas con IA para usarlas como fotogramas iniciales; los prompts aún no se han probado generando vídeos.",
+  "intro": "Explora materiales de producto, diálogo contenido, cambios de tiempo, un corte cristalino, arquitectura mecánica y movimiento de alta costura. Cada caso original incluye imagen inicial, prompt completo y puntos de revisión. Las imágenes son conceptos de IA, no vídeos verificados; los prompts no se han probado mediante generación.",
   "image_label": "Fotograma inicial: abrir y guardar",
   "settings_label": "Ajustes de imagen a vídeo",
   "review_label": "Qué comprobar",
   "cases": [
-    {
-      "id": "harbor-reunion",
-      "title": "Reencuentro en el puerto: un solo momento emotivo",
-      "image": "assets/seaimagine-harbor-reunion.webp",
-      "settings": "10s · 16:9 · 720p",
-      "prompt": "Conserva a los dos adultos, sus rostros, la ropa azul marino y crema, el muelle de madera y la suave luz de la mañana de la imagen. Mantén a ambos personajes en el mismo plano medio amplio.\n0–3 segundos: la persona de la izquierda ve llegar a su amigo y da un pequeño paso. Sus hombros se relajan; su amigo responde con una sonrisa discreta. Mantén las manos visibles y relajadas.\n3–7 segundos: la persona de la izquierda dice en español natural: «Has venido». Su amigo asiente una vez. La frase debe sonar contenida, sin llanto ni expresiones faciales exageradas.\n7–10 segundos: ambos miran hacia el barco amarrado. Mantén el último segundo para permitir un corte al siguiente plano.\nCámara: un único acercamiento suave, sin contraplano ni cortes.\nAudio: voz cercana e inteligible, agua suave del puerto y una gaviota lejana; sin música ni subtítulos.\nFija las dos identidades, la ropa, la geometría del muelle, la posición del barco y la dirección de la luz matinal.\nEvita personas adicionales, gestos dramáticos, rostros alisados, dedos extra y saltos de cámara.",
-      "review": "¿Se entiende la emoción sin un gran cambio facial? Si el diálogo parece apresurado, elimina el paso hacia delante antes de aumentar la duración. Para una película más larga, escribe el siguiente plano por separado."
-    },
-    {
-      "id": "coastal-postcard",
-      "title": "Postal de la costa: anima una imagen planificada",
-      "image": "assets/seaimagine-coastal-postcard.webp",
-      "settings": "5s · 9:16 · 720p",
-      "prompt": "Anima esta postal costera de tres paneles sin cambiar su distribución ni sus bordes. Conserva exactamente todos los objetos y colores. En el panel superior, una fina voluta de vapor asciende de la taza.\nEn el panel central, el agua del puerto ondula suavemente y el sol destella en la superficie.\nEn el panel inferior, solo la esquina de papel ya presente se eleva ligeramente y vuelve a reposar con una brisa leve.\nMantén cada movimiento dentro de su panel. Los tres paneles deben permanecer visibles durante los cinco segundos.\nCámara: fija, sin zoom, paneo, cortes ni transiciones entre paneles.\nAudio: agua tranquila y un suave crujido de papel; sin diálogo, música, subtítulos ni texto añadido.\nConserva el asa de la taza, el marco de la ventana, las marcas del mapa, las dimensiones de los paneles y el orden de lectura.\nEvita fusionar paneles, inventar otra escena, redibujar letras o mover objetos a través de los bordes.\nTermina con la esquina del papel en reposo y la composición original intacta.",
-      "review": "Si los bordes se deforman o las escenas se mezclan, recorta cada panel y anímalo por separado; después monta los clips en un editor."
-    },
     {
       "id": "sea-glass-bottle",
       "title": "Botella de vidrio marino: compara movimientos controlados",
@@ -28,6 +12,46 @@
       "settings": "5s · 16:9 · 720p",
       "prompt": "Conserva la única botella de vidrio marino esmerilado sobre la piedra clara, su tapón cilíndrico, el frontal vacío sin impresiones, el nivel del agua, el horizonte y la suave luz lateral. La botella no se mueve en ningún momento.\nDurante cinco segundos, desplaza lentamente la cámara hacia la derecha, como máximo la anchura de una botella.\nUna pequeña gota de agua baja por el frontal y se detiene en la base. Las olas del mar al fondo se mueven suavemente desenfocadas. Mantén los reflejos coherentes con la cámara y la fuente de luz.\nAudio: solo oleaje lejano; sin música, voz, golpes de cristal ni salpicaduras exageradas.\nSin cortes ni zoom. Conserva la silueta de la botella, la alineación del tapón, la textura del vidrio y la cantidad de objetos.\nEvita generar logotipos, cambiar el nivel del líquido, doblar los bordes, hacer flotar objetos o añadir accesorios.\nMantén un encuadre estable durante el último segundo.",
       "review": "Anota el modelo utilizado, la duración, la resolución, el número de intentos y la fecha. Compara la forma de la botella, la continuidad de la gota, los reflejos y el movimiento de cámara. Un solo clip logrado no demuestra fiabilidad."
+    },
+    {
+      "id": "clockwork-dialogue",
+      "title": "El último diente — diálogo de relojeros",
+      "image": "assets/clockwork-dialogue.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anima la referencia como una escena de cine sobria de diez segundos. Conserva los dos restauradores adultos, el reloj astronómico de latón abierto, el único engranaje suelto y el observatorio iluminado por la luna. La mujer de pelo corto y ropa azul marino queda a la izquierda; el hombre canoso con delantal ocre, a la derecha. Encuadra a ambos de cintura arriba tras el banco.\n\n0–3s: plano de dos con un avance casi imperceptible. Ella examina el reloj y pregunta bajo en español: «¿Dará bien la hora?». Él mira el mecanismo. Solo ella habla, con labios sincronizados. El reloj ya hace un tictac lento; el escape visible oscila regularmente.\n\n3–7s: él escucha atentamente el reloj, con las manos relajadas e inmóviles. El engranaje permanece quieto sobre la mesa; nadie lo toca. Tras una breve pausa responde en español: «Ahora sí». Solo sus labios se mueven. Reloj y escape mantienen el mismo ritmo pausado.\n\n7–10s: ella mira del reloj a él y sonríe levemente, aliviada. Él le devuelve la mirada. Termina en su pausa compartida, con el reloj entre ambos y la luz fría de luna perfilando sus hombros.\n\nAudio: diálogo cercano y seco y tictac delicado y lento desde el primer fotograma en la sala hueca. Sin música, voces superpuestas ni ruido de movimiento del engranaje.\n\nEl engranaje permanece separado e inmóvil; nadie lo instala. Mantén anatomía de manos, mecanismo, ropa, miradas y posiciones izquierda/derecha. No arranques el reloj con un gesto. Sin herramientas o engranajes extra, subtítulos, cortes ni gestos exagerados.",
+      "review": "Verifica voces y labios, engranaje inmóvil, geometría estable y tictac lento desde el primer fotograma."
+    },
+    {
+      "id": "rainlit-arcade",
+      "title": "La lluvia entra en la galería — transformación continua del tiempo",
+      "image": "assets/rainlit-arcade.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Usa la galería Art Déco vacía como primer fotograma exacto de un estudio del tiempo de diez segundos. Conserva azulejos verde oscuro, latón, terrazo, arcos repetidos y lámparas cálidas de la pared izquierda. La salida lejana sigue azul al anochecer. Todo el suelo interior empieza seco; la cámara mira hacia la salida desde dentro.\n\n0–3s: encuadre arquitectónico fijo, sin panorámica ni zoom. Una ráfaga arrastra lluvia diagonal por la calle, tras el umbral lejano. Las primeras gotas cruzan la entrada y oscurecen solo el terrazo junto al umbral. El primer plano sigue totalmente seco.\n\n3–7s: aumenta la ráfaga y lleva lluvia fina más adentro en la misma dirección. Un frente húmedo irregular avanza del fondo al centro; nuevas gotas se unen visiblemente a las manchas previas. Se forman pequeños charcos poco profundos. Conserva los reflejos suaves existentes en el suelo seco pulido; en las zonas mojadas, la lluvia los rompe en franjas cálidas ondulantes.\n\n7–10s: una última barrida de agua pulverizada llega a la zona media cercana y pierde fuerza. Deja seca la franja más próxima. Cede la lluvia; disminuyen los círculos superpuestos en los charcos y se estabilizan los reflejos. Mantén los arcos intactos contra la abertura azul.\n\nAudio: primero lluvia exterior, luego golpes cada vez más cercanos sobre piedra, una ráfaga grave y un eco suave. Sin truenos, música ni voces.\n\nEl agua debe llegar por un recorrido continuo y visible: sin brillo instantáneo de todo el suelo ni charcos por delante del frente húmedo. Agua poco profunda, luces constantes, cámara nivelada y líneas arquitectónicas rígidas. Sin personas, plantas añadidas, letreros nuevos, relámpagos, inundación, cortes ni superficies remodeladas.",
+      "review": "Comprueba agua desde la calle, franja cercana seca, reflejos originales conservados y ondulados por el agua, arquitectura intacta."
+    },
+    {
+      "id": "amber-orchard",
+      "title": "Huerto de ámbar — una única lámina translúcida",
+      "image": "assets/amber-orchard.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Crea un primer plano surrealista de material de diez segundos. Conserva la pera de vidrio ámbar transparente sobre piedra negra, sus burbujas atrapadas y finas fibras doradas. Un único cuchillo estrecho entra por la derecha; su punta ya toca el flanco derecho de la pera. Sin rostro ni manos. Es vidrio fantástico rígido que se corta limpiamente: el material imposible es deliberado; la geometría debe ser coherente.\n\n0–3s: macro fijo a tres cuartos, con pera y plato enteros. La luz lateral cálida revela las fibras. Retira primero el cuchillo del contacto actual y elévalo sobre el flanco derecho; alinéalo para un corte vertical que retire una fina lámina exterior y deje el tallo en el cuerpo mayor.\n\n3–7s: un solo movimiento descendente ininterrumpido. La hoja atraviesa el flanco hasta apenas tocar el plato. Un único plano de corte limpio avanza con ella; se separa una sola lámina. La pera principal sigue erguida. La lámina se inclina suavemente a la derecha, muestra su sección lisa de ámbar y descansa sobre el plato sin romperse.\n\n7–10s: levanta la hoja verticalmente, fuera de la pera, y mantenla quieta. Acerca la cámara solo un poco para mostrar las caras de corte complementarias. Termina con cuerpo mayor, única lámina y cuchillo claramente visibles.\n\nAudio: roce cristalino fino durante el corte, un tintineo brillante al tocar la piedra y breve resonancia natural. Sin música ni voz.\n\nBurbujas y fibras quedan fijas dentro de cada pieza sólida. Conserva transparencia, contorno fuera del corte y posición del plato. Sin segundo corte, láminas duplicadas, astillas, relleno líquido, fusión, fibras nuevas, fragmentos flotantes ni cortes de cámara.",
+      "review": "El cuchillo se retira del contacto inicial antes de un solo corte en dos sólidos complementarios; tallo en el cuerpo mayor y burbujas fijas."
+    },
+    {
+      "id": "unfolding-atrium",
+      "title": "Atrio desplegado — apertura de un invernadero mecánico",
+      "image": "assets/unfolding-atrium.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anima la maqueta de nogal y latón como una revelación mecánica precisa de diez segundos. Conserva pedestal de piedra gris, escaleras miniatura y helechos densos. El techo de vidrio consta de exactamente dos mitades curvas, articuladas en ejes fijos junto a la cumbrera central. Empiezan cerradas; el interior ya se ve a través del vidrio.\n\n0–3s: muestra la maqueta entera de cerca a tres cuartos. Luz cálida roza la veta y los cilindros de bisagra de latón. La cámara sube lenta y continuamente, mirando al atrio. El techo sigue cerrado un instante; luego suben los bordes exteriores del alero, con la cumbrera fija.\n\n3–7s: ambas mitades giran hacia arriba a igual velocidad pausada sobre bisagras fijas en la cumbrera. Suben los aleros exteriores y revelan las plantas; la cumbrera no se separa. Conserva curvatura y marcos rígidos durante la apertura controlada. La cámara sube solo hasta revelar la caja de escaleras; todo el pedestal queda en cuadro.\n\n7–10s: las hojas frenan hasta ángulos abiertos iguales y paran sin rebotar. Mantén helechos y escaleras enmarcados por el techo abierto. Una mancha suave de luz diurna penetra más; las plantas siguen inmóviles. Termina con la estructura abierta claramente legible.\n\nAudio: zumbido tenue de engranajes sincronizado con el techo, dos clics de tope casi simultáneos y silencio ambiente. Sin música ni voz.\n\nExactamente dos mitades rígidas, ejes fijos en la cumbrera y el mismo interior. Nada crece, surge del vacío ni cambia de escala. Sin paneles deslizantes, vidrio suelto, metal doblado, salas nuevas, pedestal que se abra, personas ni cortes.",
+      "review": "Verifica que dos mitades rígidas alcen sus aleros sobre bisagras de cumbrera fija, sin separar la cumbrera; interior presente y base completa."
+    },
+    {
+      "id": "cobalt-orbit",
+      "title": "Órbita cobalto — estudio de moda con giro completo",
+      "image": "assets/cobalt-orbit.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anima a la modelo adulta ficticia en un retrato de alta costura de cuerpo entero de diez segundos. Conserva pelo negro corto, pendientes de disco de cobre y vestido escultural plisado azul cobalto. Mantén sala circular de hormigón desnudo, tragaluz y suelo limpio. Empieza de frente, pies apoyados y brazos relajados. Encuadra de cabeza a suelo con espacio holgado para la falda.\n\n0–3s: cámara totalmente fija. Tras una breve pausa frontal, gira lentamente en sentido horario visto desde arriba, con pasos pequeños y controlados sin desplazarse. Los hombros guían; la falda pesada los sigue con ligero retraso. A los tres segundos muestra un perfil claro de un cuarto de vuelta.\n\n3–7s: sigue en la misma dirección con ritmo tranquilo de pasarela. Espalda claramente visible cerca del segundo cinco; perfil opuesto cerca del siete. Permanece centrada en el mismo punto. Los pliegues se abren y cierran sutilmente al rodear las piernas; el bajo roza el suelo sin elevarse como disco horizontal. Los pendientes oscilan apenas.\n\n7–10s: completa exactamente 360 grados antes del segundo nueve, otra vez de frente. Se detienen los pies y luego el último movimiento de la falda. Mantén la pose frontal el segundo restante, mirando al objetivo con serenidad.\n\nAudio: pasos suaves sobre hormigón, roce discreto de tela y ambiente bajo. Sin música, diálogo ni aplausos.\n\nMantén identidad, construcción original del vestido y cuerpo continuo y plausible bajo la tela. Cabeza, manos y bajo visibles siempre. Luz cenital y fondo fijos. Sin órbita de cámara, giro extra, cortes, cambio de color, bajo suspendido, accesorios nuevos ni deformación elástica del cuerpo.",
+      "review": "Comprueba una vuelta completa terminada de frente, cámara fija, cabeza y bajo visibles y falda que sigue el movimiento sin impulsarlo."
     }
   ],
   "workflow_title": "Usa los controles reales de SeaImagine",
@@ -54,7 +78,7 @@
     },
     {
       "title": "Planificar la imagen antes de animarla: GENEL",
-      "text": "El creador explica que hizo un collage con ChatGPT Images 2.0 y después lo animó con Grok Imagine Video 1.5. Nuestro ejercicio de la postal mantiene fijos los bordes y asigna un solo movimiento a cada panel.",
+      "text": "El creador explica que hizo un collage con ChatGPT Images 2.0 y después lo animó con Grok Imagine Video 1.5.",
       "url": "https://x.com/genel_ai/status/2061382998873034825"
     },
     {
@@ -65,7 +89,7 @@
   ],
   "source_details_label": "Fuentes y notas de visualización (en inglés)",
   "archive_label": "Más recetas y la colección original con atribución, a continuación",
-  "recipe_count_note": "62 prompts distintos en inglés: 35 heredados y 27 originales. Los 24 más recientes se han escrito a partir de temas de redes sociales y no se han probado mediante generación. Las traducciones no cuentan como escenas nuevas.",
-  "viewing_note": "El 24 de septiembre de 2026 examinamos fotogramas de los reproductores originales de X: del vídeo oficial, aproximadamente en 3,6 s (casco y ejército), 19,8 s (primer plano de un rostro) y 34,6 s (ciudad costera en llamas); de GENEL, aproximadamente en 0,05 s (barandilla junto al mar), 4,9 s (paso a nivel) y 12 s (mano a contraluz). Observa los cambios de escala de plano del vídeo oficial y la luz costera coherente entre los distintos planos de GENEL. Nuestra postal de paneles fijos es un ejercicio diferente. Son fotogramas muestreados, no pruebas completas de movimiento o audio.",
+  "recipe_count_note": "65 prompts distintos en inglés: 35 heredados y 30 originales. Los originales son nuevos y no se han probado mediante generación. Las traducciones no cuentan como escenas adicionales.",
+  "viewing_note": "El 24 de septiembre de 2026 examinamos fotogramas de los reproductores originales de X: del vídeo oficial, aproximadamente en 3,6 s (casco y ejército), 19,8 s (primer plano de un rostro) y 34,6 s (ciudad costera en llamas); de GENEL, aproximadamente en 0,05 s (barandilla junto al mar), 4,9 s (paso a nivel) y 12 s (mano a contraluz). Observa los cambios de escala de plano del vídeo oficial y la luz costera coherente entre los distintos planos de GENEL. Son fotogramas muestreados, no pruebas completas de movimiento o audio.",
   "archive_note": "El archivo siguiente conserva las recetas originales y los parámetros orientados a la API. Para SeaImagine, adáptalos a los controles anteriores: 5/10/15 segundos y 480p/720p. Reescribe las acciones cronometradas para que encajen; la edición y la extensión requieren flujos de trabajo compatibles por separado."
 }

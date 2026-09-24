@@ -7,10 +7,12 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-ORDER = ['sea-glass-bottle', 'blue-route', 'honey-loaf', 'harbor-reunion',
-         'first-sip', 'salt-line', 'coastal-postcard', 'citrus-halo']
-FEATURED_GROUPS = [['sea-glass-bottle', 'citrus-halo'], ['blue-route', 'coastal-postcard'],
-                   ['first-sip', 'salt-line'], ['harbor-reunion'], [], [], [], ['honey-loaf'], []]
+ORDER = ['sea-glass-bottle', 'blue-route', 'honey-loaf', 'clockwork-dialogue',
+         'first-sip', 'salt-line', 'rainlit-arcade', 'amber-orchard',
+         'unfolding-atrium', 'cobalt-orbit', 'citrus-halo']
+FEATURED_GROUPS = [['sea-glass-bottle', 'citrus-halo'], ['blue-route'],
+                   ['first-sip', 'salt-line'], ['clockwork-dialogue'], ['rainlit-arcade'],
+                   ['amber-orchard'], ['unfolding-atrium'], ['honey-loaf'], ['cobalt-orbit']]
 MODES = [['text','image','reference'], ['text','image','extension'], ['text','image','reference'],
          ['reference'], ['edit','extension'], ['text'], ['text'], ['text'], ['text']]
 COLLECTIONS = ['01-ads-and-products', '02-cinematic-storytelling', '03-social-ugc',
@@ -36,7 +38,7 @@ def render_core(data, featured, product_url, guide, locale, ui):
     cases = {c['id']: c for c in data['cases'] + featured['cases']}
     source_ids = {c['id'] for c in featured['cases']}
     out = ['<a id="find-the-right-prompt"></a>', '<a id="prompt-library"></a>',
-           f'## {featured["nav_title"]}', f'[{featured["browse_label"]} · 62](docs/PROMPT_INDEX.md)']
+           f'## {featured["nav_title"]}', f'[{featured["browse_label"]} · 65](docs/PROMPT_INDEX.md)']
     rows = [f'| {featured["category_label"]} | {ui["scenes_label"]} | {ui["modes_label"]} | {ui["examples_label"]} |', '| --- | --- | --- | --- |']
     for n, (slug, entries) in enumerate(catalog()):
         examples = ' · '.join(f'[{cases[key]["title"]}](#case-{key})' for key in FEATURED_GROUPS[n]) or '—'
@@ -55,7 +57,7 @@ def render_core(data, featured, product_url, guide, locale, ui):
         else:
             out += [f'<a id="seaimagine-{ident}"></a>']
         out += [f'### {i}. {case["title"]}']
-        if ident in ('first-sip', 'coastal-postcard'):
+        if ident in ('first-sip',):
             out.append(f'<a href="{case["image"]}"><img src="{case["image"]}" width="480" alt="{html.escape(case["title"], quote=True)}"></a>')
         else:
             out.append(f'![{case["title"]}]({case["image"]})')
@@ -66,7 +68,7 @@ def render_core(data, featured, product_url, guide, locale, ui):
         out.append(f'[{featured["back_label"]}](#find-the-right-prompt)')
     out += ['<a id="seaimagine-browser-workflow"></a>', '<a id="create-with-seaimagine"></a>',
             f'## {ui["brand_title"]}', ui['brand_intro'],
-            ' · '.join(f'[{label}](#case-{ident})' for label, ident in zip(ui['brand_links'], ['sea-glass-bottle','harbor-reunion','coastal-postcard'])),
+            ' · '.join(f'[{label}](#case-{ident})' for label, ident in zip(ui['brand_links'], ['sea-glass-bottle','clockwork-dialogue','cobalt-orbit'])),
             f'[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)]({product_url})',
             ui['brand_caption'], f'**[{ui["brand_cta"]}]({product_url})**',
             '<a id="learn-from-official-and-community-examples"></a>',
@@ -98,8 +100,15 @@ def main():
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(text)
     index = ['# Complete prompt index', '[← Main collection](../README.md)',
-             '62 distinct English prompts. Each illustrated case is listed once in its category. New original briefs are not generation-tested; [sources](SOCIAL_INSPIRATION.md).']
+             '65 distinct English prompts. Each illustrated case is listed once in its category. New original briefs are not generation-tested; [sources](SOCIAL_INSPIRATION.md).']
     en = json.loads((ROOT / 'data/homepage-locales/en-US.json').read_text())
+    original = ['# Original illustrated prompts', '[← Main collection](../README.md)',
+                'Six original briefs with downloadable concept starting frames and complete prompts. These images are not verified Grok outputs; the video prompts have not been generation-tested.']
+    for n, case in enumerate(en['cases'], 1):
+        original += [f'## {n}. {case["title"]}', f'![{case["title"]}](../{case["image"]})',
+                     f'**Settings:** {case["settings"]} · [TXT](text/en-US/{case["id"]}.txt)',
+                     '```text\n' + case['prompt'] + '\n```', f'**Review:** {case["review"]}']
+    output(ROOT / 'prompts/06-community-exercises.md', '\n\n'.join(original) + '\n')
     feat = json.loads((ROOT / 'data/featured-locales/en-US.json').read_text())
     by_id = {c['id']: c for c in en['cases'] + feat['cases']}
     labels = interface['en-US']['category_names']

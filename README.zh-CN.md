@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 62 条提示词，其中 8 个图文案例提供 15 种语言版本。按分类浏览，复制完整提示词。
+> 65 条提示词，其中 11 个图文案例提供 15 种语言版本。按分类浏览，复制完整提示词。
 
 ![Grok Imagine 1.5 — 展开的提示词手册，产品鞋、电车与纸鲸连成同一场景](assets/seaimagine-grok-hero.webp)
 
@@ -14,19 +14,19 @@
 
 ## 分类索引
 
-[浏览更多提示词（英语） · 62](docs/PROMPT_INDEX.md)
+[浏览更多提示词（英语） · 65](docs/PROMPT_INDEX.md)
 
 | 分类 | 包含场景 | 适用模式 | 案例 |
 | --- | --- | --- | --- |
 | [产品与广告 · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | 护肤微距 / 咖啡 / 珠宝 / 应用广告 | 文生视频 / 图生视频 / 参考图生视频 | [海蓝色磨砂玻璃瓶——控制变量比较动态效果](#case-sea-glass-bottle) · [柑橘光环——高端香水产品短片](#case-citrus-halo) |
-| [电影叙事 · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | 动作 / 爱情 / 悬疑 / 科幻 / 动画 | 文生视频 / 图生视频 / 视频续接 | [蓝色路线——雨中市场快递员跟拍](#case-blue-route) · [海岸明信片——让设计好的图片动起来](#case-coastal-postcard) |
+| [电影叙事 · 7](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | 动作 / 爱情 / 悬疑 / 科幻 / 动画 | 文生视频 / 图生视频 / 视频续接 | [蓝色路线——雨中市场快递员跟拍](#case-blue-route) |
 | [社交与生活 · 8](docs/PROMPT_INDEX.md#03-social-ugc) | 体验分享 / 美食 / 健身 / 采访 | 文生视频 / 图生视频 / 参考图生视频 | [第一口——自然的咖啡馆体验分享](#case-first-sip) · [晨曦盐田线——旅行纪录片](#case-salt-line) |
-| [人物与对白 · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | 人物 / 服装 / 对白 / 群像 | 参考图生视频 / 图生视频 | [港口重逢——只表现一个情绪变化](#case-harbor-reunion) |
-| [视觉变换与续接 · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | 天气替换 / 清理 / 改风格 / 续接 | 视频编辑 / 视频续接 | — |
-| [解压材质与声音 · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | 压沙 / 铜箔 / 水珠 / 拓印 | 文生视频 | — |
-| [空间与建筑 · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | 家具展开 / 庭院 / 房屋剖面 | 文生视频 | — |
+| [人物与对白 · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | 人物 / 服装 / 对白 / 群像 | 参考图生视频 / 图生视频 | [最后一枚齿轮——钟表修复师的默契](#case-clockwork-dialogue) |
+| [视觉变换与续接 · 7](docs/PROMPT_INDEX.md#05-editing-and-extension) | 天气替换 / 清理 / 改风格 / 续接 | 视频编辑 / 视频续接 / 图生视频 | [雨入长廊——连续发生的天气变化](#case-rainlit-arcade) |
+| [解压材质与声音 · 7](docs/PROMPT_INDEX.md#07-satisfying-materials) | 压沙 / 铜箔 / 水珠 / 拓印 | 文生视频 / 图生视频 | [琥珀果园——一片通透的切面](#case-amber-orchard) |
+| [空间与建筑 · 7](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | 家具展开 / 庭院 / 房屋剖面 | 文生视频 / 图生视频 | [展开的中庭——机械温室揭幕](#case-unfolding-atrium) |
 | [微缩与超现实 · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | 茶杯渡轮 / 抽屉雨景 / 纸月亮 | 文生视频 / 图生视频 | [蜂蜜面包——微缩烘焙坊故事](#case-honey-loaf) |
-| [时尚与表演 · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | 裙摆 / 披风 / 衣领投影 / 舞步 | 文生视频 | — |
+| [时尚与表演 · 7](docs/PROMPT_INDEX.md#10-fashion-and-performance) | 裙摆 / 披风 / 衣领投影 / 舞步 | 文生视频 / 图生视频 | [钴蓝回旋——高定礼服的一次完整转身](#case-cobalt-orbit) |
 
 [图文案例](#featured-prompts) · [SeaImagine 创作入口](#create-with-seaimagine)
 
@@ -36,9 +36,9 @@
 
 ## 可复制、可改写的图文提示词
 
-8 个案例均附完整提示词与起始帧图片。图片用于展示构思，并非已核验的视频结果。
+11 个案例均附完整提示词与参考图片。图片用于展示构思，并非已核验的视频结果。
 
-标注来源 Flaq AI 的五个案例保留原始时长和分辨率；其余三个案例按 SeaImagine 当前选项编写。在 SeaImagine 使用源库案例时，请选择 5/10/15 秒和 480p/720p，并重新安排动作时间。
+标注来源 Flaq AI 的五个案例保留原始时长和分辨率；其余六个案例按 SeaImagine 当前选项编写。在 SeaImagine 使用源库案例时，请选择 5/10/15 秒和 480p/720p，并重新安排动作时间。
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -120,28 +120,28 @@
 
 [返回分类索引](#find-the-right-prompt)
 
-<a id="case-harbor-reunion"></a>
+<a id="case-clockwork-dialogue"></a>
 
-<a id="seaimagine-harbor-reunion"></a>
+<a id="seaimagine-clockwork-dialogue"></a>
 
-### 4. 港口重逢——只表现一个情绪变化
+### 4. 最后一枚齿轮——钟表修复师的默契
 
-![港口重逢——只表现一个情绪变化](assets/seaimagine-harbor-reunion.webp)
+![最后一枚齿轮——钟表修复师的默契](assets/clockwork-dialogue.png)
 
-**图生视频参数:** 10s · 16:9 · 720p · [起始帧——打开并保存](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/zh-CN/harbor-reunion.txt)
+**图生视频参数:** 10s · 16:9 · 720p · [起始帧——打开并保存](assets/clockwork-dialogue.png) · [TXT](prompts/text/zh-CN/clockwork-dialogue.txt)
 
 ```text
-保留所提供图片中的两名成年人、各自的面容、藏蓝色与奶油色服装、木码头和柔和晨光。
-始终让两人处于同一个中远景画面中。
-0–3 秒：左侧的人注意到前来的朋友，向前迈一小步。
-其肩膀放松下来；朋友回以轻轻的微笑。双手保持可见，姿态自然放松。
-3–7 秒：左侧的人用自然的普通话说：“你来了。”朋友点一下头。
-对白要克制，不哭泣，也不做夸张表情。
-7–10 秒：两人都转头望向停泊的小船。最后一秒保持画面，方便衔接下一个镜头。
-镜头：只缓慢推进一次，不切反打镜头，不剪切。
-声音：近距离、清晰可辨的对白，轻柔的港口水声和远处的海鸥声；不要音乐或字幕。
-保持两人身份、服装、码头结构、船只位置和晨光方向一致。
-避免多出人物、戏剧化动作、面部磨皮、多余手指和镜头跳动。
+将参考图制作成一段克制的十秒电影场景。两位成年修复师、敞开的黄铜天文钟、唯一的散放齿轮和月光下的天文台须保持可辨认的一致性。穿藏蓝工作服的短发女性始终在画面左侧，系赭色围裙的灰发男性始终在右侧。隔着工作台，以腰部以上的双人中景取景。
+
+0–3秒：保持双人构图，镜头几乎不可察觉地前推。女性端详钟表，用中文轻声问：“它能走准吗？”男性注视钟内机构。只有女性说话，口型与台词对应。钟表从一开始就在缓慢、轻声滴答。
+
+3–7秒：男性双手放松、保持不动，专注听了一拍钟声，然后用中文回答：“现在能了。”这句台词只有他的嘴唇移动。他不碰散放的齿轮；齿轮始终静止，钟内可见的擒纵机构保持稳定摆动。
+
+7–10秒：她的视线从钟表转向他，露出一丝释然的微笑。他回望她。结束于两人共同的停顿，钟声在中间响起，冷月光勾勒肩部轮廓。
+
+声音：贴近、干净的对白；全程保持空旷房间里均匀、轻细的滴答声。无配乐、无抢话、无齿轮移动声。
+
+散放齿轮始终与钟表分离，无人安装或转动它。保持手部结构、钟内零件、服装、视线和左右位置一致。滴答声从开始就存在，不由任何手势触发；不增加工具、齿轮、字幕、镜头切换或夸张手势。
 ```
 
 [返回分类索引](#find-the-right-prompt)
@@ -202,27 +202,106 @@
 
 [返回分类索引](#find-the-right-prompt)
 
-<a id="case-coastal-postcard"></a>
+<a id="case-rainlit-arcade"></a>
 
-<a id="seaimagine-coastal-postcard"></a>
+<a id="seaimagine-rainlit-arcade"></a>
 
-### 7. 海岸明信片——让设计好的图片动起来
+### 7. 雨入长廊——连续发生的天气变化
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="海岸明信片——让设计好的图片动起来"></a>
+![雨入长廊——连续发生的天气变化](assets/rainlit-arcade.png)
 
-**图生视频参数:** 5s · 9:16 · 720p · [起始帧——打开并保存](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/zh-CN/coastal-postcard.txt)
+**图生视频参数:** 10s · 16:9 · 720p · [起始帧——打开并保存](assets/rainlit-arcade.png) · [TXT](prompts/text/zh-CN/rainlit-arcade.txt)
 
 ```text
-让这张三格海岸明信片动起来，不改变排版或边框。
-完整保留所有物体和颜色。上格：杯中升起一缕细细的蒸汽。
-中格：港口水面泛起轻微涟漪，阳光在水面闪动。
-下格：只有画面中已有的纸张一角被微风轻轻掀起，然后落下。
-每个动作都限制在各自的画格内。五秒内始终完整显示所有画格。
-镜头：固定，不变焦、不摇移、不剪切，画格之间不转场。
-声音：轻微水声和柔和的纸张沙沙声；不要对白、音乐、字幕或新增文字。
-保留杯柄、窗框、地图标记、各格尺寸和阅读顺序。
-避免画格融合、凭空生成新场景、重绘字母，或让物体跨越边框移动。
-结尾时纸角落稳，原有构图保持完整。
+以所给空无一人的装饰艺术风格拱廊为精确首帧，制作十秒天气变化镜头。保持深绿色瓷砖、黄铜饰边、水磨石地面、连续拱门和左墙暖灯不变。远处临街开口保持暮色蓝调。室内抛光石材地面起初全部干燥，保留原有柔和反射；镜头从拱廊内朝向出口。
+
+0–3秒：固定建筑构图，不摇摄、不变焦。远处门槛外，一阵风将街上的雨斜吹而过。零星雨滴最先越过入口，仅将门槛旁的水磨石打湿变深。前景完全干燥。
+
+3–7秒：风势加强，细雨沿同一方向吹入拱廊更深处。不规则的湿润边缘从远端向中部推进；后落下的雨滴清楚地连入已有湿斑。湿润区域形成浅小水洼。保留原有柔和反射；湿润部分的左墙灯光倒影被雨滴打散成颤动的暖色光带。
+
+7–10秒：最后一阵雨雾扫到靠近中部的地面，逐渐停下。最近的一条前景地面保持干燥。雨势减弱，浅水洼中重叠的涟漪逐渐消退，暖色倒影趋于平静。保留蓝色出口前毫无变化的拱门。
+
+声音：先是室外雨声，再有越来越近的雨滴敲石声、一阵低沉风声和轻柔的拱廊回响。无雷声、音乐或人声。
+
+水分进入的路径必须连续可见：不能整片地面突然发亮，也不能在湿润边缘前方凭空出现水洼。积水保持浅薄，灯光稳定，镜头水平，建筑线条不变形。不出现人，不新增植物、新招牌、闪电、洪水、切镜或表面改造。
+```
+
+[返回分类索引](#find-the-right-prompt)
+
+<a id="case-amber-orchard"></a>
+
+<a id="seaimagine-amber-orchard"></a>
+
+### 8. 琥珀果园——一片通透的切面
+
+![琥珀果园——一片通透的切面](assets/amber-orchard.png)
+
+**图生视频参数:** 10s · 16:9 · 720p · [起始帧——打开并保存](assets/amber-orchard.png) · [TXT](prompts/text/zh-CN/amber-orchard.txt)
+
+```text
+将所给参考图制作成十秒超现实材质特写。保持黑色石盘上的透明琥珀玻璃梨、内部细小气泡和金色细丝。唯一一把窄刀从画面右侧伸入，刀尖按参考图接触梨的右侧。不出现人脸或手。梨是一件坚硬但可以整齐切开的幻想玻璃物体：不可能的材质是刻意设定，但形体结构须连贯。
+
+0–3秒：以固定的四分之三角度微距构图开始，完整保留梨和石盘。暖侧光照亮内部悬着的细丝。刀刃先从现有接触点退开，抬至右侧切面上方，再对准一条竖直切线，只切下一片薄薄的外侧果肉，果梗留在较大的主体上。
+
+3–7秒：一刀连续向下切。刀刃穿过右侧，直至刚刚碰到石盘。唯一的平整切面随刀刃推进，仅分离一片。梨的主体始终直立。薄片轻轻向右外侧倾倒，露出光滑琥珀色切面，随后靠在石盘上，不碎裂。
+
+7–10秒：刀刃竖直抬起离开梨并停住。镜头只轻微前移，展示相互吻合的两个切面。结束时，梨的主体、一片分离薄片和刀都须在画面中清晰可辨。
+
+声音：切割时细微的晶体摩擦声；薄片触石时一声清亮轻响，接着短促的自然余音。无音乐或说话声。
+
+气泡和细丝固定在各自的固体部分内。保持透明度、切口之外的梨形轮廓和石盘位置。不得再次下刀、复制薄片、产生碎屑、液体填充、熔化、新细丝、漂浮碎片或切换镜头。
+```
+
+[返回分类索引](#find-the-right-prompt)
+
+<a id="case-unfolding-atrium"></a>
+
+<a id="seaimagine-unfolding-atrium"></a>
+
+### 9. 展开的中庭——机械温室揭幕
+
+![展开的中庭——机械温室揭幕](assets/unfolding-atrium.png)
+
+**图生视频参数:** 10s · 16:9 · 720p · [起始帧——打开并保存](assets/unfolding-atrium.png) · [TXT](prompts/text/zh-CN/unfolding-atrium.txt)
+
+```text
+将所给胡桃木与黄铜建筑模型制作成十秒精密机械展示。灰色石质展台、微型楼梯和茂密蕨类保持不变。弧形玻璃屋顶恰由两个弧形半片构成，铰接于中央屋脊上固定的铰轴。两扇起初均关闭，室内从一开始就可透过玻璃看见。
+
+0–3秒：以近距离四分之三角度展示完整模型。暖光掠过胡桃木纹和小巧黄铜铰链筒。镜头开始缓慢、连续上升，轻柔俯看中庭。屋顶先保持关闭一拍，然后两侧外缘屋檐开始抬起，屋脊不分离。
+
+3–7秒：两扇玻璃绕各自固定的屋脊铰链，以相同的稳定速度向上旋转。外缘屋檐抬起，露出下方种满植物的中庭。展现受控的机械开启，每扇都保持原有弧度和刚性黄铜边框。镜头继续上升，刚好露出楼梯井；整个展台始终在画面内。
+
+7–10秒：两扇缓缓抵达相同的开启角度，无回弹地停下。停留展示敞开屋顶框住的蕨类冠层与微型楼梯。一小片柔和日光照进室内更深处，植物自身不动。结束时敞开的结构清晰可读。
+
+声音：与屋顶运动同步的低柔齿轮声；两声几乎同时响起的限位轻响；随后归于安静室内底噪。无音乐或人声。
+
+严格保持两扇屋顶、屋脊上的固定铰链轴和同一室内布局。没有东西生长、从空处展开或改变比例。不得出现滑动屋面、脱落玻璃、弯曲金属、新房间、打开的展台、人或镜头切换。
+```
+
+[返回分类索引](#find-the-right-prompt)
+
+<a id="case-cobalt-orbit"></a>
+
+<a id="seaimagine-cobalt-orbit"></a>
+
+### 10. 钴蓝回旋——高定礼服的一次完整转身
+
+![钴蓝回旋——高定礼服的一次完整转身](assets/cobalt-orbit.png)
+
+**图生视频参数:** 10s · 16:9 · 720p · [起始帧——打开并保存](assets/cobalt-orbit.png) · [TXT](prompts/text/zh-CN/cobalt-orbit.txt)
+
+```text
+将所给虚构成年时装模特制作成十秒全身高级时装肖像。保留黑色短发、铜质圆片耳环和雕塑感钴蓝褶裥长裙。保留空旷的圆形混凝土房间、顶上天窗和干净地面。她起初面向镜头，双脚落地，双臂放松。取景从头到地面，为裙摆预留充足空间。
+
+0–3秒：镜头完全固定。正面短暂停留后，她以俯视方向的顺时针缓缓转身，用小幅、受控的步伐原地移动。肩膀自然引导动作，厚重的褶裥裙稍后跟随。至第三秒形成清晰的四分之一圈侧身。
+
+3–7秒：沿同一方向，以从容的走秀节奏继续转身。约第五秒经过清晰背面，第七秒转到另一侧面。她始终居于相同地面位置的中央。布料绕腿移动，褶裥轻微开合；裙边擦过地面，不抬起成水平圆盘。耳环只略微摆动。
+
+7–10秒：至第九秒恰好完成一次360度转身，再次面向镜头。脚步先停，裙摆最后的小幅摆动随后停止。余下一秒保持正面姿势，以沉静表情看向镜头。
+
+声音：混凝土地面上的轻脚步声、克制的布料窸窣声和低柔室内底噪。无音乐、对白或掌声。
+
+保持同一人物身份、原有服装结构和衣物下连贯可信的身体。头、手和裙边始终在画面内。天窗光线方向和背景固定。不得绕人物运镜、多转一圈、切镜、改变布料颜色、让裙边腾空、增加配饰或使身体弹性变形。
 ```
 
 [返回分类索引](#find-the-right-prompt)
@@ -231,7 +310,7 @@
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
-### 8. 柑橘光环——高端香水产品短片
+### 11. 柑橘光环——高端香水产品短片
 
 ![柑橘光环——高端香水产品短片](assets/citrus-fragrance-product-video.webp)
 
@@ -261,9 +340,9 @@
 
 ## 把选中的镜头，带到 SeaImagine
 
-从前面的玻璃瓶产品片、港口对白或动态明信片选一条，带上对应图片与完整提示词，在 SeaImagine 的 Grok Imagine 1.5 页面继续创作。产品片看材质，人物片看表演，排版动画看构图。
+从玻璃瓶的通透质感，到钟表师对话的微小表情，再到礼服旋转时的褶裥变化：选一张参考图和对应提示词，在 SeaImagine 的 Grok Imagine 1.5 页面继续创作。
 
-[产品质感](#case-sea-glass-bottle) · [人物对白](#case-harbor-reunion) · [排版动画](#case-coastal-postcard)
+[瓶身质感](#case-sea-glass-bottle) · [钟表师对白](#case-clockwork-dialogue) · [礼服旋转](#case-cobalt-orbit)
 
 [![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/cn/model/grok-imagine-1-5/)
 
@@ -307,6 +386,6 @@
 
 ## 合集与来源署名
 
-共 62 条不同的英语提示词：35 条保留自源库，27 条原创。最新 24 条根据社媒题材重新创作，尚未生成验证。翻译不计为新增场景。
+共 65 条不同的英语提示词：35 条保留自源库，30 条原创。翻译不计为新增场景；原创提示词尚未生成验证。
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/cn/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

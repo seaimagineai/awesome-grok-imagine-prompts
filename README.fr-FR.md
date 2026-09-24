@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 62 prompts, dont 8 exemples illustrés disponibles en 15 langues. Parcourez les catégories et copiez les prompts complets.
+> 65 prompts, dont 11 exemples illustrés disponibles en 15 langues. Parcourez les catégories et copiez les prompts complets.
 
 ![Grok Imagine 1.5 — Carnet de prompts ouvert : une chaussure, un tramway et une baleine en papier dans un même décor](assets/seaimagine-grok-hero.webp)
 
@@ -14,19 +14,19 @@ Adaptée de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) et mainten
 
 ## Index des catégories
 
-[Parcourir d’autres prompts (en anglais) · 62](docs/PROMPT_INDEX.md)
+[Parcourir d’autres prompts (en anglais) · 65](docs/PROMPT_INDEX.md)
 
 | Catégorie | Scènes | Modes | Exemples |
 | --- | --- | --- | --- |
 | [Produits et publicité · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Macros de soins / café / bijoux / publicités pour applications | Texte vers vidéo / Image vers vidéo / Références vers vidéo | [Bouteille en verre marin : comparer des mouvements maîtrisés](#case-sea-glass-bottle) · [Halo d’agrumes : film de parfum haut de gamme](#case-citrus-halo) |
-| [Récits cinématographiques · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Action / romance / suspense / science-fiction / animation | Texte vers vidéo / Image vers vidéo / Prolongement vidéo | [Itinéraire bleu : suivi d’un livreur dans un marché pluvieux](#case-blue-route) · [Carte postale côtière : animez une image préparée](#case-coastal-postcard) |
+| [Récits cinématographiques · 7](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Action / romance / suspense / science-fiction / animation | Texte vers vidéo / Image vers vidéo / Prolongement vidéo | [Itinéraire bleu : suivi d’un livreur dans un marché pluvieux](#case-blue-route) |
 | [Réseaux sociaux et quotidien · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Retours d’expérience / cuisine / fitness / entretiens | Texte vers vidéo / Image vers vidéo / Références vers vidéo | [Première gorgée : avis authentique d’une créatrice au café](#case-first-sip) · [La ligne du sel à l’aube : documentaire de voyage](#case-salt-line) |
-| [Personnages et dialogues · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Personnages / costumes / dialogues / scènes de groupe | Références vers vidéo / Image vers vidéo | [Retrouvailles au port : un seul moment d’émotion](#case-harbor-reunion) |
-| [Transformations visuelles et prolongements · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Changement de météo / nettoyage / changement de style / prolongement | Montage vidéo / Prolongement vidéo | — |
-| [Matières et sons satisfaisants · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sable pressé / feuille de cuivre / gouttes d’eau / marbrure | Texte vers vidéo | — |
-| [Espaces et architecture · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Meubles dépliants / cours intérieures / maisons en coupe | Texte vers vidéo | — |
+| [Personnages et dialogues · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Personnages / costumes / dialogues / scènes de groupe | Références vers vidéo / Image vers vidéo | [La dernière dent — duo d’horlogers](#case-clockwork-dialogue) |
+| [Transformations visuelles et prolongements · 7](docs/PROMPT_INDEX.md#05-editing-and-extension) | Changement de météo / nettoyage / changement de style / prolongement | Montage vidéo / Prolongement vidéo / Image vers vidéo | [La pluie gagne la galerie — changement de temps continu](#case-rainlit-arcade) |
+| [Matières et sons satisfaisants · 7](docs/PROMPT_INDEX.md#07-satisfying-materials) | Sable pressé / feuille de cuivre / gouttes d’eau / marbrure | Texte vers vidéo / Image vers vidéo | [Verger d’ambre — une seule tranche translucide](#case-amber-orchard) |
+| [Espaces et architecture · 7](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Meubles dépliants / cours intérieures / maisons en coupe | Texte vers vidéo / Image vers vidéo | [L’atrium s’ouvre — révélation d’une serre mécanique](#case-unfolding-atrium) |
 | [Miniatures et surréalisme · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Ferrys dans des tasses / pluie dans un tiroir / lunes en papier | Texte vers vidéo / Image vers vidéo | [Le pain au miel : histoire de boulangerie miniature](#case-honey-loaf) |
-| [Mode et performance · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Jupes en mouvement / capes / projections sur un col / pas de danse | Texte vers vidéo | — |
+| [Mode et performance · 7](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Jupes en mouvement / capes / projections sur un col / pas de danse | Texte vers vidéo / Image vers vidéo | [Orbite cobalt — étude de mode sur un tour complet](#case-cobalt-orbit) |
 
 [Exemples illustrés](#featured-prompts) · [Créer avec SeaImagine](#create-with-seaimagine)
 
@@ -36,9 +36,9 @@ Adaptée de [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) et mainten
 
 ## Des prompts illustrés à copier et à adapter
 
-8 exemples avec prompts complets et images de départ. Les images illustrent des concepts ; elles ne constituent pas des résultats vidéo vérifiés.
+11 exemples avec prompts complets et images de départ. Les images illustrent des concepts, pas des vidéos vérifiées.
 
-Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les trois autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.
+Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les six autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -118,25 +118,28 @@ Continuité : préservez le nombre de personnages, leurs visages, l’échelle, 
 
 [Retour à l’index des catégories](#find-the-right-prompt)
 
-<a id="case-harbor-reunion"></a>
+<a id="case-clockwork-dialogue"></a>
 
-<a id="seaimagine-harbor-reunion"></a>
+<a id="seaimagine-clockwork-dialogue"></a>
 
-### 4. Retrouvailles au port : un seul moment d’émotion
+### 4. La dernière dent — duo d’horlogers
 
-![Retrouvailles au port : un seul moment d’émotion](assets/seaimagine-harbor-reunion.webp)
+![La dernière dent — duo d’horlogers](assets/clockwork-dialogue.png)
 
-**Réglages image vers vidéo:** 10s · 16:9 · 720p · [Image de départ : ouvrir et enregistrer](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/fr-FR/harbor-reunion.txt)
+**Réglages image vers vidéo:** 10s · 16:9 · 720p · [Image de départ : ouvrir et enregistrer](assets/clockwork-dialogue.png) · [TXT](prompts/text/fr-FR/clockwork-dialogue.txt)
 
 ```text
-Conservez les deux adultes, leurs visages, les vêtements bleu marine et crème, le ponton en bois et la douce lumière matinale de l’image fournie. Gardez les deux personnages dans le même plan moyen large.
-0–3 secondes : la personne à gauche remarque son ami qui arrive et fait un petit pas. Ses épaules se détendent ; son ami répond par un sourire discret. Gardez les mains visibles et détendues.
-3–7 secondes : la personne à gauche dit en français naturel : « Tu es là. » Son ami hoche une fois la tête. La réplique reste sobre, sans pleurs ni expressions faciales exagérées.
-7–10 secondes : tous deux regardent le bateau amarré. Maintenez la dernière seconde pour permettre un raccord vers le plan suivant.
-Caméra : une seule avancée douce, sans contrechamp ni coupe.
-Son : voix proche et intelligible, clapotis du port et mouette lointaine ; ni musique ni sous-titres.
-Fixez les deux identités, les vêtements, la géométrie du ponton, la position du bateau et la direction de la lumière matinale.
-Évitez les personnes supplémentaires, les gestes théâtraux, les visages lissés, les doigts en trop et les sauts de caméra.
+Anime cette référence en une scène de cinéma sobre de dix secondes. Conserve les deux restaurateurs adultes, l’horloge astronomique en laiton ouverte, l’unique engrenage libre et l’observatoire au clair de lune. La femme aux cheveux courts en tenue bleu marine reste à gauche ; l’homme grisonnant au tablier ocre, à droite. Cadre-les à mi-corps derrière l’établi.
+
+0–3s: plan à deux avec avancée presque imperceptible. Elle examine l’horloge et demande doucement en français : « Elle sera à l’heure ? » Il regarde le mécanisme. Seule elle parle, lèvres synchronisées. L’horloge bat déjà lentement ; l’échappement visible oscille régulièrement.
+
+3–7s: il écoute attentivement l’horloge, mains détendues et immobiles. L’engrenage reste fixe sur la table ; personne ne le touche. Après une courte pause il répond en français : « Maintenant, oui. » Seules ses lèvres bougent. Horloge et échappement conservent le même rythme lent.
+
+7–10s: elle passe du cadran à son visage et esquisse un sourire soulagé. Il croise son regard. Termine sur leur silence partagé, l’horloge battant entre eux et la lune froide dessinant leurs épaules.
+
+Audio : voix proches et sèches, tic-tac fin et lent dès la première image dans la pièce résonnante. Ni musique, voix superposées ou bruit d’engrenage déplacé.
+
+L’engrenage reste séparé et immobile ; personne ne le monte. Préserve mains, mécanisme, vêtements, regards et positions gauche/droite. Aucun démarrage par un geste, outil ou engrenage supplémentaire, sous-titre, coupe ou geste exagéré.
 ```
 
 [Retour à l’index des catégories](#find-the-right-prompt)
@@ -197,26 +200,106 @@ Continuité : travail réaliste, anatomie stable, paysage fixe, train inchangé,
 
 [Retour à l’index des catégories](#find-the-right-prompt)
 
-<a id="case-coastal-postcard"></a>
+<a id="case-rainlit-arcade"></a>
 
-<a id="seaimagine-coastal-postcard"></a>
+<a id="seaimagine-rainlit-arcade"></a>
 
-### 7. Carte postale côtière : animez une image préparée
+### 7. La pluie gagne la galerie — changement de temps continu
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="Carte postale côtière : animez une image préparée"></a>
+![La pluie gagne la galerie — changement de temps continu](assets/rainlit-arcade.png)
 
-**Réglages image vers vidéo:** 5s · 9:16 · 720p · [Image de départ : ouvrir et enregistrer](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/fr-FR/coastal-postcard.txt)
+**Réglages image vers vidéo:** 10s · 16:9 · 720p · [Image de départ : ouvrir et enregistrer](assets/rainlit-arcade.png) · [TXT](prompts/text/fr-FR/rainlit-arcade.txt)
 
 ```text
-Animez cette carte postale côtière à trois cases sans modifier sa disposition ni ses bordures. Conservez exactement tous les objets et les couleurs. Dans la case supérieure, une fine volute de vapeur monte de la tasse.
-Dans la case centrale, l’eau du port ondule doucement et le soleil scintille à sa surface.
-Dans la case inférieure, seul le coin de papier déjà présent se soulève légèrement puis retombe sous une brise légère.
-Gardez chaque mouvement dans sa case. Toutes les cases restent visibles pendant les cinq secondes.
-Caméra : fixe, sans zoom, panoramique, coupe ni transition entre les cases.
-Son : eau calme et léger froissement de papier ; ni dialogue, musique, légendes ou texte ajouté.
-Préservez l’anse de la tasse, le cadre de la fenêtre, les marques de la carte, les dimensions des cases et l’ordre de lecture.
-Évitez de fusionner les cases, d’inventer une nouvelle scène, de redessiner les lettres ou de déplacer des objets au-delà des bordures.
-Terminez avec le coin de papier au repos et la composition initiale intacte.
+Prends la galerie Art déco vide comme première image exacte d’une étude météorologique de dix secondes. Garde carreaux vert profond, laiton, terrazzo, arches répétées et appliques chaudes à gauche. L’ouverture lointaine sur la rue reste bleue au crépuscule. Tout le sol intérieur commence sec ; la caméra regarde la sortie depuis la galerie.
+
+0–3s: composition architecturale fixe, sans panoramique ni zoom. Au-delà du seuil lointain, une rafale chasse la pluie en diagonale dans la rue. Les premières gouttes entrent et ne foncent que le terrazzo au bord du seuil. Le premier plan reste parfaitement sec.
+
+3–7s: la rafale forcit, poussant la pluie fine plus loin dans la même direction. Un front humide irrégulier progresse du fond vers le milieu ; les gouttes rejoignent visiblement les taches existantes. De petites flaques peu profondes se forment. Conserve les reflets doux déjà présents sur le sol sec poli ; dans les zones mouillées, la pluie les fragmente en traînées chaudes ondulantes.
+
+7–10s: une dernière nappe de bruine atteint le milieu proche et ralentit. La bande la plus proche reste sèche. La pluie faiblit ; les cercles superposés diminuent dans les flaques et les reflets se stabilisent. Garde les arches inchangées devant l’ouverture bleue.
+
+Audio : pluie extérieure, puis impacts sur pierre de plus en plus proches, une rafale sourde et un écho léger. Ni tonnerre, musique ou voix.
+
+L’eau suit un chemin continu visible : aucun brillant instantané sur tout le sol, aucune flaque devant le front humide. Eau peu profonde, lampes stables, caméra horizontale, lignes architecturales rigides. Ni personnes, plantes ajoutées, nouvelles enseignes, éclairs, inondation, coupes ou surfaces remodelées.
+```
+
+[Retour à l’index des catégories](#find-the-right-prompt)
+
+<a id="case-amber-orchard"></a>
+
+<a id="seaimagine-amber-orchard"></a>
+
+### 8. Verger d’ambre — une seule tranche translucide
+
+![Verger d’ambre — une seule tranche translucide](assets/amber-orchard.png)
+
+**Réglages image vers vidéo:** 10s · 16:9 · 720p · [Image de départ : ouvrir et enregistrer](assets/amber-orchard.png) · [TXT](prompts/text/fr-FR/amber-orchard.txt)
+
+```text
+Crée un gros plan de matière surréaliste de dix secondes. Préserve la poire en verre ambré transparent sur son assiette de pierre noire, ses bulles piégées et fines fibres dorées. Un seul couteau étroit entre par la droite ; sa pointe touche déjà le flanc droit de la poire. Aucun visage ni main. C’est un verre imaginaire rigide que l’on peut trancher proprement : matière impossible assumée, géométrie cohérente.
+
+0–3s: macro fixe de trois quarts, poire et assiette entières. Lumière latérale chaude sur les fibres. Retire d’abord le couteau de son contact actuel, relève-le au-dessus du flanc droit, puis aligne-le pour une coupe verticale retirant une fine tranche externe, pédoncule sur le grand corps.
+
+3–7s: une seule descente ininterrompue. La lame traverse le flanc jusqu’à effleurer l’assiette. Un unique plan de coupe net progresse avec elle ; une seule tranche se sépare. Le corps reste debout. La tranche bascule doucement à droite, expose sa section ambrée lisse et repose sur l’assiette sans se briser.
+
+7–10s: relève la lame verticalement hors du fruit et immobilise-la. Avance très légèrement la caméra pour montrer les faces complémentaires. Termine avec le grand corps, l’unique tranche détachée et le couteau bien lisibles.
+
+Audio : fin raclement cristallin pendant la coupe, tintement clair au contact de la pierre, puis brève résonance naturelle. Ni musique ni parole.
+
+Bulles et fibres restent fixes dans leurs solides respectifs. Conserve transparence, silhouette hors de la coupe et position de l’assiette. Ni seconde coupe, tranches dupliquées, éclats, cœur liquide, fonte, fibres nouvelles, fragments flottants ou coupes de caméra.
+```
+
+[Retour à l’index des catégories](#find-the-right-prompt)
+
+<a id="case-unfolding-atrium"></a>
+
+<a id="seaimagine-unfolding-atrium"></a>
+
+### 9. L’atrium s’ouvre — révélation d’une serre mécanique
+
+![L’atrium s’ouvre — révélation d’une serre mécanique](assets/unfolding-atrium.png)
+
+**Réglages image vers vidéo:** 10s · 16:9 · 720p · [Image de départ : ouvrir et enregistrer](assets/unfolding-atrium.png) · [TXT](prompts/text/fr-FR/unfolding-atrium.txt)
+
+```text
+Anime la maquette en noyer et laiton en une ouverture mécanique précise de dix secondes. Garde socle de pierre grise, escaliers miniatures et fougères denses. Le toit vitré comporte exactement deux moitiés courbes, articulées sur des axes fixes au faîtage central. Fermés au départ ; l’intérieur se voit déjà à travers le verre.
+
+0–3s: toute la maquette en plan proche de trois quarts. Lumière chaude sur le veinage et les cylindres de charnière. La caméra monte lentement sans interruption, regardant dans l’atrium. Toit fermé un instant ; les rives extérieures se lèvent ensuite, faîtage immobile.
+
+3–7s: les deux moitiés pivotent vers le haut à vitesse identique autour des charnières fixes au faîtage. Les rives extérieures montent, découvrant les plantes ; le faîtage ne se sépare pas. Ouverture contrôlée, courbure et cadres rigides conservés. Monte juste assez pour voir la cage d’escalier ; tout le socle reste cadré.
+
+7–10s: les vantaux ralentissent jusqu’au même angle ouvert et s’arrêtent sans rebond. Tiens sur les fougères et escaliers encadrés par le toit ouvert. Une douce tache de jour pénètre plus loin ; les plantes restent immobiles. Termine sur une structure clairement lisible.
+
+Audio : léger ronronnement d’engrenages lié au toit, deux clics de butée presque simultanés, puis ambiance calme. Ni musique ni voix.
+
+Exactement deux moitiés rigides, axes fixes au faîtage et même intérieur. Rien ne pousse, ne surgit du vide ou ne change d’échelle. Ni panneaux coulissants, verre détaché, métal plié, pièces nouvelles, socle ouvrant, personnes ou coupes.
+```
+
+[Retour à l’index des catégories](#find-the-right-prompt)
+
+<a id="case-cobalt-orbit"></a>
+
+<a id="seaimagine-cobalt-orbit"></a>
+
+### 10. Orbite cobalt — étude de mode sur un tour complet
+
+![Orbite cobalt — étude de mode sur un tour complet](assets/cobalt-orbit.png)
+
+**Réglages image vers vidéo:** 10s · 16:9 · 720p · [Image de départ : ouvrir et enregistrer](assets/cobalt-orbit.png) · [TXT](prompts/text/fr-FR/cobalt-orbit.txt)
+
+```text
+Anime la mannequin adulte fictive en un portrait couture en pied de dix secondes. Garde cheveux noirs courts, boucles en disques de cuivre et robe sculpturale plissée bleu cobalt. Préserve salle circulaire en béton nu, verrière zénithale et sol propre. Elle commence face caméra, pieds posés et bras détendus. Cadre de la tête au sol, avec assez d’espace pour la jupe.
+
+0–3s: caméra totalement fixe. Après une brève pause de face, elle tourne lentement dans le sens horaire vu d’en haut, à petits pas maîtrisés sur place. Les épaules guident naturellement ; la jupe lourde suit avec un léger retard. À trois secondes, profil net après un quart de tour.
+
+3–7s: poursuis dans le même sens à une allure calme de défilé. Dos lisible vers cinq secondes, profil opposé vers sept. Elle reste centrée au même endroit. Les plis s’ouvrent et se ferment subtilement autour des jambes ; l’ourlet frôle le sol sans former de disque horizontal. Les boucles oscillent à peine.
+
+7–10s: termine exactement 360 degrés avant neuf secondes, de nouveau face caméra. Les pieds s’arrêtent, puis les derniers plis. Garde la pose frontale la seconde restante, regard serein vers l’objectif.
+
+Audio : pas doux sur béton, froissement discret de tissu et faible ambiance. Ni musique, dialogue ou applaudissements.
+
+Préserve identité, construction de la robe et corps continu plausible sous le vêtement. Tête, mains et ourlet toujours visibles. Direction de lumière et fond fixes. Ni orbite de caméra, tour supplémentaire, coupe, changement de couleur, ourlet volant, accessoires nouveaux ou déformation élastique du corps.
 ```
 
 [Retour à l’index des catégories](#find-the-right-prompt)
@@ -225,7 +308,7 @@ Terminez avec le coin de papier au repos et la composition initiale intacte.
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
-### 8. Halo d’agrumes : film de parfum haut de gamme
+### 11. Halo d’agrumes : film de parfum haut de gamme
 
 ![Halo d’agrumes : film de parfum haut de gamme](assets/citrus-fragrance-product-video.webp)
 
@@ -255,9 +338,9 @@ Continuité : ne modifiez ni la silhouette du flacon, ni les facettes du bouchon
 
 ## Réalisez le plan choisi avec SeaImagine
 
-Choisissez le plan produit du flacon, le dialogue au port ou la carte postale animée ci-dessus, puis reprenez son image et son prompt complet dans Grok Imagine 1.5 sur SeaImagine. Explorez les matières dans les plans produits, le jeu des personnages dans les dialogues et la composition dans les animations graphiques.
+Emportez le plan du flacon, l’échange des horlogers ou le tour en robe cobalt dans Grok Imagine 1.5 sur SeaImagine, avec image de départ et prompt complet. Explorez verre et lumière, les pauses entre deux voix ou le tissu qui suit le corps.
 
-[Matières des produits](#case-sea-glass-bottle) · [Dialogues de personnages](#case-harbor-reunion) · [Compositions animées](#case-coastal-postcard)
+[Verre et lumière](#case-sea-glass-bottle) · [Dialogue d’horlogers](#case-clockwork-dialogue) · [Un tour couture](#case-cobalt-orbit)
 
 [![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/fr/model/grok-imagine-1-5/)
 
@@ -285,6 +368,6 @@ Interface réelle : prompt du flacon saisi, 720p · 5 s · 16:9. L’image de d�
 
 ## Collection et attribution
 
-62 prompts distincts en anglais : 35 issus du dépôt source et 27 originaux. Les 24 derniers sont de nouvelles créations inspirées de thèmes des réseaux sociaux, sans test de génération. Les traductions ne sont pas des scènes supplémentaires.
+65 prompts distincts en anglais : 35 hérités et 30 originaux. Les originaux sont nouveaux et non testés par génération. Les traductions ne comptent pas comme scènes supplémentaires.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/fr/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

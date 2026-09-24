@@ -2,7 +2,7 @@
 
 [← Deutsch](../../README.de-DE.md)
 
-> [Bebilderte Prompts zum Kopieren und Anpassen](../../README.de-DE.md#featured-prompts) — Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen drei verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.
+> [Bebilderte Prompts zum Kopieren und Anpassen](../../README.de-DE.md#featured-prompts) — Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen sechs verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.
 
 ## Kurze Prompt-Regeln
 

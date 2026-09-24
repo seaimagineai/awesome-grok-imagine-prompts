@@ -15,7 +15,7 @@ This SeaImagine edition adapts [Flaq AI's Awesome Grok Imagine](https://github.c
 
 - New SeaImagine editorial cover; new brand-specific browser guide and localized product links.
 - Featured examples moved earlier; honest English recipe counts instead of adding translations to the total.
-- Three new practice prompts with distinct scenes and explicit community workflow references.
+- Six original illustrated prompts with distinct scenes, complete motion directions and original concept starting frames.
 - Official demos, original X post citations, audience snapshots and verification limitations.
 - Corrected editing/extension model boundaries, contribution policy and maintainable language mapping.
 
@@ -25,13 +25,17 @@ The MIT notice covers the source's code and original writing. The upstream READM
 
 ## September 24 expansion
 
-Three additional SeaImagine starting images and original exercises are presented on all 15 language homepages. Localizations do not increase the English recipe count. The interface image is a real browser capture; it is not a generated-video result. See [image notes](../assets/IMAGE_PROMPTS.md) and [viewing notes](COMMUNITY.md) for the separate evidence types.
+Six SeaImagine starting images and original illustrated prompts are presented on all 15 language homepages. Localizations do not increase the English recipe count. The interface image is a real browser capture; it is not a generated-video result. See [image notes](../assets/IMAGE_PROMPTS.md) and [viewing notes](COMMUNITY.md) for the separate evidence types.
 
 ## Unified topic gallery
 
-The five source featured cases have complete translations in all 15 homepage languages and are interleaved with the three new exercises by topic. Original English prompt bodies, images and source settings remain unchanged. Older writing guidance and additional localized prompts remain accessible through `docs/guides/`. The 120 displayed language versions represent eight shared scenes, not 120 distinct scenarios.
+The five source featured cases have complete translations in all 15 homepage languages and are interleaved with six original illustrated prompts by topic. Original English prompt bodies, images and source settings remain unchanged. Older writing guidance and additional localized prompts remain accessible through `docs/guides/`. The 165 displayed language versions represent eleven shared scenes, not 165 distinct scenarios.
 
 
 ## Social-theme expansion
 
-Twenty-four original English text-to-video briefs were added across four categories, bringing the English collection to 62 scenarios (35 inherited and 27 original). Source posts informed broad categories only; no new prompt is attributed to a social creator or claimed as tested output. See [inspiration and evidence](SOCIAL_INSPIRATION.md).
+Twenty-four original English text-to-video briefs were added across four categories, alongside the six original illustrated cases, bringing the English collection to 65 scenarios (35 inherited and 30 original). Source posts informed broad categories only; no new prompt is attributed to a social creator or claimed as tested output. See [inspiration and evidence](SOCIAL_INSPIRATION.md).
+
+## Illustrated case replacement
+
+The harbor reunion and coastal postcard cases were removed following editorial review. Five new illustrated cases fill the dialogue, weather, materials, architecture and fashion categories. Their exact built-in image-generation prompts are retained in [generation notes](../assets/FEATURED_CASE_PROMPTS.md). Images are concept start frames; none of these new video prompts has been generation-tested.

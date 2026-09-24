@@ -13,9 +13,9 @@
     "Bố cục chuyển động"
   ],
   "gallery_title": "Câu lệnh có hình để sao chép và điều chỉnh",
-  "gallery_intro": "8 ví dụ kèm câu lệnh đầy đủ và ảnh khung hình đầu. Ảnh minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.",
+  "gallery_intro": "Cả 11 ví dụ có prompt đầy đủ và ảnh tham chiếu. Ảnh thể hiện ý tưởng, không phải kết quả video đã kiểm chứng.",
   "prompt_label": "Sao chép toàn bộ câu lệnh",
-  "source_note": "Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; ba ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.",
+  "source_note": "Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; sáu ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.",
   "source_label": "Nguồn: Flaq AI",
   "more_label": "Tài liệu tham khảo",
   "counts_label": "Bộ sưu tập và ghi nguồn",

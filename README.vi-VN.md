@@ -2,7 +2,7 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja-JP.md) · [한국어](README.ko-KR.md) · [Español](README.es-ES.md) · [Français](README.fr-FR.md) · [Deutsch](README.de-DE.md) · [Português](README.pt-BR.md) · [Italiano](README.it-IT.md) · [Русский](README.ru-RU.md) · [العربية](README.ar.md) · [Bahasa Indonesia](README.id-ID.md) · [ไทย](README.th-TH.md) · [Tiếng Việt](README.vi-VN.md)
 
-> 62 câu lệnh, trong đó 8 ví dụ có hình được cung cấp bằng 15 ngôn ngữ. Duyệt theo danh mục và sao chép toàn bộ câu lệnh.
+> 65 câu lệnh, trong đó 11 ví dụ có hình được cung cấp bằng 15 ngôn ngữ. Duyệt theo danh mục và sao chép toàn bộ câu lệnh.
 
 ![Grok Imagine 1.5 — Sổ câu lệnh mở ra với giày, tàu điện và cá voi giấy trong cùng một khung cảnh](assets/seaimagine-grok-hero.webp)
 
@@ -14,19 +14,19 @@ Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), d
 
 ## Mục lục danh mục
 
-[Xem thêm câu lệnh (tiếng Anh) · 62](docs/PROMPT_INDEX.md)
+[Xem thêm câu lệnh (tiếng Anh) · 65](docs/PROMPT_INDEX.md)
 
 | Danh mục | Cảnh | Chế độ | Ví dụ |
 | --- | --- | --- | --- |
 | [Sản phẩm và quảng cáo · 8](docs/PROMPT_INDEX.md#01-ads-and-products) | Cận cảnh mỹ phẩm / cà phê / trang sức / quảng cáo ứng dụng | Văn bản thành video / Ảnh thành video / Ảnh tham chiếu thành video | [Chai thủy tinh biển — so sánh chuyển động có kiểm soát biến số](#case-sea-glass-bottle) · [Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](#case-citrus-halo) |
-| [Kể chuyện điện ảnh · 8](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Hành động / lãng mạn / hồi hộp / khoa học viễn tưởng / hoạt hình | Văn bản thành video / Ảnh thành video / Kéo dài video | [Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](#case-blue-route) · [Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục](#case-coastal-postcard) |
+| [Kể chuyện điện ảnh · 7](docs/PROMPT_INDEX.md#02-cinematic-storytelling) | Hành động / lãng mạn / hồi hộp / khoa học viễn tưởng / hoạt hình | Văn bản thành video / Ảnh thành video / Kéo dài video | [Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa](#case-blue-route) |
 | [Mạng xã hội và đời sống · 8](docs/PROMPT_INDEX.md#03-social-ugc) | Chia sẻ trải nghiệm / ẩm thực / thể hình / phỏng vấn | Văn bản thành video / Ảnh thành video / Ảnh tham chiếu thành video | [Ngụm đầu tiên — đánh giá quán cà phê tự nhiên](#case-first-sip) · [Tuyến đường muối lúc bình minh — phim tài liệu du lịch](#case-salt-line) |
-| [Nhân vật và hội thoại · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Nhân vật / trang phục / hội thoại / cảnh đông người | Ảnh tham chiếu thành video / Ảnh thành video | [Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](#case-harbor-reunion) |
-| [Biến đổi hình ảnh và nối tiếp · 6](docs/PROMPT_INDEX.md#05-editing-and-extension) | Đổi thời tiết / xóa chi tiết / đổi phong cách / nối tiếp | Chỉnh sửa video / Kéo dài video | — |
-| [Chất liệu và âm thanh thư giãn · 6](docs/PROMPT_INDEX.md#07-satisfying-materials) | Ép cát / lá đồng / giọt nước / tạo vân cẩm thạch | Văn bản thành video | — |
-| [Không gian và kiến trúc · 6](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Nội thất mở ra / sân trong / mặt cắt ngôi nhà | Văn bản thành video | — |
+| [Nhân vật và hội thoại · 7](docs/PROMPT_INDEX.md#04-characters-and-references) | Nhân vật / trang phục / hội thoại / cảnh đông người | Ảnh tham chiếu thành video / Ảnh thành video | [Bánh răng cuối — cuộc đối thoại của người sửa đồng hồ](#case-clockwork-dialogue) |
+| [Biến đổi hình ảnh và nối tiếp · 7](docs/PROMPT_INDEX.md#05-editing-and-extension) | Đổi thời tiết / xóa chi tiết / đổi phong cách / nối tiếp | Chỉnh sửa video / Kéo dài video / Ảnh thành video | [Mưa vào hành lang — chuyển biến thời tiết liền mạch](#case-rainlit-arcade) |
+| [Chất liệu và âm thanh thư giãn · 7](docs/PROMPT_INDEX.md#07-satisfying-materials) | Ép cát / lá đồng / giọt nước / tạo vân cẩm thạch | Văn bản thành video / Ảnh thành video | [Vườn hổ phách — một lát trong suốt](#case-amber-orchard) |
+| [Không gian và kiến trúc · 7](docs/PROMPT_INDEX.md#08-spaces-and-transformations) | Nội thất mở ra / sân trong / mặt cắt ngôi nhà | Văn bản thành video / Ảnh thành video | [Mở giếng trời — nhà kính cơ khí](#case-unfolding-atrium) |
 | [Thế giới thu nhỏ và siêu thực · 7](docs/PROMPT_INDEX.md#09-miniature-and-surreal) | Phà trong tách trà / mưa trong ngăn kéo / mặt trăng giấy | Văn bản thành video / Ảnh thành video | [Ổ bánh mật ong — câu chuyện tiệm bánh tí hon](#case-honey-loaf) |
-| [Thời trang và trình diễn · 6](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Tà váy / áo choàng / hình chiếu trên cổ áo / bước nhảy | Văn bản thành video | — |
+| [Thời trang và trình diễn · 7](docs/PROMPT_INDEX.md#10-fashion-and-performance) | Tà váy / áo choàng / hình chiếu trên cổ áo / bước nhảy | Văn bản thành video / Ảnh thành video | [Quỹ đạo cobalt — một vòng thời trang cao cấp](#case-cobalt-orbit) |
 
 [Ví dụ có hình](#featured-prompts) · [Sáng tạo với SeaImagine](#create-with-seaimagine)
 
@@ -36,9 +36,9 @@ Chuyển thể từ [Flaq AI](https://github.com/flaqai/awesome-grok-imagine), d
 
 ## Câu lệnh có hình để sao chép và điều chỉnh
 
-8 ví dụ kèm câu lệnh đầy đủ và ảnh khung hình đầu. Ảnh minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.
+Cả 11 ví dụ có prompt đầy đủ và ảnh tham chiếu. Ảnh thể hiện ý tưởng, không phải kết quả video đã kiểm chứng.
 
-Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; ba ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.
+Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; sáu ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.
 
 <a id="case-sea-glass-bottle"></a>
 
@@ -120,28 +120,28 @@ Khóa tính liên tục: giữ số nhân vật, thiết kế mặt, tỷ lệ, 
 
 [Quay lại mục lục danh mục](#find-the-right-prompt)
 
-<a id="case-harbor-reunion"></a>
+<a id="case-clockwork-dialogue"></a>
 
-<a id="seaimagine-harbor-reunion"></a>
+<a id="seaimagine-clockwork-dialogue"></a>
 
-### 4. Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc
+### 4. Bánh răng cuối — cuộc đối thoại của người sửa đồng hồ
 
-![Gặp lại ở bến cảng — chỉ một chuyển biến cảm xúc](assets/seaimagine-harbor-reunion.webp)
+![Bánh răng cuối — cuộc đối thoại của người sửa đồng hồ](assets/clockwork-dialogue.png)
 
-**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/seaimagine-harbor-reunion.webp) · [TXT](prompts/text/vi-VN/harbor-reunion.txt)
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/clockwork-dialogue.png) · [TXT](prompts/text/vi-VN/clockwork-dialogue.txt)
 
 ```text
-Giữ nguyên hai người trưởng thành, khuôn mặt của họ, trang phục xanh hải quân và màu kem,
-cầu cảng gỗ cùng ánh sáng ban mai dịu trong ảnh được cung cấp. Luôn giữ cả hai trong cùng bố cục trung rộng.
-0–3 giây: người bên trái nhận ra người bạn vừa đến và bước một bước nhỏ về phía trước.
-Vai thả lỏng; người bạn đáp lại bằng một nụ cười nhẹ. Giữ bàn tay trong khung hình với tư thế thư giãn.
-3–7 giây: người bên trái nói bằng tiếng Việt tự nhiên: “Cậu đến rồi.” Người bạn gật đầu một lần.
-Nói nhẹ nhàng, không khóc hoặc biểu cảm khuôn mặt quá mức.
-7–10 giây: cả hai nhìn về chiếc thuyền đang neo. Giữ khung hình trong giây cuối để nối sang cảnh quay tiếp theo.
-Máy quay: chỉ tiến vào nhẹ nhàng một lần, không đổi sang góc ngược và không cắt cảnh.
-Âm thanh: lời nói gần, rõ ràng, tiếng nước cảng nhẹ và tiếng hải âu từ xa; không nhạc hay phụ đề.
-Giữ nhất quán nhận dạng hai người, trang phục, hình dạng cầu cảng, vị trí thuyền và hướng ánh sáng ban mai.
-Tránh thêm người, cử chỉ kịch tính, làm mịn mặt, ngón tay thừa và máy quay nhảy vị trí.
+Biến ảnh mẫu thành cảnh phim tiết chế dài 10 giây. Giữ hai thợ phục chế trưởng thành, đồng hồ thiên văn đồng thau mở, một bánh răng rời và đài quan sát dưới trăng. Người phụ nữ tóc ngắn mặc đồ xanh đậm ở bên trái; người đàn ông tóc bạc đeo tạp dề vàng đất ở bên phải. Khung hình từ thắt lưng trở lên qua bàn làm việc.
+
+0–3g: giữ cảnh hai người, tiến máy gần như không nhận thấy. Cô nhìn đồng hồ, hỏi nhỏ bằng tiếng Việt: “Nó sẽ chạy đúng giờ chứ?” Ông nhìn cơ cấu đồng hồ. Chỉ cô nói, môi khớp lời. Đồng hồ đã tích tắc chậm và khẽ từ đầu.
+
+3–7g: ông giữ tay thả lỏng, bất động, tập trung nghe đồng hồ một nhịp rồi đáp bằng tiếng Việt: “Giờ thì được rồi.” Chỉ môi ông chuyển động ở câu này. Ông không chạm bánh răng; nó luôn đứng yên. Bộ thoát thấy được tiếp tục dao động đều.
+
+7–10g: cô nhìn từ đồng hồ sang ông, mỉm cười nhẹ nhõm. Ông đáp lại ánh mắt. Kết ở khoảng lặng chung, tiếng đồng hồ giữa họ và ánh trăng lạnh viền vai.
+
+Âm thanh: lời thoại gần, khô; suốt cảnh là tích tắc nhẹ đều trong căn phòng rỗng. Không nhạc, lời chồng nhau hay tiếng bánh răng di chuyển.
+
+Bánh răng luôn tách khỏi đồng hồ, không ai lắp hoặc xoay nó. Giữ cấu trúc bàn tay, ruột đồng hồ, trang phục, hướng mắt, vị trí trái/phải. Tích tắc không do cử chỉ kích hoạt. Không thêm dụng cụ hoặc bánh răng, phụ đề, cắt cảnh, cử chỉ quá mức.
 ```
 
 [Quay lại mục lục danh mục](#find-the-right-prompt)
@@ -202,27 +202,106 @@ Khóa tính liên tục: lao động chân thực, giải phẫu ổn định, c
 
 [Quay lại mục lục danh mục](#find-the-right-prompt)
 
-<a id="case-coastal-postcard"></a>
+<a id="case-rainlit-arcade"></a>
 
-<a id="seaimagine-coastal-postcard"></a>
+<a id="seaimagine-rainlit-arcade"></a>
 
-### 7. Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục
+### 7. Mưa vào hành lang — chuyển biến thời tiết liền mạch
 
-<a href="assets/seaimagine-coastal-postcard.webp"><img src="assets/seaimagine-coastal-postcard.webp" width="480" alt="Bưu thiếp ven biển — làm chuyển động ảnh đã lên bố cục"></a>
+![Mưa vào hành lang — chuyển biến thời tiết liền mạch](assets/rainlit-arcade.png)
 
-**Thiết lập tạo video từ ảnh:** 5s · 9:16 · 720p · [Khung hình đầu — mở và lưu](assets/seaimagine-coastal-postcard.webp) · [TXT](prompts/text/vi-VN/coastal-postcard.txt)
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/rainlit-arcade.png) · [TXT](prompts/text/vi-VN/rainlit-arcade.txt)
 
 ```text
-Làm chuyển động bưu thiếp ven biển ba ô này mà không đổi bố cục hoặc đường viền.
-Giữ nguyên chính xác mọi vật thể và màu sắc. Ở ô trên, một làn hơi mảnh bốc lên từ chiếc cốc.
-Ở ô giữa, nước cảng gợn nhẹ và ánh nắng lấp lánh trên mặt nước.
-Ở ô dưới, chỉ góc tờ giấy có sẵn hơi nhấc lên rồi hạ xuống trong gió nhẹ.
-Mỗi chuyển động chỉ diễn ra trong ô của nó. Tất cả các ô luôn hiển thị suốt năm giây.
-Máy quay: cố định, không thu phóng, không lia, không cắt cảnh hoặc chuyển cảnh giữa các ô.
-Âm thanh: tiếng nước nhẹ và tiếng giấy sột soạt khẽ; không lời thoại, nhạc, phụ đề hay chữ thêm vào.
-Giữ nguyên quai cốc, khung cửa sổ, ký hiệu bản đồ, kích thước các ô và thứ tự đọc.
-Tránh gộp ô, tạo cảnh mới, vẽ lại chữ hoặc để vật thể di chuyển qua đường viền.
-Kết thúc khi góc giấy đã nằm yên và bố cục gốc vẫn nguyên vẹn.
+Dùng hành lang Art Deco vắng người làm đúng khung đầu cho cảnh thời tiết 10 giây. Giữ gạch xanh đậm, nẹp đồng, sàn terrazzo, dãy vòm, đèn ấm bên trái. Cửa ra phố xa vẫn xanh chạng vạng. Sàn khởi đầu khô, giữ phản chiếu dịu vốn có trên đá bóng; máy quay từ trong hướng ra cửa.
+
+0–3g: bố cục kiến trúc cố định, không lia hay zoom. Ngoài ngưỡng xa, gió thổi mưa chéo qua phố. Những giọt đầu vượt cửa, chỉ làm sẫm terrazzo sát ngưỡng. Tiền cảnh hoàn toàn khô.
+
+3–7g: gió mạnh lên, đưa mưa nhỏ sâu hơn cùng hướng. Mép ướt không đều tiến từ xa tới giữa; giọt mới nối rõ vào mảng ướt sẵn. Vũng nhỏ nông hình thành trong vùng ướt. Giữ phản chiếu dịu ban đầu; ở vùng ướt, mưa phá phản chiếu đèn trái thành vệt sáng ấm rung động.
+
+7–10g: đợt bụi nước cuối tới gần giữa sàn rồi chậm lại. Dải gần máy nhất vẫn khô. Mưa dịu; vòng gợn chồng nhau giảm trong vũng nông, phản chiếu ấm lắng lại. Giữ các vòm nguyên dạng trước cửa xanh.
+
+Âm thanh: mưa ngoài trước, rồi tiếng giọt gõ đá gần dần, một luồng gió trầm, tiếng vọng hành lang nhẹ. Không sấm, nhạc, tiếng người.
+
+Đường nước tới phải liên tục và thấy được: không cả sàn bỗng bóng ướt, không vũng xuất hiện trước mép ướt. Nước nông, đèn ổn định, máy ngang, đường kiến trúc cứng. Không người, cây mới, biển mới, chớp, ngập, cắt cảnh, thay đổi bề mặt.
+```
+
+[Quay lại mục lục danh mục](#find-the-right-prompt)
+
+<a id="case-amber-orchard"></a>
+
+<a id="seaimagine-amber-orchard"></a>
+
+### 8. Vườn hổ phách — một lát trong suốt
+
+![Vườn hổ phách — một lát trong suốt](assets/amber-orchard.png)
+
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/amber-orchard.png) · [TXT](prompts/text/vi-VN/amber-orchard.txt)
+
+```text
+Tạo cận cảnh chất liệu siêu thực 10 giây từ ảnh mẫu. Giữ quả lê thủy tinh hổ phách trong suốt trên đĩa đá đen, bọt khí nhỏ và sợi vàng mảnh bên trong. Một dao hẹp vào từ phải, mũi chạm sườn phải quả lê như ảnh mẫu. Không mặt hoặc tay. Lê là vật kính tưởng tượng cứng nhưng cắt được gọn: chất liệu phi thực có chủ ý, hình học phải nhất quán.
+
+0–3g: góc macro chéo ba phần tư cố định, thấy toàn bộ lê và đĩa. Ánh sáng bên ấm lộ sợi bên trong. Dao rút khỏi điểm chạm, nâng lên trên mặt cắt phải, rồi canh một nhát dọc lấy lát ngoài mỏng, cuống vẫn trên thân lớn.
+
+3–7g: một nhát xuống liên tục. Lưỡi qua sườn phải tới khi vừa chạm đĩa. Một mặt cắt sạch tiến cùng lưỡi; chỉ một lát tách ra. Thân lê đứng thẳng. Lát nghiêng nhẹ ra phải, lộ mặt hổ phách nhẵn, rồi tựa vào đĩa không vỡ.
+
+7–10g: nhấc dao thẳng lên khỏi lê rồi giữ yên. Máy chỉ tiến chút để thấy hai mặt cắt khớp nhau. Kết với thân lớn, một lát rời và dao đều rõ trong khung.
+
+Âm thanh: tiếng tinh thể cọ mảnh khi cắt, một tiếng lanh canh sáng khi lát chạm đá, dư âm tự nhiên ngắn. Không nhạc hoặc lời.
+
+Bọt và sợi cố định trong từng khối rắn. Giữ độ trong, dáng lê ngoài chỗ cắt, vị trí đĩa. Không nhát thứ hai, lát nhân đôi, mảnh vụn, nhân lỏng, tan chảy, sợi mới, mảnh lơ lửng, cắt cảnh.
+```
+
+[Quay lại mục lục danh mục](#find-the-right-prompt)
+
+<a id="case-unfolding-atrium"></a>
+
+<a id="seaimagine-unfolding-atrium"></a>
+
+### 9. Mở giếng trời — nhà kính cơ khí
+
+![Mở giếng trời — nhà kính cơ khí](assets/unfolding-atrium.png)
+
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/unfolding-atrium.png) · [TXT](prompts/text/vi-VN/unfolding-atrium.txt)
+
+```text
+Biến mô hình kiến trúc gỗ óc chó và đồng thau thành cảnh mở cơ cấu chính xác 10 giây. Giữ bệ đá xám, thang mini, dương xỉ dày. Mái kính cong gồm đúng hai nửa cong gắn vào trục bản lề cố định trên sống mái giữa. Ban đầu cả hai đóng; nội thất đã thấy qua kính.
+
+0–3g: toàn mô hình ở góc chéo ba phần tư gần. Ánh ấm lướt vân gỗ và ống bản lề đồng nhỏ. Máy bắt đầu nâng chậm liên tục, nhìn nhẹ xuống sân trong. Mái đóng một nhịp rồi mép hiên ngoài bắt đầu nâng; sống mái không tách.
+
+3–7g: hai cánh quay lên cùng tốc độ đều quanh bản lề sống mái cố định. Mép hiên ngoài nâng lên, lộ sân có cây phía dưới. Chuyển động cơ khí kiểm soát; mỗi cánh giữ độ cong và khung đồng cứng. Máy nâng vừa đủ thấy khoảng thang; toàn bệ luôn trong khung.
+
+7–10g: cánh giảm tốc tới góc mở bằng nhau, dừng không nảy. Giữ tán dương xỉ và thang mini trong khung mái mở. Một mảng sáng ngày dịu vào sâu hơn; cây không động. Kết với cấu trúc mở rõ ràng.
+
+Âm thanh: tiếng bánh răng nhỏ đồng bộ mái, hai tiếng chốt dừng gần đồng thời, rồi nền phòng yên. Không nhạc hay giọng nói.
+
+Giữ đúng hai cánh, trục bản lề sống mái cố định, cùng nội thất. Không gì mọc, mở ra từ khoảng trống hoặc đổi tỷ lệ. Không tấm mái trượt, kính rời, kim loại uốn, phòng mới, bệ mở, người, cắt cảnh.
+```
+
+[Quay lại mục lục danh mục](#find-the-right-prompt)
+
+<a id="case-cobalt-orbit"></a>
+
+<a id="seaimagine-cobalt-orbit"></a>
+
+### 10. Quỹ đạo cobalt — một vòng thời trang cao cấp
+
+![Quỹ đạo cobalt — một vòng thời trang cao cấp](assets/cobalt-orbit.png)
+
+**Thiết lập tạo video từ ảnh:** 10s · 16:9 · 720p · [Khung hình đầu — mở và lưu](assets/cobalt-orbit.png) · [TXT](prompts/text/vi-VN/cobalt-orbit.txt)
+
+```text
+Biến người mẫu trưởng thành hư cấu trong ảnh thành chân dung thời trang toàn thân 10 giây. Giữ tóc đen ngắn, khuyên đĩa đồng, váy xếp ly xanh cobalt điêu khắc. Giữ phòng bê tông tròn trống, giếng trời trên, sàn sạch. Ban đầu đối diện máy, hai chân chạm sàn, tay thả lỏng. Khung từ đầu tới sàn, đủ rộng cho váy.
+
+0–3g: máy hoàn toàn đứng yên. Dừng chính diện ngắn rồi xoay chậm theo chiều kim đồng hồ nhìn từ trên, bước nhỏ có kiểm soát tại chỗ. Vai dẫn tự nhiên; váy ly nặng theo trễ nhẹ. Giây ba đạt góc nghiêng một phần tư vòng rõ.
+
+3–7g: tiếp tục cùng hướng, nhịp sàn diễn bình thản. Lưng rõ gần giây năm, nghiêng phía kia gần giây bảy. Giữ tâm tại cùng vị trí sàn. Ly mở khép nhẹ khi vải quanh chân; gấu chạm sàn, không nâng thành đĩa ngang. Khuyên chỉ đung đưa ít.
+
+7–10g: hoàn tất đúng một vòng 360 độ ở giây chín, lại chính diện. Chân dừng trước, chuyển động cuối của váy dừng sau. Giữ tư thế chính diện một giây còn lại, nhìn ống kính điềm tĩnh.
+
+Âm thanh: bước nhẹ trên bê tông, vải sột soạt tiết chế, nền phòng trầm. Không nhạc, thoại, vỗ tay.
+
+Giữ danh tính, cấu tạo váy gốc, cơ thể liền mạch hợp lý dưới áo. Đầu, tay, gấu luôn thấy. Hướng sáng giếng trời và nền cố định. Không máy quay vòng, xoay thêm, cắt cảnh, đổi màu vải, gấu bay, phụ kiện mới, thân thể biến dạng đàn hồi.
 ```
 
 [Quay lại mục lục danh mục](#find-the-right-prompt)
@@ -231,7 +310,7 @@ Kết thúc khi góc giấy đã nằm yên và bố cục gốc vẫn nguyên v
 
 <a id="1-citrus-halo--premium-fragrance-product-film"></a>
 
-### 8. Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp
+### 11. Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp
 
 ![Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp](assets/citrus-fragrance-product-video.webp)
 
@@ -261,9 +340,9 @@ Khóa tính liên tục: không đổi đường bao chai, các mặt nắp, m�
 
 ## Đưa cảnh bạn chọn vào SeaImagine
 
-Chọn video sản phẩm chai thủy tinh, hội thoại ở bến cảng hoặc bưu thiếp chuyển động ở trên, rồi dùng hình ảnh và câu lệnh đầy đủ trong Grok Imagine 1.5 trên SeaImagine. Khám phá chất liệu ở cảnh sản phẩm, diễn xuất trong hội thoại và bố cục trong đồ họa chuyển động.
+Từ độ trong của chai thủy tinh, biểu cảm nhỏ trong đối thoại thợ sửa đồng hồ đến nếp váy khi xoay: chọn ảnh tham chiếu cùng prompt và tiếp tục sáng tạo trên trang Grok Imagine 1.5 của SeaImagine.
 
-[Chất liệu sản phẩm](#case-sea-glass-bottle) · [Hội thoại nhân vật](#case-harbor-reunion) · [Bố cục chuyển động](#case-coastal-postcard)
+[Chất liệu chai](#case-sea-glass-bottle) · [Đối thoại thợ đồng hồ](#case-clockwork-dialogue) · [Váy xoay](#case-cobalt-orbit)
 
 [![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/vi/model/grok-imagine-1-5/)
 
@@ -291,6 +370,6 @@ Giao diện thực tế: đã nhập câu lệnh chai thủy tinh, 720p · 5 gi�
 
 ## Bộ sưu tập và ghi nguồn
 
-62 lời nhắc tiếng Anh khác nhau: 35 từ kho gốc và 27 bản tự viết. 24 bản mới nhất lấy cảm hứng từ chủ đề trên mạng xã hội, chưa được kiểm chứng bằng việc tạo video. Bản dịch không được tính là cảnh mới.
+Tổng 65 prompt tiếng Anh khác nhau: 35 từ kho gốc và 30 nguyên bản mới. Bản dịch không tính là cảnh mới. Prompt mới chưa được kiểm chứng bằng lần tạo thực tế.
 
 [Flaq AI](https://github.com/flaqai/awesome-grok-imagine) · [SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/) · [MIT](LICENSE) · [CONTRIBUTING](CONTRIBUTING.md) · [15 languages](docs/LANGUAGES.md)

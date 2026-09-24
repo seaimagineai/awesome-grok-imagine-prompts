@@ -63,3 +63,14 @@ Replaced the two homepage classification tables with one nine-category table con
 Removed the homepage official/community video section and external thumbnails. Attribution and viewing evidence remain in linked references. After the eight large illustrated prompts, a localized SeaImagine section connects the bottle, dialogue and postcard examples to the real browser screenshot and model page. The screenshot caption explicitly states that the starting image is not uploaded and no generation has been performed.
 
 Independent review identified a metadata parser assumption: reference-based recipes do not use the Mode label. Fixed their index mode to reference-to-video; also synchronized category page headings/navigation. All existing prompt blocks remain byte-identical. Generation freshness, links, source hashes, nine-category localization and single-table/brand-section checks pass.
+
+
+## Illustrated category completion — September 24, 2026
+
+Removed Harbor Reunion and Coastal Postcard from all fifteen homepages, locale data, image inventory and TXT exports. Added five original illustrated prompts: clockmaker dialogue, rain entering an Art Deco arcade, amber glass slicing, a mechanical greenhouse opening and a couture turn. Every one of the nine categories now has an illustrated example. The collection totals eleven illustrated cases plus fifty-four category recipes: sixty-five distinct English prompts, thirty-five inherited and thirty original.
+
+Independent review compared the new prompts and images with the source collection. Four findings were accepted and corrected across all fifteen languages: existing dry-floor reflections remain before rain; the knife starts at its pictured contact point; greenhouse leaves rotate about the pictured ridge hinges; the clock runs from the start rather than being triggered by a detached gear. Review instructions were corrected as well. A second review found no remaining must-fix issue in image/prompt alignment.
+
+The main editor then independently inspected all five images, checked final motion descriptions, removed a remaining retired-case mention from the product guide, and verified that all five source-case translations, the bottle prompt and fifty-four category recipes remain unchanged. The generator is repeatable; local links, asset hashes, eleven complete localized prompt blocks, TXT fidelity and all sixty-five index entries pass validation. GitHub's Markdown API rendered eleven complete code blocks for both English and Simplified Chinese.
+
+The new images are original concept starting frames created with built-in image generation. The new video prompts have not been generation-tested. Editorial and repository checks do not establish actual model output quality.

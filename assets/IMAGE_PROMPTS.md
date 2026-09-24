@@ -130,8 +130,8 @@ Created September 24, 2026 using Codex built-in image generation; WebP exports. 
 
 | File | Generation brief |
 | --- | --- |
-| `seaimagine-harbor-reunion.webp` | Cinematic 16:9 still. Two fictional adults on a wooden harbor pier in soft morning light: navy clothing on the left, cream on the right, a moored boat behind. Relaxed hands, restrained expressions, space for one step and a gentle push-in; no lettering or logos. |
-| `seaimagine-coastal-postcard.webp` | Vertical 9:16 three-panel coastal postcard. Upper panel: cup with steam; middle: harbor through a window; lower: paper map on a tabletop. Clear white horizontal gutters, coherent soft coastal light, readable shapes, no promotional lettering; retain a paper corner for subtle motion. |
 | `seaimagine-sea-glass-bottle.webp` | Photorealistic 16:9 unbranded product still: a single frosted pale-turquoise glass bottle, cylindrical cap and unprinted front, on pale stone with a soft ocean background. One visible water droplet, consistent side lighting, stable clean silhouette, no logos or extra props. |
 
 These are recorded briefs, not exact verbatim tool requests. `seaimagine-interface.jpg` is a real SeaImagine browser screenshot, not an AI-generated interface. It shows a prepared text field and selected settings with an empty image slot; no generation was submitted.
+
+Five additional original starting frames and their exact prompts: [generation notes](FEATURED_CASE_PROMPTS.md).

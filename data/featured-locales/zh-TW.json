@@ -13,9 +13,9 @@
     "動態版面"
   ],
   "gallery_title": "可複製、可改寫的圖文提示詞",
-  "gallery_intro": "8 個範例均附完整提示詞與起始影格圖片。圖片用於呈現構想，並非已驗證的影片成果。",
+  "gallery_intro": "11 個範例均附完整提示詞與參考圖片。圖片用於展示構想，並非已核驗的影片結果。",
   "prompt_label": "複製完整提示詞",
-  "source_note": "標註來源 Flaq AI 的五個範例保留原始長度與解析度；其餘三個範例依 SeaImagine 目前的選項編寫。在 SeaImagine 使用原始範例時，請選擇 5/10/15 秒與 480p/720p，並重新安排動作時間。",
+  "source_note": "標註來源 Flaq AI 的五個範例保留原始長度與解析度；其餘六個範例依 SeaImagine 目前的選項編寫。在 SeaImagine 使用原始範例時，請選擇 5/10/15 秒與 480p/720p，並重新安排動作時間。",
   "source_label": "來源：Flaq AI",
   "more_label": "參考資料",
   "counts_label": "合集與來源署名",

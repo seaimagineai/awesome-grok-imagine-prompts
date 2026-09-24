@@ -2,7 +2,7 @@
 
 [← Main collection](../README.md)
 
-62 distinct English prompts. Each illustrated case is listed once in its category. New original briefs are not generation-tested; [sources](SOCIAL_INSPIRATION.md).
+65 distinct English prompts. Each illustrated case is listed once in its category. New original briefs are not generation-tested; [sources](SOCIAL_INSPIRATION.md).
 
 [Products & advertising](#01-ads-and-products) · [Cinematic storytelling](#02-cinematic-storytelling) · [Social & everyday life](#03-social-ugc) · [Characters & dialogue](#04-characters-and-references) · [Visual transformations & continuation](#05-editing-and-extension) · [Satisfying materials & sounds](#07-satisfying-materials) · [Spaces & architecture](#08-spaces-and-transformations) · [Miniature & surreal worlds](#09-miniature-and-surreal) · [Fashion & performance](#10-fashion-and-performance)
 
@@ -32,7 +32,6 @@
 | Prompt / scene | Mode | Duration · ratio · resolution | Copy |
 | --- | --- | --- | --- |
 | [Blue Route — rain-market courier tracking shot · illustrated](../README.md#case-blue-route) | image-to-video | 10s · 16:9 · 1080p | [TXT](../prompts/text/en-US/blue-route.txt) |
-| [Coastal postcard — animate a planned image · illustrated](../README.md#case-coastal-postcard) | image-to-video | 5s · 9:16 · 720p | [TXT](../prompts/text/en-US/coastal-postcard.txt) |
 | [1. Last Tram Note — restrained urban romance](../prompts/02-cinematic-storytelling.md#1-last-tram-note--restrained-urban-romance) | text-to-video | 12s · 16:9 · 1080p | [TXT](../prompts/text/en-US/02-cinematic-storytelling-1.txt) |
 | [2. Room 407 — quiet hotel mystery](../prompts/02-cinematic-storytelling.md#2-room-407--quiet-hotel-mystery) | image-to-video | 10s · 16:9 · 1080p | [TXT](../prompts/text/en-US/02-cinematic-storytelling-2.txt) |
 | [3. Glasshouse Pursuit — grounded parkour action](../prompts/02-cinematic-storytelling.md#3-glasshouse-pursuit--grounded-parkour-action) | text-to-video | 10s · 21:9 composition in 16:9 output · 1080p | [TXT](../prompts/text/en-US/02-cinematic-storytelling-3.txt) |
@@ -65,7 +64,7 @@
 
 | Prompt / scene | Mode | Duration · ratio · resolution | Copy |
 | --- | --- | --- | --- |
-| [Harbor reunion — one emotional beat · illustrated](../README.md#case-harbor-reunion) | image-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/harbor-reunion.txt) |
+| [The Last Tooth — a clockmaker duet · illustrated](../README.md#case-clockwork-dialogue) | image-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/clockwork-dialogue.txt) |
 | [1. Harbor Cartographer — consistent character introduction](../prompts/04-characters-and-references.md#1-harbor-cartographer--consistent-character-introduction) | reference-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/04-characters-and-references-1.txt) |
 | [2. Linen Set — virtual try-on walk test](../prompts/04-characters-and-references.md#2-linen-set--virtual-try-on-walk-test) | reference-to-video | 10s · 9:16 · 720p | [TXT](../prompts/text/en-US/04-characters-and-references-2.txt) |
 | [3. Counter Demo — product placement without redesign](../prompts/04-characters-and-references.md#3-counter-demo--product-placement-without-redesign) | reference-to-video | 12s · 16:9 · 720p | [TXT](../prompts/text/en-US/04-characters-and-references-3.txt) |
@@ -81,6 +80,7 @@
 
 | Prompt / scene | Mode | Duration · ratio · resolution | Copy |
 | --- | --- | --- | --- |
+| [Rain Reaches the Arcade — a continuous weather transformation · illustrated](../README.md#case-rainlit-arcade) | image-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/rainlit-arcade.txt) |
 | [1. Blue Hour Conversion — day-to-night architectural edit](../prompts/05-editing-and-extension.md#1-blue-hour-conversion--day-to-night-architectural-edit) | video edit | source duration and ratio · up to 720p | [TXT](../prompts/text/en-US/05-editing-and-extension-1.txt) |
 | [2. First Snow — controlled weather replacement](../prompts/05-editing-and-extension.md#2-first-snow--controlled-weather-replacement) | video edit | source duration and ratio · up to 720p | [TXT](../prompts/text/en-US/05-editing-and-extension-2.txt) |
 | [3. Clean Plate — remove one distracting object](../prompts/05-editing-and-extension.md#3-clean-plate--remove-one-distracting-object) | video edit | source duration and ratio · up to 720p | [TXT](../prompts/text/en-US/05-editing-and-extension-3.txt) |
@@ -96,6 +96,7 @@
 
 | Prompt / scene | Mode | Duration · ratio · resolution | Copy |
 | --- | --- | --- | --- |
+| [Amber Orchard — one translucent slice · illustrated](../README.md#case-amber-orchard) | image-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/amber-orchard.txt) |
 | [1. Glass Fig — translucent fruit slicing](../prompts/07-satisfying-materials.md#1-glass-fig--translucent-fruit-slicing) | text-to-video | 10s · 9:16 · 720p | [TXT](../prompts/text/en-US/07-satisfying-materials-1.txt) |
 | [2. Velvet Fault — kinetic sand compression](../prompts/07-satisfying-materials.md#2-velvet-fault--kinetic-sand-compression) | text-to-video | 5s · 16:9 · 720p | [TXT](../prompts/text/en-US/07-satisfying-materials-2.txt) |
 | [3. Pearl Track — a marble through ceramic channels](../prompts/07-satisfying-materials.md#3-pearl-track--a-marble-through-ceramic-channels) | text-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/07-satisfying-materials-3.txt) |
@@ -111,6 +112,7 @@
 
 | Prompt / scene | Mode | Duration · ratio · resolution | Copy |
 | --- | --- | --- | --- |
+| [Unfolding Atrium — a mechanical greenhouse reveal · illustrated](../README.md#case-unfolding-atrium) | image-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/unfolding-atrium.txt) |
 | [1. Room on Rails — empty studio furnished in one move](../prompts/08-spaces-and-transformations.md#1-room-on-rails--empty-studio-furnished-in-one-move) | text-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/08-spaces-and-transformations-1.txt) |
 | [2. Courtyard Fold — a miniature garden unfolds](../prompts/08-spaces-and-transformations.md#2-courtyard-fold--a-miniature-garden-unfolds) | text-to-video | 10s · 9:16 · 720p | [TXT](../prompts/text/en-US/08-spaces-and-transformations-2.txt) |
 | [3. Quiet Section — a house model opens to reveal rooms](../prompts/08-spaces-and-transformations.md#3-quiet-section--a-house-model-opens-to-reveal-rooms) | text-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/08-spaces-and-transformations-3.txt) |
@@ -142,6 +144,7 @@
 
 | Prompt / scene | Mode | Duration · ratio · resolution | Copy |
 | --- | --- | --- | --- |
+| [Cobalt Orbit — a full-turn fashion study · illustrated](../README.md#case-cobalt-orbit) | image-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/cobalt-orbit.txt) |
 | [1. Pleated Compass — a dancer opening a pleated skirt in one turn](../prompts/10-fashion-and-performance.md#1-pleated-compass--a-dancer-opening-a-pleated-skirt-in-one-turn) | text-to-video | 5s · 9:16 · 720p | [TXT](../prompts/text/en-US/10-fashion-and-performance-1.txt) |
 | [2. Silver Hem Study — a metallic cape crossing a pool of light](../prompts/10-fashion-and-performance.md#2-silver-hem-study--a-metallic-cape-crossing-a-pool-of-light) | text-to-video | 10s · 16:9 · 720p | [TXT](../prompts/text/en-US/10-fashion-and-performance-2.txt) |
 | [3. Shadow Collar — a sculptural collar casting a changing silhouette](../prompts/10-fashion-and-performance.md#3-shadow-collar--a-sculptural-collar-casting-a-changing-silhouette) | text-to-video | 5s · 9:16 · 720p | [TXT](../prompts/text/en-US/10-fashion-and-performance-3.txt) |

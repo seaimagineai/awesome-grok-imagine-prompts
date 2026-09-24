@@ -6,7 +6,7 @@
     "index_label": "Full prompt index",
     "source_label": "Sources",
     "brand_title": "Take your chosen shot to SeaImagine",
-    "brand_intro": "Choose the glass-bottle product shot, harbor dialogue, or animated postcard above, then bring its image and full prompt to Grok Imagine 1.5 on SeaImagine. Explore materials in product shots, performance in dialogue, and composition in motion graphics.",
+    "brand_intro": "Bring the glass-bottle shot, clockmakers’ quiet exchange or cobalt gown turn to Grok Imagine 1.5 on SeaImagine with its starting image and complete prompt. Explore glass and light, timing between two speakers, or the way fabric follows a turn.",
     "brand_caption": "Actual interface: the glass-bottle prompt is entered at 720p · 5s · 16:9. The start image has not been uploaded; no video has been generated.",
     "brand_cta": "Create this shot with SeaImagine",
     "mode_names": {
@@ -28,9 +28,9 @@
       "Flowing skirts / capes / collar projections / dance steps"
     ],
     "brand_links": [
-      "Product materials",
-      "Character dialogue",
-      "Animated layouts"
+      "Glass and light",
+      "A clockmaker dialogue",
+      "A couture turn"
     ],
     "category_names": [
       "Products & advertising",
@@ -53,7 +53,7 @@
     "index_label": "完整提示词索引",
     "source_label": "来源",
     "brand_title": "把选中的镜头，带到 SeaImagine",
-    "brand_intro": "从前面的玻璃瓶产品片、港口对白或动态明信片选一条，带上对应图片与完整提示词，在 SeaImagine 的 Grok Imagine 1.5 页面继续创作。产品片看材质，人物片看表演，排版动画看构图。",
+    "brand_intro": "从玻璃瓶的通透质感，到钟表师对话的微小表情，再到礼服旋转时的褶裥变化：选一张参考图和对应提示词，在 SeaImagine 的 Grok Imagine 1.5 页面继续创作。",
     "brand_caption": "真实界面：已填入玻璃瓶提示词，720p · 5s · 16:9；起始图待上传，尚未生成。",
     "brand_cta": "用 SeaImagine 创作这一镜",
     "mode_names": {
@@ -75,9 +75,9 @@
       "裙摆 / 披风 / 衣领投影 / 舞步"
     ],
     "brand_links": [
-      "产品质感",
-      "人物对白",
-      "排版动画"
+      "瓶身质感",
+      "钟表师对白",
+      "礼服旋转"
     ],
     "category_names": [
       "产品与广告",
@@ -100,7 +100,7 @@
     "index_label": "完整提示詞索引",
     "source_label": "來源",
     "brand_title": "把選中的鏡頭，帶到 SeaImagine",
-    "brand_intro": "從前面的玻璃瓶產品短片、港口對白或動態明信片選一個，帶上對應圖片與完整提示詞，在 SeaImagine 的 Grok Imagine 1.5 頁面繼續創作。產品短片看材質，人物短片看表演，排版動畫看構圖。",
+    "brand_intro": "從玻璃瓶的通透質感，到鐘錶師對話的細微表情，再到禮服旋轉時的褶襉變化：選一張參考圖和對應提示詞，在 SeaImagine 的 Grok Imagine 1.5 頁面繼續創作。",
     "brand_caption": "實際介面：已填入玻璃瓶提示詞，720p · 5s · 16:9；起始圖片尚待上傳，尚未生成。",
     "brand_cta": "用 SeaImagine 創作這個鏡頭",
     "mode_names": {
@@ -122,9 +122,9 @@
       "裙襬 / 披風 / 衣領投影 / 舞步"
     ],
     "brand_links": [
-      "產品質感",
-      "人物對白",
-      "排版動畫"
+      "瓶身質感",
+      "鐘錶師對白",
+      "禮服旋轉"
     ],
     "category_names": [
       "產品與廣告",
@@ -147,7 +147,7 @@
     "index_label": "プロンプト総索引",
     "source_label": "出典",
     "brand_title": "選んだカットを SeaImagine で形にする",
-    "brand_intro": "上のガラス瓶の商品映像、港での会話、動くポストカードから一つ選び、画像とプロンプト全文を SeaImagine の Grok Imagine 1.5 に持ち込んでみましょう。商品映像では質感、会話では演技、モーショングラフィックスでは構図に注目できます。",
+    "brand_intro": "ガラス瓶の透明感、時計修復師の会話の小さな表情、回転するドレスのプリーツ。参照画像と対応するプロンプトを選び、SeaImagine の Grok Imagine 1.5 ページで制作を続けられます。",
     "brand_caption": "実際の画面：ガラス瓶のプロンプトを入力済み。720p · 5秒 · 16:9。開始画像は未アップロードで、動画はまだ生成していません。",
     "brand_cta": "SeaImagine でこのカットを作る",
     "mode_names": {
@@ -169,9 +169,9 @@
       "スカートの裾 / マント / 襟への投影 / ダンスステップ"
     ],
     "brand_links": [
-      "商品の質感",
-      "人物の会話",
-      "レイアウトアニメーション"
+      "瓶の質感",
+      "時計修復師の会話",
+      "ドレスの回転"
     ],
     "category_names": [
       "商品・広告",
@@ -194,7 +194,7 @@
     "index_label": "전체 프롬프트 색인",
     "source_label": "출처",
     "brand_title": "선택한 장면을 SeaImagine에서 만들어 보세요",
-    "brand_intro": "위의 유리병 제품 영상, 항구 대화, 움직이는 엽서 중 하나를 골라 이미지와 프롬프트 전문을 SeaImagine의 Grok Imagine 1.5에서 활용해 보세요. 제품 영상에서는 재질을, 인물 영상에서는 연기를, 레이아웃 애니메이션에서는 구도를 살펴볼 수 있습니다.",
+    "brand_intro": "유리병의 투명한 질감부터 시계 복원사 대화의 작은 표정, 회전하는 드레스의 주름까지. 참조 이미지와 해당 프롬프트를 골라 SeaImagine의 Grok Imagine 1.5 페이지에서 이어서 제작하세요.",
     "brand_caption": "실제 화면: 유리병 프롬프트 입력 완료, 720p · 5초 · 16:9. 시작 이미지는 아직 업로드하지 않았으며 영상도 생성하지 않았습니다.",
     "brand_cta": "SeaImagine으로 이 장면 만들기",
     "mode_names": {
@@ -216,9 +216,9 @@
       "치맛자락 / 망토 / 옷깃 투사 / 춤 동작"
     ],
     "brand_links": [
-      "제품의 질감",
-      "인물 대화",
-      "레이아웃 애니메이션"
+      "병의 질감",
+      "시계 복원사 대화",
+      "드레스 회전"
     ],
     "category_names": [
       "제품과 광고",
@@ -241,7 +241,7 @@
     "index_label": "Índice completo de prompts",
     "source_label": "Fuentes",
     "brand_title": "Lleva la toma que has elegido a SeaImagine",
-    "brand_intro": "Elige el anuncio de la botella, el diálogo en el puerto o la postal animada de arriba y usa su imagen y prompt completo en Grok Imagine 1.5 de SeaImagine. Explora los materiales en las tomas de producto, la interpretación en los diálogos y la composición en las animaciones gráficas.",
+    "brand_intro": "Lleva la toma de la botella, el diálogo de los relojeros o el giro del vestido cobalto a Grok Imagine 1.5 en SeaImagine con su imagen inicial y prompt completo. Explora vidrio y luz, pausas entre dos voces o cómo la tela sigue el giro.",
     "brand_caption": "Interfaz real: prompt de la botella introducido, 720p · 5 s · 16:9. La imagen inicial aún no se ha subido; no se ha generado ningún vídeo.",
     "brand_cta": "Crea esta toma con SeaImagine",
     "mode_names": {
@@ -263,9 +263,9 @@
       "Faldas en movimiento / capas / proyecciones sobre cuellos / pasos de baile"
     ],
     "brand_links": [
-      "Materiales de producto",
-      "Diálogos entre personajes",
-      "Composiciones animadas"
+      "Vidrio y luz",
+      "Diálogo de relojeros",
+      "Giro de alta costura"
     ],
     "category_names": [
       "Productos y publicidad",
@@ -288,7 +288,7 @@
     "index_label": "Index complet des prompts",
     "source_label": "Sources",
     "brand_title": "Réalisez le plan choisi avec SeaImagine",
-    "brand_intro": "Choisissez le plan produit du flacon, le dialogue au port ou la carte postale animée ci-dessus, puis reprenez son image et son prompt complet dans Grok Imagine 1.5 sur SeaImagine. Explorez les matières dans les plans produits, le jeu des personnages dans les dialogues et la composition dans les animations graphiques.",
+    "brand_intro": "Emportez le plan du flacon, l’échange des horlogers ou le tour en robe cobalt dans Grok Imagine 1.5 sur SeaImagine, avec image de départ et prompt complet. Explorez verre et lumière, les pauses entre deux voix ou le tissu qui suit le corps.",
     "brand_caption": "Interface réelle : prompt du flacon saisi, 720p · 5 s · 16:9. L’image de départ n’a pas encore été importée ; aucune vidéo n’a été générée.",
     "brand_cta": "Créer ce plan avec SeaImagine",
     "mode_names": {
@@ -310,9 +310,9 @@
       "Jupes en mouvement / capes / projections sur un col / pas de danse"
     ],
     "brand_links": [
-      "Matières des produits",
-      "Dialogues de personnages",
-      "Compositions animées"
+      "Verre et lumière",
+      "Dialogue d’horlogers",
+      "Un tour couture"
     ],
     "category_names": [
       "Produits et publicité",
@@ -335,7 +335,7 @@
     "index_label": "Vollständiger Prompt-Index",
     "source_label": "Quellen",
     "brand_title": "Setze deine gewählte Einstellung mit SeaImagine um",
-    "brand_intro": "Wähle oben die Produktaufnahme der Glasflasche, den Dialog am Hafen oder die animierte Postkarte. Nutze das jeweilige Bild und den vollständigen Prompt in Grok Imagine 1.5 auf SeaImagine. Erkunde Materialien in Produktaufnahmen, Schauspiel im Dialog und Bildaufbau in grafischen Animationen.",
+    "brand_intro": "Nimm den Glasflaschen-Shot, das Gespräch der Uhrmacher oder die Drehung im Kobaltkleid samt Startbild und vollständigem Prompt zu Grok Imagine 1.5 auf SeaImagine mit. Erkunde Glas und Licht, Pausen zwischen zwei Stimmen oder Stoff, der der Bewegung folgt.",
     "brand_caption": "Tatsächliche Oberfläche: Glasflaschen-Prompt eingegeben, 720p · 5 s · 16:9. Das Startbild wurde noch nicht hochgeladen; es wurde kein Video generiert.",
     "brand_cta": "Diese Einstellung mit SeaImagine erstellen",
     "mode_names": {
@@ -357,9 +357,9 @@
       "Schwingende Röcke / Umhänge / Kragenprojektionen / Tanzschritte"
     ],
     "brand_links": [
-      "Produktmaterialien",
-      "Figurendialoge",
-      "Animierte Layouts"
+      "Glas und Licht",
+      "Uhrmacher im Dialog",
+      "Eine Couture-Drehung"
     ],
     "category_names": [
       "Produkte und Werbung",
@@ -382,7 +382,7 @@
     "index_label": "Índice completo de prompts",
     "source_label": "Fontes",
     "brand_title": "Leve a cena escolhida para o SeaImagine",
-    "brand_intro": "Escolha o vídeo de produto com a garrafa, o diálogo no porto ou o cartão-postal animado acima e use a imagem e o prompt completo no Grok Imagine 1.5 do SeaImagine. Explore materiais nas cenas de produto, atuação nos diálogos e composição nas animações gráficas.",
+    "brand_intro": "Leve a cena da garrafa, o diálogo dos relojoeiros ou o giro do vestido cobalto para o Grok Imagine 1.5 no SeaImagine, com imagem inicial e prompt completo. Explore vidro e luz, pausas entre duas vozes ou o tecido acompanhando o corpo.",
     "brand_caption": "Interface real: prompt da garrafa preenchido, 720p · 5 s · 16:9. A imagem inicial ainda não foi enviada; nenhum vídeo foi gerado.",
     "brand_cta": "Crie esta cena com o SeaImagine",
     "mode_names": {
@@ -404,9 +404,9 @@
       "Saias em movimento / capas / projeções na gola / passos de dança"
     ],
     "brand_links": [
-      "Materiais de produtos",
-      "Diálogos de personagens",
-      "Composições animadas"
+      "Vidro e luz",
+      "Diálogo de relojoeiros",
+      "Um giro de alta-costura"
     ],
     "category_names": [
       "Produtos e publicidade",
@@ -429,7 +429,7 @@
     "index_label": "Indice completo dei prompt",
     "source_label": "Fonti",
     "brand_title": "Porta l’inquadratura scelta su SeaImagine",
-    "brand_intro": "Scegli il video di prodotto con la bottiglia, il dialogo al porto o la cartolina animata qui sopra e usa l’immagine e il prompt completo in Grok Imagine 1.5 su SeaImagine. Esplora i materiali nelle riprese di prodotto, la recitazione nei dialoghi e la composizione nelle animazioni grafiche.",
+    "brand_intro": "Porta la scena della bottiglia, il dialogo degli orologiai o il giro dell’abito cobalto in Grok Imagine 1.5 su SeaImagine, con immagine iniziale e prompt completo. Esplora vetro e luce, pause tra due voci o tessuto che segue il corpo.",
     "brand_caption": "Interfaccia reale: prompt della bottiglia inserito, 720p · 5 s · 16:9. L’immagine iniziale non è ancora stata caricata; non è stato generato alcun video.",
     "brand_cta": "Crea questa inquadratura con SeaImagine",
     "mode_names": {
@@ -451,9 +451,9 @@
       "Gonne in movimento / mantelli / proiezioni sui colletti / passi di danza"
     ],
     "brand_links": [
-      "Materiali dei prodotti",
-      "Dialoghi tra personaggi",
-      "Composizioni animate"
+      "Vetro e luce",
+      "Dialogo tra orologiai",
+      "Un giro couture"
     ],
     "category_names": [
       "Prodotti e pubblicità",
@@ -476,7 +476,7 @@
     "index_label": "Полный указатель промптов",
     "source_label": "Источники",
     "brand_title": "Создайте выбранный кадр в SeaImagine",
-    "brand_intro": "Выберите выше ролик со стеклянным флаконом, диалог в порту или анимированную открытку и перенесите изображение и полный промпт в Grok Imagine 1.5 на SeaImagine. В предметной съёмке исследуйте материалы, в диалогах — актёрскую игру, в графической анимации — композицию.",
+    "brand_intro": "Перенесите кадр с флаконом, диалог часовщиков или оборот в кобальтовом платье в Grok Imagine 1.5 на SeaImagine вместе с исходным изображением и полным промптом. Исследуйте стекло и свет, паузы двух собеседников или движение ткани вслед за телом.",
     "brand_caption": "Реальный интерфейс: промпт для флакона введён, 720p · 5 с · 16:9. Начальное изображение ещё не загружено; видео не сгенерировано.",
     "brand_cta": "Создать этот кадр в SeaImagine",
     "mode_names": {
@@ -498,9 +498,9 @@
       "Движение юбок / плащи / проекции на воротники / танцевальные шаги"
     ],
     "brand_links": [
-      "Материалы изделий",
-      "Диалоги персонажей",
-      "Анимированные композиции"
+      "Стекло и свет",
+      "Диалог часовщиков",
+      "Оборот в платье"
     ],
     "category_names": [
       "Продукты и реклама",
@@ -523,7 +523,7 @@
     "index_label": "فهرس المطالبات الكامل",
     "source_label": "المصادر",
     "brand_title": "نفّذ اللقطة التي اخترتها في SeaImagine",
-    "brand_intro": "اختر من الأمثلة أعلاه لقطة المنتج بالقارورة الزجاجية أو الحوار في الميناء أو البطاقة البريدية المتحركة، ثم استخدم الصورة والمطالبة الكاملة في Grok Imagine 1.5 على SeaImagine. استكشف الخامات في لقطات المنتجات، والأداء في الحوار، والتكوين في الرسوم المتحركة.",
+    "brand_intro": "انقل لقطة الزجاجة أو حوار صانعي الساعات أو دوران الفستان الكوبالتي إلى Grok Imagine 1.5 على SeaImagine مع صورة البدء والنص الكامل. استكشف الزجاج والضوء، والوقفات بين صوتين، أو القماش وهو يتبع الجسم.",
     "brand_caption": "الواجهة الفعلية: أُدخلت مطالبة القارورة الزجاجية، بدقة 720p ومدة 5 ثوانٍ ونسبة 16:9. لم تُرفع صورة البداية بعد، ولم يُولّد أي فيديو.",
     "brand_cta": "أنشئ هذه اللقطة باستخدام SeaImagine",
     "mode_names": {
@@ -545,9 +545,9 @@
       "حركة التنانير / عباءات / إسقاطات على الياقات / خطوات رقص"
     ],
     "brand_links": [
-      "خامات المنتجات",
-      "حوار الشخصيات",
-      "تصاميم متحركة"
+      "الزجاج والضوء",
+      "حوار صانعي الساعات",
+      "دورة أزياء كاملة"
     ],
     "category_names": [
       "المنتجات والإعلانات",
@@ -570,7 +570,7 @@
     "index_label": "Indeks prompt lengkap",
     "source_label": "Sumber",
     "brand_title": "Wujudkan adegan pilihan Anda di SeaImagine",
-    "brand_intro": "Pilih video produk botol kaca, dialog di pelabuhan, atau kartu pos animasi di atas, lalu gunakan gambar dan prompt lengkapnya di Grok Imagine 1.5 pada SeaImagine. Eksplorasi bahan dalam adegan produk, akting dalam dialog, dan komposisi dalam animasi grafis.",
+    "brand_intro": "Dari kejernihan botol kaca, ekspresi halus dalam dialog pemulih jam, hingga lipit gaun yang berputar: pilih gambar referensi dan prompt terkait, lalu lanjutkan kreasi di halaman Grok Imagine 1.5 SeaImagine.",
     "brand_caption": "Antarmuka asli: prompt botol kaca sudah diisi, 720p · 5 dtk · 16:9. Gambar awal belum diunggah; belum ada video yang dibuat.",
     "brand_cta": "Buat adegan ini dengan SeaImagine",
     "mode_names": {
@@ -592,9 +592,9 @@
       "Gerak rok / jubah / proyeksi pada kerah / langkah tari"
     ],
     "brand_links": [
-      "Bahan produk",
-      "Dialog karakter",
-      "Tata letak animasi"
+      "Material botol",
+      "Dialog pemulih jam",
+      "Putaran gaun"
     ],
     "category_names": [
       "Produk dan iklan",
@@ -617,7 +617,7 @@
     "index_label": "ดัชนีพรอมป์ต์ทั้งหมด",
     "source_label": "แหล่งที่มา",
     "brand_title": "นำช็อตที่เลือกไปสร้างต่อใน SeaImagine",
-    "brand_intro": "เลือกวิดีโอสินค้าขวดแก้ว บทสนทนาที่ท่าเรือ หรือโปสการ์ดเคลื่อนไหวจากด้านบน แล้วนำภาพและพรอมป์ต์ฉบับเต็มไปใช้กับ Grok Imagine 1.5 บน SeaImagine ลองเน้นพื้นผิววัสดุในช็อตสินค้า การแสดงในบทสนทนา และองค์ประกอบภาพในกราฟิกเคลื่อนไหว",
+    "brand_intro": "จากความใสของขวดแก้ว สีหน้าเล็กน้อยระหว่างช่างนาฬิกาคุยกัน ไปจนถึงพลีตชุดที่หมุน เลือกภาพอ้างอิงกับพรอมป์คู่กัน แล้วสร้างต่อที่หน้า Grok Imagine 1.5 ของ SeaImagine",
     "brand_caption": "หน้าจอจริง: ใส่พรอมป์ต์ขวดแก้วแล้ว ตั้งค่า 720p · 5 วินาที · 16:9 ยังไม่ได้อัปโหลดภาพเริ่มต้นและยังไม่ได้สร้างวิดีโอ",
     "brand_cta": "สร้างช็อตนี้ด้วย SeaImagine",
     "mode_names": {
@@ -639,9 +639,9 @@
       "ชายกระโปรง / ผ้าคลุม / ภาพฉายบนปกเสื้อ / ท่าเต้น"
     ],
     "brand_links": [
-      "พื้นผิวสินค้า",
-      "บทสนทนาตัวละคร",
-      "เลย์เอาต์เคลื่อนไหว"
+      "พื้นผิวขวด",
+      "บทสนทนาช่างนาฬิกา",
+      "ชุดหมุน"
     ],
     "category_names": [
       "สินค้าและโฆษณา",
@@ -664,7 +664,7 @@
     "index_label": "Mục lục toàn bộ câu lệnh",
     "source_label": "Nguồn",
     "brand_title": "Đưa cảnh bạn chọn vào SeaImagine",
-    "brand_intro": "Chọn video sản phẩm chai thủy tinh, hội thoại ở bến cảng hoặc bưu thiếp chuyển động ở trên, rồi dùng hình ảnh và câu lệnh đầy đủ trong Grok Imagine 1.5 trên SeaImagine. Khám phá chất liệu ở cảnh sản phẩm, diễn xuất trong hội thoại và bố cục trong đồ họa chuyển động.",
+    "brand_intro": "Từ độ trong của chai thủy tinh, biểu cảm nhỏ trong đối thoại thợ sửa đồng hồ đến nếp váy khi xoay: chọn ảnh tham chiếu cùng prompt và tiếp tục sáng tạo trên trang Grok Imagine 1.5 của SeaImagine.",
     "brand_caption": "Giao diện thực tế: đã nhập câu lệnh chai thủy tinh, 720p · 5 giây · 16:9. Chưa tải ảnh mở đầu lên và chưa tạo video.",
     "brand_cta": "Tạo cảnh này bằng SeaImagine",
     "mode_names": {
@@ -686,9 +686,9 @@
       "Tà váy / áo choàng / hình chiếu trên cổ áo / bước nhảy"
     ],
     "brand_links": [
-      "Chất liệu sản phẩm",
-      "Hội thoại nhân vật",
-      "Bố cục chuyển động"
+      "Chất liệu chai",
+      "Đối thoại thợ đồng hồ",
+      "Váy xoay"
     ],
     "category_names": [
       "Sản phẩm và quảng cáo",

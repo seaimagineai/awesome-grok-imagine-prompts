@@ -88,10 +88,9 @@ require(set(ui_all) == {x['locale'] for x in locales}, 'Catalog UI language cove
 for locale, ui in ui_all.items():
     same_schema(ui, ui_all['en-US'], 'catalog-ui.' + locale)
     require(len(ui['category_names']) == len(ui['scene_summaries']) == 9, locale + ': wrong category count')
-fixed_cases = [
-    ('harbor-reunion', 'assets/seaimagine-harbor-reunion.webp', '10s · 16:9 · 720p'),
-    ('coastal-postcard', 'assets/seaimagine-coastal-postcard.webp', '5s · 9:16 · 720p'),
-    ('sea-glass-bottle', 'assets/seaimagine-sea-glass-bottle.webp', '5s · 16:9 · 720p'),
+fixed_cases = [('sea-glass-bottle', 'assets/seaimagine-sea-glass-bottle.webp', '5s · 16:9 · 720p')] + [
+    (key, 'assets/' + key + '.png', '10s · 16:9 · 720p')
+    for key in ['clockwork-dialogue', 'rainlit-arcade', 'amber-orchard', 'unfolding-atrium', 'cobalt-orbit']
 ]
 fixed_urls = [
     'https://x.com/grok/status/2062225080843747351',
@@ -99,7 +98,7 @@ fixed_urls = [
     'https://x.com/genel_ai/status/2061382998873034825',
     'https://x.com/JSFILMZ0412/status/2061117682515050669',
 ]
-require(len(master['cases']) == 3 and len(master['steps']) == 5 and len(master['community_items']) == 4, 'English master must contain 3 cases, 5 steps and 4 community explanations')
+require(len(master['cases']) == 6 and len(master['steps']) == 5 and len(master['community_items']) == 4, 'English master must contain 6 cases, 5 steps and 4 community explanations')
 for item in locales:
     label = item['readme']
     text = (ROOT / label).read_text()
@@ -146,6 +145,14 @@ for path in ROOT.rglob('*.md'):
     for target in html_targets.targets:
         check_target(path, target)
 
+from build import FEATURED_GROUPS, ORDER
+require(len(FEATURED_GROUPS) == 9 and all(FEATURED_GROUPS), 'Every category needs an illustrated example')
+require(sorted(key for group in FEATURED_GROUPS for key in group) == sorted(ORDER), 'Featured category mapping must include each case once')
+for item in locales:
+    content = (ROOT / item['readme']).read_text()
+    require(not any(key in content for key in ['harbor-reunion', 'coastal-postcard']), 'Retired case remains on homepage')
+    for key in ['harbor-reunion', 'coastal-postcard']:
+        require(not (ROOT / 'prompts/text' / item['locale'] / (key + '.txt')).exists(), 'Retired TXT remains')
 readme = (ROOT / 'README.md').read_text()
 featured_master = json.loads((ROOT / 'data/featured-locales/en-US.json').read_text())
 provenance = json.loads((ROOT / 'data/source-featured-provenance.json').read_text())
@@ -172,10 +179,10 @@ for item in locales:
     require(0 <= nav_pos < gallery_pos < workflow_pos < community_pos, label + ': broken reader journey')
     require(text.count('assets/seaimagine-interface.jpg') == 1, label + ': duplicated product tutorial')
     gallery = text[gallery_pos:workflow_pos]
-    require(len(re.findall(r'```text\n', gallery)) == 8, label + ': expected eight complete gallery prompts')
+    require(len(re.findall(r'```text\n', gallery)) == 11, label + ': expected eleven complete gallery prompts')
     require(all('docs/PROMPT_INDEX.md#' + x.removesuffix('.md') in text[:gallery_pos] for x in ['01-ads-and-products.md', '02-cinematic-storytelling.md', '03-social-ugc.md', '04-characters-and-references.md', '05-editing-and-extension.md']), label + ': categories not before gallery')
     require(gallery.find('case-sea-glass-bottle') < gallery.find('case-blue-route') < gallery.find('case-honey-loaf'), label + ': opening lacks topic variety')
-    require(text.count('[TXT]') == 8, label + ': missing text exports')
+    require(text.count('[TXT]') == 11, label + ': missing text exports')
     require(len(re.findall(r'^\| ---.*$', text[:gallery_pos], re.M)) == 1, label + ': expected a single category table')
     require(ui_all[item['locale']]['brand_title'] in text and ui_all[item['locale']]['brand_cta'] in text, label + ': missing illustrated brand section')
     for case in data['cases']:
@@ -196,9 +203,9 @@ for slug in new_files:
         require((ROOT / 'prompts/text/en-US' / (slug + '-' + str(i) + '.txt')).read_text() == body + '\n', slug + ': TXT mismatch')
     new_prompts.extend(bodies)
 require(len(set(new_prompts)) == 24, 'Repeated new original prompt')
-require((ROOT / 'docs/PROMPT_INDEX.md').read_text().count('[TXT]') == 62, 'Complete index must link all 62 prompts')
+require((ROOT / 'docs/PROMPT_INDEX.md').read_text().count('[TXT]') == 65, 'Complete index must link all 65 prompts')
 exercise_text = (ROOT / 'prompts/06-community-exercises.md').read_text()
-require(len(re.findall(r'^## \d+\.', exercise_text, re.M)) == 3, 'Expected three new exercises')
+require(len(re.findall(r'^## \d+\.', exercise_text, re.M)) == 6, 'Expected six original illustrated cases')
 exercise_prompts = re.findall(r'```text\n(.*?)\n```', exercise_text, re.S)
 require(exercise_prompts == [case['prompt'] for case in master['cases']], 'English exercise prompts differ from canonical en-US.json')
 require('Copyright (c) 2026 Flaq AI' in (ROOT / 'LICENSE').read_text(), 'Missing upstream copyright')
@@ -213,4 +220,4 @@ result = subprocess.run([sys.executable, str(ROOT / 'scripts/build.py'), '--chec
 require(result.returncode == 0, result.stdout.strip() + '\n' + result.stderr.strip())
 if errors:
     raise SystemExit('\n'.join(errors))
-print('PASS: local Markdown/HTML links, 15 complete localized homepages, 62 English recipes, synchronized prompts, provenance and assets')
+print('PASS: local Markdown/HTML links, 15 complete localized homepages, 65 English recipes, synchronized prompts, provenance and assets')

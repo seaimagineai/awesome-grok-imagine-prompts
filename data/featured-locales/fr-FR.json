@@ -13,9 +13,9 @@
     "Compositions animées"
   ],
   "gallery_title": "Des prompts illustrés à copier et à adapter",
-  "gallery_intro": "8 exemples avec prompts complets et images de départ. Les images illustrent des concepts ; elles ne constituent pas des résultats vidéo vérifiés.",
+  "gallery_intro": "11 exemples avec prompts complets et images de départ. Les images illustrent des concepts, pas des vidéos vérifiées.",
   "prompt_label": "Copier le prompt complet",
-  "source_note": "Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les trois autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.",
+  "source_note": "Les cinq exemples marqués « Source : Flaq AI » conservent leur durée et leur résolution d’origine ; les six autres utilisent les options actuelles de SeaImagine. Pour utiliser un exemple source sur SeaImagine, choisissez 5/10/15 secondes et 480p/720p, puis réécrivez ses actions minutées.",
   "source_label": "Source : Flaq AI",
   "more_label": "Documentation de référence",
   "counts_label": "Collection et attribution",

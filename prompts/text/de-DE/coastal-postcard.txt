@@ -1,9 +1,0 @@
-Animiere diese Küstenpostkarte mit drei Bildfeldern, ohne Anordnung oder Ränder zu verändern. Erhalte sämtliche Objekte und Farben exakt. Im oberen Feld steigt eine dünne Dampffahne aus der Tasse.
-Im mittleren Feld kräuselt sich das Hafenwasser sanft und Sonnenlicht glitzert auf der Oberfläche.
-Im unteren Feld hebt sich nur die bereits vorhandene Papierecke leicht und sinkt in einer schwachen Brise zurück.
-Jede Bewegung bleibt innerhalb ihres Feldes. Alle Felder bleiben während der gesamten fünf Sekunden sichtbar.
-Kamera: feststehend, kein Zoom, kein Schwenk, keine Schnitte oder Übergänge zwischen Feldern.
-Ton: leises Wasser und sanftes Papierrascheln; kein Dialog, keine Musik, Bildunterschriften oder zusätzlicher Text.
-Erhalte Tassenhenkel, Fensterrahmen, Kartenmarkierungen, Feldgrößen und Lesereihenfolge.
-Vermeide verschmelzende Felder, neue Szenen, neu gezeichnete Buchstaben oder Objekte, die über die Ränder wandern.
-Am Ende ruht die Papierecke wieder und die ursprüngliche Komposition bleibt erhalten.

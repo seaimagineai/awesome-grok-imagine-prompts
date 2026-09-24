@@ -1,26 +1,10 @@
 {
   "section_title": "Szene wählen, Prompt kopieren, loslegen",
-  "intro": "Möchtest du eine Szene mit Figuren, eine animierte Postkarte oder eine Produktaufnahme erstellen? Jedes Beispiel enthält ein herunterladbares Startbild, einen vollständigen Prompt und eine Prüfliste. Wähle eine Szene und passe ihr Motiv an deine Idee an. Die Übungen verwenden die Optionen von SeaImagine im Browser: 5/10/15 Sekunden und 480p/720p. Die Startbilder sind KI-generierte Konzeptbilder; die Prompts wurden noch nicht durch Videogenerierung getestet.",
+  "intro": "Entdecke Produktmaterialien, ruhigen Dialog, Wetterwechsel, einen kristallinen Schnitt, mechanische Architektur und Couture-Bewegung. Jedes neue Beispiel enthält Startbild, vollständigen Prompt und Prüfpunkte. Die Bilder sind KI-Konzeptbilder, keine geprüften Videoergebnisse; die Prompts wurden nicht durch Generierung getestet.",
   "image_label": "Startbild: öffnen und speichern",
   "settings_label": "Einstellungen für Bild zu Video",
   "review_label": "Darauf solltest du achten",
   "cases": [
-    {
-      "id": "harbor-reunion",
-      "title": "Wiedersehen am Hafen: ein einzelner emotionaler Moment",
-      "image": "assets/seaimagine-harbor-reunion.webp",
-      "settings": "10s · 16:9 · 720p",
-      "prompt": "Erhalte die beiden Erwachsenen, ihre Gesichter, die dunkelblaue und cremefarbene Kleidung, den Holzsteg und das weiche Morgenlicht des Ausgangsbildes. Halte beide Personen in derselben halbweiten Einstellung.\n0–3 Sekunden: Die Person links bemerkt den ankommenden Freund und macht einen kleinen Schritt. Ihre Schultern entspannen sich; der Freund antwortet mit einem stillen Lächeln. Die Hände bleiben sichtbar und entspannt.\n3–7 Sekunden: Die Person links sagt auf natürlichem Deutsch: „Du bist da.“ Der Freund nickt einmal. Die Äußerung bleibt zurückhaltend, ohne Weinen oder übertriebene Mimik.\n7–10 Sekunden: Beide schauen zum vertäuten Boot. Halte die letzte Sekunde für einen Schnitt zur nächsten Einstellung.\nKamera: eine sanfte Vorwärtsfahrt, kein Gegenschuss und keine Schnitte.\nTon: nahe, verständliche Sprache, leises Hafenwasser und eine entfernte Möwe; keine Musik oder Untertitel.\nFixiere beide Identitäten, Kleidung, Steggeometrie, Bootsposition und Richtung des Morgenlichts.\nVermeide zusätzliche Personen, dramatische Gesten, geglättete Gesichter, zusätzliche Finger und Kamerasprünge.",
-      "review": "Ist die Emotion ohne starke Veränderung der Mimik verständlich? Wirkt der Dialog gehetzt, entferne zunächst den Schritt nach vorn, bevor du die Dauer erhöhst. Schreibe für einen längeren Film die nächste Einstellung separat."
-    },
-    {
-      "id": "coastal-postcard",
-      "title": "Küstenpostkarte: ein vorbereitetes Bild animieren",
-      "image": "assets/seaimagine-coastal-postcard.webp",
-      "settings": "5s · 9:16 · 720p",
-      "prompt": "Animiere diese Küstenpostkarte mit drei Bildfeldern, ohne Anordnung oder Ränder zu verändern. Erhalte sämtliche Objekte und Farben exakt. Im oberen Feld steigt eine dünne Dampffahne aus der Tasse.\nIm mittleren Feld kräuselt sich das Hafenwasser sanft und Sonnenlicht glitzert auf der Oberfläche.\nIm unteren Feld hebt sich nur die bereits vorhandene Papierecke leicht und sinkt in einer schwachen Brise zurück.\nJede Bewegung bleibt innerhalb ihres Feldes. Alle Felder bleiben während der gesamten fünf Sekunden sichtbar.\nKamera: feststehend, kein Zoom, kein Schwenk, keine Schnitte oder Übergänge zwischen Feldern.\nTon: leises Wasser und sanftes Papierrascheln; kein Dialog, keine Musik, Bildunterschriften oder zusätzlicher Text.\nErhalte Tassenhenkel, Fensterrahmen, Kartenmarkierungen, Feldgrößen und Lesereihenfolge.\nVermeide verschmelzende Felder, neue Szenen, neu gezeichnete Buchstaben oder Objekte, die über die Ränder wandern.\nAm Ende ruht die Papierecke wieder und die ursprüngliche Komposition bleibt erhalten.",
-      "review": "Wenn die Ränder zerfließen oder Szenen ineinanderlaufen, schneide jedes Feld einzeln aus und animiere es separat. Setze die Clips anschließend in einem Schnittprogramm zusammen."
-    },
     {
       "id": "sea-glass-bottle",
       "title": "Flasche aus Meerglas: kontrollierte Bewegungen vergleichen",
@@ -28,6 +12,46 @@
       "settings": "5s · 16:9 · 720p",
       "prompt": "Erhalte die einzelne Flasche aus mattiertem Meerglas auf der hellen Steinfläche, ihren zylindrischen Verschluss, die leere unbedruckte Vorderseite, den Wasserstand, den Horizont und das weiche Seitenlicht. Die Flasche bewegt sich nie.\nFühre die Kamera über fünf Sekunden langsam nach rechts, höchstens um eine Flaschenbreite.\nEin kleiner Wassertropfen gleitet an der Vorderseite hinunter und stoppt am Boden. Die unscharfen Meereswellen im Hintergrund bewegen sich sanft. Die Reflexionen bleiben zur Kamera und Lichtquelle passend.\nTon: nur entfernte Brandung; keine Musik, Stimmen, Glasstöße oder übertriebenes Spritzen.\nKeine Schnitte oder Zooms. Erhalte Flaschenkontur, Ausrichtung des Verschlusses, Glasstruktur und Objektanzahl.\nVermeide erzeugte Logos, Änderungen des Flüssigkeitsstands, verbogene Kanten, schwebende Objekte oder neue Requisiten.\nHalte das Bild in der letzten Sekunde stabil.",
       "review": "Notiere das tatsächlich verwendete Modell, Dauer, Auflösung, Anzahl der Versuche und Datum. Vergleiche Flaschenform, durchgängige Tropfenbewegung, Reflexionen und Kamerabewegung. Ein einzelner gelungener Clip belegt keine Zuverlässigkeit."
+    },
+    {
+      "id": "clockwork-dialogue",
+      "title": "Der letzte Zahn — Dialog am Uhrwerk",
+      "image": "assets/clockwork-dialogue.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Animiere die Vorlage als zurückhaltende Filmszene von zehn Sekunden. Beide erwachsenen Restauratoren, offene astronomische Messinguhr, einzelnes loses Zahnrad und mondhelle Sternwarte bleiben erkennbar. Die kurzhaarige Frau in marineblauer Arbeitskleidung bleibt links, der grauhaarige Mann mit ockerfarbener Schürze rechts. Beide hinter der Werkbank ab Taille zeigen.\n\n0–3s: Zweierbild mit kaum merklicher Vorwärtsfahrt. Sie prüft die Uhr und fragt leise auf Deutsch: „Geht sie jetzt richtig?“ Er schaut auf das Uhrwerk. Nur sie spricht, lippensynchron. Die Uhr tickt bereits langsam; die sichtbare Hemmung schwingt gleichmäßig.\n\n3–7s: Er lauscht aufmerksam, Hände entspannt und still. Das lose Zahnrad bleibt reglos auf dem Tisch; niemand berührt es. Nach kurzer Hörpause antwortet er auf Deutsch: „Jetzt schon.“ Nur seine Lippen bewegen sich. Uhr und Hemmung behalten den langsamen Rhythmus.\n\n7–10s: Ihr Blick wandert von der Uhr zu ihm; sie lächelt leicht und erleichtert. Er erwidert den Blick. Ende auf ihrer gemeinsamen Pause, mit tickender Uhr zwischen ihnen und kühlem Mondsaum an den Schultern.\n\nTon: nahe, trockene Stimmen und feines langsames Ticken ab dem ersten Bild im hallenden Raum. Keine Musik, überlappende Sprache oder Zahnradbewegungsgeräusche.\n\nDas Zahnrad bleibt getrennt und reglos; niemand baut es ein. Hände, Uhrwerk, Kleidung, Blickachsen und Seiten bewahren. Kein Start der Uhr durch eine Geste. Keine zusätzlichen Werkzeuge, Zahnräder, Untertitel, Schnitte oder übertriebenen Gesten.",
+      "review": "Sprecher und Lippen prüfen; loses Zahnrad reglos, Geometrie stabil, langsames Ticken ab dem ersten Bild."
+    },
+    {
+      "id": "rainlit-arcade",
+      "title": "Regen in der Passage — ein stetiger Wetterwechsel",
+      "image": "assets/rainlit-arcade.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Nutze die leere Art-déco-Passage exakt als erstes Bild einer zehnsekündigen Wetterstudie. Dunkelgrüne Fliesen, Messing, Terrazzo, wiederholte Bögen und warme linke Wandleuchten bewahren. Die ferne Straßenöffnung bleibt dämmerungsblau. Der Innenboden beginnt ganz trocken; die Kamera blickt von innen zur Öffnung.\n\n0–3s: feste Architekturansicht ohne Schwenk oder Zoom. Hinter der fernen Schwelle treibt eine Böe Regen diagonal über die Straße. Erste Tropfen gelangen hinein und verdunkeln nur den Terrazzo direkt an der Schwelle. Der Vordergrund bleibt völlig trocken.\n\n3–7s: Die Böe verstärkt sich und trägt feinen Regen in gleicher Richtung weiter hinein. Eine unregelmäßige Nässefront rückt vom Ende zur Mitte; neue Tropfen verbinden sichtbar vorhandene Flecken. Kleine flache Pfützen entstehen. Vorhandene weiche Spiegelungen auf dem trockenen polierten Boden bewahren; Regen bricht sie in nassen Bereichen in warme wellige Streifen.\n\n7–10s: Ein letzter Sprühschwall erreicht den nahen Mittelgrund und lässt nach. Den vordersten Streifen trocken lassen. Der Regen schwächt sich; überlagerte Ringe in flachen Pfützen klingen ab, warme Spiegelungen beruhigen sich. Unveränderte Bögen vor der blauen Öffnung halten.\n\nTon: zuerst Außenregen, dann immer nähere Tropfen auf Stein, eine tiefe Böe und sanfter Hall. Kein Donner, keine Musik oder Stimmen.\n\nWasser gelangt auf einem durchgehend sichtbaren Weg hinein: kein sofortiger Glanz überall, keine Pfützen vor der Nässefront. Wasser flach, Lampen konstant, Kamera waagerecht, Architekturlinien starr. Keine Menschen, zusätzlichen Pflanzen, neuen Schilder, Blitze, Überflutung, Schnitte oder umgebauten Oberflächen.",
+      "review": "Wasser von der Straße, vorderster Streifen trocken, vorhandene Reflexe bewahrt und durch Wasser gewellt, Architektur unverändert."
+    },
+    {
+      "id": "amber-orchard",
+      "title": "Bernsteingarten — eine durchscheinende Scheibe",
+      "image": "assets/amber-orchard.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Erzeuge aus der Vorlage eine surreale Materialnahaufnahme von zehn Sekunden. Transparente bernsteinfarbene Glasbirne auf schwarzem Steinteller, eingeschlossene Bläschen und feine Goldfasern bewahren. Ein einziges schmales Messer kommt von rechts; seine Spitze berührt bereits die rechte Birnenflanke. Kein Gesicht, keine Hand. Die Birne ist starres, sauber schneidbares Fantasieglas: unmögliches Material ist gewollt, die Geometrie bleibt stimmig.\n\n0–3s: feste Dreiviertel-Makroansicht, ganze Birne und Teller sichtbar. Warmes Seitenlicht zeigt Fasern. Messer zuerst vom vorhandenen Kontakt zurückziehen, über die rechte Flanke heben und für einen senkrechten Schnitt ausrichten: dünne Außenscheibe abtrennen, Stiel am großen Körper lassen.\n\n3–7s: genau eine ununterbrochene Abwärtsbewegung. Die Klinge durchquert die Flanke, bis sie den Teller gerade berührt. Eine saubere Schnittebene folgt ihr; genau eine Scheibe löst sich. Der Hauptkörper bleibt aufrecht. Die Scheibe kippt sanft nach rechts, zeigt die glatte Bernsteinfläche und ruht auf dem Teller, ohne zu zerspringen.\n\n7–10s: Klinge senkrecht aus der Frucht heben und stillhalten. Kamera nur leicht vorschieben, um die zusammenpassenden Schnittflächen zu zeigen. Großkörper, einzelne Scheibe und Messer am Ende klar sichtbar.\n\nTon: feines kristallines Schaben beim Schnitt, ein helles Klirren beim Steinkontakt, kurzes natürliches Nachklingen. Keine Musik oder Sprache.\n\nBlasen und Fasern bleiben fest in ihren jeweiligen Festkörpern. Transparenz, Kontur außerhalb des Schnitts und Tellerposition bewahren. Kein zweiter Schnitt, doppelte Scheiben, Splitter, Flüssigfüllung, Schmelzen, neue Fasern, schwebende Bruchstücke oder Kameraschnitte.",
+      "review": "Messer löst zuerst den anfänglichen Kontakt; ein Schnitt ergibt zwei passende Festkörper, Stiel am Hauptteil und Blasen fest im Glas."
+    },
+    {
+      "id": "unfolding-atrium",
+      "title": "Das Atrium öffnet sich — ein mechanisches Gewächshaus",
+      "image": "assets/unfolding-atrium.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Animiere das Architekturmodell aus Nussbaum und Messing als präzise mechanische Enthüllung von zehn Sekunden. Grauen Steinsockel, Miniaturtreppen und dichte Farne bewahren. Das Glasdach besteht aus genau zwei gewölbten Hälften mit festen Scharnierachsen am mittigen First. Anfangs geschlossen; der Innenraum ist bereits durchs Glas sichtbar.\n\n0–3s: ganzes Modell in naher Dreiviertelansicht. Warmes Licht streift Maserung und Messingscharniere. Die Kamera steigt langsam stetig und blickt leicht ins Atrium. Dach kurz geschlossen; dann heben sich die äußeren Traufkanten, der First bleibt fest.\n\n3–7s: Beide Hälften drehen gleich schnell nach oben um feste Firstscharniere. Die äußeren Traufkanten steigen und geben Pflanzen frei; der First trennt sich nicht. Kontrollierte Mechanik, ursprüngliche Krümmung und starre Rahmen bleiben. Kamera nur bis zur Sicht ins Treppenhaus heben; ganzer Sockel im Bild.\n\n7–10s: Beide Flügel bremsen auf gleiche Öffnungswinkel und stoppen ohne Nachfedern. Farne und Treppen im offenen Dachrahmen halten. Ein weicher Tageslichtfleck reicht tiefer hinein; Pflanzen stehen still. Offene Struktur am Ende klar lesbar.\n\nTon: leises, mit dem Dach synchrones Getriebesurren, zwei fast gleichzeitige Anschlagklicks, dann ruhiger Raumton. Keine Musik oder Stimme.\n\nGenau zwei starre Hälften, feste Firstachsen und identischer Innenraum. Nichts wächst, entsteht aus dem Nichts oder ändert Maßstab. Keine Schiebepaneele, losen Scheiben, verbogenen Metalle, weiteren Räume, öffnenden Sockel, Menschen oder Schnitte.",
+      "review": "Zwei starre Dachhälften heben Außenkanten um feste Firstscharniere; First bleibt verbunden, Innenraum von Anfang an da, Sockel ganz sichtbar."
+    },
+    {
+      "id": "cobalt-orbit",
+      "title": "Kobalt-Orbit — Mode in einer ganzen Drehung",
+      "image": "assets/cobalt-orbit.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Animiere das fiktive erwachsene Model als zehnsekündiges Ganzkörper-Coutureporträt. Kurzes schwarzes Haar, Kupferscheibenohrringe und skulpturales kobaltblaues Plisseekleid bewahren. Nackter runder Betonraum, Oberlicht und sauberer Boden bleiben. Anfangs frontal, Füße aufgesetzt, Arme entspannt. Von Kopf bis Boden mit Platz für den Rock rahmen.\n\n0–3s: Kamera völlig fest. Nach kurzer Frontalpause dreht sie langsam im Uhrzeigersinn von oben gesehen, mit kleinen kontrollierten Schritten auf der Stelle. Schultern führen natürlich; der schwere Rock folgt leicht verzögert. Bei drei Sekunden klares Profil nach einer Vierteldrehung.\n\n3–7s: gleiche Richtung, ruhiges Laufstegtempo. Um fünf Sekunden klarer Rücken, um sieben Gegenprofil. Am gleichen Bodenpunkt zentriert bleiben. Falten öffnen und schließen sich leicht um die Beine; Saum streift den Boden, ohne als waagerechte Scheibe abzuheben. Ohrringe schwingen kaum.\n\n7–10s: Bis Sekunde neun genau 360 Grad vollenden und wieder frontal stehen. Füße stoppen, dann die letzte Rockbewegung. Letzte Sekunde Frontalpose halten, mit ruhigem Blick in die Linse.\n\nTon: leise Schritte auf Beton, dezentes Stoffrascheln, schwacher Raumton. Keine Musik, Dialoge oder Applaus.\n\nIdentität, Kleiderkonstruktion und plausiblen durchgehenden Körper unter dem Stoff bewahren. Kopf, Hände und Saum immer sichtbar. Lichtrichtung und Hintergrund fest. Keine Kameraumlaufbahn, weitere Drehung, Schnitte, Farbwechsel, schwebender Saum, neue Accessoires oder elastische Körperverformung.",
+      "review": "Genau eine Drehung endet frontal; Kamera fest, Kopf und Saum sichtbar, Rock folgt dem Körper und führt ihn nicht."
     }
   ],
   "workflow_title": "Die tatsächlichen SeaImagine-Bedienelemente verwenden",
@@ -54,7 +78,7 @@
     },
     {
       "title": "Bildplanung vor der Animation: GENEL",
-      "text": "Der Urheber berichtet, eine Collage mit ChatGPT Images 2.0 erstellt und anschließend mit Grok Imagine Video 1.5 animiert zu haben. Bei unserer Postkartenübung bleiben die Ränder fest; jedes Feld erhält nur eine Bewegung.",
+      "text": "Der Urheber berichtet, eine Collage mit ChatGPT Images 2.0 erstellt und anschließend mit Grok Imagine Video 1.5 animiert zu haben.",
       "url": "https://x.com/genel_ai/status/2061382998873034825"
     },
     {
@@ -65,7 +89,7 @@
   ],
   "source_details_label": "Quellen und Hinweise zur Sichtung (Englisch)",
   "archive_label": "Weitere Anleitungen und die Sammlung mit Quellenangaben folgen unten",
-  "recipe_count_note": "62 unterschiedliche englische Prompts: 35 aus dem Quellprojekt und 27 eigene. Die neuesten 24 wurden nach Themen aus sozialen Medien neu verfasst und nicht durch Generierung getestet. Übersetzungen zählen nicht als neue Szenarien.",
-  "viewing_note": "Am 24. September 2026 haben wir einzelne Bilder in den ursprünglichen X-Playern geprüft: beim offiziellen Clip etwa bei 3,6 s (Helm und Armee), 19,8 s (Gesicht in Nahaufnahme) und 34,6 s (brennende Stadt am Wasser); bei GENEL etwa bei 0,05 s (Geländer am Meer), 4,9 s (Bahnübergang) und 12 s (Hand im Gegenlicht). Achte beim offiziellen Clip auf wechselnde Einstellungsgrößen und bei GENEL auf das gleichbleibende Küstenlicht in getrennten Einstellungen. Unsere Postkarte mit festen Bildfeldern ist eine andere Übung. Das sind Stichproben einzelner Bilder, keine vollständigen Bewegungs- oder Audiotests.",
+  "recipe_count_note": "65 eigenständige englische Prompts: 35 übernommen, 30 neu verfasst. Die Originale wurden nicht durch Generierung getestet. Übersetzungen zählen nicht als weitere Szenen.",
+  "viewing_note": "Am 24. September 2026 haben wir einzelne Bilder in den ursprünglichen X-Playern geprüft: beim offiziellen Clip etwa bei 3,6 s (Helm und Armee), 19,8 s (Gesicht in Nahaufnahme) und 34,6 s (brennende Stadt am Wasser); bei GENEL etwa bei 0,05 s (Geländer am Meer), 4,9 s (Bahnübergang) und 12 s (Hand im Gegenlicht). Achte beim offiziellen Clip auf wechselnde Einstellungsgrößen und bei GENEL auf das gleichbleibende Küstenlicht in getrennten Einstellungen. Das sind Stichproben einzelner Bilder, keine vollständigen Bewegungs- oder Audiotests.",
   "archive_note": "Das folgende Archiv bewahrt die Quellrezepte und API-bezogenen Parameter. Passe sie für SeaImagine an die obigen Bedienelemente an: 5/10/15 Sekunden und 480p/720p. Schreibe die zeitlich festgelegten Aktionen passend um; Bearbeitung und Verlängerung erfordern jeweils gesondert unterstützte Abläufe."
 }

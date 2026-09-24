@@ -1,26 +1,10 @@
 {
   "section_title": "Scegli una scena, copia un prompt e inizia a creare",
-  "intro": "Vuoi creare una scena con personaggi, una cartolina animata o una ripresa di prodotto? Ogni esempio qui sotto include un’immagine iniziale da scaricare, un prompt completo e un elenco di punti da controllare. Scegli una scena e adatta il soggetto alla tua idea. Gli esercizi usano le opzioni di SeaImagine nel browser: 5/10/15 secondi e 480p/720p. Le immagini sono proposte concettuali generate con l’IA da usare come fotogrammi iniziali; i prompt non sono ancora stati testati nella generazione di video.",
+  "intro": "Esplora materiali di prodotto, dialogo misurato, meteo mutevole, taglio cristallino, architettura meccanica e movimento couture. Ogni caso originale include immagine iniziale, prompt completo e controlli. Immagini concettuali IA, non video verificati; prompt non testati tramite generazione.",
   "image_label": "Fotogramma iniziale: apri e salva",
   "settings_label": "Impostazioni da immagine a video",
   "review_label": "Cosa controllare",
   "cases": [
-    {
-      "id": "harbor-reunion",
-      "title": "Ritrovarsi al porto: un solo momento emotivo",
-      "image": "assets/seaimagine-harbor-reunion.webp",
-      "settings": "10s · 16:9 · 720p",
-      "prompt": "Conserva i due adulti, i loro volti, gli abiti blu navy e crema, il pontile di legno e la luce morbida del mattino dell’immagine fornita. Mantieni entrambi i personaggi nella stessa inquadratura medio-larga.\n0–3 secondi: la persona a sinistra nota l’amico in arrivo e fa un piccolo passo. Le sue spalle si rilassano; l’amico risponde con un sorriso discreto. Mantieni le mani visibili e rilassate.\n3–7 secondi: la persona a sinistra dice, in italiano naturale: «Sei qui.» L’amico annuisce una volta. La battuta resta sobria, senza pianto o espressioni facciali esagerate.\n7–10 secondi: entrambi guardano la barca ormeggiata. Mantieni l’ultimo secondo per consentire uno stacco al piano successivo.\nCamera: un solo lento avvicinamento, senza controcampo né stacchi.\nAudio: voce vicina e comprensibile, acqua calma del porto e un gabbiano lontano; niente musica o sottotitoli.\nFissa le due identità, gli abiti, la geometria del pontile, la posizione della barca e la direzione della luce mattutina.\nEvita persone in più, gesti teatrali, volti levigati, dita aggiuntive e salti di camera.",
-      "review": "L’emozione si capisce senza grandi cambiamenti del volto? Se il dialogo sembra affrettato, elimina il passo in avanti prima di aumentare la durata. Per un film più lungo, scrivi il piano successivo separatamente."
-    },
-    {
-      "id": "coastal-postcard",
-      "title": "Cartolina costiera: anima un’immagine progettata",
-      "image": "assets/seaimagine-coastal-postcard.webp",
-      "settings": "5s · 9:16 · 720p",
-      "prompt": "Anima questa cartolina costiera a tre riquadri senza modificarne la disposizione o i bordi. Conserva esattamente tutti gli oggetti e i colori. Nel riquadro superiore, un sottile filo di vapore sale dalla tazza.\nNel riquadro centrale, l’acqua del porto si increspa dolcemente e la luce del sole scintilla sulla superficie.\nNel riquadro inferiore, solo l’angolo di carta già presente si solleva leggermente e torna a posarsi con una brezza lieve.\nMantieni ogni movimento nel proprio riquadro. Tutti i riquadri restano visibili per tutti e cinque i secondi.\nCamera: fissa, senza zoom, panoramiche, stacchi o transizioni tra i riquadri.\nAudio: acqua calma e un leggero fruscio di carta; niente dialoghi, musica, didascalie o testo aggiunto.\nConserva il manico della tazza, il telaio della finestra, i segni sulla mappa, le dimensioni dei riquadri e l’ordine di lettura.\nEvita di fondere i riquadri, inventare nuove scene, ridisegnare lettere o spostare oggetti oltre i bordi.\nTermina con l’angolo di carta fermo e la composizione originale intatta.",
-      "review": "Se i bordi si deformano o le scene si mescolano, ritaglia e anima ogni riquadro separatamente, poi assembla le clip in un programma di montaggio."
-    },
     {
       "id": "sea-glass-bottle",
       "title": "Bottiglia di vetro marino: confronto tra movimenti controllati",
@@ -28,6 +12,46 @@
       "settings": "5s · 16:9 · 720p",
       "prompt": "Conserva l’unica bottiglia di vetro marino satinato sulla pietra chiara, il tappo cilindrico, la parte frontale vuota e senza scritte, il livello dell’acqua, l’orizzonte e la luce laterale morbida. La bottiglia non si muove mai.\nPer cinque secondi, sposta lentamente la camera verso destra, per non più della larghezza di una bottiglia.\nUna piccola goccia d’acqua scende sulla parte frontale e si ferma alla base. Le onde del mare sullo sfondo si muovono dolcemente, sfocate. Mantieni i riflessi coerenti con la camera e la sorgente luminosa.\nAudio: solo risacca lontana; niente musica, voce, urti di vetro o spruzzi esagerati.\nNiente stacchi o zoom. Conserva la sagoma della bottiglia, l’allineamento del tappo, la trama del vetro e il numero di oggetti.\nEvita loghi generati, variazioni del livello del liquido, bordi piegati, oggetti fluttuanti o nuovi accessori.\nMantieni un’inquadratura stabile nell’ultimo secondo.",
       "review": "Registra il modello effettivamente usato, la durata, la risoluzione, il numero di tentativi e la data. Confronta la forma della bottiglia, la continuità della goccia, i riflessi e il movimento della camera. Una sola clip riuscita non dimostra affidabilità."
+    },
+    {
+      "id": "clockwork-dialogue",
+      "title": "L’ultimo dente — dialogo tra orologiai",
+      "image": "assets/clockwork-dialogue.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anima la reference come una sobria scena di cinema di dieci secondi. Conserva i due restauratori adulti, l’orologio astronomico aperto in ottone, l’unico ingranaggio sciolto e l’osservatorio al chiaro di luna. La donna dai capelli corti in abiti blu scuro resta a sinistra; l’uomo dai capelli grigi con grembiule ocra a destra. Inquadrali dalla vita in su oltre il banco.\n\n0–3s: piano a due con avanzamento quasi impercettibile. Lei esamina l’orologio e chiede piano in italiano: «Segnerà l’ora giusta?» Lui guarda il meccanismo. Parla solo lei, labbra sincronizzate. L’orologio ticchetta già lentamente, scappamento visibile e regolare.\n\n3–7s: lui ascolta attento, mani rilassate e ferme. L’ingranaggio resta immobile sul tavolo; nessuno lo tocca. Dopo breve pausa risponde in italiano: «Adesso sì.» Si muovono solo le sue labbra. Orologio e scappamento mantengono lo stesso ritmo lento.\n\n7–10s: lei sposta lo sguardo dall’orologio a lui e accenna un sorriso sollevato. Lui ricambia. Chiudi sulla loro pausa condivisa, l’orologio tra loro e la luna fredda a delineare le spalle.\n\nAudio: voci vicine e asciutte e ticchettio delicato lento dal primo fotogramma nella sala risonante. Niente musica, voci sovrapposte o rumore d’ingranaggio mosso.\n\nL’ingranaggio resta separato e immobile; nessuno lo monta. Mantieni mani, meccanismo, abiti, sguardi e posizioni. Non avviare l’orologio con un gesto. Niente attrezzi o ingranaggi extra, sottotitoli, tagli o gesti esagerati.",
+      "review": "Controlla voci e labiale, ingranaggio immobile, geometria stabile e ticchettio lento dal primo fotogramma."
+    },
+    {
+      "id": "rainlit-arcade",
+      "title": "La pioggia entra nel portico — meteo in trasformazione continua",
+      "image": "assets/rainlit-arcade.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Usa il portico Art Déco vuoto come primo fotogramma esatto di uno studio atmosferico di dieci secondi. Mantieni piastrelle verde scuro, ottone, terrazzo, archi ripetuti e lampade calde a sinistra. L’apertura lontana sulla strada resta blu al crepuscolo. Tutto il pavimento interno parte asciutto; la camera guarda l’uscita dall’interno.\n\n0–3s: composizione architettonica fissa, senza panoramica o zoom. Oltre la soglia lontana una raffica spinge pioggia diagonale sulla strada. Le prime gocce entrano e scuriscono solo il terrazzo accanto alla soglia. Primo piano completamente asciutto.\n\n3–7s: la raffica aumenta e porta pioggia fine più avanti nella stessa direzione. Un fronte bagnato irregolare avanza dal fondo al centro; le gocce uniscono visibilmente le macchie già presenti. Si formano piccole pozzanghere basse. Conserva i riflessi morbidi già presenti sul pavimento lucidato; nelle aree bagnate la pioggia li rompe in strisce calde increspate.\n\n7–10s: un’ultima spazzata di spruzzi raggiunge la zona centrale vicina e rallenta. Mantieni asciutta la fascia più prossima. La pioggia cala; i cerchi sovrapposti nelle pozze svaniscono e i riflessi si assestano. Archi invariati contro l’apertura blu.\n\nAudio: prima pioggia esterna, poi colpi sulla pietra sempre più vicini, una raffica bassa e lieve eco. Niente tuoni, musica o voci.\n\nL’umidità segue un percorso continuo visibile: niente lucentezza istantanea ovunque o pozze davanti al fronte. Acqua bassa, lampade stabili, camera livellata e linee rigide. Niente persone, piante aggiunte, insegne nuove, fulmini, allagamenti, tagli o superfici rifatte.",
+      "review": "Controlla acqua dalla strada, fascia vicina asciutta, riflessi originali conservati e increspati dall’acqua, architettura invariata."
+    },
+    {
+      "id": "amber-orchard",
+      "title": "Frutteto d’ambra — un’unica fetta traslucida",
+      "image": "assets/amber-orchard.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Crea un primo piano materico surreale di dieci secondi. Mantieni la pera di vetro ambrato trasparente sul piatto di pietra nera, bollicine intrappolate e sottili fibre dorate. Un solo coltello stretto entra da destra; la punta tocca già il fianco destro della pera. Nessun viso o mano. È vetro fantastico rigido, tagliabile nettamente: materiale impossibile intenzionale, geometria coerente.\n\n0–3s: macro fisso a tre quarti, pera e piatto interi. Luce laterale calda sulle fibre. Ritira prima il coltello dal contatto attuale, sollevalo sopra il fianco destro e allinealo per un taglio verticale che tolga una fetta esterna sottile, lasciando il picciolo al corpo maggiore.\n\n3–7s: una sola discesa ininterrotta. La lama attraversa il fianco fino a sfiorare il piatto. Un unico piano di taglio netto avanza con lei; si stacca una sola fetta. Il corpo principale resta eretto. La fetta si inclina dolcemente a destra, mostra la sezione liscia d’ambra e si posa sul piatto senza rompersi.\n\n7–10s: alza verticalmente la lama fuori dal frutto e fermala. Avanza la camera pochissimo per mostrare le facce complementari. Chiudi con corpo maggiore, unica fetta e coltello tutti leggibili.\n\nAudio: raschio cristallino fine durante il taglio, tintinnio chiaro sulla pietra, breve risonanza naturale. Niente musica o voce.\n\nBolle e fibre restano fisse nei rispettivi solidi. Mantieni trasparenza, sagoma fuori dal taglio e posizione del piatto. Nessun secondo taglio, fette duplicate, schegge, ripieno liquido, fusione, fibre nuove, frammenti sospesi o stacchi di camera.",
+      "review": "Il coltello lascia il contatto iniziale prima di un solo taglio in due solidi complementari; picciolo sul corpo maggiore e bolle ferme."
+    },
+    {
+      "id": "unfolding-atrium",
+      "title": "L’atrio si apre — rivelazione di una serra meccanica",
+      "image": "assets/unfolding-atrium.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anima il modello di noce e ottone come apertura meccanica precisa di dieci secondi. Mantieni basamento di pietra grigia, scale in miniatura e felci fitte. Il tetto di vetro ha esattamente due metà curve, articolate su assi fissi al colmo centrale. Iniziano chiuse; l’interno è già visibile attraverso il vetro.\n\n0–3s: modello intero in piano vicino a tre quarti. Luce calda radente su venature e cilindri delle cerniere. La camera sale lenta e continua, guardando dentro. Tetto chiuso un istante, poi si alzano i bordi esterni di gronda; il colmo resta fisso.\n\n3–7s: le due metà ruotano in alto alla stessa velocità misurata su cardini fissi al colmo. I bordi di gronda salgono e rivelano le piante; il colmo non si separa. Mantieni curvature e telai rigidi nell’apertura controllata. La camera sale solo fino a vedere il vano scala; base intera in campo.\n\n7–10s: le ante rallentano fino ad angoli uguali e si fermano senza rimbalzi. Tieni felci e scale incorniciate dal tetto aperto. Una chiazza morbida di luce diurna entra più a fondo; piante immobili. Struttura aperta chiaramente leggibile alla fine.\n\nAudio: tenue ronzio d’ingranaggi sincronizzato al tetto, due scatti di fine corsa quasi simultanei, poi ambiente quieto. Niente musica o voce.\n\nEsattamente due metà rigide, assi fissi al colmo e stesso interno. Nulla cresce, compare dal vuoto o cambia scala. Niente pannelli scorrevoli, vetro staccato, metallo piegato, stanze extra, base che si apre, persone o tagli.",
+      "review": "Controlla due metà rigide con bordi esterni che salgono su colmo fisso e unito; interno già presente e base tutta visibile."
+    },
+    {
+      "id": "cobalt-orbit",
+      "title": "Orbita cobalto — moda in un giro completo",
+      "image": "assets/cobalt-orbit.png",
+      "settings": "10s · 16:9 · 720p",
+      "prompt": "Anima la modella adulta immaginaria in un ritratto couture a figura intera di dieci secondi. Mantieni capelli neri corti, orecchini a disco di rame e abito scultoreo plissettato blu cobalto. Conserva sala circolare di cemento nudo, lucernario e pavimento pulito. Parte frontale, piedi appoggiati e braccia rilassate. Inquadra dalla testa al suolo con spazio per la gonna.\n\n0–3s: camera completamente ferma. Dopo una breve pausa frontale gira lentamente in senso orario visto dall’alto, a piccoli passi controllati sul posto. Le spalle guidano; la gonna pesante segue con lieve ritardo. A tre secondi profilo netto dopo un quarto di giro.\n\n3–7s: continua nella stessa direzione a ritmo calmo da passerella. Schiena leggibile verso cinque secondi, profilo opposto verso sette. Resta centrata nello stesso punto. Le pieghe si aprono e chiudono appena attorno alle gambe; l’orlo sfiora il suolo senza alzarsi a disco orizzontale. Orecchini oscillano poco.\n\n7–10s: completa esattamente 360 gradi entro nove secondi, tornando frontale. Si fermano i piedi, poi l’ultimo moto della gonna. Mantieni la posa frontale nell’ultimo secondo, sguardo composto in obiettivo.\n\nAudio: passi morbidi sul cemento, fruscio discreto e basso ambiente. Niente musica, dialoghi o applausi.\n\nMantieni identità, costruzione dell’abito e corpo continuo plausibile sotto il tessuto. Testa, mani e orlo sempre visibili. Luce e sfondo fissi. Nessuna orbita di camera, giro extra, taglio, cambio colore, orlo volante, accessorio nuovo o deformazione elastica del corpo.",
+      "review": "Controlla un giro completo concluso frontalmente, camera ferma, testa e orlo visibili, gonna che segue senza guidare il moto."
     }
   ],
   "workflow_title": "Usa i comandi reali di SeaImagine",
@@ -54,7 +78,7 @@
     },
     {
       "title": "Progettare l’immagine prima di animarla: GENEL",
-      "text": "L’autore riferisce di aver creato un collage con ChatGPT Images 2.0 e poi di averlo animato con Grok Imagine Video 1.5. Il nostro esercizio della cartolina mantiene fissi i bordi e assegna un solo movimento a ogni riquadro.",
+      "text": "L’autore riferisce di aver creato un collage con ChatGPT Images 2.0 e poi di averlo animato con Grok Imagine Video 1.5.",
       "url": "https://x.com/genel_ai/status/2061382998873034825"
     },
     {
@@ -65,7 +89,7 @@
   ],
   "source_details_label": "Fonti e note di visione (in inglese)",
   "archive_label": "Altre ricette e la raccolta originale con attribuzione qui sotto",
-  "recipe_count_note": "62 prompt distinti in inglese: 35 dal progetto originale e 27 nuovi. Gli ultimi 24 sono stati scritti prendendo spunto da temi dei social e non sono stati testati tramite generazione. Le traduzioni non contano come nuove scene.",
-  "viewing_note": "Il 24 settembre 2026 abbiamo esaminato alcuni fotogrammi nei lettori originali di X: per la clip ufficiale, circa a 3,6 s (elmo ed esercito), 19,8 s (primo piano di un volto) e 34,6 s (città sul mare in fiamme); per GENEL, circa a 0,05 s (ringhiera sul mare), 4,9 s (passaggio a livello) e 12 s (mano in controluce). Studia i cambi di scala delle inquadrature nella clip ufficiale e la luce costiera coerente tra i diversi piani di GENEL. La nostra cartolina a riquadri fissi è un esercizio diverso. Sono fotogrammi campionati, non prove complete del movimento o dell’audio.",
+  "recipe_count_note": "65 prompt distinti in inglese: 35 ereditati e 30 originali. Gli originali sono nuovi e non testati tramite generazione. Le traduzioni non contano come altre scene.",
+  "viewing_note": "Il 24 settembre 2026 abbiamo esaminato alcuni fotogrammi nei lettori originali di X: per la clip ufficiale, circa a 3,6 s (elmo ed esercito), 19,8 s (primo piano di un volto) e 34,6 s (città sul mare in fiamme); per GENEL, circa a 0,05 s (ringhiera sul mare), 4,9 s (passaggio a livello) e 12 s (mano in controluce). Studia i cambi di scala delle inquadrature nella clip ufficiale e la luce costiera coerente tra i diversi piani di GENEL. Sono fotogrammi campionati, non prove complete del movimento o dell’audio.",
   "archive_note": "L’archivio seguente conserva le ricette originali e i parametri pensati per l’API. Per SeaImagine, adattali ai comandi indicati sopra: 5/10/15 secondi e 480p/720p. Riscrivi le azioni temporizzate per rispettare la durata; montaggio ed estensione richiedono procedure supportate separatamente."
 }

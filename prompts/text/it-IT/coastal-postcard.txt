@@ -1,9 +1,0 @@
-Anima questa cartolina costiera a tre riquadri senza modificarne la disposizione o i bordi. Conserva esattamente tutti gli oggetti e i colori. Nel riquadro superiore, un sottile filo di vapore sale dalla tazza.
-Nel riquadro centrale, l’acqua del porto si increspa dolcemente e la luce del sole scintilla sulla superficie.
-Nel riquadro inferiore, solo l’angolo di carta già presente si solleva leggermente e torna a posarsi con una brezza lieve.
-Mantieni ogni movimento nel proprio riquadro. Tutti i riquadri restano visibili per tutti e cinque i secondi.
-Camera: fissa, senza zoom, panoramiche, stacchi o transizioni tra i riquadri.
-Audio: acqua calma e un leggero fruscio di carta; niente dialoghi, musica, didascalie o testo aggiunto.
-Conserva il manico della tazza, il telaio della finestra, i segni sulla mappa, le dimensioni dei riquadri e l’ordine di lettura.
-Evita di fondere i riquadri, inventare nuove scene, ridisegnare lettere o spostare oggetti oltre i bordi.
-Termina con l’angolo di carta fermo e la composizione originale intatta.
