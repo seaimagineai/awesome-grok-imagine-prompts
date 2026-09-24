@@ -1,48 +1,52 @@
-# Grok Imagine 1.5 Multilingual Prompt Directory
+# Multilingual prompt directory
 
-[← Back to the main collection](../README.md)
+[← Main collection](../README.md)
 
-All 15 language homepages now include the same three complete illustrated SeaImagine exercises, five steps tied to the actual browser interface, and four explanations of official or community work. Each exercise has a downloadable starting image, a full prompt, matching settings and a review checklist. Dialogue is localized into the reader’s language. The images are AI-generated starting frames, not verified Grok video results; the exercises remain untested.
+All **15 homepages contain eight complete illustrated cases**, presented in the same topic order: product, action, fantasy, dialogue, lifestyle, travel, animated layout and a second product treatment. A purpose table and five category links appear before the gallery. Each image is paired with its complete local-language prompt. One browser tutorial and one official/community section follow.
 
-The language set matches the fifteen language links observed on the [SeaImagine model page](https://seaimagine.com/model/grok-imagine-1-5/) on September 24, 2026. Exact routes are recorded in [locales.json](../data/locales.json). The interface screenshot was checked on the same date and uses English labels; every language guide explains the controls locally.
+The images are concept starting frames, not verified Grok video results. Translation completeness does not establish generation quality or equivalent results across languages.
+
+The language set matches the fifteen links observed on the [SeaImagine model page](https://seaimagine.com/model/grok-imagine-1-5/) on September 24, 2026. Exact routes are in [locales.json](../data/locales.json). The interface screenshot uses English labels; all fifteen pages explain its controls in their own language.
 
 ## Language directory
 
-Every landing page below contains **3 illustrated exercises + 5 interface steps + 4 source explanations**. The last column describes additional material retained from the source collection; it does not replace the three complete homepage exercises.
+Every homepage contains **8 illustrated cases + 5 interface steps + 4 source explanations**. The guides preserve the earlier writing advice and additional local exercises.
 
-| Language | Landing page | Additional source material |
+| Language | Eight-case homepage | Further reading |
 | --- | --- | --- |
-| English | [README](../README.md) | 35 inherited recipes: 5 illustrated homepage cases and 30 category recipes |
-| 简体中文 | [中文说明](../README.zh-CN.md) | [4 extended localized recipes](../i18n/prompts.zh-CN.md) |
-| 繁體中文 | [繁體中文說明](../README.zh-TW.md) | Earlier shared workshop test scene |
-| 日本語 | [日本語ガイド](../README.ja-JP.md) | [4 extended localized recipes](../i18n/prompts.ja-JP.md) |
-| 한국어 | [한국어 안내](../README.ko-KR.md) | Earlier shared workshop test scene |
-| Español | [Guía en español](../README.es-ES.md) | [4 extended localized recipes](../i18n/prompts.es-ES.md) |
-| Français | [Guide français](../README.fr-FR.md) | Earlier shared workshop test scene |
-| Deutsch | [Deutsche Anleitung](../README.de-DE.md) | Earlier shared workshop test scene |
-| Português (Brasil) | [Guia em português](../README.pt-BR.md) | Earlier shared workshop test scene |
-| Italiano | [Guida italiana](../README.it-IT.md) | Earlier shared workshop test scene |
-| Русский | [Русское руководство](../README.ru-RU.md) | Earlier shared workshop test scene |
-| العربية | [الدليل العربي](../README.ar.md) | Earlier shared workshop test scene |
-| Bahasa Indonesia | [Panduan Indonesia](../README.id-ID.md) | Earlier shared workshop test scene |
-| ไทย | [คู่มือภาษาไทย](../README.th-TH.md) | Earlier shared workshop test scene |
-| Tiếng Việt | [Hướng dẫn tiếng Việt](../README.vi-VN.md) | Earlier shared workshop test scene |
+| English | [English](../README.md) | [Writing guide](guides/en-US.md) |
+| 简体中文 | [简体中文](../README.zh-CN.md) | [Writing guide](guides/zh-CN.md) · [4 extended recipes](../i18n/prompts.zh-CN.md) |
+| 繁體中文 | [繁體中文](../README.zh-TW.md) | [Writing guide](guides/zh-TW.md) |
+| 日本語 | [日本語](../README.ja-JP.md) | [Writing guide](guides/ja-JP.md) · [4 extended recipes](../i18n/prompts.ja-JP.md) |
+| 한국어 | [한국어](../README.ko-KR.md) | [Writing guide](guides/ko-KR.md) |
+| Español | [Español](../README.es-ES.md) | [Writing guide](guides/es-ES.md) · [4 extended recipes](../i18n/prompts.es-ES.md) |
+| Français | [Français](../README.fr-FR.md) | [Writing guide](guides/fr-FR.md) |
+| Deutsch | [Deutsch](../README.de-DE.md) | [Writing guide](guides/de-DE.md) |
+| Português | [Português](../README.pt-BR.md) | [Writing guide](guides/pt-BR.md) |
+| Italiano | [Italiano](../README.it-IT.md) | [Writing guide](guides/it-IT.md) |
+| Русский | [Русский](../README.ru-RU.md) | [Writing guide](guides/ru-RU.md) |
+| العربية | [العربية](../README.ar.md) | [Writing guide](guides/ar.md) |
+| Bahasa Indonesia | [Bahasa Indonesia](../README.id-ID.md) | [Writing guide](guides/id-ID.md) |
+| ไทย | [ไทย](../README.th-TH.md) | [Writing guide](guides/th-TH.md) |
+| Tiếng Việt | [Tiếng Việt](../README.vi-VN.md) | [Writing guide](guides/vi-VN.md) |
 
-## What is fully localized, and what remains an archive?
+## Scope and count
 
-The three shared SeaImagine exercises are a 10-second harbor reunion, a 5-second coastal postcard and a 5-second sea-glass bottle shot. All use 720p. Their complete instructions, dialogue where present, and review notes are available in every homepage language. All five browser steps and all four community explanations are also translated. The four source explanations do not imply that the original videos have been fully viewed or independently reproduced; see the [viewing evidence](COMMUNITY.md).
+The English collection contains **38 distinct recipes: 35 inherited recipes plus 3 new exercises**. The five inherited featured cases are now fully translated in `data/featured-locales/`, alongside three shared exercises in `data/homepage-locales/`. These 120 displayed language versions represent eight shared scenes, not 120 different scenarios.
 
-The English collection still contains **38 distinct recipes: 35 inherited recipes plus the 3 new exercises**. Translation does not increase that scenario count. The additional 35 English recipes and extended English documents have not all been translated into all 15 languages. Chinese, Japanese and Spanish retain their four longer localized recipes. The other eleven non-English pages retain the earlier ceramic-lamp workshop test scene as archive material, below the new shared exercises.
+The three new exercises use 720p and durations of 10/5/5 seconds. The five inherited cases retain their original source settings; each has a source label and a nearby link to the actual browser controls. Choose 5/10/15 seconds and 480p/720p on the inspected SeaImagine interface, and adapt timed actions accordingly.
 
-That earlier workshop scene specifies eight seconds and includes a controlled hand action, slow camera movement, preserved artisan and workshop, localized dialogue, ambient sound and continuity restrictions. It remains useful as a creative brief, but eight seconds is not an offered duration in the browser interface checked for this update. Choose an available duration and rewrite its time ranges before using it; do not assume every setting in an archived recipe is available.
+The 30 further category recipes and advanced English documentation are not all translated. Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
 
-No page claims that different languages produce identical results. Compare instruction following, dialogue, lip synchronization, sound mix and semantic drift using actual outputs rather than translation completeness alone.
+The four community notes do not imply full video or audio testing; see [viewing evidence](COMMUNITY.md).
 
-## Maintaining the localized homepages
+## Maintenance
 
-Edit the complete English master in [en-US.json](../data/homepage-locales/en-US.json), then update all fourteen other files in `data/homepage-locales/`. Keep the three case identifiers, image paths, settings and source URLs aligned. Preserve every production constraint while making dialogue natural in each language. The English prompt bodies must also match [the exercise document](../prompts/06-community-exercises.md).
+Maintain the three new exercises in [homepage-locales/en-US.json](../data/homepage-locales/en-US.json) and the five source cases plus navigation in [featured-locales/en-US.json](../data/featured-locales/en-US.json). Update all fourteen translations in the corresponding directories. Keep case IDs, images, settings, URLs and legacy anchors stable.
 
-Run `python3 scripts/build.py` to regenerate the homepages, then `python3 scripts/validate.py`. The validator checks locale structure, prompt length, fixed references, images, all five steps, source links, English prompt synchronization and generated-file freshness. These checks establish content consistency, not native-speaker fluency or video quality.
+The five original English prompt bodies are checked against [source hashes](../data/source-featured-provenance.json). The three new English prompts also match [the exercise document](../prompts/06-community-exercises.md). Writing guides live in `docs/guides/`; their mappings and compatibility anchors are in [guide-index.json](../data/guide-index.json).
+
+Run `python3 scripts/build.py`, then `python3 scripts/validate.py`. Validation checks all eight complete prompts, local links, image pairings, source settings, early navigation, section order, old anchors and generated-file freshness. These checks do not replace language or video review.
 
 ## Localization rules
 

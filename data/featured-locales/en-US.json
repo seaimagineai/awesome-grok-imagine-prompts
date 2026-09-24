@@ -1,0 +1,78 @@
+{
+  "nav_title": "What would you like to create?",
+  "goal_label": "Goal",
+  "example_label": "Start with an illustrated example",
+  "browse_label": "Browse more prompts (English)",
+  "goals": [
+    "Product ads",
+    "Cinematic action",
+    "Fantasy stories",
+    "Character dialogue",
+    "Lifestyle videos",
+    "Travel films",
+    "Animated layouts"
+  ],
+  "gallery_title": "Illustrated prompts to copy and adapt",
+  "gallery_intro": "Choose a subject below, save its starting image and copy the full prompt. Start with one action and one camera move; the images are concepts, not verified video results.",
+  "prompt_label": "Copy the complete prompt",
+  "source_note": "The five cases labeled Source: Flaq AI preserve their original duration and resolution; the other three use current SeaImagine options. To use a source case on SeaImagine, choose 5/10/15 seconds and 480p/720p and rewrite its timed actions.",
+  "source_label": "Source: Flaq AI",
+  "more_label": "More in this language: writing guide and additional exercises",
+  "counts_label": "Collection and attribution",
+  "quick_links": [
+    "Illustrated examples",
+    "Browser steps",
+    "Official and community work",
+    "Writing guide"
+  ],
+  "collections": [
+    "Ads and products",
+    "Cinematic stories",
+    "Social and lifestyle",
+    "Characters and references",
+    "Editing and extension"
+  ],
+  "community_details": "Frame observations and verification limits",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "title": "Citrus Halo — premium fragrance product film",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "settings": "8s · 16:9 · 1080p",
+      "prompt": "Preserve the supplied bottle design, glass proportions, cap, limestone pedestal, grapefruit\npeel, warm ivory set, and golden side light. Create an elegant eight-second product film.\n\n0–2.5s: begin with a nearly locked macro composition. The camera makes a very slow dolly-in.\nCondensation beads catch the light; two droplets slide naturally down the cold glass. The\ngrapefruit peel lifts from the pedestal as if carried by a controlled studio breeze.\n\n2.5–6s: the peel completes one graceful spiral around the bottle without touching or\noccluding the cap. Tiny citrus mist particles cross the backlight. Refraction and caustics\nmove physically through the thick glass; the bottle itself remains completely rigid.\n\n6–8s: the peel settles into the original curve, the camera eases to a stop, and one bright\nspecular highlight travels once along the bottle edge. End on a clean hero frame.\n\nAudio: intimate studio Foley only — a soft peel ribbon movement, two crisp water drops,\nand a delicate glass resonance. No voice, no music, no text.\n\nContinuity lock: do not alter the bottle silhouette, cap facets, liquid level, pedestal,\npalette, or background arch. No label, logo, extra fruit, floating bottle, geometry wobble,\ncamera jump, or artificial sparkle explosion.",
+      "legacy_anchor": "1-citrus-halo--premium-fragrance-product-film"
+    },
+    {
+      "id": "first-sip",
+      "title": "First Sip — authentic café UGC review",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "settings": "10s · 9:16 · 1080p",
+      "prompt": "Animate the supplied café photo as an honest handheld creator review. Preserve the person's\nface, age, skin texture, hair, moss-green sweater, cup, pastry, window, and table layout.\n\n0–3s: gentle natural handheld drift. She finishes a sip, lowers the ceramic cup about ten\ncentimeters, exhales through a small smile, and looks from the window back to the camera.\nSteam curls upward and rain trails slowly merge on the glass behind her.\n\n3–8s: she says, in a relaxed conversational voice, “Creamy, not too sweet — and you can\nactually taste the oats.” Keep the delivery casual, with one tiny pause after “sweet.” Match\nlip movement closely and keep the cup steady in her hand.\n\n8–10s: she gives a small approving nod and glances down at the pastry as the camera settles.\n\nAudio: close smartphone voice, quiet café room tone, distant milk steamer, soft rain, ceramic\ncup contact. Voice is foreground; ambience stays low. No background music and no subtitles.\n\nContinuity lock: no face beautification, no wardrobe change, no extra fingers, no cup or food\nredesign, no background people appearing, no logos, and no exaggerated influencer gestures.",
+      "legacy_anchor": "2-first-sip--authentic-café-ugc-review"
+    },
+    {
+      "id": "blue-route",
+      "title": "Blue Route — rain-market courier tracking shot",
+      "image": "assets/rainy-market-courier-video.webp",
+      "settings": "10s · 16:9 · 1080p",
+      "prompt": "Preserve the supplied courier, cobalt electric motorcycle, cargo box, elevated market,\ntranslucent awnings, wet steel walkway, lighting, and night palette. Create one grounded,\ncontinuous low tracking shot with convincing mass, tire grip, rain, and suspension.\n\n0–3s: the motorcycle accelerates smoothly from the existing pose. The rear tire displaces a\nthin fan of water; suspension compresses over a drainage seam. Camera tracks beside and just\nbehind the bike at wheel height, matching speed without shaking violently.\n\n3–7s: the courier leans through one broad left curve. Awnings flex in the wind, steam rolls\nfrom the food stalls, and warm practical lights streak softly in the wet reflections. Keep\nboth wheels round and in contact with the ground.\n\n7–10s: the bike straightens and moves toward a brighter open section of the market. The\ncamera falls back half a meter, revealing the route ahead, then holds a stable ending frame.\n\nAudio: realistic electric motor whine, water spray, rain on awnings, subtle market voices,\none suspension thump. No score, dialogue, sirens, or explosions.\n\nContinuity lock: exact rider outfit, helmet, motorcycle geometry, cargo box, blue panels,\nand market layout. No vehicle morphing, wheel deformation, collisions, weapons, readable\nsigns, logos, teleporting camera, or impossible speed ramp.",
+      "legacy_anchor": "3-blue-route--rain-market-courier-tracking-shot"
+    },
+    {
+      "id": "honey-loaf",
+      "title": "The Honey Loaf — miniature bakery story",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "settings": "9s · 16:9 · 1080p",
+      "prompt": "Keep the pear-house bakery, three miniature bakers, costumes, faces, honey loaf, oven,\nwindow, moss, clover, moon, tactile stop-motion materials, and warm-cool color contrast.\n\n0–3s: begin on the supplied wide composition with subtle handmade stop-motion cadence. Two\nbakers lift the warm honey loaf together; their hands stay attached to the wooden board. A\nsmall flour puff rises, oven fire flickers, and the third baker opens the service window.\n\n3–7s: the pair take four careful synchronized steps toward the window. The loaf has believable\nweight, dipping slightly between them. Outside, one clover leaf releases a dew drop and two\nfireflies drift past at different depths. Camera makes a gentle five-degree arc to the right.\n\n7–9s: they slide the board onto the counter, exchange relieved smiles, and the oven glow\nsettles. End with all three characters visible and the loaf centered.\n\nAudio: tiny foot taps on wood, soft oven crackle, board creak, faint night insects, one small\nbell at the service window. No dialogue, narration, music, or text.\n\nContinuity lock: preserve character count, facial design, scale, wardrobe colors, pear shape,\nroom layout, and handcrafted texture. No extra bakers, glossy CGI, rubber limbs, floating\nprops, melting loaf, camera cuts, logos, or franchise-like character design.",
+      "legacy_anchor": "4-the-honey-loaf--miniature-bakery-story"
+    },
+    {
+      "id": "salt-line",
+      "title": "Salt Line at Dawn — travel documentary",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "settings": "12s · 16:9 · 1080p",
+      "prompt": "Animate the supplied coastal salt-pond scene as a respectful observational travel documentary.\nPreserve the two workers, cream-and-ochre train, salt beds, limestone hills, buildings, sea,\nsunrise direction, and muted film palette.\n\n0–4s: locked wide frame. The workers continue inspecting the channel: one guides a wooden\ntool through the shallow brine while the other steadies the divider. Water ripples respond to\nthe tool and morning breeze. The train approaches at a measured speed in the midground.\n\n4–9s: camera pans slowly right to follow the train. Wheels stay aligned to the rails; carriage\nspacing and window rhythm remain consistent. A light veil of sea haze drifts behind it while\nsunlight gradually catches the salt crystals in the foreground.\n\n9–12s: the train passes toward the coast and the pan eases to a stop. One worker stands,\nstretches naturally, and looks toward the line. Hold the final two seconds for an edit point.\n\nAudio: soft electric rail hum, rhythmic wheel joints, breeze across shallow water, distant\ngulls, wooden tool moving through brine. No narration, music, crowd, or dramatic horn.\n\nContinuity lock: realistic labor, stable anatomy, fixed landscape, unchanged train design,\nplausible reflections and water physics. No modern skyline, tourist staging, new buildings,\nlogos, readable signs, oversaturated postcard color, or time-lapse sky.",
+      "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
+    }
+  ]
+}

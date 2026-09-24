@@ -1,0 +1,155 @@
+{
+  "en-US": {
+    "guide": "docs/guides/en-US.md",
+    "legacy_anchors": [
+      "grok-imagine-video-15-capabilities",
+      "the-prompt-formula",
+      "a-compact-reusable-template",
+      "multilingual-prompts",
+      "api-quick-start",
+      "quality-checklist",
+      "frequently-asked-questions",
+      "what-is-the-best-grok-imagine-15-prompt-structure",
+      "does-grok-imagine-video-15-support-1080p",
+      "how-long-can-a-grok-imagine-15-video-be",
+      "how-do-i-keep-a-character-consistent",
+      "should-i-include-a-negative-prompt",
+      "can-grok-imagine-prompts-be-written-in-languages-other-than-english",
+      "contributing",
+      "official-resources",
+      "license"
+    ]
+  },
+  "zh-CN": {
+    "guide": "docs/guides/zh-CN.md",
+    "legacy_anchors": [
+      "1-竹影茶席冷泡茶产品片",
+      "grok-imagine-video-15-能力速览",
+      "提示词写法",
+      "完整场景库",
+      "使用建议",
+      "常见问题",
+      "grok-imagine-15-最适合用中文还是英文提示词",
+      "图生视频为什么容易变脸或改变产品",
+      "参考图越多越好吗",
+      "怎样做超过-15-秒的故事",
+      "贡献与版权"
+    ]
+  },
+  "zh-TW": {
+    "guide": "docs/guides/zh-TW.md",
+    "legacy_anchors": [
+      "快速使用原則",
+      "共用多語言測試陶燈工坊",
+      "完整資料庫"
+    ]
+  },
+  "ja-JP": {
+    "guide": "docs/guides/ja-JP.md",
+    "legacy_anchors": [
+      "1-湯気の喫茶店ドリップバッグ商品ショット",
+      "基本テンプレート",
+      "日本語オリジナルプロンプト",
+      "全プロンプトカテゴリ",
+      "よくある質問",
+      "日本語の台詞はどう指定しますか",
+      "キャラクターを安定させるには",
+      "15秒を超える物語は",
+      "コントリビューション"
+    ]
+  },
+  "ko-KR": {
+    "guide": "docs/guides/ko-KR.md",
+    "legacy_anchors": [
+      "빠른-작성-원칙",
+      "공통-다국어-테스트-도자기-조명-공방",
+      "전체-프롬프트-라이브러리"
+    ]
+  },
+  "es-ES": {
+    "guide": "docs/guides/es-ES.md",
+    "legacy_anchors": [
+      "1-cosecha-de-luz-anuncio-de-aceite-de-oliva",
+      "plantilla-recomendada",
+      "prompts-originales-en-español",
+      "biblioteca-completa",
+      "preguntas-frecuentes",
+      "puedo-escribir-el-prompt-en-español",
+      "cómo-mantengo-un-rostro-o-producto-estable",
+      "cómo-creo-una-historia-de-más-de-15-segundos",
+      "contribuir"
+    ]
+  },
+  "fr-FR": {
+    "guide": "docs/guides/fr-FR.md",
+    "legacy_anchors": [
+      "principes-rapides",
+      "test-multilingue-partagé--latelier-de-lampe-en-céramique",
+      "bibliothèque-complète"
+    ]
+  },
+  "de-DE": {
+    "guide": "docs/guides/de-DE.md",
+    "legacy_anchors": [
+      "kurze-prompt-regeln",
+      "gemeinsamer-sprachtest-keramiklampen-werkstatt",
+      "vollständige-bibliothek"
+    ]
+  },
+  "pt-BR": {
+    "guide": "docs/guides/pt-BR.md",
+    "legacy_anchors": [
+      "regras-rápidas",
+      "teste-multilíngue-compartilhado-ateliê-de-luminária-em-cerâmica",
+      "biblioteca-completa"
+    ]
+  },
+  "it-IT": {
+    "guide": "docs/guides/it-IT.md",
+    "legacy_anchors": [
+      "regole-rapide",
+      "test-multilingue-condiviso-laboratorio-della-lampada-in-ceramica",
+      "raccolta-completa"
+    ]
+  },
+  "ru-RU": {
+    "guide": "docs/guides/ru-RU.md",
+    "legacy_anchors": [
+      "краткие-правила",
+      "общий-многоязычный-тест-мастерская-керамического-светильника",
+      "полная-библиотека"
+    ]
+  },
+  "ar": {
+    "guide": "docs/guides/ar.md",
+    "legacy_anchors": [
+      "قواعد-سريعة",
+      "اختبار-متعدد-اللغات-ورشة-المصباح-الخزفي",
+      "المكتبة-الكاملة"
+    ]
+  },
+  "id-ID": {
+    "guide": "docs/guides/id-ID.md",
+    "legacy_anchors": [
+      "aturan-cepat",
+      "uji-multibahasa-bersama-bengkel-lampu-keramik",
+      "pustaka-lengkap"
+    ]
+  },
+  "th-TH": {
+    "guide": "docs/guides/th-TH.md",
+    "legacy_anchors": [
+      "หลกการใชงานอยางยอ",
+      "ฉากทดสอบหลายภาษา-เวรกชอปโคมไฟเซรามก",
+      "คลงพรอมตฉบบเตม"
+    ]
+  },
+  "vi-VN": {
+    "guide": "docs/guides/vi-VN.md",
+    "legacy_anchors": [
+      "nguyên-tắc-nhanh",
+      "bài-kiểm-tra-đa-ngôn-ngữ-xưởng-đèn-gốm",
+      "thư-viện-đầy-đủ"
+    ]
+  }
+}

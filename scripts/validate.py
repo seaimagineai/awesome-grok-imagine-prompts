@@ -140,11 +140,36 @@ for path in ROOT.rglob('*.md'):
         check_target(path, target)
 
 readme = (ROOT / 'README.md').read_text()
-featured_parts = readme.split('## Featured prompts', 1)
-require(len(featured_parts) == 2, 'Missing English featured section')
-featured = featured_parts[1].split('\n## ')[0] if len(featured_parts) == 2 else ''
-require(len(re.findall(r'```text\n', featured)) == 5, 'Expected five full featured prompts')
-require(len(re.findall(r'!\[', featured)) == 5, 'Expected five featured images')
+featured_master = json.loads((ROOT / 'data/featured-locales/en-US.json').read_text())
+provenance = json.loads((ROOT / 'data/source-featured-provenance.json').read_text())
+for case, record in zip(featured_master['cases'], provenance['cases']):
+    require(case['id'] == record['id'] and case['image'] == record['image'], 'Source case/image pairing changed')
+    require(hashlib.sha256(case['prompt'].encode()).hexdigest() == record['prompt_sha256'], 'Source prompt changed: ' + case['id'])
+for item in locales:
+    label = item['readme']
+    text = (ROOT / label).read_text()
+    path = ROOT / 'data/featured-locales' / (item['locale'] + '.json')
+    require(path.exists(), 'Missing featured translation: ' + item['locale'])
+    if not path.exists():
+        continue
+    data = json.loads(path.read_text())
+    same_schema(data, featured_master, path.name)
+    for case, source in zip(data['cases'], featured_master['cases']):
+        require(all(case[k] == source[k] for k in ('id', 'image', 'settings', 'legacy_anchor')), 'Changed source metadata: ' + item['locale'] + ':' + source['id'])
+        require(case['prompt'] in text and case['image'] in text, label + ': missing full localized source case')
+        require(len(case['prompt']) <= 2000, label + ': source translation exceeds browser prompt limit')
+    nav_pos = text.find('<a id="find-the-right-prompt">')
+    gallery_pos = text.find('<a id="featured-prompts">')
+    workflow_pos = text.find('<a id="seaimagine-browser-workflow">')
+    community_pos = text.find('<a id="learn-from-official-and-community-examples">')
+    require(0 <= nav_pos < gallery_pos < workflow_pos < community_pos, label + ': broken reader journey')
+    require(text.count('assets/seaimagine-interface.jpg') == 1, label + ': duplicated product tutorial')
+    gallery = text[gallery_pos:workflow_pos]
+    require(len(re.findall(r'```text\n', gallery)) == 8, label + ': expected eight complete gallery prompts')
+    require(all('prompts/' + x in text[:gallery_pos] for x in ['01-ads-and-products.md', '02-cinematic-storytelling.md', '03-social-ugc.md', '04-characters-and-references.md', '05-editing-and-extension.md']), label + ': categories not before gallery')
+    require(gallery.find('case-sea-glass-bottle') < gallery.find('case-blue-route') < gallery.find('case-honey-loaf'), label + ': opening lacks topic variety')
+    explicit_ids = re.findall(r'<a id="([^"]+)"', text)
+    require(len(explicit_ids) == len(set(explicit_ids)), label + ': duplicate explicit anchors')
 require(sum(len(re.findall(r'^## \d+\.', p.read_text(), re.M)) for p in (ROOT / 'prompts').glob('0[1-5]-*.md')) == 30, 'Expected 30 inherited category recipes')
 exercise_text = (ROOT / 'prompts/06-community-exercises.md').read_text()
 require(len(re.findall(r'^## \d+\.', exercise_text, re.M)) == 3, 'Expected three new exercises')

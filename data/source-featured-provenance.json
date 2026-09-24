@@ -1,0 +1,31 @@
+{
+  "source": "https://github.com/flaqai/awesome-grok-imagine",
+  "commit": "5791c2f98fc70ffef4d24589b1258609079b5f9d",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "prompt_sha256": "44b3b57669ff3157df35ad4529e75fe1b95962553298b55f8bcf93168f4bdac1"
+    },
+    {
+      "id": "first-sip",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "prompt_sha256": "719415c0bd5b9656569f4ae1a4cd08cc2e1d4c1c0842438466972d1d3ddcbafa"
+    },
+    {
+      "id": "blue-route",
+      "image": "assets/rainy-market-courier-video.webp",
+      "prompt_sha256": "70b8cea4b31e99a88b2e59dbf66e9cb7a06371e7827a8456d63ec204458855ec"
+    },
+    {
+      "id": "honey-loaf",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "prompt_sha256": "7fdbf2a403990d90451997d287cdd045a0096a5b2dec17c22be5254552c59335"
+    },
+    {
+      "id": "salt-line",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "prompt_sha256": "e5528d227983df254ed62622f9c9efaa19e4e996cd94c7ef7971ff6eb6876f24"
+    }
+  ]
+}

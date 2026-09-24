@@ -1,0 +1,78 @@
+{
+  "nav_title": "Was möchtest du erstellen?",
+  "goal_label": "Ziel",
+  "example_label": "Mit einem bebilderten Beispiel starten",
+  "browse_label": "Weitere Prompts ansehen (Englisch)",
+  "goals": [
+    "Produktwerbung",
+    "Filmische Action",
+    "Fantasygeschichten",
+    "Dialoge zwischen Figuren",
+    "Lifestyle-Videos",
+    "Reisefilme",
+    "Animierte Layouts"
+  ],
+  "gallery_title": "Bebilderte Prompts zum Kopieren und Anpassen",
+  "gallery_intro": "Wähle ein Motiv, speichere das Startbild und kopiere den vollständigen Prompt. Beginne mit einer Aktion und einer Kamerabewegung. Die Bilder sind Konzepte, keine überprüften Videoergebnisse.",
+  "prompt_label": "Vollständigen Prompt kopieren",
+  "source_note": "Die fünf mit „Quelle: Flaq AI“ gekennzeichneten Beispiele behalten ihre ursprüngliche Dauer und Auflösung bei; die anderen drei verwenden die aktuellen SeaImagine-Optionen. Wähle für ein Quellenbeispiel auf SeaImagine 5/10/15 Sekunden und 480p/720p und schreibe seine zeitlich festgelegten Aktionen entsprechend um.",
+  "source_label": "Quelle: Flaq AI",
+  "more_label": "Mehr in dieser Sprache: Schreibanleitung und weitere Übungen",
+  "counts_label": "Sammlung und Quellenangaben",
+  "quick_links": [
+    "Bebilderte Beispiele",
+    "Schritte im Browser",
+    "Offizielle Arbeiten und Community",
+    "Schreibanleitung"
+  ],
+  "collections": [
+    "Werbung und Produkte",
+    "Filmische Geschichten",
+    "Social Media und Lifestyle",
+    "Figuren und Referenzen",
+    "Bearbeitung und Verlängerung"
+  ],
+  "community_details": "Bildbeobachtungen und Grenzen der Überprüfung",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "title": "Zitrus-Halo: hochwertiger Parfüm-Produktfilm",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "settings": "8s · 16:9 · 1080p",
+      "prompt": "Erhalte das vorgegebene Flaschendesign, die Glasproportionen, den Verschluss, den Kalksteinsockel, die Grapefruitschale, das warme elfenbeinfarbene Set und das goldene Seitenlicht. Erstelle einen eleganten achtsekündigen Produktfilm.\n\n0–2.5s: Beginne mit einer nahezu festen Makrokomposition. Die Kamera fährt sehr langsam vorwärts. Kondensperlen fangen das Licht ein; zwei Tropfen gleiten natürlich am kalten Glas hinab. Die Grapefruitschale hebt sich vom Sockel, als trüge sie eine kontrollierte Studiobrise.\n\n2.5–6s: Die Schale beschreibt eine anmutige Spirale um die Flasche, ohne den Verschluss zu berühren oder zu verdecken. Feine Zitrusnebelpartikel ziehen durch das Gegenlicht. Lichtbrechung und Kaustiken bewegen sich physikalisch durch das dicke Glas; die Flasche bleibt völlig starr.\n\n6–8s: Die Schale kehrt in ihre ursprüngliche Kurve zurück, die Kamera hält sanft an und ein heller Glanzreflex wandert einmal an der Flaschenkante entlang. Ende auf einer klaren Produktaufnahme.\n\nTon: nur nahe Studiogeräusche — sanfte Bewegung des Schalenbandes, zwei klare Wassertropfen und ein zarter Glasklang. Keine Stimme, Musik oder Schrift.\n\nKontinuität: Verändere weder Flaschenkontur, Verschlussfacetten, Flüssigkeitsstand, Sockel, Farbpalette noch Hintergrundbogen. Keine Etiketten, Logos, zusätzlichen Früchte, schwebende Flasche, instabile Geometrie, Kamerasprünge oder künstliche Glitzerexplosion.",
+      "legacy_anchor": "1-citrus-halo--premium-fragrance-product-film"
+    },
+    {
+      "id": "first-sip",
+      "title": "Der erste Schluck: authentische Café-Bewertung einer Creatorin",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "settings": "10s · 9:16 · 1080p",
+      "prompt": "Animiere das Caféfoto als ehrliche, aus der Hand gefilmte Bewertung einer Creatorin. Erhalte Gesicht, Alter, Hautstruktur, Haare, moosgrünen Pullover, Tasse, Gebäck, Fenster und Tischanordnung.\n\n0–3s: Sanfte natürliche Handkamerabewegung. Sie beendet einen Schluck, senkt die Keramiktasse etwa zehn Zentimeter, atmet mit einem kleinen Lächeln aus und blickt vom Fenster zurück zur Kamera. Dampf steigt in Wirbeln auf; Regenspuren auf der Scheibe hinter ihr fließen langsam zusammen.\n\n3–8s: Sie sagt in natürlichem Deutsch und entspanntem Gesprächston: „Cremig, nicht zu süß — und man schmeckt wirklich den Hafer.“ Der Vortrag bleibt beiläufig, mit einer winzigen Pause nach „süß“. Synchronisiere die Lippen genau und halte die Tasse ruhig in ihrer Hand.\n\n8–10s: Sie nickt leicht zustimmend und schaut zum Gebäck hinunter, während die Kamera zur Ruhe kommt.\n\nTon: nahe Smartphone-Stimme, leiser Café-Raumton, entfernter Milchaufschäumer, sanfter Regen und Kontakt der Keramiktasse. Die Stimme steht vorn, die Umgebung bleibt leise. Keine Hintergrundmusik oder Untertitel.\n\nKontinuität: Keine Gesichtsverschönerung, Kleidungswechsel, zusätzlichen Finger, Umgestaltung von Tasse oder Essen, plötzlich auftauchenden Menschen im Hintergrund, Logos oder übertriebenen Influencer-Gesten.",
+      "legacy_anchor": "2-first-sip--authentic-café-ugc-review"
+    },
+    {
+      "id": "blue-route",
+      "title": "Blaue Route: Kamerafahrt mit einem Kurier im Regenmarkt",
+      "image": "assets/rainy-market-courier-video.webp",
+      "settings": "10s · 16:9 · 1080p",
+      "prompt": "Erhalte den Kurier, das kobaltblaue Elektromotorrad, die Transportbox, den erhöhten Markt, durchscheinende Markisen, den nassen Stahlweg, die Beleuchtung und die nächtliche Farbpalette. Erstelle eine einzige bodennahe, durchgehende Verfolgungsfahrt mit glaubhafter Masse, Reifenhaftung, Regen und Federung.\n\n0–3s: Das Motorrad beschleunigt gleichmäßig aus der vorhandenen Position. Der Hinterreifen verdrängt einen dünnen Wasserfächer; die Federung taucht an einer Entwässerungsfuge ein. Die Kamera folgt seitlich und knapp dahinter auf Radhöhe, mit gleicher Geschwindigkeit und ohne heftiges Zittern.\n\n3–7s: Der Kurier legt sich in eine weite Linkskurve. Markisen biegen sich im Wind, Dampf steigt aus Essensständen und warme Lampen im Bild ziehen weiche Streifen in den nassen Spiegelungen. Beide Räder bleiben rund und am Boden.\n\n7–10s: Das Motorrad richtet sich auf und fährt in einen helleren offenen Marktbereich. Die Kamera fällt einen halben Meter zurück, zeigt den Weg voraus und hält dann ein stabiles Schlussbild.\n\nTon: realistisches Surren des Elektromotors, Spritzwasser, Regen auf Markisen, dezente Marktstimmen, ein Federungsstoß. Keine Filmmusik, Dialoge, Sirenen oder Explosionen.\n\nKontinuität: Exakte Kleidung, Helm, Motorradgeometrie, Transportbox, blaue Verkleidung und Marktanordnung erhalten. Keine Fahrzeugverwandlung, Radverformung, Kollisionen, Waffen, lesbaren Schilder, Logos, teleportierende Kamera oder unmögliche Geschwindigkeitswechsel.",
+      "legacy_anchor": "3-blue-route--rain-market-courier-tracking-shot"
+    },
+    {
+      "id": "honey-loaf",
+      "title": "Das Honigbrot: Geschichte einer Miniaturbäckerei",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "settings": "9s · 16:9 · 1080p",
+      "prompt": "Erhalte die Bäckerei im Birnenhaus, drei Miniaturbäcker, Kostüme, Gesichter, Honigbrot, Ofen, Fenster, Moos, Klee, Mond, greifbare Stop-Motion-Materialien und den Warm-Kalt-Farbkontrast.\n\n0–3s: Beginne mit der vorgegebenen weiten Komposition und dezentem handgemachtem Stop-Motion-Rhythmus. Zwei Bäcker heben gemeinsam das warme Honigbrot; ihre Hände bleiben am Holzbrett. Eine kleine Mehlwolke steigt auf, das Ofenfeuer flackert und der dritte Bäcker öffnet das Verkaufsfenster.\n\n3–7s: Das Paar geht vier vorsichtige synchronisierte Schritte zum Fenster. Das Brot hat glaubhaftes Gewicht und senkt sich zwischen ihnen leicht ab. Draußen fällt ein Tautropfen von einem Kleeblatt; zwei Glühwürmchen ziehen in unterschiedlicher Tiefe vorbei. Die Kamera beschreibt einen sanften Bogen von fünf Grad nach rechts.\n\n7–9s: Sie schieben das Brett auf den Tresen, lächeln einander erleichtert zu und das Ofenlicht beruhigt sich. Am Ende sind alle drei Figuren sichtbar und das Brot steht mittig.\n\nTon: winzige Schritte auf Holz, leises Ofenknistern, Brettknarren, schwache Nachtinsekten und ein kleines Glöckchen am Verkaufsfenster. Keine Dialoge, Erzählstimme, Musik oder Schrift.\n\nKontinuität: Erhalte Figurenanzahl, Gesichtsgestaltung, Maßstab, Kleidungsfarben, Birnenform, Raumaufteilung und handgefertigte Textur. Keine zusätzlichen Bäcker, glänzende Computergrafik, Gummigliedmaßen, schwebenden Requisiten, schmelzendes Brot, Schnitte, Logos oder Figuren im Stil bekannter Franchises.",
+      "legacy_anchor": "4-the-honey-loaf--miniature-bakery-story"
+    },
+    {
+      "id": "salt-line",
+      "title": "Salzbahn im Morgengrauen: Reisedokumentation",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "settings": "12s · 16:9 · 1080p",
+      "prompt": "Animiere die vorgegebene Küstensalinen-Szene als respektvoll beobachtende Reisedokumentation. Erhalte die beiden Arbeiter, den creme-ockerfarbenen Zug, Salzbecken, Kalksteinhügel, Gebäude, Meer, Sonnenaufgangsrichtung und die gedämpfte Filmfarbpalette.\n\n0–4s: Feste weite Einstellung. Die Arbeiter prüfen weiter den Kanal: Einer führt ein Holzwerkzeug durch die flache Sole, der andere hält die Trennwand fest. Wellen reagieren auf Werkzeug und Morgenbrise. Im Mittelgrund nähert sich der Zug in gemäßigtem Tempo.\n\n4–9s: Die Kamera schwenkt langsam nach rechts und folgt dem Zug. Die Räder bleiben auf die Schienen ausgerichtet, Wagenabstände und Fensterrhythmus bleiben gleich. Ein leichter Meeresdunst zieht dahinter vorbei, während Sonnenlicht allmählich die Salzkristalle im Vordergrund trifft.\n\n9–12s: Der Zug fährt zur Küste weiter, der Schwenk endet sanft. Ein Arbeiter steht auf, streckt sich natürlich und schaut zur Strecke. Halte die letzten zwei Sekunden für einen Schnittpunkt.\n\nTon: leises elektrisches Bahnsummen, rhythmische Radstöße an Schienenfugen, Wind über flachem Wasser, entfernte Möwen und ein Holzwerkzeug in der Sole. Keine Erzählstimme, Musik, Menschenmenge oder dramatisches Horn.\n\nKontinuität: Realistische Arbeit, stabile Anatomie, feste Landschaft, unverändertes Zugdesign, plausible Spiegelungen und Wasserphysik. Keine moderne Skyline, touristische Inszenierung, neuen Gebäude, Logos, lesbaren Schilder, übersättigten Postkartenfarben oder Zeitrafferhimmel.",
+      "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
+    }
+  ]
+}

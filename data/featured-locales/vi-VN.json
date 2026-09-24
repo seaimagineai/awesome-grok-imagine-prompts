@@ -1,0 +1,78 @@
+{
+  "nav_title": "Bạn muốn tạo nội dung gì?",
+  "goal_label": "Mục tiêu",
+  "example_label": "Bắt đầu bằng ví dụ có hình",
+  "browse_label": "Xem thêm câu lệnh (tiếng Anh)",
+  "goals": [
+    "Quảng cáo sản phẩm",
+    "Hành động điện ảnh",
+    "Truyện kỳ ảo",
+    "Đối thoại nhân vật",
+    "Video phong cách sống",
+    "Phim du lịch",
+    "Bố cục chuyển động"
+  ],
+  "gallery_title": "Câu lệnh có hình để sao chép và điều chỉnh",
+  "gallery_intro": "Chọn chủ đề bên dưới, lưu ảnh đầu rồi sao chép toàn bộ câu lệnh. Bắt đầu với một hành động và một chuyển động máy quay. Ảnh chỉ minh họa ý tưởng, không phải kết quả video đã được kiểm chứng.",
+  "prompt_label": "Sao chép toàn bộ câu lệnh",
+  "source_note": "Năm ví dụ ghi nguồn Flaq AI giữ nguyên thời lượng và độ phân giải gốc; ba ví dụ còn lại được viết theo các tùy chọn hiện tại của SeaImagine. Khi dùng ví dụ gốc trên SeaImagine, hãy chọn 5/10/15 giây và 480p/720p, rồi sắp xếp lại thời gian cho các hành động.",
+  "source_label": "Nguồn: Flaq AI",
+  "more_label": "Thêm nội dung tiếng Việt: hướng dẫn viết và bài tập bổ sung",
+  "counts_label": "Bộ sưu tập và ghi nguồn",
+  "quick_links": [
+    "Ví dụ có hình",
+    "Các bước trên trình duyệt",
+    "Tác phẩm chính thức và cộng đồng",
+    "Hướng dẫn viết"
+  ],
+  "collections": [
+    "Quảng cáo và sản phẩm",
+    "Câu chuyện điện ảnh",
+    "Mạng xã hội và phong cách sống",
+    "Nhân vật và tư liệu tham chiếu",
+    "Chỉnh sửa và kéo dài"
+  ],
+  "community_details": "Quan sát khung hình và giới hạn kiểm chứng",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "title": "Vầng sáng cam chanh — phim sản phẩm nước hoa cao cấp",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "settings": "8s · 16:9 · 1080p",
+      "prompt": "Giữ nguyên thiết kế chai, tỷ lệ thủy tinh, nắp, bệ đá vôi, vỏ bưởi chùm, bối cảnh màu ngà ấm và ánh sáng bên vàng trong ảnh. Tạo một phim sản phẩm thanh lịch dài tám giây.\n\n0–2.5s: bắt đầu với bố cục macro gần như cố định. Máy quay tiến vào rất chậm. Các hạt nước ngưng tụ bắt sáng; hai giọt trượt tự nhiên xuống lớp kính lạnh. Vỏ bưởi chùm nhấc khỏi bệ như được nâng bởi luồng gió studio có kiểm soát.\n\n2.5–6s: vỏ hoàn thành một vòng xoắn duyên dáng quanh chai mà không chạm hoặc che nắp. Các hạt sương cam chanh li ti đi qua ánh sáng ngược. Khúc xạ và các vệt tụ sáng di chuyển đúng vật lý qua lớp kính dày; bản thân chai hoàn toàn cứng, không biến dạng.\n\n6–8s: vỏ hạ về đường cong ban đầu, máy quay nhẹ nhàng dừng lại, và một vệt phản xạ sáng lướt đúng một lần dọc mép chai. Kết thúc bằng khung hình chủ đạo sản phẩm gọn sạch.\n\nÂm thanh: chỉ có hiệu ứng thu gần trong studio — tiếng dải vỏ chuyển động nhẹ, hai tiếng giọt nước trong rõ và cộng hưởng thủy tinh tinh tế. Không giọng nói, nhạc hoặc chữ.\n\nKhóa tính liên tục: không đổi đường bao chai, các mặt nắp, mức chất lỏng, bệ, bảng màu hoặc vòm phía sau. Không nhãn, logo, quả thêm vào, chai lơ lửng, hình dạng rung méo, máy quay nhảy vị trí hoặc bùng nổ lấp lánh nhân tạo.",
+      "legacy_anchor": "1-citrus-halo--premium-fragrance-product-film"
+    },
+    {
+      "id": "first-sip",
+      "title": "Ngụm đầu tiên — đánh giá quán cà phê tự nhiên",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "settings": "10s · 9:16 · 1080p",
+      "prompt": "Làm chuyển động ảnh quán cà phê được cung cấp thành một bài đánh giá chân thực của người sáng tạo với máy quay cầm tay. Giữ nguyên khuôn mặt, tuổi, kết cấu da, tóc, áo len xanh rêu, cốc, bánh ngọt, cửa sổ và bố trí bàn.\n\n0–3s: máy quay cầm tay trôi nhẹ tự nhiên. Cô ấy uống xong một ngụm, hạ cốc gốm khoảng mười centimét, thở ra với nụ cười nhỏ và chuyển mắt từ cửa sổ về máy quay. Hơi nước cuộn lên, các vệt mưa trên kính phía sau từ từ nhập vào nhau.\n\n3–8s: cô ấy nói bằng tiếng Việt tự nhiên, thoải mái: “Béo mịn, không ngọt quá — mà còn cảm nhận rõ vị yến mạch nữa.” Giữ giọng trò chuyện đời thường, ngừng rất ngắn sau “ngọt quá”. Khớp chuyển động môi sát lời nói và giữ cốc ổn định trong tay.\n\n8–10s: cô ấy gật nhẹ tỏ ý hài lòng rồi nhìn xuống bánh khi máy quay ổn định lại.\n\nÂm thanh: giọng nói gần thu bằng điện thoại, nền âm thanh quán yên tĩnh, máy đánh sữa bằng hơi từ xa, mưa nhẹ và tiếng cốc gốm chạm bề mặt. Giọng nói ở phía trước, âm thanh môi trường nhỏ. Không nhạc nền và phụ đề.\n\nKhóa tính liên tục: không làm đẹp khuôn mặt, đổi quần áo, thêm ngón tay, thiết kế lại cốc hoặc đồ ăn, người tự xuất hiện ở hậu cảnh, logo hay cử chỉ kiểu người nổi tiếng trên mạng quá mức.",
+      "legacy_anchor": "2-first-sip--authentic-café-ugc-review"
+    },
+    {
+      "id": "blue-route",
+      "title": "Tuyến đường xanh — cảnh bám theo người giao hàng ở chợ mưa",
+      "image": "assets/rainy-market-courier-video.webp",
+      "settings": "10s · 16:9 · 1080p",
+      "prompt": "Giữ nguyên người giao hàng, xe máy điện xanh cobalt, thùng hàng, khu chợ trên cao, mái che xuyên sáng, lối đi thép ướt, ánh sáng và bảng màu ban đêm. Tạo một cảnh bám theo liên tục ở góc thấp, chân thực về khối lượng, độ bám lốp, mưa và hệ thống giảm xóc.\n\n0–3s: xe tăng tốc êm từ tư thế sẵn có. Lốp sau đẩy một lớp nước mỏng hình quạt; giảm xóc nén khi qua khe thoát nước. Máy quay bám bên cạnh và hơi sau xe ở độ cao bánh, cùng tốc độ mà không rung mạnh.\n\n3–7s: người giao hàng nghiêng qua một khúc cua trái rộng. Mái che cong theo gió, hơi nước cuộn từ quầy thức ăn và ánh đèn thật trong cảnh tạo vệt ấm dịu trong phản xạ mặt đường ướt. Giữ cả hai bánh tròn và tiếp xúc mặt đất.\n\n7–10s: xe thẳng lại và đi về phần chợ sáng, thoáng hơn. Máy quay lùi lại nửa mét so với xe, lộ đường phía trước, rồi giữ khung hình kết ổn định.\n\nÂm thanh: tiếng rít động cơ điện chân thực, nước bắn, mưa trên mái che, tiếng người trong chợ nhỏ và một tiếng giảm xóc va trầm. Không nhạc, đối thoại, còi báo động hoặc nổ.\n\nKhóa tính liên tục: giữ chính xác trang phục người lái, mũ bảo hiểm, hình dạng xe, thùng hàng, tấm ốp xanh và bố cục chợ. Không xe biến hình, bánh méo, va chạm, vũ khí, biển đọc được, logo, máy quay dịch chuyển tức thời hoặc thay đổi tốc độ phi lý.",
+      "legacy_anchor": "3-blue-route--rain-market-courier-tracking-shot"
+    },
+    {
+      "id": "honey-loaf",
+      "title": "Ổ bánh mật ong — câu chuyện tiệm bánh tí hon",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "settings": "9s · 16:9 · 1080p",
+      "prompt": "Giữ nguyên tiệm bánh trong ngôi nhà hình quả lê, ba thợ bánh tí hon, trang phục, khuôn mặt, ổ bánh mật ong, lò, cửa sổ, rêu, cỏ ba lá, mặt trăng, vật liệu hoạt hình chụp từng khung hình có cảm giác sờ được và tương phản màu ấm lạnh.\n\n0–3s: bắt đầu với bố cục rộng đã cho, có nhịp hoạt hình chụp từng khung hình thủ công nhẹ. Hai thợ cùng nâng ổ bánh mật ong ấm; tay luôn tiếp xúc với tấm gỗ. Một ít bột bay lên, lửa lò lập lòe và người thứ ba mở cửa bán hàng.\n\n3–7s: hai người bước bốn bước cẩn thận, đồng bộ về phía cửa. Ổ bánh có trọng lượng thuyết phục, hơi trĩu xuống giữa họ. Bên ngoài, một lá cỏ ba lá nhả một giọt sương và hai đom đóm trôi qua ở độ sâu khác nhau. Máy quay đi vòng nhẹ năm độ sang phải.\n\n7–9s: họ trượt tấm gỗ lên quầy, mỉm cười nhẹ nhõm với nhau và ánh lò dịu lại. Kết thúc với cả ba nhân vật đều thấy rõ, ổ bánh ở giữa.\n\nÂm thanh: bước chân nhỏ trên gỗ, lò tí tách nhẹ, tấm gỗ kẽo kẹt, côn trùng đêm khe khẽ và một tiếng chuông nhỏ ở cửa bán hàng. Không đối thoại, thuyết minh, nhạc hoặc chữ.\n\nKhóa tính liên tục: giữ số nhân vật, thiết kế mặt, tỷ lệ, màu quần áo, hình quả lê, bố trí phòng và chất liệu thủ công. Không thêm thợ bánh, đồ họa máy tính bóng loáng, tay chân như cao su, đạo cụ lơ lửng, bánh chảy, cắt cảnh, logo hoặc thiết kế nhân vật giống loạt tác phẩm nổi tiếng.",
+      "legacy_anchor": "4-the-honey-loaf--miniature-bakery-story"
+    },
+    {
+      "id": "salt-line",
+      "title": "Tuyến đường muối lúc bình minh — phim tài liệu du lịch",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "settings": "12s · 16:9 · 1080p",
+      "prompt": "Làm chuyển động cảnh ruộng muối ven biển đã cho thành phim tài liệu du lịch quan sát, tôn trọng người lao động. Giữ nguyên hai công nhân, tàu màu kem và vàng đất, ô muối, đồi đá vôi, nhà, biển, hướng bình minh và bảng màu phim dịu.\n\n0–4s: khung rộng cố định. Công nhân tiếp tục kiểm tra mương: một người đưa dụng cụ gỗ qua nước muối nông, người kia giữ vách ngăn. Gợn nước phản ứng với dụng cụ và gió sớm. Tàu tiến đến với tốc độ vừa phải ở trung cảnh.\n\n4–9s: máy quay lia chậm sang phải theo tàu. Bánh luôn thẳng với ray; khoảng cách toa và nhịp cửa sổ nhất quán. Một màn sương biển mỏng trôi phía sau trong khi nắng dần bắt vào tinh thể muối ở tiền cảnh.\n\n9–12s: tàu đi qua về hướng bờ biển và máy quay nhẹ nhàng ngừng lia. Một công nhân đứng lên, vươn người tự nhiên và nhìn về đường ray. Giữ hai giây cuối làm điểm dựng.\n\nÂm thanh: tiếng ù điện nhẹ của tàu, bánh qua mối nối đều nhịp, gió trên nước nông, hải âu xa và dụng cụ gỗ chuyển động trong nước muối. Không thuyết minh, nhạc, đám đông hoặc còi kịch tính.\n\nKhóa tính liên tục: lao động chân thực, giải phẫu ổn định, cảnh quan cố định, thiết kế tàu không đổi, phản xạ và vật lý nước hợp lý. Không đường chân trời đô thị hiện đại, khách du lịch tạo dáng dàn dựng, nhà mới, logo, biển đọc được, màu bưu thiếp quá bão hòa hoặc bầu trời tua nhanh.",
+      "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
+    }
+  ]
+}

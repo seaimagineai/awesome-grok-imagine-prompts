@@ -1,0 +1,78 @@
+{
+  "nav_title": "Che cosa vuoi creare?",
+  "goal_label": "Obiettivo",
+  "example_label": "Inizia con un esempio illustrato",
+  "browse_label": "Esplora altri prompt (in inglese)",
+  "goals": [
+    "Pubblicità di prodotti",
+    "Azione cinematografica",
+    "Storie fantasy",
+    "Dialoghi tra personaggi",
+    "Video di vita quotidiana",
+    "Film di viaggio",
+    "Composizioni animate"
+  ],
+  "gallery_title": "Prompt illustrati da copiare e adattare",
+  "gallery_intro": "Scegli un soggetto, salva l’immagine iniziale e copia il prompt completo. Inizia con un’azione e un movimento di camera; le immagini sono concetti, non risultati video verificati.",
+  "prompt_label": "Copia il prompt completo",
+  "source_note": "I cinque esempi contrassegnati come «Fonte: Flaq AI» conservano durata e risoluzione originali; gli altri tre usano le opzioni attuali di SeaImagine. Per usare un esempio della fonte su SeaImagine, scegli 5/10/15 secondi e 480p/720p e riscrivi le azioni temporizzate.",
+  "source_label": "Fonte: Flaq AI",
+  "more_label": "Altro in questa lingua: guida alla scrittura ed esercizi aggiuntivi",
+  "counts_label": "Raccolta e attribuzione",
+  "quick_links": [
+    "Esempi illustrati",
+    "Passaggi nel browser",
+    "Lavori ufficiali e della community",
+    "Guida alla scrittura"
+  ],
+  "collections": [
+    "Pubblicità e prodotti",
+    "Storie cinematografiche",
+    "Social e vita quotidiana",
+    "Personaggi e riferimenti",
+    "Montaggio ed estensione"
+  ],
+  "community_details": "Osservazioni sui fotogrammi e limiti della verifica",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "title": "Alone agrumato: filmato di una fragranza di alta gamma",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "settings": "8s · 16:9 · 1080p",
+      "prompt": "Conserva il design del flacone fornito, le proporzioni del vetro, il tappo, il piedistallo in calcare, la scorza di pompelmo, il set avorio caldo e la luce laterale dorata. Crea un elegante filmato di prodotto di otto secondi.\n\n0–2.5s: inizia con una composizione macro quasi fissa. La camera avanza molto lentamente. Le gocce di condensa catturano la luce; due gocce scivolano naturalmente sul vetro freddo. La scorza di pompelmo si solleva dal piedistallo come trasportata da una brezza controllata in studio.\n\n2.5–6s: la scorza compie un’unica spirale elegante intorno al flacone senza toccare né nascondere il tappo. Minuscole particelle di nebulizzazione agrumata attraversano il controluce. Rifrazione e caustiche si muovono in modo fisicamente coerente nel vetro spesso; il flacone rimane completamente rigido.\n\n6–8s: la scorza torna alla curva originale, la camera si ferma dolcemente e un riflesso speculare brillante percorre una volta il bordo del flacone. Termina con un’inquadratura pulita che valorizzi il prodotto.\n\nAudio: solo effetti ravvicinati da studio — movimento delicato del nastro di scorza, due gocce d’acqua nitide e una lieve risonanza del vetro. Niente voce, musica o testo.\n\nContinuità: non alterare sagoma del flacone, sfaccettature del tappo, livello del liquido, piedistallo, tavolozza o arco sullo sfondo. Niente etichette, loghi, frutti aggiuntivi, flacone fluttuante, geometria instabile, salti di camera o esplosioni artificiali di scintille.",
+      "legacy_anchor": "1-citrus-halo--premium-fragrance-product-film"
+    },
+    {
+      "id": "first-sip",
+      "title": "Primo sorso: recensione autentica di una creator al bar",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "settings": "10s · 9:16 · 1080p",
+      "prompt": "Anima la foto del bar come una recensione sincera di una creator, ripresa a mano. Conserva volto, età, texture della pelle, capelli, maglione verde muschio, tazza, dolce, finestra e disposizione del tavolo.\n\n0–3s: lieve oscillazione naturale della camera a mano. Lei finisce un sorso, abbassa la tazza di ceramica di circa dieci centimetri, espira con un piccolo sorriso e riporta lo sguardo dalla finestra alla camera. Il vapore sale in volute e le scie di pioggia si uniscono lentamente sul vetro dietro di lei.\n\n3–8s: dice in italiano naturale, con tono rilassato e colloquiale: «Cremoso, non troppo dolce… e l’avena si sente davvero.» Mantieni una pronuncia spontanea, con una piccola pausa dopo «dolce». Sincronizza bene le labbra e mantieni la tazza ferma nella sua mano.\n\n8–10s: fa un piccolo cenno di approvazione e guarda il dolce mentre la camera si stabilizza.\n\nAudio: voce ravvicinata da smartphone, ambiente tranquillo del bar, vaporizzatore del latte lontano, pioggia lieve e contatto della tazza di ceramica. Voce in primo piano, ambiente basso. Niente musica di sottofondo o sottotitoli.\n\nContinuità: niente abbellimento del viso, cambi d’abito, dita aggiuntive, modifiche a tazza o cibo, persone che compaiono sullo sfondo, loghi o gesti esagerati da influencer.",
+      "legacy_anchor": "2-first-sip--authentic-café-ugc-review"
+    },
+    {
+      "id": "blue-route",
+      "title": "Percorso blu: inseguimento di un corriere nel mercato piovoso",
+      "image": "assets/rainy-market-courier-video.webp",
+      "settings": "10s · 16:9 · 1080p",
+      "prompt": "Conserva il corriere, la moto elettrica cobalto, il bauletto, il mercato sopraelevato, le tende traslucide, la passerella d’acciaio bagnata, l’illuminazione e la tavolozza notturna forniti. Crea un’unica ripresa bassa di inseguimento, continua e realistica, con massa, aderenza degli pneumatici, pioggia e sospensioni credibili.\n\n0–3s: la moto accelera dolcemente dalla posizione iniziale. La ruota posteriore solleva un sottile ventaglio d’acqua; la sospensione si comprime su un giunto di drenaggio. La camera segue di lato e appena dietro, all’altezza delle ruote, alla stessa velocità e senza scosse violente.\n\n3–7s: il corriere si inclina in un’ampia curva a sinistra. Le tende si piegano al vento, il vapore esce dai banchi di cibo e le luci calde presenti nella scena lasciano scie morbide nei riflessi bagnati. Mantieni entrambe le ruote rotonde e a contatto con il suolo.\n\n7–10s: la moto si raddrizza e avanza verso una zona aperta e più luminosa del mercato. La camera arretra di mezzo metro, mostra il percorso davanti e mantiene un’inquadratura finale stabile.\n\nAudio: sibilo realistico del motore elettrico, spruzzi d’acqua, pioggia sulle tende, voci discrete del mercato e un colpo della sospensione. Niente colonna sonora, dialoghi, sirene o esplosioni.\n\nContinuità: abito e casco esatti, geometria della moto, bauletto, pannelli blu e disposizione del mercato. Niente trasformazioni del veicolo, ruote deformate, collisioni, armi, cartelli leggibili, loghi, teletrasporto della camera o variazioni impossibili di velocità.",
+      "legacy_anchor": "3-blue-route--rain-market-courier-tracking-shot"
+    },
+    {
+      "id": "honey-loaf",
+      "title": "Il pane al miele: storia di un forno in miniatura",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "settings": "9s · 16:9 · 1080p",
+      "prompt": "Conserva il forno nella casa a forma di pera, i tre fornai in miniatura, costumi, volti, pane al miele, forno, finestra, muschio, trifoglio, luna, materiali tattili da stop motion e contrasto cromatico caldo-freddo.\n\n0–3s: inizia dalla composizione ampia fornita, con un sottile ritmo artigianale da stop motion. Due fornai sollevano insieme il pane al miele caldo; le mani restano a contatto con la tavola di legno. Si alza una piccola nuvola di farina, il fuoco tremola e il terzo fornaio apre lo sportello di vendita.\n\n3–7s: i due fanno quattro passi attenti e sincronizzati verso lo sportello. Il pane ha un peso credibile e si abbassa leggermente tra loro. Fuori, una foglia di trifoglio lascia cadere una goccia di rugiada e due lucciole passano a profondità diverse. La camera descrive un arco delicato di cinque gradi a destra.\n\n7–9s: fanno scivolare la tavola sul banco, si scambiano sorrisi sollevati e il bagliore del forno si stabilizza. Termina con tutti e tre i personaggi visibili e il pane al centro.\n\nAudio: piccoli passi sul legno, lieve crepitio del forno, scricchiolio della tavola, deboli insetti notturni e un campanellino allo sportello. Niente dialogo, narrazione, musica o testo.\n\nContinuità: conserva numero dei personaggi, design dei volti, scala, colori dei vestiti, forma di pera, disposizione interna e texture artigianale. Niente fornai aggiuntivi, grafica 3D lucida, arti di gomma, oggetti fluttuanti, pane che si scioglie, stacchi di camera, loghi o personaggi simili a quelli di franchise.",
+      "legacy_anchor": "4-the-honey-loaf--miniature-bakery-story"
+    },
+    {
+      "id": "salt-line",
+      "title": "La linea del sale all’alba: documentario di viaggio",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "settings": "12s · 16:9 · 1080p",
+      "prompt": "Anima la scena costiera delle saline come un documentario di viaggio rispettoso e osservativo. Conserva i due lavoratori, il treno crema e ocra, le vasche salanti, le colline calcaree, gli edifici, il mare, la direzione dell’alba e la tavolozza cinematografica tenue.\n\n0–4s: campo largo fisso. I lavoratori continuano a ispezionare il canale: uno muove uno strumento di legno nella salamoia poco profonda mentre l’altro tiene ferma la paratia. Le increspature reagiscono allo strumento e alla brezza mattutina. Il treno si avvicina a velocità moderata nel piano intermedio.\n\n4–9s: la camera fa una lenta panoramica a destra seguendo il treno. Le ruote restano allineate ai binari; distanza fra le carrozze e ritmo delle finestre rimangono costanti. Un velo leggero di foschia marina passa dietro mentre la luce del sole raggiunge gradualmente i cristalli di sale in primo piano.\n\n9–12s: il treno prosegue verso la costa e la panoramica si ferma dolcemente. Un lavoratore si alza, si stira naturalmente e guarda verso la linea ferroviaria. Mantieni gli ultimi due secondi per un punto di montaggio.\n\nAudio: lieve ronzio elettrico ferroviario, ritmo delle ruote sui giunti, brezza sull’acqua bassa, gabbiani lontani e strumento di legno nella salamoia. Niente narrazione, musica, folla o fischio drammatico.\n\nContinuità: lavoro realistico, anatomia stabile, paesaggio fisso, treno invariato, riflessi e fisica dell’acqua plausibili. Niente skyline moderno, messe in scena turistiche, nuovi edifici, loghi, cartelli leggibili, colori da cartolina sovrasaturi o cielo accelerato.",
+      "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
+    }
+  ]
+}

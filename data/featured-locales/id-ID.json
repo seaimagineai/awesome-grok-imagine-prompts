@@ -1,0 +1,78 @@
+{
+  "nav_title": "Apa yang ingin Anda buat?",
+  "goal_label": "Tujuan",
+  "example_label": "Mulai dengan contoh bergambar",
+  "browse_label": "Lihat prompt lainnya (bahasa Inggris)",
+  "goals": [
+    "Iklan produk",
+    "Aksi sinematik",
+    "Cerita fantasi",
+    "Dialog tokoh",
+    "Video gaya hidup",
+    "Film perjalanan",
+    "Tata letak bergerak"
+  ],
+  "gallery_title": "Prompt bergambar untuk disalin dan disesuaikan",
+  "gallery_intro": "Pilih subjek di bawah, simpan gambar awalnya, lalu salin prompt lengkap. Mulailah dengan satu aksi dan satu gerakan kamera; gambar adalah konsep, bukan hasil video yang sudah diverifikasi.",
+  "prompt_label": "Salin prompt lengkap",
+  "source_note": "Lima contoh berlabel sumber Flaq AI mempertahankan durasi dan resolusi aslinya; tiga contoh lainnya mengikuti pilihan SeaImagine saat ini. Saat menggunakan contoh asli di SeaImagine, pilih 5/10/15 detik dan 480p/720p, lalu atur ulang waktu setiap aksi.",
+  "source_label": "Sumber: Flaq AI",
+  "more_label": "Materi lain dalam bahasa Indonesia: panduan menulis dan latihan tambahan",
+  "counts_label": "Koleksi dan atribusi",
+  "quick_links": [
+    "Contoh bergambar",
+    "Langkah di browser",
+    "Karya resmi dan komunitas",
+    "Panduan menulis"
+  ],
+  "collections": [
+    "Iklan dan produk",
+    "Cerita sinematik",
+    "Sosial dan gaya hidup",
+    "Tokoh dan referensi",
+    "Penyuntingan dan perpanjangan"
+  ],
+  "community_details": "Pengamatan bingkai dan batas verifikasi",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "title": "Citrus Halo — film produk parfum premium",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "settings": "8s · 16:9 · 1080p",
+      "prompt": "Pertahankan desain botol, proporsi kaca, tutup, alas batu kapur, kulit grapefruit, set gading hangat, dan cahaya samping keemasan pada gambar. Buat film produk delapan detik yang elegan.\n\n0–2.5s: mulai dengan komposisi makro yang hampir diam. Kamera maju sangat perlahan. Butiran embun menangkap cahaya; dua tetes air meluncur alami di kaca dingin. Kulit grapefruit terangkat dari alas seolah terbawa angin studio yang terkendali.\n\n2.5–6s: kulit menyelesaikan satu putaran spiral anggun mengelilingi botol tanpa menyentuh atau menutupi tutup. Partikel kabut jeruk kecil melintasi cahaya belakang. Pembiasan dan pola cahaya terfokus bergerak secara fisik melalui kaca tebal; botol tetap sepenuhnya kaku.\n\n6–8s: kulit kembali ke lengkungan semula, kamera berhenti perlahan, dan satu sorotan pantulan terang bergerak sekali sepanjang tepi botol. Akhiri dengan bingkai utama produk yang bersih.\n\nAudio: hanya efek suara studio jarak dekat — gerak lembut pita kulit, dua bunyi tetesan air yang jernih, dan resonansi kaca halus. Tanpa suara manusia, musik, atau teks.\n\nKunci kesinambungan: jangan ubah siluet botol, bidang tutup, tinggi cairan, alas, palet, atau lengkungan latar. Tanpa label, logo, buah tambahan, botol melayang, bentuk bergoyang, kamera melompat, atau ledakan kilau buatan.",
+      "legacy_anchor": "1-citrus-halo--premium-fragrance-product-film"
+    },
+    {
+      "id": "first-sip",
+      "title": "Tegukan Pertama — ulasan kafe yang alami",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "settings": "10s · 9:16 · 1080p",
+      "prompt": "Animasikan foto kafe yang diberikan sebagai ulasan kreator yang jujur dengan kamera genggam. Pertahankan wajah, usia, tekstur kulit, rambut, sweter hijau lumut, cangkir, pastri, jendela, dan tata letak meja.\n\n0–3s: kamera genggam bergerak lembut dan alami. Ia selesai meneguk, menurunkan cangkir keramik sekitar sepuluh sentimeter, mengembuskan napas sambil tersenyum kecil, lalu mengalihkan pandangan dari jendela ke kamera. Uap berpilin naik dan jejak hujan di kaca belakangnya perlahan menyatu.\n\n3–8s: ia berkata dalam bahasa Indonesia yang santai dan alami, “Lembut, nggak terlalu manis — rasa oatnya juga benar-benar terasa.” Bicaralah seperti percakapan biasa, dengan jeda kecil setelah “manis”. Selaraskan gerakan bibir dengan erat dan jaga cangkir tetap stabil di tangannya.\n\n8–10s: ia mengangguk kecil tanda setuju dan melirik pastri saat kamera mulai tenang.\n\nAudio: suara dekat dari ponsel, suasana kafe yang sunyi, penguap susu dari jauh, hujan lembut, dan sentuhan cangkir keramik. Suara orang di depan, suara lingkungan rendah. Tanpa musik latar atau subtitel.\n\nKunci kesinambungan: tanpa mempercantik wajah, mengganti pakaian, jari tambahan, desain ulang cangkir atau makanan, orang latar yang muncul, logo, atau gestur influencer berlebihan.",
+      "legacy_anchor": "2-first-sip--authentic-café-ugc-review"
+    },
+    {
+      "id": "blue-route",
+      "title": "Rute Biru — mengikuti kurir di pasar berhujan",
+      "image": "assets/rainy-market-courier-video.webp",
+      "settings": "10s · 16:9 · 1080p",
+      "prompt": "Pertahankan kurir, sepeda motor listrik biru kobalt, kotak barang, pasar di atas permukaan tanah, kanopi tembus cahaya, jalur baja basah, pencahayaan, dan palet malam. Buat satu shot mengikuti dari posisi rendah yang realistis dan berkelanjutan, dengan massa, cengkeraman ban, hujan, dan suspensi yang meyakinkan.\n\n0–3s: motor berakselerasi lancar dari pose semula. Ban belakang menyibakkan air tipis berbentuk kipas; suspensi tertekan saat melewati sambungan drainase. Kamera mengikuti dari samping sedikit di belakang motor setinggi roda, menyamai kecepatannya tanpa guncangan hebat.\n\n3–7s: kurir memiringkan badan melalui satu tikungan kiri yang lebar. Kanopi melentur tertiup angin, uap bergulung dari kios makanan, dan cahaya lampu lokasi yang hangat membentuk garis lembut dalam pantulan basah. Kedua roda tetap bulat dan menyentuh tanah.\n\n7–10s: motor kembali tegak dan menuju bagian pasar yang lebih terang dan terbuka. Kamera tertinggal setengah meter, memperlihatkan rute di depan, lalu menahan bingkai akhir yang stabil.\n\nAudio: denging motor listrik realistis, percikan air, hujan di kanopi, suara orang pasar yang pelan, dan satu dentuman suspensi. Tanpa musik, dialog, sirene, atau ledakan.\n\nKunci kesinambungan: pakaian pengendara, helm, bentuk motor, kotak barang, panel biru, dan tata letak pasar harus sama persis. Tanpa perubahan bentuk kendaraan, roda berubah bentuk, tabrakan, senjata, papan terbaca, logo, kamera berpindah seketika, atau perubahan kecepatan yang mustahil.",
+      "legacy_anchor": "3-blue-route--rain-market-courier-tracking-shot"
+    },
+    {
+      "id": "honey-loaf",
+      "title": "Roti Madu — cerita toko roti miniatur",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "settings": "9s · 16:9 · 1080p",
+      "prompt": "Pertahankan toko roti dalam rumah berbentuk pir, tiga pembuat roti miniatur, kostum, wajah, roti madu, oven, jendela, lumut, semanggi, bulan, bahan stop-motion bertekstur nyata, serta kontras warna hangat dan dingin.\n\n0–3s: mulai dengan komposisi lebar yang diberikan dan irama stop-motion buatan tangan yang halus. Dua pembuat roti mengangkat roti madu hangat bersama; tangan tetap menempel pada papan kayu. Sedikit tepung mengepul, api oven berkelip, dan pembuat roti ketiga membuka jendela layanan.\n\n3–7s: keduanya melangkah hati-hati empat kali secara serempak menuju jendela. Roti memiliki bobot yang meyakinkan, sedikit turun di antara mereka. Di luar, satu daun semanggi melepaskan setetes embun dan dua kunang-kunang melayang pada kedalaman berbeda. Kamera membuat gerak melengkung lembut lima derajat ke kanan.\n\n7–9s: mereka menggeser papan ke meja layanan, saling tersenyum lega, dan cahaya oven mereda. Akhiri dengan ketiga tokoh terlihat dan roti di tengah.\n\nAudio: ketukan kaki kecil di kayu, gemeretak api oven lembut, derit papan, serangga malam samar, dan satu bunyi lonceng kecil di jendela layanan. Tanpa dialog, narasi, musik, atau teks.\n\nKunci kesinambungan: pertahankan jumlah tokoh, desain wajah, skala, warna pakaian, bentuk pir, tata ruang, dan tekstur kerajinan tangan. Tanpa pembuat roti tambahan, grafis komputer mengilap, anggota tubuh seperti karet, properti melayang, roti meleleh, potongan kamera, logo, atau desain tokoh mirip waralaba terkenal.",
+      "legacy_anchor": "4-the-honey-loaf--miniature-bakery-story"
+    },
+    {
+      "id": "salt-line",
+      "title": "Jalur Garam saat Fajar — dokumenter perjalanan",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "settings": "12s · 16:9 · 1080p",
+      "prompt": "Animasikan pemandangan tambak garam pesisir sebagai dokumenter perjalanan observasional yang menghormati para pekerja. Pertahankan dua pekerja, kereta krem dan oker, petak garam, bukit kapur, bangunan, laut, arah matahari terbit, dan palet film yang lembut.\n\n0–4s: bingkai lebar tetap. Pekerja terus memeriksa saluran: satu menggerakkan alat kayu dalam air garam dangkal sementara yang lain menahan pembatas. Riak air merespons alat dan angin pagi. Kereta mendekat dengan kecepatan terukur di bidang tengah.\n\n4–9s: kamera menoleh perlahan ke kanan mengikuti kereta. Roda tetap sejajar rel; jarak antargerbong dan irama jendela konsisten. Selapis tipis kabut laut bergerak di belakangnya, sementara sinar matahari bertahap menyentuh kristal garam di depan.\n\n9–12s: kereta melintas ke arah pantai dan gerakan kamera berhenti perlahan. Satu pekerja berdiri, meregangkan badan secara alami, dan melihat ke jalur kereta. Tahan dua detik terakhir untuk titik penyuntingan.\n\nAudio: dengung rel listrik lembut, bunyi sambungan roda berirama, angin melintasi air dangkal, camar jauh, dan alat kayu bergerak dalam air garam. Tanpa narasi, musik, kerumunan, atau klakson dramatis.\n\nKunci kesinambungan: kerja realistis, anatomi stabil, bentang alam tetap, desain kereta tidak berubah, pantulan dan fisika air masuk akal. Tanpa cakrawala kota modern, wisatawan yang diarahkan bergaya, bangunan baru, logo, papan terbaca, warna kartu pos terlalu jenuh, atau langit time-lapse.",
+      "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
+    }
+  ]
+}

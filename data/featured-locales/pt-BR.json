@@ -1,0 +1,78 @@
+{
+  "nav_title": "O que você quer criar?",
+  "goal_label": "Objetivo",
+  "example_label": "Comece com um exemplo ilustrado",
+  "browse_label": "Veja mais prompts (em inglês)",
+  "goals": [
+    "Anúncios de produtos",
+    "Ação cinematográfica",
+    "Histórias de fantasia",
+    "Diálogos de personagens",
+    "Vídeos de estilo de vida",
+    "Filmes de viagem",
+    "Composições animadas"
+  ],
+  "gallery_title": "Prompts ilustrados para copiar e adaptar",
+  "gallery_intro": "Escolha um tema abaixo, salve a imagem inicial e copie o prompt completo. Comece com uma ação e um movimento de câmera; as imagens são conceitos, não resultados de vídeo verificados.",
+  "prompt_label": "Copie o prompt completo",
+  "source_note": "Os cinco exemplos marcados como “Fonte: Flaq AI” preservam a duração e a resolução originais; os outros três usam as opções atuais do SeaImagine. Para usar um exemplo da fonte no SeaImagine, escolha 5/10/15 segundos e 480p/720p e reescreva suas ações cronometradas.",
+  "source_label": "Fonte: Flaq AI",
+  "more_label": "Mais neste idioma: guia de escrita e exercícios adicionais",
+  "counts_label": "Coleção e atribuição",
+  "quick_links": [
+    "Exemplos ilustrados",
+    "Passos no navegador",
+    "Trabalhos oficiais e da comunidade",
+    "Guia de escrita"
+  ],
+  "collections": [
+    "Anúncios e produtos",
+    "Histórias cinematográficas",
+    "Redes sociais e estilo de vida",
+    "Personagens e referências",
+    "Edição e extensão"
+  ],
+  "community_details": "Observações de quadros e limites da verificação",
+  "cases": [
+    {
+      "id": "citrus-halo",
+      "title": "Halo cítrico: filme de uma fragrância premium",
+      "image": "assets/citrus-fragrance-product-video.webp",
+      "settings": "8s · 16:9 · 1080p",
+      "prompt": "Preserve o design do frasco fornecido, as proporções do vidro, a tampa, o pedestal de calcário, a casca de toranja, o cenário marfim quente e a luz lateral dourada. Crie um elegante filme de produto de oito segundos.\n\n0–2.5s: comece com uma composição macro quase fixa. A câmera avança muito lentamente. Gotas de condensação captam a luz; duas gotas escorrem naturalmente pelo vidro frio. A casca de toranja se ergue do pedestal como se fosse levada por uma brisa de estúdio controlada.\n\n2.5–6s: a casca completa uma espiral graciosa ao redor do frasco sem tocar nem ocultar a tampa. Pequenas partículas de névoa cítrica atravessam a contraluz. Refração e cáusticas se movem de forma fisicamente coerente pelo vidro espesso; o frasco permanece totalmente rígido.\n\n6–8s: a casca volta à curva original, a câmera para suavemente e um reflexo especular brilhante percorre uma vez a borda do frasco. Termine com um enquadramento limpo de destaque do produto.\n\nÁudio: apenas efeitos de estúdio próximos — movimento suave da tira de casca, duas gotas de água nítidas e uma delicada ressonância de vidro. Sem voz, música ou texto.\n\nContinuidade: não altere a silhueta do frasco, as facetas da tampa, o nível do líquido, o pedestal, a paleta ou o arco ao fundo. Sem rótulos, logotipos, frutas extras, frasco flutuante, geometria instável, saltos de câmera ou explosão artificial de brilhos.",
+      "legacy_anchor": "1-citrus-halo--premium-fragrance-product-film"
+    },
+    {
+      "id": "first-sip",
+      "title": "Primeiro gole: avaliação autêntica de uma criadora no café",
+      "image": "assets/cozy-cafe-ugc-video.webp",
+      "settings": "10s · 9:16 · 1080p",
+      "prompt": "Anime a foto do café como uma avaliação sincera de uma criadora, filmada com câmera na mão. Preserve rosto, idade, textura da pele, cabelo, suéter verde-musgo, xícara, doce, janela e disposição da mesa.\n\n0–3s: leve oscilação natural de câmera na mão. Ela termina um gole, baixa a xícara de cerâmica cerca de dez centímetros, solta o ar com um pequeno sorriso e olha da janela de volta para a câmera. O vapor sobe em espirais e os rastros de chuva se unem lentamente no vidro atrás dela.\n\n3–8s: ela diz, em português brasileiro natural e tom descontraído: “Cremoso, não muito doce… e dá mesmo pra sentir a aveia.” Mantenha a fala casual, com uma pequena pausa depois de “doce”. Sincronize bem os lábios e mantenha a xícara firme na mão.\n\n8–10s: ela faz um pequeno aceno de aprovação e olha para o doce enquanto a câmera se estabiliza.\n\nÁudio: voz próxima de celular, ambiente tranquilo de café, vaporizador de leite distante, chuva suave e contato da xícara de cerâmica. Voz em primeiro plano; ambiente baixo. Sem música de fundo nem legendas.\n\nContinuidade: sem embelezar o rosto, trocar roupas, adicionar dedos, redesenhar a xícara ou a comida, fazer pessoas surgirem ao fundo, logotipos ou gestos exagerados de influenciadora.",
+      "legacy_anchor": "2-first-sip--authentic-café-ugc-review"
+    },
+    {
+      "id": "blue-route",
+      "title": "Rota azul: acompanhamento de um entregador no mercado chuvoso",
+      "image": "assets/rainy-market-courier-video.webp",
+      "settings": "10s · 16:9 · 1080p",
+      "prompt": "Preserve o entregador, a moto elétrica azul-cobalto, o baú, o mercado elevado, os toldos translúcidos, a passarela de aço molhada, a iluminação e a paleta noturna. Crie uma única tomada baixa e contínua de acompanhamento, realista, com massa, aderência dos pneus, chuva e suspensão convincentes.\n\n0–3s: a moto acelera suavemente da posição existente. O pneu traseiro desloca um leque fino de água; a suspensão comprime ao passar uma junta de drenagem. A câmera acompanha ao lado e um pouco atrás, na altura das rodas, mantendo a velocidade sem tremer violentamente.\n\n3–7s: o entregador se inclina numa curva ampla à esquerda. Os toldos se flexionam com o vento, o vapor sai das barracas de comida e as luzes quentes do cenário deixam rastros suaves nos reflexos molhados. Mantenha as duas rodas redondas e em contato com o chão.\n\n7–10s: a moto se endireita e segue para uma parte aberta e mais iluminada do mercado. A câmera recua meio metro, revelando o caminho à frente, e mantém um quadro final estável.\n\nÁudio: zumbido realista do motor elétrico, água espirrando, chuva nos toldos, vozes discretas do mercado e uma batida da suspensão. Sem trilha, diálogo, sirenes ou explosões.\n\nContinuidade: roupa e capacete exatos, geometria da moto, baú, painéis azuis e disposição do mercado. Sem transformação do veículo, deformação das rodas, colisões, armas, placas legíveis, logotipos, teletransporte da câmera ou mudanças impossíveis de velocidade.",
+      "legacy_anchor": "3-blue-route--rain-market-courier-tracking-shot"
+    },
+    {
+      "id": "honey-loaf",
+      "title": "O pão com mel: história de uma padaria em miniatura",
+      "image": "assets/pear-bakery-miniature-video.webp",
+      "settings": "9s · 16:9 · 1080p",
+      "prompt": "Mantenha a padaria em forma de pera, os três padeiros em miniatura, trajes, rostos, pão com mel, forno, janela, musgo, trevo, lua, materiais táteis de stop motion e contraste entre cores quentes e frias.\n\n0–3s: comece na composição ampla fornecida, com cadência sutil de stop motion artesanal. Dois padeiros levantam juntos o pão com mel quente; as mãos permanecem em contato com a tábua de madeira. Uma pequena nuvem de farinha sobe, o fogo do forno tremula e o terceiro padeiro abre a janela de atendimento.\n\n3–7s: a dupla dá quatro passos cuidadosos e sincronizados até a janela. O pão tem peso convincente e desce um pouco entre eles. Lá fora, uma folha de trevo solta uma gota de orvalho e dois vaga-lumes passam em profundidades diferentes. A câmera faz um arco suave de cinco graus à direita.\n\n7–9s: eles deslizam a tábua sobre o balcão, trocam sorrisos de alívio e o brilho do forno se estabiliza. Termine com os três personagens visíveis e o pão centralizado.\n\nÁudio: pequenos passos na madeira, crepitar suave do forno, rangido da tábua, insetos noturnos discretos e um pequeno sino na janela de atendimento. Sem diálogo, narração, música ou texto.\n\nContinuidade: preserve a quantidade de personagens, desenho dos rostos, escala, cores das roupas, formato de pera, disposição do cômodo e textura artesanal. Sem padeiros extras, computação gráfica brilhante, membros de borracha, objetos flutuantes, pão derretendo, cortes, logotipos ou personagens semelhantes aos de franquias.",
+      "legacy_anchor": "4-the-honey-loaf--miniature-bakery-story"
+    },
+    {
+      "id": "salt-line",
+      "title": "A linha do sal ao amanhecer: documentário de viagem",
+      "image": "assets/coastal-salt-train-documentary.webp",
+      "settings": "12s · 16:9 · 1080p",
+      "prompt": "Anime a cena das salinas costeiras como um documentário de viagem observacional e respeitoso. Preserve os dois trabalhadores, o trem creme e ocre, os tanques de sal, as colinas de calcário, os prédios, o mar, a direção do nascer do sol e a paleta cinematográfica suave.\n\n0–4s: plano aberto fixo. Os trabalhadores continuam inspecionando o canal: um move uma ferramenta de madeira na salmoura rasa enquanto o outro firma a divisória. As ondulações respondem à ferramenta e à brisa da manhã. O trem se aproxima em velocidade moderada no plano intermediário.\n\n4–9s: a câmera faz uma panorâmica lenta à direita para seguir o trem. As rodas continuam alinhadas aos trilhos; o espaçamento dos vagões e o ritmo das janelas permanecem constantes. Um véu leve de névoa marinha passa atrás enquanto a luz do sol alcança aos poucos os cristais de sal em primeiro plano.\n\n9–12s: o trem segue em direção à costa e a panorâmica para suavemente. Um trabalhador se levanta, se alonga naturalmente e olha para a linha. Mantenha os dois segundos finais para permitir um ponto de edição.\n\nÁudio: leve zumbido elétrico ferroviário, ritmo das rodas nas juntas, brisa sobre água rasa, gaivotas distantes e ferramenta de madeira na salmoura. Sem narração, música, multidão ou buzina dramática.\n\nContinuidade: trabalho realista, anatomia estável, paisagem fixa, design do trem inalterado, reflexos e física da água plausíveis. Sem horizonte urbano moderno, encenação turística, prédios novos, logotipos, placas legíveis, cores de cartão-postal supersaturadas ou céu acelerado.",
+      "legacy_anchor": "5-salt-line-at-dawn--travel-documentary"
+    }
+  ]
+}
