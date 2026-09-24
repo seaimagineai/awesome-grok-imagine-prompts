@@ -340,13 +340,15 @@
 
 ## นำช็อตที่เลือกไปสร้างต่อใน SeaImagine
 
+<a href="https://seaimagine.com/th/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 จากความใสของขวดแก้ว สีหน้าเล็กน้อยระหว่างช่างนาฬิกาคุยกัน ไปจนถึงพลีตชุดที่หมุน เลือกภาพอ้างอิงกับพรอมป์คู่กัน แล้วสร้างต่อที่หน้า Grok Imagine 1.5 ของ SeaImagine
 
 [พื้นผิวขวด](#case-sea-glass-bottle) · [บทสนทนาช่างนาฬิกา](#case-clockwork-dialogue) · [ชุดหมุน](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/th/model/grok-imagine-1-5/)
+[![ผลิตภัณฑ์ วัสดุ สถาปัตยกรรม และแฟชั่นมาพบกันในพื้นที่สร้างสรรค์ที่เชื่อมต่อกัน ภาพแนวคิดแบรนด์ต้นฉบับของ SeaImagine](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/th/model/grok-imagine-1-5/)
 
-หน้าจอจริง: ใส่พรอมป์ต์ขวดแก้วแล้ว ตั้งค่า 720p · 5 วินาที · 16:9 ยังไม่ได้อัปโหลดภาพเริ่มต้นและยังไม่ได้สร้างวิดีโอ
+ผลิตภัณฑ์ วัสดุ สถาปัตยกรรม และแฟชั่นมาพบกันในพื้นที่สร้างสรรค์ที่เชื่อมต่อกัน ภาพแนวคิดแบรนด์ต้นฉบับของ SeaImagine
 
 **[สร้างช็อตนี้ด้วย SeaImagine](https://seaimagine.com/th/model/grok-imagine-1-5/)**
 

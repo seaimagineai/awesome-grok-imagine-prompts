@@ -338,13 +338,15 @@ Continuité : ne modifiez ni la silhouette du flacon, ni les facettes du bouchon
 
 ## Réalisez le plan choisi avec SeaImagine
 
+<a href="https://seaimagine.com/fr/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Emportez le plan du flacon, l’échange des horlogers ou le tour en robe cobalt dans Grok Imagine 1.5 sur SeaImagine, avec image de départ et prompt complet. Explorez verre et lumière, les pauses entre deux voix ou le tissu qui suit le corps.
 
 [Verre et lumière](#case-sea-glass-bottle) · [Dialogue d’horlogers](#case-clockwork-dialogue) · [Un tour couture](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/fr/model/grok-imagine-1-5/)
+[![Produit, matière, architecture et mode se rencontrent dans un même espace créatif fluide. Visuel de marque original de SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/fr/model/grok-imagine-1-5/)
 
-Interface réelle : prompt du flacon saisi, 720p · 5 s · 16:9. L’image de départ n’a pas encore été importée ; aucune vidéo n’a été générée.
+Produit, matière, architecture et mode se rencontrent dans un même espace créatif fluide. Visuel de marque original de SeaImagine.
 
 **[Créer ce plan avec SeaImagine](https://seaimagine.com/fr/model/grok-imagine-1-5/)**
 

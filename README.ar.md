@@ -338,13 +338,15 @@
 
 ## نفّذ اللقطة التي اخترتها في SeaImagine
 
+<a href="https://seaimagine.com/ar/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 انقل لقطة الزجاجة أو حوار صانعي الساعات أو دوران الفستان الكوبالتي إلى Grok Imagine 1.5 على SeaImagine مع صورة البدء والنص الكامل. استكشف الزجاج والضوء، والوقفات بين صوتين، أو القماش وهو يتبع الجسم.
 
 [الزجاج والضوء](#case-sea-glass-bottle) · [حوار صانعي الساعات](#case-clockwork-dialogue) · [دورة أزياء كاملة](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/ar/model/grok-imagine-1-5/)
+[![تلتقي المنتجات والخامات والعمارة والأزياء في مساحة إبداعية واحدة متصلة. رسم تصوّري أصلي لهوية SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ar/model/grok-imagine-1-5/)
 
-الواجهة الفعلية: أُدخلت مطالبة القارورة الزجاجية، بدقة 720p ومدة 5 ثوانٍ ونسبة 16:9. لم تُرفع صورة البداية بعد، ولم يُولّد أي فيديو.
+تلتقي المنتجات والخامات والعمارة والأزياء في مساحة إبداعية واحدة متصلة. رسم تصوّري أصلي لهوية SeaImagine.
 
 **[أنشئ هذه اللقطة باستخدام SeaImagine](https://seaimagine.com/ar/model/grok-imagine-1-5/)**
 

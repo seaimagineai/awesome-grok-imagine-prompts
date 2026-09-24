@@ -338,13 +338,15 @@ Continuidade: não altere a silhueta do frasco, as facetas da tampa, o nível do
 
 ## Leve a cena escolhida para o SeaImagine
 
+<a href="https://seaimagine.com/pt/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Leve a cena da garrafa, o diálogo dos relojoeiros ou o giro do vestido cobalto para o Grok Imagine 1.5 no SeaImagine, com imagem inicial e prompt completo. Explore vidro e luz, pausas entre duas vozes ou o tecido acompanhando o corpo.
 
 [Vidro e luz](#case-sea-glass-bottle) · [Diálogo de relojoeiros](#case-clockwork-dialogue) · [Um giro de alta-costura](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/pt/model/grok-imagine-1-5/)
+[![Produto, materiais, arquitetura e moda se encontram em um espaço criativo contínuo. Arte conceitual original da SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/pt/model/grok-imagine-1-5/)
 
-Interface real: prompt da garrafa preenchido, 720p · 5 s · 16:9. A imagem inicial ainda não foi enviada; nenhum vídeo foi gerado.
+Produto, materiais, arquitetura e moda se encontram em um espaço criativo contínuo. Arte conceitual original da SeaImagine.
 
 **[Crie esta cena com o SeaImagine](https://seaimagine.com/pt/model/grok-imagine-1-5/)**
 

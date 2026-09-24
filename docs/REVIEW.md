@@ -74,3 +74,7 @@ Independent review compared the new prompts and images with the source collectio
 The main editor then independently inspected all five images, checked final motion descriptions, removed a remaining retired-case mention from the product guide, and verified that all five source-case translations, the bottle prompt and fifty-four category recipes remain unchanged. The generator is repeatable; local links, asset hashes, eleven complete localized prompt blocks, TXT fidelity and all sixty-five index entries pass validation. GitHub's Markdown API rendered eleven complete code blocks for both English and Simplified Chinese.
 
 The new images are original concept starting frames created with built-in image generation. The new video prompts have not been generation-tested. Editorial and repository checks do not establish actual model output quality.
+
+## Original brand scene — September 24, 2026
+
+Replaced the homepage product-interface screenshot with the official logo and an original sunlit seaside atrium in all fifteen languages. Product glass, amber material, a conservatory, cobalt fabric and a small paper whale share one perspective and an S-shaped water route. Independent visual review confirmed hierarchy, continuity, brand legibility and distinction from the notebook cover. The duplicate bottle emblem was removed in a targeted refinement; the main editor checked the final artwork separately. The real screenshot remains in workflow references only. All eleven case prompts remain unchanged.

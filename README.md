@@ -389,13 +389,15 @@ camera jump, or artificial sparkle explosion.
 
 ## Take your chosen shot to SeaImagine
 
+<a href="https://seaimagine.com/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Bring the glass-bottle shot, clockmakers’ quiet exchange or cobalt gown turn to Grok Imagine 1.5 on SeaImagine with its starting image and complete prompt. Explore glass and light, timing between two speakers, or the way fabric follows a turn.
 
 [Glass and light](#case-sea-glass-bottle) · [A clockmaker dialogue](#case-clockwork-dialogue) · [A couture turn](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/model/grok-imagine-1-5/)
+[![Product, material, architecture and fashion meet in one flowing creative space. Original SeaImagine brand concept artwork.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/model/grok-imagine-1-5/)
 
-Actual interface: the glass-bottle prompt is entered at 720p · 5s · 16:9. The start image has not been uploaded; no video has been generated.
+Product, material, architecture and fashion meet in one flowing creative space. Original SeaImagine brand concept artwork.
 
 **[Create this shot with SeaImagine](https://seaimagine.com/model/grok-imagine-1-5/)**
 

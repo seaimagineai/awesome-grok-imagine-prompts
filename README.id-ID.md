@@ -341,13 +341,15 @@ Kunci kesinambungan: jangan ubah siluet botol, bidang tutup, tinggi cairan, alas
 
 ## Wujudkan adegan pilihan Anda di SeaImagine
 
+<a href="https://seaimagine.com/id/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Dari kejernihan botol kaca, ekspresi halus dalam dialog pemulih jam, hingga lipit gaun yang berputar: pilih gambar referensi dan prompt terkait, lalu lanjutkan kreasi di halaman Grok Imagine 1.5 SeaImagine.
 
 [Material botol](#case-sea-glass-bottle) · [Dialog pemulih jam](#case-clockwork-dialogue) · [Putaran gaun](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/id/model/grok-imagine-1-5/)
+[![Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang mengalir. Ilustrasi konsep merek orisinal SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/id/model/grok-imagine-1-5/)
 
-Antarmuka asli: prompt botol kaca sudah diisi, 720p · 5 dtk · 16:9. Gambar awal belum diunggah; belum ada video yang dibuat.
+Produk, material, arsitektur, dan busana bertemu dalam satu ruang kreatif yang mengalir. Ilustrasi konsep merek orisinal SeaImagine.
 
 **[Buat adegan ini dengan SeaImagine](https://seaimagine.com/id/model/grok-imagine-1-5/)**
 

@@ -340,13 +340,15 @@
 
 ## 把選中的鏡頭，帶到 SeaImagine
 
+<a href="https://seaimagine.com/tw/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 從玻璃瓶的通透質感，到鐘錶師對話的細微表情，再到禮服旋轉時的褶襉變化：選一張參考圖和對應提示詞，在 SeaImagine 的 Grok Imagine 1.5 頁面繼續創作。
 
 [瓶身質感](#case-sea-glass-bottle) · [鐘錶師對白](#case-clockwork-dialogue) · [禮服旋轉](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/tw/model/grok-imagine-1-5/)
+[![產品、材質、建築與時裝，在同一個流動的創作空間相遇。SeaImagine 原創品牌概念圖。](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/tw/model/grok-imagine-1-5/)
 
-實際介面：已填入玻璃瓶提示詞，720p · 5s · 16:9；起始圖片尚待上傳，尚未生成。
+產品、材質、建築與時裝，在同一個流動的創作空間相遇。SeaImagine 原創品牌概念圖。
 
 **[用 SeaImagine 創作這個鏡頭](https://seaimagine.com/tw/model/grok-imagine-1-5/)**
 

@@ -338,13 +338,15 @@ Continuità: non alterare sagoma del flacone, sfaccettature del tappo, livello d
 
 ## Porta l’inquadratura scelta su SeaImagine
 
+<a href="https://seaimagine.com/it/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Porta la scena della bottiglia, il dialogo degli orologiai o il giro dell’abito cobalto in Grok Imagine 1.5 su SeaImagine, con immagine iniziale e prompt completo. Esplora vetro e luce, pause tra due voci o tessuto che segue il corpo.
 
 [Vetro e luce](#case-sea-glass-bottle) · [Dialogo tra orologiai](#case-clockwork-dialogue) · [Un giro couture](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/it/model/grok-imagine-1-5/)
+[![Prodotto, materiali, architettura e moda si incontrano in uno spazio creativo continuo. Immagine concettuale originale di SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/it/model/grok-imagine-1-5/)
 
-Interfaccia reale: prompt della bottiglia inserito, 720p · 5 s · 16:9. L’immagine iniziale non è ancora stata caricata; non è stato generato alcun video.
+Prodotto, materiali, architettura e moda si incontrano in uno spazio creativo continuo. Immagine concettuale originale di SeaImagine.
 
 **[Crea questa inquadratura con SeaImagine](https://seaimagine.com/it/model/grok-imagine-1-5/)**
 

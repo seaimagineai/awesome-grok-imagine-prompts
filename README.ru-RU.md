@@ -338,13 +338,15 @@
 
 ## Создайте выбранный кадр в SeaImagine
 
+<a href="https://seaimagine.com/ru/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Перенесите кадр с флаконом, диалог часовщиков или оборот в кобальтовом платье в Grok Imagine 1.5 на SeaImagine вместе с исходным изображением и полным промптом. Исследуйте стекло и свет, паузы двух собеседников или движение ткани вслед за телом.
 
 [Стекло и свет](#case-sea-glass-bottle) · [Диалог часовщиков](#case-clockwork-dialogue) · [Оборот в платье](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/ru/model/grok-imagine-1-5/)
+[![Предметы, материалы, архитектура и мода встречаются в едином творческом пространстве. Оригинальная концептуальная иллюстрация SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ru/model/grok-imagine-1-5/)
 
-Реальный интерфейс: промпт для флакона введён, 720p · 5 с · 16:9. Начальное изображение ещё не загружено; видео не сгенерировано.
+Предметы, материалы, архитектура и мода встречаются в едином творческом пространстве. Оригинальная концептуальная иллюстрация SeaImagine.
 
 **[Создать этот кадр в SeaImagine](https://seaimagine.com/ru/model/grok-imagine-1-5/)**
 

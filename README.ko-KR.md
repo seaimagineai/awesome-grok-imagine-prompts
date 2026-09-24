@@ -340,13 +340,15 @@
 
 ## 선택한 장면을 SeaImagine에서 만들어 보세요
 
+<a href="https://seaimagine.com/ko/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 유리병의 투명한 질감부터 시계 복원사 대화의 작은 표정, 회전하는 드레스의 주름까지. 참조 이미지와 해당 프롬프트를 골라 SeaImagine의 Grok Imagine 1.5 페이지에서 이어서 제작하세요.
 
 [병의 질감](#case-sea-glass-bottle) · [시계 복원사 대화](#case-clockwork-dialogue) · [드레스 회전](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/ko/model/grok-imagine-1-5/)
+[![제품, 소재, 건축, 패션이 하나로 이어지는 창작 공간에서 만납니다. SeaImagine 오리지널 브랜드 콘셉트 이미지입니다.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ko/model/grok-imagine-1-5/)
 
-실제 화면: 유리병 프롬프트 입력 완료, 720p · 5초 · 16:9. 시작 이미지는 아직 업로드하지 않았으며 영상도 생성하지 않았습니다.
+제품, 소재, 건축, 패션이 하나로 이어지는 창작 공간에서 만납니다. SeaImagine 오리지널 브랜드 콘셉트 이미지입니다.
 
 **[SeaImagine으로 이 장면 만들기](https://seaimagine.com/ko/model/grok-imagine-1-5/)**
 

@@ -338,13 +338,15 @@ Kontinuität: Verändere weder Flaschenkontur, Verschlussfacetten, Flüssigkeits
 
 ## Setze deine gewählte Einstellung mit SeaImagine um
 
+<a href="https://seaimagine.com/de/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Nimm den Glasflaschen-Shot, das Gespräch der Uhrmacher oder die Drehung im Kobaltkleid samt Startbild und vollständigem Prompt zu Grok Imagine 1.5 auf SeaImagine mit. Erkunde Glas und Licht, Pausen zwischen zwei Stimmen oder Stoff, der der Bewegung folgt.
 
 [Glas und Licht](#case-sea-glass-bottle) · [Uhrmacher im Dialog](#case-clockwork-dialogue) · [Eine Couture-Drehung](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/de/model/grok-imagine-1-5/)
+[![Produkt, Material, Architektur und Mode treffen in einem fließenden kreativen Raum aufeinander. Originelles Markenmotiv von SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/de/model/grok-imagine-1-5/)
 
-Tatsächliche Oberfläche: Glasflaschen-Prompt eingegeben, 720p · 5 s · 16:9. Das Startbild wurde noch nicht hochgeladen; es wurde kein Video generiert.
+Produkt, Material, Architektur und Mode treffen in einem fließenden kreativen Raum aufeinander. Originelles Markenmotiv von SeaImagine.
 
 **[Diese Einstellung mit SeaImagine erstellen](https://seaimagine.com/de/model/grok-imagine-1-5/)**
 

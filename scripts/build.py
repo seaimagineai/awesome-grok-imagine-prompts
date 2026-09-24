@@ -67,9 +67,10 @@ def render_core(data, featured, product_url, guide, locale, ui):
         out.append('```text\n' + case['prompt'] + '\n```')
         out.append(f'[{featured["back_label"]}](#find-the-right-prompt)')
     out += ['<a id="seaimagine-browser-workflow"></a>', '<a id="create-with-seaimagine"></a>',
-            f'## {ui["brand_title"]}', ui['brand_intro'],
+            f'## {ui["brand_title"]}',
+            f'<a href="{product_url}"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>', ui['brand_intro'],
             ' · '.join(f'[{label}](#case-{ident})' for label, ident in zip(ui['brand_links'], ['sea-glass-bottle','clockwork-dialogue','cobalt-orbit'])),
-            f'[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)]({product_url})',
+            f'[![{ui["brand_caption"]}](assets/seaimagine-creative-atrium.png)]({product_url})',
             ui['brand_caption'], f'**[{ui["brand_cta"]}]({product_url})**',
             '<a id="learn-from-official-and-community-examples"></a>',
             '<a id="writing-guide"></a>']

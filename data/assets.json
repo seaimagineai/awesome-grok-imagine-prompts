@@ -63,5 +63,15 @@
     "file": "assets/cobalt-orbit.png",
     "sha256": "642ef061541443aa67f538d4d5087f20685971e1aa244559b10e15250a7b01fc",
     "origin": "Original concept starting frame created with Codex built-in image generation; not a verified Grok output"
+  },
+  {
+    "file": "assets/seaimagine-logo.png",
+    "sha256": "95e63dcffd41eaf9bfddee306e599c5886f52982dd595fa08f167ebd5246745b",
+    "origin": "Official SeaImagine logo, https://seaimagine.com/images/logo.png, retrieved September 24, 2026"
+  },
+  {
+    "file": "assets/seaimagine-creative-atrium.png",
+    "sha256": "95202a9f5bbf2275fe96b8e6de235abe0dc023700ef9204305983ef9a3082441",
+    "origin": "Original SeaImagine brand editorial concept, Codex built-in image generation; not a verified Grok output"
   }
 ]

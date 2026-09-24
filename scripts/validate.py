@@ -177,7 +177,8 @@ for item in locales:
     workflow_pos = text.find('<a id="seaimagine-browser-workflow">')
     community_pos = text.find('<a id="learn-from-official-and-community-examples">')
     require(0 <= nav_pos < gallery_pos < workflow_pos < community_pos, label + ': broken reader journey')
-    require(text.count('assets/seaimagine-interface.jpg') == 1, label + ': duplicated product tutorial')
+    require('assets/seaimagine-interface.jpg' not in text, label + ': interface screenshot returned to homepage')
+    require(text.count('assets/seaimagine-logo.png') == 1 and text.count('assets/seaimagine-creative-atrium.png') == 1, label + ': expected official logo and original brand artwork')
     gallery = text[gallery_pos:workflow_pos]
     require(len(re.findall(r'```text\n', gallery)) == 11, label + ': expected eleven complete gallery prompts')
     require(all('docs/PROMPT_INDEX.md#' + x.removesuffix('.md') in text[:gallery_pos] for x in ['01-ads-and-products.md', '02-cinematic-storytelling.md', '03-social-ugc.md', '04-characters-and-references.md', '05-editing-and-extension.md']), label + ': categories not before gallery')

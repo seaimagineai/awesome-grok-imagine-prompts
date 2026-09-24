@@ -39,3 +39,7 @@ Twenty-four original English text-to-video briefs were added across four categor
 ## Illustrated case replacement
 
 The harbor reunion and coastal postcard cases were removed following editorial review. Five new illustrated cases fill the dialogue, weather, materials, architecture and fashion categories. Their exact built-in image-generation prompts are retained in [generation notes](../assets/FEATURED_CASE_PROMPTS.md). Images are concept start frames; none of these new video prompts has been generation-tested.
+
+## Brand presentation
+
+The homepage brand section uses the official SeaImagine logo and an original continuous-space editorial artwork instead of a website screenshot. The emblem inside the artwork is a dimensional interpretation; the separate logo asset preserves the official file. [Exact artwork prompts](../assets/SEAIMAGINE_BRAND_PROMPT.md) are recorded. This is a brand concept, not a verified Grok result.

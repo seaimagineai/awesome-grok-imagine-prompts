@@ -38,7 +38,7 @@ The six original illustrated cases use 720p: the bottle uses 5 seconds and the f
 
 The 54 category recipes (30 inherited plus 24 new originals) and advanced English documentation remain in English. All fifteen homepage category labels and recipe counts are localized. The 24 newest text-to-video prompts are untested original briefs based on documented social themes; see [research and attribution](SOCIAL_INSPIRATION.md). Chinese, Japanese and Spanish retain four extended localized recipes. The other eleven non-English guides preserve their ceramic-lamp workshop example. No original prompt body was shortened to reduce homepage length. Archived eight-second briefs must be adapted to an available browser duration.
 
-Community video recommendations have been removed from the homepages. Sources remain in [the evidence reference](COMMUNITY.md). The SeaImagine section pairs a real interface screenshot with links to the bottle, clockmaker dialogue and fashion cases; the screenshot is not a generated result.
+Community video recommendations have been removed from the homepages. Sources remain in [the evidence reference](COMMUNITY.md). The SeaImagine section pairs the official logo with one original brand artwork and links to the bottle, clockmaker dialogue and fashion cases. The real interface screenshot remains only in the workflow reference.
 
 ## Maintenance
 

@@ -340,13 +340,15 @@ Khóa tính liên tục: không đổi đường bao chai, các mặt nắp, m�
 
 ## Đưa cảnh bạn chọn vào SeaImagine
 
+<a href="https://seaimagine.com/vi/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Từ độ trong của chai thủy tinh, biểu cảm nhỏ trong đối thoại thợ sửa đồng hồ đến nếp váy khi xoay: chọn ảnh tham chiếu cùng prompt và tiếp tục sáng tạo trên trang Grok Imagine 1.5 của SeaImagine.
 
 [Chất liệu chai](#case-sea-glass-bottle) · [Đối thoại thợ đồng hồ](#case-clockwork-dialogue) · [Váy xoay](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/vi/model/grok-imagine-1-5/)
+[![Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong một không gian sáng tạo liền mạch. Hình ảnh ý tưởng thương hiệu nguyên bản của SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/vi/model/grok-imagine-1-5/)
 
-Giao diện thực tế: đã nhập câu lệnh chai thủy tinh, 720p · 5 giây · 16:9. Chưa tải ảnh mở đầu lên và chưa tạo video.
+Sản phẩm, chất liệu, kiến trúc và thời trang gặp nhau trong một không gian sáng tạo liền mạch. Hình ảnh ý tưởng thương hiệu nguyên bản của SeaImagine.
 
 **[Tạo cảnh này bằng SeaImagine](https://seaimagine.com/vi/model/grok-imagine-1-5/)**
 

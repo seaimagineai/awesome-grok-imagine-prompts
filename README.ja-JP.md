@@ -340,13 +340,15 @@
 
 ## 選んだカットを SeaImagine で形にする
 
+<a href="https://seaimagine.com/ja/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 ガラス瓶の透明感、時計修復師の会話の小さな表情、回転するドレスのプリーツ。参照画像と対応するプロンプトを選び、SeaImagine の Grok Imagine 1.5 ページで制作を続けられます。
 
 [瓶の質感](#case-sea-glass-bottle) · [時計修復師の会話](#case-clockwork-dialogue) · [ドレスの回転](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/ja/model/grok-imagine-1-5/)
+[![商品、素材、建築、ファッションが、ひと続きの創作空間で出会います。SeaImagine オリジナルのブランドコンセプト画像。](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/ja/model/grok-imagine-1-5/)
 
-実際の画面：ガラス瓶のプロンプトを入力済み。720p · 5秒 · 16:9。開始画像は未アップロードで、動画はまだ生成していません。
+商品、素材、建築、ファッションが、ひと続きの創作空間で出会います。SeaImagine オリジナルのブランドコンセプト画像。
 
 **[SeaImagine でこのカットを作る](https://seaimagine.com/ja/model/grok-imagine-1-5/)**
 

@@ -338,13 +338,15 @@ Continuidad: no alteres la silueta de la botella, las facetas del tapón, el niv
 
 ## Lleva la toma que has elegido a SeaImagine
 
+<a href="https://seaimagine.com/es/model/grok-imagine-1-5/"><img src="assets/seaimagine-logo.png" width="64" height="64" alt="SeaImagine"></a>
+
 Lleva la toma de la botella, el diálogo de los relojeros o el giro del vestido cobalto a Grok Imagine 1.5 en SeaImagine con su imagen inicial y prompt completo. Explora vidrio y luz, pausas entre dos voces o cómo la tela sigue el giro.
 
 [Vidrio y luz](#case-sea-glass-bottle) · [Diálogo de relojeros](#case-clockwork-dialogue) · [Giro de alta costura](#case-cobalt-orbit)
 
-[![SeaImagine · Grok Imagine 1.5](assets/seaimagine-interface.jpg)](https://seaimagine.com/es/model/grok-imagine-1-5/)
+[![Producto, materiales, arquitectura y moda se encuentran en un espacio creativo continuo. Ilustración conceptual original de SeaImagine.](assets/seaimagine-creative-atrium.png)](https://seaimagine.com/es/model/grok-imagine-1-5/)
 
-Interfaz real: prompt de la botella introducido, 720p · 5 s · 16:9. La imagen inicial aún no se ha subido; no se ha generado ningún vídeo.
+Producto, materiales, arquitectura y moda se encuentran en un espacio creativo continuo. Ilustración conceptual original de SeaImagine.
 
 **[Crea esta toma con SeaImagine](https://seaimagine.com/es/model/grok-imagine-1-5/)**
 
